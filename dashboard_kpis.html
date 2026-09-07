@@ -377,7 +377,7 @@ function render(){
   document.getElementById('hz').innerHTML='Última semana fechada<br><b>'+esc(lastLabel||'—')+'</b>';
 }
 
-fetch('dados_kpis.json',{cache:'no-store'}).then(r=>r.json()).then(d=>{ DATA=d; CUR=Object.keys(d.brands)[0]||null; render();
+fetch('dados_kpis.json?v='+Date.now(),{cache:'no-store'}).then(r=>r.text()).then(t=>{ const d=JSON.parse(t.replace(/^[﻿\s=]+/,'')); DATA=d; CUR=Object.keys(d.brands)[0]||null; render();
   var f=document.getElementById('foot'); if(f) f.textContent='Dashboard de KPIs · Grupo Shrigma · atualizado '+(d.updated||'')+' · fonte: planilha (n8n)';
 }).catch(()=>{ document.getElementById('kpis').innerHTML='<p style="color:var(--faint)">Não consegui carregar dados_kpis.json.</p>'; });
 </script>

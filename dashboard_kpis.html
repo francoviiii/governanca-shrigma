@@ -36,6 +36,9 @@
   .viewtog .vtl{font-family:'Oswald',sans-serif;font-size:11px;letter-spacing:1px;text-transform:uppercase;color:var(--mut)}
   .vt{font-family:'Oswald',sans-serif;font-size:12px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:var(--mut);background:rgba(255,255,255,.05);border:1px solid var(--line2);padding:6px 15px;border-radius:20px;cursor:pointer}
   .vt.on{color:#0a1524;background:var(--orange);border-color:var(--orange)}
+  #tip{position:fixed;z-index:300;background:#0a1524;border:1px solid var(--line2);color:var(--ink);padding:7px 11px;border-radius:8px;font-size:12.5px;line-height:1.4;pointer-events:none;opacity:0;transition:opacity .08s;box-shadow:0 6px 22px rgba(0,0,0,.45);white-space:nowrap}
+  #tip b{color:var(--orange2);font-family:'Oswald',sans-serif;letter-spacing:.5px}
+  svg [data-tip]{cursor:pointer}
 
   .sec{font-family:'Oswald',sans-serif;font-size:15px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--ink);margin:30px 0 14px;display:flex;align-items:center;gap:12px}
   .sec .mo{margin-left:auto;font-size:12px;color:var(--mut);letter-spacing:1px}
@@ -190,7 +193,7 @@ function barChart(pts,kind){ const idx=[]; pts.forEach((p,i)=>{ if(p.v!=null) id
   const lastI=idx[idx.length-1]; let g=`<svg viewBox="0 0 ${W} ${H}" width="100%" height="${H}" preserveAspectRatio="none">`;
   pts.forEach((pt,i)=>{ const cx=p+(i+0.5)*((W-2*p)/n);
     if(pt.v!=null){ const hh=Math.max(1,((pt.v-mn)/range)*plotH); const isL=(i===lastI);
-      g+=`<rect x="${(cx-bw/2).toFixed(1)}" y="${(p+plotH-hh).toFixed(1)}" width="${bw.toFixed(1)}" height="${hh.toFixed(1)}" rx="1.5" fill="${isL?'#f2670a':'#5aa2ff'}" fill-opacity="${isL?1:0.7}"><title>${esc(pt.label)}: ${esc(fmt(pt.v,kind))}</title></rect>`; }
+      g+=`<rect x="${(cx-bw/2).toFixed(1)}" y="${(p+plotH-hh).toFixed(1)}" width="${bw.toFixed(1)}" height="${hh.toFixed(1)}" rx="1.5" fill="${isL?'#f2670a':'#5aa2ff'}" fill-opacity="${isL?1:0.7}" data-tip="<b>${esc(pt.label)}</b> · ${esc(fmt(pt.v,kind))}"></rect>`; }
     if(mes) g+=`<text x="${cx.toFixed(1)}" y="${H-2}" text-anchor="middle" font-size="7" fill="#5f748f">${esc(pt.label)}</text>`; });
   g+=`</svg>`; return g; }
 
@@ -242,8 +245,8 @@ function renderEvoSem(brand){ const {t}=weeklyTotal(brand); const weeks=brand.we
   let g=`<svg viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" font-family="'Oswald',sans-serif">`;
   const steps=4; for(let s=0;s<=steps;s++){ const vv=maxV*s/steps,yy=y(vv); g+=`<line x1="${padL}" y1="${yy}" x2="${W-padR}" y2="${yy}" stroke="rgba(255,255,255,.08)"/>`; g+=`<text x="${padL-8}" y="${yy+4}" text-anchor="end" font-size="10" fill="#8ea3bd">${brl(vv)}</text>`; }
   weeks.forEach((w,i)=>{ const cx=padL+(i+0.5)*(plotW/n); const v=t[i]||0;
-    if(v>0){ const hh=(v/maxV)*plotH; g+=`<rect x="${(cx-bw/2).toFixed(1)}" y="${y(v).toFixed(1)}" width="${bw.toFixed(1)}" height="${hh.toFixed(1)}" rx="2" fill="#f2670a" fill-opacity="0.9"><title>${esc(String(w))}: ${brl(v)}</title></rect>`; }
-    const mw=metaW[i]; if(mw>0){ const my=y(mw); g+=`<line x1="${(cx-bw/2-4).toFixed(1)}" y1="${my.toFixed(1)}" x2="${(cx+bw/2+4).toFixed(1)}" y2="${my.toFixed(1)}" stroke="#e6b53d" stroke-width="2" stroke-dasharray="4 2"><title>meta da semana: ${brl(mw)}</title></line>`; }
+    if(v>0){ const hh=(v/maxV)*plotH; g+=`<rect x="${(cx-bw/2).toFixed(1)}" y="${y(v).toFixed(1)}" width="${bw.toFixed(1)}" height="${hh.toFixed(1)}" rx="2" fill="#f2670a" fill-opacity="0.9" data-tip="<b>${esc(String(w))}</b> · ${brl(v)}"></rect>`; }
+    const mw=metaW[i]; if(mw>0){ const my=y(mw); g+=`<line x1="${(cx-bw/2-4).toFixed(1)}" y1="${my.toFixed(1)}" x2="${(cx+bw/2+4).toFixed(1)}" y2="${my.toFixed(1)}" stroke="#e6b53d" stroke-width="2" stroke-dasharray="4 2" data-tip="<b>${esc(String(w))}</b> · meta ${brl(mw)}"></line>`; }
     const lbl=String(w).split(' ')[0]; g+=`<text x="${cx.toFixed(1)}" y="${H-padB+16}" text-anchor="middle" font-size="8.5" fill="#5f748f">${esc(lbl)}</text>`;
     const dt=String(w).split(' ')[1]||''; if(dt) g+=`<text x="${cx.toFixed(1)}" y="${H-padB+28}" text-anchor="middle" font-size="7.5" fill="#43566e">${esc(dt)}</text>`; });
   g+=`</svg>`; document.getElementById('evo').innerHTML=g; }
@@ -272,7 +275,7 @@ function renderEvo(brand){ if(VIEW==='sem') return renderEvoSem(brand);
     let acc=0;
     p.idx.forEach((i,wi)=>{ const v=t[i]||0; if(v<=0) return; const hh=(v/maxV)*plotH; const yy=y(acc+v);
       const op=0.55+0.45*(wi/Math.max(1,p.idx.length-1));
-      g+=`<rect x="${cx-bw/2}" y="${yy}" width="${bw}" height="${hh}" fill="#f2670a" fill-opacity="${op.toFixed(2)}"><title>${MESES[p.m]} · ${(weeks[i]||'').split(' ')[0]}: ${brl(v)}</title></rect>`; acc+=v; });
+      g+=`<rect x="${cx-bw/2}" y="${yy}" width="${bw}" height="${hh}" fill="#f2670a" fill-opacity="${op.toFixed(2)}" data-tip="<b>${MESES[p.m]} · ${(weeks[i]||'').split(' ')[0]}</b> · ${brl(v)}"></rect>`; acc+=v; });
     // total label
     if(p.total>0) g+=`<text x="${cx}" y="${y(p.total)-8}" text-anchor="middle" font-size="12" font-weight="700" fill="#eef3fa">${brl(p.total)}</text>`;
     // meta marker
@@ -305,7 +308,7 @@ function spark(vals, weeks, lab){ const pts=[]; vals.forEach((v,i)=>{ if(v!=null
   const xs=pts.map(p=>p[0]),ys=pts.map(p=>p[1]); const mnX=Math.min(...xs),mxX=Math.max(...xs),mnY=Math.min(...ys),mxY=Math.max(...ys);
   const W=200,H=30,p=3; const sx=x=>mxX===mnX?W/2:p+(x-mnX)/(mxX-mnX)*(W-2*p); const sy=y=>mxY===mnY?H/2:H-p-(y-mnY)/(mxY-mnY)*(H-2*p);
   const d=pts.length<2?'':pts.map((q,i)=>(i?'L':'M')+sx(q[0]).toFixed(1)+' '+sy(q[1]).toFixed(1)).join(' '); const last=pts[pts.length-1];
-  const dots=pts.map(q=>{ const t=lab?lab(q[1]):q[1]; return `<circle cx="${sx(q[0]).toFixed(1)}" cy="${sy(q[1]).toFixed(1)}" r="6" fill="transparent"><title>${esc(wlab(weeks,q[0]))}: ${esc(t)}</title></circle>`; }).join('');
+  const dots=pts.map(q=>{ const t=lab?lab(q[1]):q[1]; return `<circle cx="${sx(q[0]).toFixed(1)}" cy="${sy(q[1]).toFixed(1)}" r="6" fill="transparent" data-tip="<b>${esc(wlab(weeks,q[0]))}</b> · ${esc(t)}"></circle>`; }).join('');
   return `<svg viewBox="0 0 ${W} ${H}" width="100%" height="30" preserveAspectRatio="none">${d?`<path d="${d}" fill="none" stroke="#5aa2ff" stroke-width="1.8" stroke-linejoin="round"/>`:''}<circle cx="${sx(last[0]).toFixed(1)}" cy="${sy(last[1]).toFixed(1)}" r="2.6" fill="#f2670a"/>${dots}</svg>`; }
 function kpiCard(k,weeks){ const kind=kindOf(k.nome,k.meta);
   let pts; if(VIEW==='mes') pts=monthlyAgg(k.valores,weeks,kind); else pts=(k.valores||[]).map((v,i)=>({label:wlab(weeks,i),v}));
@@ -364,7 +367,7 @@ function miniChart(series,color,weeks){ const idx=[]; series.forEach((v,i)=>{ if
   const W=Math.max(240,idx.length*30),H=54,p=4,plotH=H-p*2, bw=Math.min(18,(W-p*2)/idx.length*0.6);
   let g=`<svg viewBox="0 0 ${W} ${H}" width="100%" height="${H}" preserveAspectRatio="none">`;
   idx.forEach((i,k)=>{ const cx=p+(k+0.5)*((W-2*p)/idx.length); const hh=(series[i]/maxV)*plotH;
-    g+=`<rect x="${cx-bw/2}" y="${p+plotH-hh}" width="${bw}" height="${hh}" rx="1.5" fill="${color}" fill-opacity="0.9"><title>${esc(wlab(weeks,i))}: ${esc(brl(series[i]))}</title></rect>`; });
+    g+=`<rect x="${cx-bw/2}" y="${p+plotH-hh}" width="${bw}" height="${hh}" rx="1.5" fill="${color}" fill-opacity="0.9" data-tip="<b>${esc(wlab(weeks,i))}</b> · ${esc(brl(series[i]))}"></rect>`; });
   g+=`</svg>`; return g; }
 function shopCard(title,color,stream,weeks,note){
   if(!stream || (stream.sales||stream.paid||[]).every(v=>v==null)){
@@ -413,6 +416,15 @@ function render(){
   let lastLabel=''; (b.weeks||[]).forEach((w,i)=>{ if(b.areas.some(a=>a.kpis.some(k=>k.valores[i]!=null))) lastLabel=w; });
   document.getElementById('hz').innerHTML='Última semana fechada<br><b>'+esc(lastLabel||'—')+'</b>';
 }
+
+// tooltip interativo (semana + valor)
+(function(){ const tip=document.createElement('div'); tip.id='tip'; document.body.appendChild(tip);
+  document.addEventListener('mousemove',function(e){ const el=e.target.closest?e.target.closest('[data-tip]'):null;
+    if(el){ tip.innerHTML=el.getAttribute('data-tip'); tip.style.opacity='1';
+      let x=e.clientX+14, y=e.clientY-14; if(x+190>window.innerWidth) x=e.clientX-190; if(y<8) y=e.clientY+18;
+      tip.style.left=x+'px'; tip.style.top=y+'px'; } else { tip.style.opacity='0'; } },{passive:true});
+  document.addEventListener('scroll',function(){ tip.style.opacity='0'; },{passive:true});
+})();
 
 fetch('dados_kpis.json?v='+Date.now(),{cache:'no-store'}).then(r=>r.text()).then(t=>{ const d=JSON.parse(t.replace(/^[﻿\s=]+/,'')); DATA=d; CUR=Object.keys(d.brands)[0]||null; render();
   var f=document.getElementById('foot'); if(f) f.textContent='Dashboard de KPIs · Grupo Shrigma · atualizado '+(d.updated||'')+' · fonte: planilha (n8n)';

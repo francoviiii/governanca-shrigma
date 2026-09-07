@@ -217,6 +217,6 @@ document.getElementById("methodnote").innerHTML = `<b>Como o tempo é medido:</b
 document.getElementById("foot").textContent = "Fonte: ClickUp · via n8n (atualização semanal) · dados_equipe.json";
 }
 
-fetch("dados_equipe.json",{cache:"no-store"}).then(r=>r.json()).then(d=>{WEEKS=(d&&d.weeks)?d.weeks:[]; try{ init(); }catch(err){ console.error(err); document.getElementById("app").innerHTML='<div class="note">Os dados chegaram, mas houve um detalhe ao montar a tela. Recarregue a página; se persistir, me avise. <br><small style="color:#8b95a8">'+(err&&err.message?err.message:'')+'</small></div>'; } }).catch(e=>{document.getElementById("app").innerHTML='<div class="note">Ainda não consegui ler o <b>dados_equipe.json</b> no repositório. Assim que o robô (n8n) rodar a 1ª vez, ele cria/atualiza esse arquivo e a tela aparece.</div>';});
+fetch("dados_equipe.json?v="+Date.now(),{cache:"no-store"}).then(r=>r.text()).then(t=>{const d=JSON.parse(t.replace(/^[﻿\s=]+/,''));WEEKS=(d&&d.weeks)?d.weeks:[]; try{ init(); }catch(err){ console.error(err); document.getElementById("app").innerHTML='<div class="note">Os dados chegaram, mas houve um detalhe ao montar a tela. Recarregue a página; se persistir, me avise. <br><small style="color:#8b95a8">'+(err&&err.message?err.message:'')+'</small></div>'; } }).catch(e=>{document.getElementById("app").innerHTML='<div class="note">Ainda não consegui ler o <b>dados_equipe.json</b> no repositório. Assim que o robô (n8n) rodar a 1ª vez, ele cria/atualiza esse arquivo e a tela aparece.</div>';});
 </script>
 </body></html>

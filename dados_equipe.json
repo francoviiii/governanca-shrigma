@@ -36,6 +36,17 @@
           "src": "cron",
           "ts": 1788811535445,
           "url": "https://app.clickup.com/t/86ake7kf3"
+        },
+        {
+          "p": "Samuel",
+          "nome": "Contatos prioritários",
+          "c": "Rotina",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1788872400000,
+          "url": "https://app.clickup.com/t/86aken5yw"
         }
       ]
     }

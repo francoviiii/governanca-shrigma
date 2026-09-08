@@ -47,6 +47,28 @@
           "src": "cron",
           "ts": 1788872400000,
           "url": "https://app.clickup.com/t/86aken5yw"
+        },
+        {
+          "p": "Marcela",
+          "nome": "fazer envios de produtos",
+          "c": "Rotina",
+          "m": 120,
+          "cron": 120,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1788883960444,
+          "url": "https://app.clickup.com/t/86akevd3p"
+        },
+        {
+          "p": "Marcela",
+          "nome": "enviar roteiros sabrina",
+          "c": "Rotina",
+          "m": 16,
+          "cron": 16,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1788891866822,
+          "url": "https://app.clickup.com/t/86ak8t54g"
         }
       ]
     }

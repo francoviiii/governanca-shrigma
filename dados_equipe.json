@@ -69,6 +69,193 @@
           "src": "cron",
           "ts": 1788891866822,
           "url": "https://app.clickup.com/t/86ak8t54g"
+        },
+        {
+          "p": "Marcela",
+          "nome": "criar uma campanha nova no instagram",
+          "c": "Rotina",
+          "m": 36,
+          "cron": 36,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1788893806107,
+          "url": "https://app.clickup.com/t/86ak8tfn8"
+        },
+        {
+          "p": "Marcela",
+          "nome": "criar cupom henrique bittar",
+          "c": "Rotina",
+          "m": 0,
+          "cron": 0,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1788895993444,
+          "url": "https://app.clickup.com/t/86ak32rmy"
+        },
+        {
+          "p": "Marcela",
+          "nome": "criar cupom henrique bittar",
+          "c": "Rotina",
+          "m": 12,
+          "cron": 12,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1788895282753,
+          "url": "https://app.clickup.com/t/86ak32rmy"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "reunião",
+          "c": "Reunião",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1788872400000,
+          "url": "https://app.clickup.com/t/86akez5kx"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "análise de vídeo",
+          "c": "Rotina",
+          "m": 45,
+          "cron": 45,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1788868800000,
+          "url": "https://app.clickup.com/t/86akez98g"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "fazer ads",
+          "c": "Imprevisto",
+          "m": 45,
+          "cron": 45,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1788876900000,
+          "url": "https://app.clickup.com/t/86akeza1e"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "1:1 gustavo",
+          "c": "Reunião",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1788892200000,
+          "url": "https://app.clickup.com/t/86akezahv"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "kpis",
+          "c": "Imprevisto",
+          "m": 45,
+          "cron": 45,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1788884100000,
+          "url": "https://app.clickup.com/t/86akezb8k"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "separando videos para julia + tabela vi",
+          "c": "Imprevisto",
+          "m": 75,
+          "cron": 75,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1788892200000,
+          "url": "https://app.clickup.com/t/86akezfqf"
+        },
+        {
+          "p": "Samuel",
+          "nome": "Leticia: acompanhamento",
+          "c": "Imprevisto",
+          "m": 90,
+          "cron": 90,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1788865200000,
+          "url": "https://app.clickup.com/t/86akc3vyp"
+        },
+        {
+          "p": "Samuel",
+          "nome": "Weekly Operacional ",
+          "c": "Reunião",
+          "m": 45,
+          "cron": 45,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1788886800000,
+          "url": "https://app.clickup.com/t/86akenc6d"
+        },
+        {
+          "p": "Samuel",
+          "nome": "Definir Agenda Semanal",
+          "c": "Projeto",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1788890400000,
+          "url": "https://app.clickup.com/t/86akempv9"
+        },
+        {
+          "p": "Samuel",
+          "nome": "Repasse de pedidos prioritários ao despacho - Aristocrata",
+          "c": "Rotina",
+          "m": 45,
+          "cron": 45,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1788894900000,
+          "url": "https://app.clickup.com/t/86akeyjgt"
+        },
+        {
+          "p": "Samuel",
+          "nome": "Atualização de Biblioteca - Baseado em FAQ",
+          "c": "Projeto",
+          "m": 45,
+          "cron": 45,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1788874380000,
+          "url": "https://app.clickup.com/t/86akemz8b"
+        },
+        {
+          "p": "Samuel",
+          "nome": "Novas Políticas de Troca ",
+          "c": "Projeto",
+          "m": 25,
+          "cron": 25,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1788877200000,
+          "url": "https://app.clickup.com/t/86akempfp"
+        },
+        {
+          "p": "Samuel",
+          "nome": "Novas Políticas de Troca ",
+          "c": "Projeto",
+          "m": 45,
+          "cron": 45,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1788883200000,
+          "url": "https://app.clickup.com/t/86akempfp"
+        },
+        {
+          "p": "Samuel",
+          "nome": "Leticia: acompanhamento",
+          "c": "Imprevisto",
+          "m": 0,
+          "cron": 0,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1788900040019,
+          "url": "https://app.clickup.com/t/86akc3vyp"
         }
       ]
     }

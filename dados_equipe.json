@@ -414,7 +414,7 @@
         {
           "p": "Sabrina",
           "nome": "REVISÃO DE ADS",
-          "c": "Sem categoria",
+          "c": "Rotina",
           "m": 30,
           "cron": 30,
           "prog": 0,
@@ -555,6 +555,17 @@
           "url": "https://app.clickup.com/t/86akftx8v"
         },
         {
+          "p": "Sabrina",
+          "nome": "Fazendo copy",
+          "c": "Imprevisto",
+          "m": 73,
+          "cron": 73,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1788976145469,
+          "url": "https://app.clickup.com/t/86akftxwy"
+        },
+        {
           "p": "Marcela",
           "nome": "verificar pedidos feitos bling",
           "c": "Rotina",
@@ -575,6 +586,226 @@
           "src": "cron",
           "ts": 1788975802470,
           "url": "https://app.clickup.com/t/86akfhc27"
+        },
+        {
+          "p": "Marcela",
+          "nome": "acompanhar desempenhos d influs",
+          "c": "Rotina",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1788973230546,
+          "url": "https://app.clickup.com/t/86akfhby2"
+        },
+        {
+          "p": "Uri",
+          "nome": "Criação Anúncio Desodorante 1 und Amazon",
+          "c": "Sem categoria",
+          "m": 20,
+          "cron": 20,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1788977586584,
+          "url": "https://app.clickup.com/t/86akfumbt"
+        },
+        {
+          "p": "Uri",
+          "nome": "Criação Anúncio Desodorante 2unds tiktok",
+          "c": "Sem categoria",
+          "m": 2,
+          "cron": 2,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1788980016287,
+          "url": "https://app.clickup.com/t/86akfvv3c"
+        },
+        {
+          "p": "Uri",
+          "nome": "Criação anúncio desodorante 1 und tiktok",
+          "c": "Sem categoria",
+          "m": 6,
+          "cron": 6,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1788980286520,
+          "url": "https://app.clickup.com/t/86akfvzj1"
+        },
+        {
+          "p": "Marcela",
+          "nome": "mandar link reuniao anderson guedes",
+          "c": "Rotina",
+          "m": 2,
+          "cron": 2,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1788980291316,
+          "url": "https://app.clickup.com/t/86akfu5av"
+        },
+        {
+          "p": "Jorge",
+          "nome": "Separar pra DIULIA o que ela vai precisar pra se tornar uma CS da FISHERMANS",
+          "c": "Projeto",
+          "m": 90,
+          "cron": 90,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1788975016282,
+          "url": "https://app.clickup.com/t/86akajxyq"
+        },
+        {
+          "p": "Jorge",
+          "nome": "Finalizar e subir NOVAS PÁGINAS da FISHERMANS",
+          "c": "Projeto",
+          "m": 240,
+          "cron": 240,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1788894060000,
+          "url": "https://app.clickup.com/t/86akfw2wn"
+        },
+        {
+          "p": "Jorge",
+          "nome": "WEEKLY COM O TIME",
+          "c": "Reunião",
+          "m": 80,
+          "cron": 80,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1788894120000,
+          "url": "https://app.clickup.com/t/86akfw3eb"
+        },
+        {
+          "p": "Jorge",
+          "nome": "WEEKLY DO SETOR",
+          "c": "Reunião",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1788890548726,
+          "url": "https://app.clickup.com/t/86akfw3hv"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "REVISÃO DE ADS",
+          "c": "Rotina",
+          "m": 12,
+          "cron": 12,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1788980580000,
+          "url": "https://app.clickup.com/t/86akfh6fm"
+        },
+        {
+          "p": "Jorge",
+          "nome": "Gravar ROTEIROS para a FISHERMANS",
+          "c": "Projeto",
+          "m": 180,
+          "cron": 180,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1788955200000,
+          "url": "https://app.clickup.com/t/86akfw947"
+        },
+        {
+          "p": "Uri",
+          "nome": "Crias campanha de desconto Amazon tiktok",
+          "c": "Sem categoria",
+          "m": 2,
+          "cron": 2,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1788981015612,
+          "url": "https://app.clickup.com/t/86akfwb9u"
+        },
+        {
+          "p": "Uri",
+          "nome": "Criação de campanha Ads Amazon aristocrata",
+          "c": "Sem categoria",
+          "m": 10,
+          "cron": 10,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1788981181262,
+          "url": "https://app.clickup.com/t/86akfwdp1"
+        },
+        {
+          "p": "Uri",
+          "nome": "Criação anúncio desodorante 3 unds tiktok",
+          "c": "Sem categoria",
+          "m": 3,
+          "cron": 3,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1788981962834,
+          "url": "https://app.clickup.com/t/86akfwrt9"
+        },
+        {
+          "p": "Uri",
+          "nome": "Criação anúncio desodorante 4 und tiktok",
+          "c": "Sem categoria",
+          "m": 3,
+          "cron": 3,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1788983210959,
+          "url": "https://app.clickup.com/t/86akfxc9g"
+        },
+        {
+          "p": "Uri",
+          "nome": "Criação anúncio desodorante 5und tiktok",
+          "c": "Sem categoria",
+          "m": 4,
+          "cron": 4,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1788983462229,
+          "url": "https://app.clickup.com/t/86akfxfrr"
+        },
+        {
+          "p": "Uri",
+          "nome": "Criação anúncio Desodorante 7und tiktok",
+          "c": "Sem categoria",
+          "m": 3,
+          "cron": 3,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1788983705680,
+          "url": "https://app.clickup.com/t/86akfxm0j"
+        },
+        {
+          "p": "Uri",
+          "nome": "Criação anúncio desodorante 10und",
+          "c": "Sem categoria",
+          "m": 3,
+          "cron": 3,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1788983934986,
+          "url": "https://app.clickup.com/t/86akfxpzw"
+        },
+        {
+          "p": "Uri",
+          "nome": "Criação de campanha de descontos desodorante tiktok",
+          "c": "Sem categoria",
+          "m": 3,
+          "cron": 3,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1788984205361,
+          "url": "https://app.clickup.com/t/86akfxu6a"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "roteiro gravação",
+          "c": "Rotina",
+          "m": 75,
+          "cron": 75,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1788981300000,
+          "url": "https://app.clickup.com/t/86akfwbgu"
         }
       ]
     }

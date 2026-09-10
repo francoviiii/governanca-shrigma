@@ -287,7 +287,7 @@
           "cron": 60,
           "prog": 0,
           "src": "cron",
-          "ts": 1788954330952,
+          "ts": 1788867930952,
           "url": "https://app.clickup.com/t/86akejfje"
         },
         {
@@ -298,7 +298,7 @@
           "cron": 35,
           "prog": 0,
           "src": "cron",
-          "ts": 1788955860837,
+          "ts": 1788869460837,
           "url": "https://app.clickup.com/t/86aket89x"
         },
         {
@@ -309,7 +309,7 @@
           "cron": 45,
           "prog": 0,
           "src": "cron",
-          "ts": 1788955282198,
+          "ts": 1788868882198,
           "url": "https://app.clickup.com/t/86akejfg1"
         },
         {
@@ -320,7 +320,7 @@
           "cron": 55,
           "prog": 0,
           "src": "cron",
-          "ts": 1788954696864,
+          "ts": 1788868296864,
           "url": "https://app.clickup.com/t/86akek81d"
         },
         {
@@ -331,7 +331,7 @@
           "cron": 30,
           "prog": 0,
           "src": "cron",
-          "ts": 1788956211786,
+          "ts": 1788869811786,
           "url": "https://app.clickup.com/t/86akenduh"
         },
         {
@@ -342,7 +342,7 @@
           "cron": 100,
           "prog": 0,
           "src": "cron",
-          "ts": 1788952020604,
+          "ts": 1788865620604,
           "url": "https://app.clickup.com/t/86akejk3a"
         },
         {
@@ -364,7 +364,7 @@
           "cron": 45,
           "prog": 0,
           "src": "cron",
-          "ts": 1788955330719,
+          "ts": 1788868930719,
           "url": "https://app.clickup.com/t/86akek31b"
         },
         {
@@ -375,7 +375,7 @@
           "cron": 45,
           "prog": 0,
           "src": "cron",
-          "ts": 1788955339000,
+          "ts": 1788868939000,
           "url": "https://app.clickup.com/t/86akek2kp"
         },
         {
@@ -806,6 +806,138 @@
           "src": "cron",
           "ts": 1788981300000,
           "url": "https://app.clickup.com/t/86akfwbgu"
+        },
+        {
+          "p": "Marcela",
+          "nome": "reuniao anderson guedes",
+          "c": "Reunião",
+          "m": 40,
+          "cron": 40,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789039876608,
+          "url": "https://app.clickup.com/t/86akfu8z4"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "roteiro gravação",
+          "c": "Rotina",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789040700000,
+          "url": "https://app.clickup.com/t/86akfwbgu"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "Fazendo copy",
+          "c": "Imprevisto",
+          "m": 14,
+          "cron": 14,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789044334579,
+          "url": "https://app.clickup.com/t/86akftxwy"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "REVISÃO DE ADS",
+          "c": "Rotina",
+          "m": 20,
+          "cron": 20,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789045195585,
+          "url": "https://app.clickup.com/t/86akfh6fm"
+        },
+        {
+          "p": "Marcela",
+          "nome": "responder pessoas",
+          "c": "Rotina",
+          "m": 100,
+          "cron": 100,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789040423093,
+          "url": "https://app.clickup.com/t/86akg6fhn"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "planilha",
+          "c": "Sem categoria",
+          "m": 0,
+          "cron": 0,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789046441471,
+          "url": "https://app.clickup.com/t/86akg802c"
+        },
+        {
+          "p": "Samuel",
+          "nome": "Dashboard & Demandas Reativas",
+          "c": "Rotina",
+          "m": 90,
+          "cron": 90,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789038000000,
+          "url": "https://app.clickup.com/t/86akg8h91"
+        },
+        {
+          "p": "Samuel",
+          "nome": "Contatos prioritários",
+          "c": "Rotina",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789044300000,
+          "url": "https://app.clickup.com/t/86aken5yw"
+        },
+        {
+          "p": "Samuel",
+          "nome": "Novas Políticas de Troca ",
+          "c": "Projeto",
+          "m": 40,
+          "cron": 40,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789049254655,
+          "url": "https://app.clickup.com/t/86akempfp"
+        },
+        {
+          "p": "Marcela",
+          "nome": "follow-up demais",
+          "c": "Rotina",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789046229507,
+          "url": "https://app.clickup.com/t/86akfhbug"
+        },
+        {
+          "p": "Jorge",
+          "nome": "Atualizar página de ALICATE + COPO (subir como quero que fique)",
+          "c": "Projeto",
+          "m": 150,
+          "cron": 150,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789044300000,
+          "url": "https://app.clickup.com/t/86akap4bv"
+        },
+        {
+          "p": "Marcela",
+          "nome": "reunião com o pimenta",
+          "c": "Rotina",
+          "m": 35,
+          "cron": 35,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789057314384,
+          "url": "https://app.clickup.com/t/86akg7xf0"
         }
       ]
     }

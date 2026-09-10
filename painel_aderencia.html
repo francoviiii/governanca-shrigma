@@ -134,18 +134,38 @@ const AREAS = [
   {area:"Comercial / B2B", dono:"Leandro"}, {area:"Marketplace", dono:"Uri"},
   {area:"Criativo · O Aristocrata", dono:"Sabrina"}, {area:"Criativo · Fishermans", dono:"Jorge"},
   {area:"Social Media", dono:"Julia"}, {area:"Influenciadores & Afiliados", dono:"Marcela"},
-  {area:"Suporte", dono:"Samuel"}, {area:"Produção", dono:"Juliana"}, {area:"Financeiro", dono:"Larissa"}
+  {area:"Suporte", dono:"Samuel"}, {area:"Produção", dono:"Juliana"},
+  {area:"Despacho", dono:"Alexandre"}, {area:"Financeiro", dono:"Larissa"}
 ];
 const LABELS=["—","OK","Atenção","Falha"];
-const KEY="painelAderencia_v2";
+const KEY="painelAderencia_v3";
 const el=id=>document.getElementById(id);
 const vazio=()=>AREAS.map(()=>CRITERIOS.map(()=>0));
 const obsVazio=()=>AREAS.map(()=>"");
 
 let DATA;
 function novaSemana(nome){ return {semana:nome||"Semana 1", status:vazio(), obs:obsVazio()}; }
+// garante que toda semana tenha 1 linha por área e 1 coluna por critério (evita erro ao adicionar áreas)
+function normaliza(){
+  if(!DATA||!Array.isArray(DATA.semanas)) return;
+  DATA.semanas.forEach(w=>{
+    if(!Array.isArray(w.status)) w.status=vazio();
+    while(w.status.length<AREAS.length) w.status.push(CRITERIOS.map(()=>0));
+    w.status.forEach(row=>{ while(row.length<CRITERIOS.length) row.push(0); });
+    if(!Array.isArray(w.obs)) w.obs=obsVazio();
+    while(w.obs.length<AREAS.length) w.obs.push("");
+  });
+  if(typeof DATA.atual!=="number"||DATA.atual<0||DATA.atual>=DATA.semanas.length) DATA.atual=0;
+}
 function carregar(){
-  try{ const s=localStorage.getItem(KEY); if(s){ DATA=JSON.parse(s); return; } }catch(e){}
+  try{ const s=localStorage.getItem(KEY); if(s){ DATA=JSON.parse(s); normaliza(); return; } }catch(e){}
+  // migra do formato anterior (sem a área Despacho, que entrou antes do Financeiro)
+  try{ const old=localStorage.getItem("painelAderencia_v2"); if(old){ DATA=JSON.parse(old);
+    DATA.semanas.forEach(w=>{
+      if(Array.isArray(w.status)&&w.status.length===9) w.status.splice(8,0,CRITERIOS.map(()=>0));
+      if(Array.isArray(w.obs)&&w.obs.length===9) w.obs.splice(8,0,"");
+    });
+    normaliza(); salvar(); return; } }catch(e){}
   DATA={ atual:0, semanas:[ novaSemana("Semana 1") ] };
 }
 function salvar(){ try{ localStorage.setItem(KEY,JSON.stringify(DATA)); flash(); }catch(e){} }
@@ -197,7 +217,7 @@ function renameWeek(v){ S().semana=v; salvar(); el("weekSel").options[DATA.atual
 function addWeek(){ DATA.semanas.push(novaSemana("Semana "+(DATA.semanas.length+1))); DATA.atual=DATA.semanas.length-1; salvar(); render(); }
 function delWeek(){ DATA.semanas.splice(DATA.atual,1); if(!DATA.semanas.length)DATA.semanas.push(novaSemana("Semana 1")); DATA.atual=Math.max(0,DATA.atual-1); salvar(); render(); }
 function backup(){ const blob=new Blob([JSON.stringify(DATA,null,2)],{type:"application/json"}); const a=document.createElement("a"); a.href=URL.createObjectURL(blob); a.download="painel_aderencia_backup.json"; a.click(); }
-function restore(e){ const f=e.target.files[0]; if(!f)return; const rd=new FileReader(); rd.onload=()=>{ try{ DATA=JSON.parse(rd.result); DATA.atual=0; salvar(); render(); }catch(err){ alert("Arquivo inválido."); } }; rd.readAsText(f); }
+function restore(e){ const f=e.target.files[0]; if(!f)return; const rd=new FileReader(); rd.onload=()=>{ try{ DATA=JSON.parse(rd.result); DATA.atual=0; normaliza(); salvar(); render(); }catch(err){ alert("Arquivo inválido."); } }; rd.readAsText(f); }
 
 carregar(); render();
 </script>

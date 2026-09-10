@@ -150,12 +150,15 @@ h1.title .accent{color:var(--gold-soft);font-style:italic}
 /* líder — leve destaque */
 .box.k-lead{border-color:color-mix(in srgb,var(--lead) 34%, var(--line))}
 /* toggle */
-.tog{position:absolute;left:50%;bottom:-13px;transform:translateX(-50%);z-index:3;
-  width:26px;height:26px;border-radius:50%;border:1px solid var(--gold-line);background:#0e1626;color:var(--gold-soft);
-  cursor:pointer;font-size:16px;line-height:1;display:grid;place-items:center;transition:.16s;font-family:var(--sans)}
-.tog:hover{background:#15223a;transform:translateX(-50%) scale(1.1)}
-.tog .ct{position:absolute;top:-7px;right:-9px;font-size:9px;font-weight:700;color:var(--mut2);background:#0e1626;
-  border:1px solid var(--line);border-radius:9px;padding:0 4px;line-height:14px}
+.tog{position:absolute;left:50%;bottom:-15px;transform:translateX(-50%);z-index:3;
+  display:inline-flex;align-items:center;gap:5px;height:25px;padding:0 11px;border-radius:999px;
+  border:1px solid var(--gold-line);background:#101b2e;color:var(--gold-soft);
+  cursor:pointer;font-family:var(--sans);font-size:12px;font-weight:700;line-height:1;white-space:nowrap;transition:.16s}
+.tog:hover{background:#17253c;transform:translateX(-50%) translateY(-1px);box-shadow:0 5px 14px rgba(0,0,0,.35)}
+.tog .chev{font-size:10px;line-height:1}
+.tog .ct{font-size:12px;font-weight:700}
+.tog.open{border-color:var(--line);color:var(--mut)}
+.tog.open .ct{display:none}
 .box.dim{opacity:.28;filter:grayscale(.4)}
 .bandcap{text-align:center;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--mut2);font-weight:600;margin:2px 0 -14px}
 .hiddenmatch{display:none !important}
@@ -269,7 +272,7 @@ footer .v{color:var(--gold);font-weight:600}
 
   <footer>
     <span>Organograma + Cartões de Cargo · Grupo Shrigma — preparado por Viviane · Governança</span>
-    <span class="v">v3.5 · Setembro de 2026</span>
+    <span class="v">v3.6 · Setembro de 2026</span>
   </footer>
 </div>
 
@@ -607,41 +610,6 @@ const F = {
    de Projetos (Viviane) e o Administrativo (Larissa) — líderes, laranja — ENTRE elas.
    lead:1 => laranja · dir:1 => vermelho · demais => verde. */
 const TOP = [
- {r:"Diretoria", n:"Mateus", dir:1, tag:"Comercial · Performance · Criativo — B2B, criativo, tráfego e marketplace.", team:[
-   {r:"Gestor de B2B", n:"Leandro", f:"b2b", lead:1, team:[
-     {r:"Vendedor B2B", n:"Juliano", f:"vendedorb2b"},{r:"Vendedor B2B", n:"Ede", f:"vendedorb2b"},{r:"Vendedor B2B", n:"Guilherme", f:"vendedorb2b"},{r:"Vendedor B2B", n:"Vinicius", f:"vendedorb2b"},{r:"Vendedor B2B", n:"Vaga", f:"vendedorb2b"}]},
-   {r:"Estrategista Criativo", n:"Jorge", bd:"Fishermans", f:"creative", lead:1, team:[
-     {r:"Copywriter", n:"Diulia", f:"copy"},{r:"Editora de Vídeo", n:"Maria", f:"editor"},{r:"Designer", n:"Tirzah", f:"designer"}]},
-   {r:"Estrategista Criativo", n:"Sabrina", bd:"O Aristocrata", f:"creative", lead:1, team:[
-     {r:"Copywriter", n:"Paulo", f:"copy"},{r:"Editora de Vídeo", n:"Yasmin", f:"editor"},{r:"Editor de Vídeo", n:"Gustavo", f:"editor"},{r:"Editor de Vídeo", n:"Felipe", f:"editor"},{r:"Design · Storymaker", n:"Mariana"},{r:"Designer", n:"Cesar", f:"designer"}]},
-   {r:"Gestor de Tráfego", n:"Pedro", f:"trafego", lead:1},
-   {r:"Gestor de Marketplace", n:"Uri", f:"marketplace", lead:1}
-  ]},
- {r:"Gestão de Projetos", n:"Viviane", f:"projetos", lead:1},
- {r:"Diretoria", n:"Felipe", dir:1, tag:"Marca · Experiência · Produto — influência, atendimento (CS/CX), conteúdo orgânico e P&D.", team:[
-   {r:"Gestão de Influência", n:"Marcela", f:"influencia", lead:1, team:[
-     {r:"Estagiária de Parcerias", n:"Manuela", f:"auxinfluencia"}]},
-   {r:"CS · CX (Atendimento)", n:"Samuel", f:"cscx", lead:1, team:[
-     {r:"Líder Atendimento", n:"Maria", bd:"Fishermans", f:"n2fish", team:[
-        {r:"Atendimento N1", n:"Adão", f:"n1"},{r:"Atendimento N1", n:"Letícia", f:"n1"}]},
-     {r:"Operacional", n:"João", f:"operacional"},
-     {r:"Moderação", n:"Carlos", f:"moderacao"},
-     {r:"Líder Atendimento", n:"Vitória", bd:"O Aristocrata", f:"n2aristo", team:[
-        {r:"Atendimento N1", n:"Geovane", f:"n1"},{r:"Atendimento N1", n:"Juliano", f:"n1"},{r:"Atendimento N1", n:"Vivian", f:"n1"}]}
-     ]},
-   {r:"Conteúdo Orgânico", n:"Julia", bd:"Fishermans", f:"julia_fish", lead:1, team:[
-     {r:"Conteúdo Orgânico", n:"Julia R.", bd:"O Aristocrata", f:"julia_aristo"}]},
-   {area:1, r:"P&D · Novos Produtos", tag:"Time de P&D / Novos Produtos — responde diretamente ao Felipe.", team:[
-     {r:"Estagiária de P&D", n:"Nicole", f:"pd_briefing"},
-     {r:"Assistente de Compras", n:"Brendha", f:"compras"},
-     {r:"Designer", n:"Welington", f:"pd_design"}]}
-  ]},
- {r:"Diretoria Administrativa", n:"Larissa", lead:1, team:[
-   {area:1, r:"Rotina Administrativa", tag:"Financeiro, RH e apoio administrativo — responde à Larissa.", team:[
-     {r:"Assistente Financeiro", n:"Gabrielle", f:"financeiro"},
-     {r:"Analista de RH", n:"Ana M.", f:"rh"},
-     {r:"Auxiliar Administrativo", n:"Rosane"}]}
-  ]},
  {r:"Diretoria", n:"João", dir:1, tag:"Operações · Supply Chain — produção, estoque e despacho.", team:[
    {r:"Gerente de Supply Chain", n:"Vaga", lead:1, team:[
      {r:"Auxiliar Administrativo de Produção", n:"Allan"},
@@ -656,6 +624,39 @@ const TOP = [
            {r:"Aux. Despacho", n:"Suely"},{r:"Aux. Despacho", n:"Vaga"}]}
         ]}
      ]}
+  ]},
+ {r:"Gestão de Projetos", n:"Viviane", f:"projetos", lead:1},
+ {r:"Diretoria", n:"Mateus", dir:1, tag:"Comercial · Performance · Criativo — B2B, criativo, tráfego e marketplace.", team:[
+   {r:"Gestor de B2B", n:"Leandro", f:"b2b", lead:1, team:[
+     {r:"Vendedor B2B", n:"Juliano", f:"vendedorb2b"},{r:"Vendedor B2B", n:"Ede", f:"vendedorb2b"},{r:"Vendedor B2B", n:"Guilherme", f:"vendedorb2b"},{r:"Vendedor B2B", n:"Vinicius", f:"vendedorb2b"},{r:"Vendedor B2B", n:"Vaga", f:"vendedorb2b"}]},
+   {r:"Estrategista Criativo", n:"Jorge", bd:"Fishermans", f:"creative", lead:1, team:[
+     {r:"Copywriter", n:"Diulia", f:"copy"},{r:"Editora de Vídeo", n:"Maria", f:"editor"},{r:"Designer", n:"Tirzah", f:"designer"}]},
+   {r:"Estrategista Criativo", n:"Sabrina", bd:"O Aristocrata", f:"creative", lead:1, team:[
+     {r:"Copywriter", n:"Paulo", f:"copy"},{r:"Editora de Vídeo", n:"Yasmin", f:"editor"},{r:"Editor de Vídeo", n:"Gustavo", f:"editor"},{r:"Editor de Vídeo", n:"Felipe", f:"editor"},{r:"Design · Storymaker", n:"Mariana"},{r:"Designer", n:"Cesar", f:"designer"}]},
+   {r:"Gestor de Tráfego", n:"Pedro", f:"trafego", lead:1},
+   {r:"Gestor de Marketplace", n:"Uri", f:"marketplace", lead:1}
+  ]},
+ {r:"Diretoria Administrativa", n:"Larissa", lead:1, team:[
+   {r:"Assistente Financeiro", n:"Gabrielle", f:"financeiro"},
+   {r:"Analista de RH", n:"Ana M.", f:"rh"},
+   {r:"Auxiliar Administrativo", n:"Rosane"}
+  ]},
+ {r:"Diretoria", n:"Felipe", dir:1, tag:"Marca · Experiência · Produto — influência, atendimento (CS/CX), conteúdo orgânico e P&D.", team:[
+   {r:"Gestão de Influência", n:"Marcela", f:"influencia", lead:1, team:[
+     {r:"Estagiária de Parcerias", n:"Manuela", f:"auxinfluencia"}]},
+   {r:"CS · CX (Atendimento)", n:"Samuel", f:"cscx", lead:1, team:[
+     {r:"Líder Atendimento", n:"Maria", bd:"Fishermans", f:"n2fish", team:[
+        {r:"Atendimento N1", n:"Adão", f:"n1"},{r:"Atendimento N1", n:"Letícia", f:"n1"}]},
+     {r:"Operacional", n:"João", f:"operacional"},
+     {r:"Moderação", n:"Carlos", f:"moderacao"},
+     {r:"Líder Atendimento", n:"Vitória", bd:"O Aristocrata", f:"n2aristo", team:[
+        {r:"Atendimento N1", n:"Geovane", f:"n1"},{r:"Atendimento N1", n:"Juliano", f:"n1"},{r:"Atendimento N1", n:"Vivian", f:"n1"}]}
+     ]},
+   {r:"Conteúdo Orgânico", n:"Julia", bd:"Fishermans", f:"julia_fish", lead:1, team:[
+     {r:"Conteúdo Orgânico", n:"Julia R.", bd:"O Aristocrata", f:"julia_aristo"}]},
+   {r:"Estagiária de P&D", n:"Nicole", f:"pd_briefing"},
+   {r:"Assistente de Compras", n:"Brendha", f:"compras"},
+   {r:"Designer", n:"Welington", f:"pd_design"}
   ]}
 ];
 
@@ -682,7 +683,7 @@ function boxHTML(node){
       <div class="name">${nm}${bd}</div>
     </div>`;
 }
-function togHTML(n){ return `<button class="tog" aria-label="Abrir/recolher time"><span class="sym">+</span><span class="ct">${n}</span></button>`; }
+function togHTML(n){ return `<button class="tog" title="Abrir / recolher equipe" aria-label="Abrir ou recolher equipe"><span class="chev">▾</span><span class="ct">${n}</span></button>`; }
 
 function renderNode(node){
   const has = node.team && node.team.length;
@@ -794,7 +795,8 @@ document.getElementById('drClose').addEventListener('click', closeFicha);
 document.addEventListener('keydown', e=>{ if(e.key==='Escape') closeFicha(); });
 
 function setTog(tog, open){ const el=tog.parentElement.querySelector(':scope > ul'); if(!el) return;
-  el.classList.toggle('collapsed', !open); tog.querySelector('.sym').textContent = open?'–':'+'; }
+  el.classList.toggle('collapsed', !open); tog.classList.toggle('open', open);
+  tog.querySelector('.chev').textContent = open?'▴':'▾'; }
 
 document.addEventListener('click', e=>{
   const tg=e.target.closest('.tog');

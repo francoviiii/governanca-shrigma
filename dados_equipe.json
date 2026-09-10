@@ -863,17 +863,6 @@
           "url": "https://app.clickup.com/t/86akg6fhn"
         },
         {
-          "p": "Sabrina",
-          "nome": "planilha",
-          "c": "Sem categoria",
-          "m": 0,
-          "cron": 0,
-          "prog": 0,
-          "src": "cron",
-          "ts": 1789046441471,
-          "url": "https://app.clickup.com/t/86akg802c"
-        },
-        {
           "p": "Samuel",
           "nome": "Dashboard & Demandas Reativas",
           "c": "Rotina",
@@ -918,6 +907,17 @@
           "url": "https://app.clickup.com/t/86akfhbug"
         },
         {
+          "p": "Samuel",
+          "nome": "Envio mensal de números para o financeiro",
+          "c": "Compromisso",
+          "m": 68,
+          "cron": 68,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789056989892,
+          "url": "https://app.clickup.com/t/86ak72pux"
+        },
+        {
           "p": "Jorge",
           "nome": "Atualizar página de ALICATE + COPO (subir como quero que fique)",
           "c": "Projeto",
@@ -938,6 +938,50 @@
           "src": "cron",
           "ts": 1789057314384,
           "url": "https://app.clickup.com/t/86akg7xf0"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "roteiro",
+          "c": "Sem categoria",
+          "m": 70,
+          "cron": 70,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789046400000,
+          "url": "https://app.clickup.com/t/86akgddk0"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "REVISÃO DE ADS",
+          "c": "Rotina",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789056900000,
+          "url": "https://app.clickup.com/t/86akfh6fm"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "SEPARAR OS VÍDEOS SOLTINHO",
+          "c": "Rotina",
+          "m": 75,
+          "cron": 75,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789058700000,
+          "url": "https://app.clickup.com/t/86akge91u"
+        },
+        {
+          "p": "Jorge",
+          "nome": "Envio mensal de números para o financeiro",
+          "c": "Compromisso",
+          "m": 75,
+          "cron": 75,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789057800000,
+          "url": "https://app.clickup.com/t/86ak72pmc"
         }
       ]
     }

@@ -47,7 +47,7 @@
   .tbar{width:64%;max-width:54px;border-radius:6px 6px 0 0}
   .tval{font-size:11.5px;font-weight:700} .tlab{font-size:10.5px;color:var(--mut);text-align:center;line-height:1.25}
   .hm{overflow-x:auto} .hm table{min-width:600px} .hm td,.hm th{text-align:center;font-size:11.5px}
-  .hcell{width:32px;height:24px;border-radius:6px;display:inline-block}
+  .hcell{width:34px;height:24px;border-radius:6px;display:inline-block;border:1px solid rgba(255,255,255,.10);box-shadow:0 1px 3px rgba(0,0,0,.25)}
   .note{color:var(--mut);font-size:12.5px;margin-top:16px;padding:14px 16px;background:var(--card);border:1px solid var(--line);border-radius:12px}
   .note b{color:var(--txt)}
   footer{color:var(--mut);font-size:11.5px;text-align:center;margin-top:24px}
@@ -132,7 +132,7 @@
 const CRITERIOS = ["SOPs em uso","Ata da weekly","1:1 do time (quinzenal)","Rastreamento de tempo","Compromissos cumpridos"];
 const AREAS = [
   {area:"Comercial / B2B", dono:"Leandro"}, {area:"Marketplace", dono:"Uri"},
-  {area:"Criativo · Aristocrata", dono:"Sabrina"}, {area:"Marca · Fishermans", dono:"Jorge"},
+  {area:"Criativo · O Aristocrata", dono:"Sabrina"}, {area:"Criativo · Fishermans", dono:"Jorge"},
   {area:"Social Media", dono:"Julia"}, {area:"Influenciadores & Afiliados", dono:"Marcela"},
   {area:"Suporte", dono:"Samuel"}, {area:"Produção", dono:"Juliana"}, {area:"Financeiro", dono:"Larissa"}
 ];
@@ -183,11 +183,11 @@ function renderTrend(){ const t=el("trend"); t.innerHTML="";
     bar.style.background=k.ader>=85?"var(--v)":k.ader>=60?"var(--a)":k.tot?"var(--r)":"var(--n)";
     const lab=document.createElement("div"); lab.className="tlab"; lab.textContent=s.semana; if(i===DATA.atual){lab.style.color="var(--navy)";lab.style.fontWeight="700";}
     col.appendChild(val); col.appendChild(bar); col.appendChild(lab); t.appendChild(col); }); }
-function renderHeat(){ const cores=["var(--nbg)","var(--vbg)","var(--abg)","var(--rbg)"];
+function renderHeat(){ const cores=["rgba(255,255,255,.07)","var(--v)","var(--a)","var(--r)"];
   let h='<table><thead><tr><th style="text-align:left">Área</th>'+DATA.semanas.map(s=>`<th>${s.semana}</th>`).join("")+'</tr></thead><tbody>';
   AREAS.forEach((a,ai)=>{ h+=`<tr><td style="text-align:left">${a.area}</td>`; DATA.semanas.forEach(s=>{ h+=`<td><span class="hcell" style="background:${cores[scoreArea(s,ai)]}"></span></td>`; }); h+="</tr>"; });
   h+="</tbody></table>"; el("heat").innerHTML=h; }
-function renderDetail(ai){ const cores=["var(--nbg)","var(--vbg)","var(--abg)","var(--rbg)"];
+function renderDetail(ai){ const cores=["rgba(255,255,255,.07)","var(--v)","var(--a)","var(--r)"];
   let h='<table><thead><tr><th style="text-align:left">Medida</th>'+DATA.semanas.map(s=>`<th>${s.semana}</th>`).join("")+'</tr></thead><tbody>';
   CRITERIOS.forEach((c,ci)=>{ h+=`<tr><td style="text-align:left">${c}</td>`; DATA.semanas.forEach(s=>{ h+=`<td><span class="hcell" style="background:${cores[s.status[ai][ci]]}"></span></td>`; }); h+="</tr>"; });
   h+="</tbody></table>"; el("detail").innerHTML=h; }

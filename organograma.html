@@ -1,838 +1,836 @@
 <!DOCTYPE html>
-<html lang="pt-BR"><head><meta charset="utf-8">
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Organograma · Grupo Shrigma</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
-  :root{
-    --ink:#1b2431; --navy:#25405f; --gold:#8a6d3b; --mut:#6b7480;
-    --line:#dce3ec; --box:#f2f5f9; --boxln:#dfe5ec; --bg:#eef2f7; --card:#fff;
-    --mateus:#2f6dd0;  --mateusbg:#eaf1fc;
-    --felipe:#6d4aff;  --felipebg:#efeaff;
-    --joao:#2f7d54;    --joaobg:#e6f3ec;
-    --dir:#8a6d3b;     --dirbg:#f6efda;
-    --ok:#2f7d54; --okbg:#e6f3ec; --okln:#bfe0cd;
-    --cri:#b8760f; --cribg:#fff4e0; --criln:#f0d8ac;
-    --res:#8a6d3b; --resbg:#f3ecdd; --ala:#25507e; --alabg:#e7eef6; --grd:#5b6472; --grdbg:#eceef2; --green:#2f7d54;
-  }
-  *{box-sizing:border-box;margin:0;padding:0}
-  body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg);font-size:13px;line-height:1.45;-webkit-font-smoothing:antialiased}
-  .wrap{max-width:100%;margin:0 auto;padding:24px 20px 40px}
+:root{
+  --bg0:#1b2537; --bg1:#1f2a40; --panel:#0f1826; --panel2:#152134;
+  --line:rgba(255,255,255,.12); --line2:rgba(255,255,255,.08);
+  --ink:#eaf0f8; --mut:#9fb0c6; --mut2:#74839a;
+  --gold:#d8b978; --gold-soft:#e8d2a0; --gold-deep:#b8760f; --gold-line:rgba(216,185,120,.35);
+  --blue:#8fb6ff; --blue-soft:#cfe0ff; --blue-line:rgba(90,162,255,.32);
+  --purple:#a98bff;
+  --mateus:#8fb6ff; --felipe:#e0a3c8; --joao:#7fd3b6;
+  --sans:"Inter",-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+  --serif:"Fraunces",Georgia,"Times New Roman",serif;
+  --radius:16px;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  font-family:var(--sans); color:var(--ink); background:var(--bg0);
+  background-image:
+    radial-gradient(40% 40% at 14% 3%, rgba(120,175,255,.14), rgba(0,0,0,0) 60%),
+    radial-gradient(40% 40% at 88% 3%, rgba(180,150,255,.12), rgba(0,0,0,0) 60%),
+    linear-gradient(#1b2537, #202c44 55%, #1b2537);
+  background-attachment:fixed; min-height:100vh;
+  -webkit-font-smoothing:antialiased; line-height:1.5;
+}
+a{color:inherit}
+.wrap{max-width:1240px;margin:0 auto;padding:0 22px}
 
-  header{max-width:1100px;margin:0 auto}
-  .over{font-size:9.5px;letter-spacing:2.6px;font-weight:700;color:var(--gold);text-transform:uppercase}
-  h1{font-family:Georgia,'Times New Roman',serif;font-size:29px;font-weight:700;color:var(--ink);margin:7px 0 4px}
-  .sub{color:var(--mut);font-size:13px;max-width:760px}
-  .sub b{color:var(--ink)}
+/* ---------- top bar ---------- */
+.topbar{position:sticky;top:0;z-index:40;backdrop-filter:blur(10px);
+  background:rgba(8,13,22,.72);border-bottom:1px solid var(--line2)}
+.topbar .row{display:flex;align-items:center;gap:16px;height:60px}
+.back{display:inline-flex;align-items:center;gap:7px;font-size:12.5px;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--mut);text-decoration:none;padding:7px 12px;border:1px solid var(--line);
+  border-radius:999px;transition:.18s}
+.back:hover{color:var(--ink);border-color:var(--gold-line);background:rgba(216,185,120,.06)}
+.brandmark{width:30px;height:30px;border-radius:9px;display:grid;place-items:center;
+  font-family:var(--serif);font-weight:600;font-size:17px;color:#0a1322;
+  background:linear-gradient(135deg,var(--gold-soft),var(--gold));box-shadow:0 4px 14px rgba(216,185,120,.25)}
+.crumb{font-size:12.5px;color:var(--mut);letter-spacing:.02em}
+.crumb b{color:var(--ink);font-weight:600}
+.topbar .spacer{flex:1}
+.searchbox{display:flex;align-items:center;gap:8px;background:var(--panel);border:1px solid var(--line);
+  border-radius:999px;padding:7px 14px;min-width:210px;transition:.18s}
+.searchbox:focus-within{border-color:var(--blue-line);background:var(--panel2)}
+.searchbox svg{opacity:.6}
+.searchbox input{background:none;border:none;outline:none;color:var(--ink);font-size:13.5px;width:100%;font-family:var(--sans)}
+.searchbox input::placeholder{color:var(--mut2)}
+@media(max-width:720px){.searchbox{display:none}.crumb .hide{display:none}}
 
-  .bar{max-width:1100px;margin:15px auto 0;display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;padding:11px 15px;background:var(--card);border:1px solid var(--line);border-radius:12px}
-  .bar .lgt{font-weight:800;font-size:9px;color:var(--mut);text-transform:uppercase;letter-spacing:.6px}
-  .lg{display:flex;align-items:center;gap:6px;font-size:11.5px;color:var(--ink)}
-  .dot{width:11px;height:11px;border-radius:4px;display:inline-block}
-  .sep{width:1px;height:16px;background:var(--line)}
-  .btn{margin-left:auto;display:flex;gap:8px}
-  button.ctl{font:inherit;font-size:11.5px;font-weight:600;color:var(--navy);background:var(--box);border:1px solid var(--boxln);border-radius:20px;padding:6px 14px;cursor:pointer;transition:.12s}
-  button.ctl:hover{background:#e7edf5;border-color:#c9d4e0}
-  .hint{max-width:1100px;margin:8px auto 0;font-size:11.5px;color:var(--mut)}
-  .hint b{color:var(--ink)}
+/* ---------- hero ---------- */
+.hero{padding:46px 0 20px}
+.eyebrow{font-size:11.5px;letter-spacing:.28em;text-transform:uppercase;color:var(--gold);font-weight:600;margin:0 0 14px}
+h1.title{font-family:var(--serif);font-weight:500;font-size:clamp(30px,5vw,50px);line-height:1.04;margin:0 0 16px;
+  letter-spacing:-.01em}
+h1.title .accent{color:var(--gold-soft);font-style:italic}
+.lead{font-size:15.5px;color:var(--mut);max-width:640px;margin:0}
+.lead b{color:var(--ink);font-weight:600}
 
-  /* ---------- ÁRVORE (organograma) ---------- */
-  .scroller{overflow-x:auto;padding:26px 10px 20px;-webkit-overflow-scrolling:touch}
-  .tree{display:inline-block;min-width:100%;text-align:center}
-  .tree ul{display:flex;justify-content:center;padding-top:22px;position:relative}
-  .tree li{list-style:none;position:relative;padding:22px 7px 0;text-align:center}
-  /* conectores */
-  .tree li::before,.tree li::after{content:'';position:absolute;top:0;right:50%;border-top:2px solid var(--line);width:50%;height:22px}
-  .tree li::after{right:auto;left:50%;border-left:2px solid var(--line)}
-  .tree li:only-child::before,.tree li:only-child::after{display:none}
-  .tree li:only-child{padding-top:0}
-  .tree li:first-child::before,.tree li:last-child::after{border:0 none}
-  .tree li:last-child::before{border-right:2px solid var(--line);border-radius:0 6px 0 0}
-  .tree li:first-child::after{border-radius:6px 0 0 0}
-  .tree ul ul::before{content:'';position:absolute;top:0;left:50%;border-left:2px solid var(--line);width:0;height:22px}
-  .tree>ul{padding-top:0}
-  .tree>ul>li:only-child::before,.tree>ul>li:only-child::after{display:none}
+/* ---------- controls / legend ---------- */
+.controls{display:flex;flex-wrap:wrap;align-items:center;gap:10px 18px;margin:26px 0 8px;
+  padding:16px 18px;border:1px solid var(--line2);border-radius:14px;background:var(--panel)}
+.legend{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;font-size:12.5px;color:var(--mut)}
+.legdot{display:inline-flex;align-items:center;gap:7px}
+.cdot{width:11px;height:11px;border-radius:3px;display:inline-block}
+.chip{display:inline-flex;align-items:center;gap:6px;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;
+  font-weight:600;padding:3px 9px;border-radius:999px;border:1px solid transparent}
+.chip.ready{color:var(--gold-soft);background:rgba(216,185,120,.10);border-color:var(--gold-line)}
+.chip.soon{color:var(--mut);background:rgba(255,255,255,.04);border-color:var(--line)}
+.ctlspacer{flex:1}
+.btn{font-family:var(--sans);cursor:pointer;font-size:12.5px;font-weight:600;letter-spacing:.02em;
+  color:var(--ink);background:var(--panel2);border:1px solid var(--line);border-radius:999px;padding:8px 15px;transition:.16s}
+.btn:hover{border-color:var(--gold-line);color:var(--gold-soft)}
+.note{font-size:12.5px;color:var(--mut2);margin:12px 2px 0;max-width:820px;line-height:1.6}
+.note b{color:var(--mut)}
 
-  /* nós */
-  .node{display:inline-block;vertical-align:top;border:1px solid var(--line);border-radius:11px;background:var(--card);
-        min-width:150px;max-width:190px;box-shadow:0 1px 2px rgba(20,30,50,.05);position:relative;cursor:pointer;transition:.12s;text-align:left}
-  .node:hover{box-shadow:0 4px 14px rgba(20,30,50,.13);transform:translateY(-1px)}
-  .node .body{padding:9px 11px}
-  .node .role{font-size:8.2px;letter-spacing:.5px;text-transform:uppercase;font-weight:700;color:var(--mut);line-height:1.2}
-  .node .name{font-size:13.5px;font-weight:700;color:var(--ink);line-height:1.18;margin-top:2px}
-  .node .marca{display:inline-block;font-size:8px;font-weight:700;letter-spacing:.2px;padding:1px 6px;border-radius:20px;margin-top:4px;background:var(--box);color:var(--mut);border:1px solid var(--boxln)}
-  .node .marca.aristo{background:#f6efda;color:#8a6d3b;border-color:#e6d5a8}
-  .node .marca.fish{background:#e7eef6;color:#25507e;border-color:#c9dcef}
-  /* faixa de cor por ramo no topo do nó */
-  .node.top{border-top:none}
-  .node .cap{height:4px;border-radius:11px 11px 0 0}
-  .node.r-dir .cap{background:var(--dir)} .node.r-mateus .cap{background:var(--mateus)}
-  .node.r-felipe .cap{background:var(--felipe)} .node.r-joao .cap{background:var(--joao)}
-  /* diretoria e diretores maiores */
-  .node.lvl-dir{min-width:200px;max-width:240px}
-  .node.lvl-dir .name{font-family:Georgia,serif;font-size:18px}
-  .node.lvl-dir2{min-width:180px;max-width:210px}
-  .node.lvl-dir2 .name{font-size:16px}
-  .node.lvl-exec{min-width:118px;max-width:150px;background:var(--box)}
-  .node.lvl-exec .name{font-size:12px}
-  .node.vago .name{color:var(--mut);font-weight:600}
+/* ---------- org chart (árvore) ---------- */
+:root{--tline:rgba(205,218,240,.42);
+  --dir:#f2534b;   /* diretoria — vermelho forte */
+  --lead:#ff9a3d;  /* líderes — laranja forte */
+  --mem:#83dfa5;   /* demais — verde claro */
+}
+.chartwrap{margin:24px -22px 8px;overflow-x:auto;overflow-y:hidden;padding:14px 22px 34px}
+.chart{display:inline-block;min-width:100%;position:relative}
+.chart .links{position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none;overflow:visible;z-index:0}
+.chart .links path{fill:none;stroke:var(--mem);stroke-width:2.2;stroke-dasharray:6 5;opacity:.9}
+.chart .links .lbl{fill:var(--mem);font:600 9px var(--sans);letter-spacing:.06em}
+.sharednode{position:absolute;z-index:2;display:none}
+.box.sharedbox{max-width:236px}
+.box.sharedbox .name{flex-wrap:nowrap;white-space:nowrap}
+/* nós de área (agrupam a equipe abaixo do líder) */
+.box.area{min-width:180px;max-width:214px;min-height:84px;text-align:center;padding:11px 14px;border-style:dashed;--cl:var(--lead);
+  display:flex;flex-direction:column;align-items:center;justify-content:center}
+.box.area::after{height:3px}
+.box.area .arealabel{font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;font-weight:700;color:var(--lead);line-height:1.35}
+.tree,.tree ul{list-style:none;margin:0;padding:0}
+.tree{display:flex;justify-content:center;position:relative;z-index:1}
+.tree ul{display:flex;justify-content:center;padding-top:28px;position:relative}
+.tree li{position:relative;display:flex;flex-direction:column;align-items:center;padding:28px 9px 0}
+/* connectors */
+.tree li::before,.tree li::after{content:"";position:absolute;top:0;right:50%;width:50%;height:28px;border-top:2px solid var(--tline)}
+.tree li::after{right:auto;left:50%;border-left:2px solid var(--tline)}
+.tree li:only-child{padding-top:28px}
+.tree li:only-child::before,.tree li:only-child::after{display:none}
+.tree li:first-child::before,.tree li:last-child::after{border:0 none}
+.tree li:last-child::before{border-right:2px solid var(--tline);border-radius:0 8px 0 0}
+.tree li:first-child::after{border-radius:8px 0 0 0}
+.tree ul ul::before{content:"";position:absolute;top:0;left:50%;width:0;height:28px;border-left:2px solid var(--tline)}
+.tree ul.collapsed{display:none}
 
-  /* selo cartão */
-  .cbadge{position:absolute;top:-8px;right:8px;font-size:7.6px;font-weight:800;letter-spacing:.3px;text-transform:uppercase;padding:2px 7px;border-radius:20px;pointer-events:none}
-  .cbadge.pronto{background:var(--ok);color:#fff}
-  .cbadge.criar{background:var(--cribg);color:var(--cri);border:1px solid var(--criln)}
+/* node box */
+.box{position:relative;display:block;min-width:194px;max-width:236px;cursor:pointer;text-align:left;
+  border:1px solid var(--line);border-radius:13px;background:var(--panel);padding:14px 15px 13px;transition:.16s}
+.box::after{content:"";position:absolute;left:13px;right:13px;top:0;height:4px;border-radius:0 0 4px 4px;background:var(--cl,var(--line))}
+.box:hover{border-color:var(--cl,var(--gold-line));background:var(--panel2);transform:translateY(-2px);box-shadow:0 12px 30px rgba(0,0,0,.34)}
+.box .role{font-size:9.5px;letter-spacing:.05em;text-transform:uppercase;color:var(--cl,var(--mut2));font-weight:700;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding-right:6px}
+.box .name{font-size:14.5px;font-weight:600;color:var(--ink);margin-top:3px;display:flex;flex-wrap:wrap;align-items:center;gap:6px}
+.box .name .bd{font-size:9.5px;font-weight:600;color:var(--mut);border:1px solid var(--line);border-radius:5px;padding:1px 6px;letter-spacing:.03em}
+.box .vac{color:var(--mut2);font-weight:600}
+/* cor por tipo */
+.box.k-dir{--cl:var(--dir)}
+.box.k-lead{--cl:var(--lead)}
+.box.k-mem{--cl:var(--mem)}
+/* selo do cartão — DENTRO da caixa (canto superior direito) */
+.cctag{display:block;text-align:right;font-size:8px;letter-spacing:.09em;text-transform:uppercase;font-weight:700;margin-bottom:5px}
+.cctag.ready{color:#e6a95c}
+.cctag.none{color:var(--mut2)}
+/* marcador de cadeira compartilhada */
+.box .shbadge{display:inline-block;font-size:8.5px;font-weight:700;color:var(--mem);border:1px solid color-mix(in srgb,var(--mem) 40%,var(--line));
+  border-radius:5px;padding:0 5px;margin-left:6px;letter-spacing:.02em;vertical-align:middle}
+/* root */
+.box.root{min-width:220px;text-align:center;border-color:var(--gold-line);
+  background:linear-gradient(180deg,rgba(216,185,120,.10),#0c1420)}
+.box.root::after{display:none}
+.box.root .role{padding-right:0;text-align:center;color:var(--gold)}
+.box.root .logo{display:block;width:100%;max-width:184px;height:auto;margin:2px auto 0}
+/* director — vermelho forte, nome em serifa */
+.box.dir{min-width:206px;border-color:color-mix(in srgb,var(--dir) 45%, var(--line))}
+.box.dir::after{height:5px}
+.box.dir .name{font-family:var(--serif);font-size:21px;font-weight:500}
+/* líder — leve destaque */
+.box.k-lead{border-color:color-mix(in srgb,var(--lead) 34%, var(--line))}
+/* toggle */
+.tog{position:absolute;left:50%;bottom:-13px;transform:translateX(-50%);z-index:3;
+  width:26px;height:26px;border-radius:50%;border:1px solid var(--gold-line);background:#0e1626;color:var(--gold-soft);
+  cursor:pointer;font-size:16px;line-height:1;display:grid;place-items:center;transition:.16s;font-family:var(--sans)}
+.tog:hover{background:#15223a;transform:translateX(-50%) scale(1.1)}
+.tog .ct{position:absolute;top:-7px;right:-9px;font-size:9px;font-weight:700;color:var(--mut2);background:#0e1626;
+  border:1px solid var(--line);border-radius:9px;padding:0 4px;line-height:14px}
+.box.dim{opacity:.28;filter:grayscale(.4)}
+.bandcap{text-align:center;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--mut2);font-weight:600;margin:2px 0 -14px}
+.hiddenmatch{display:none !important}
 
-  /* expander de ramo (time) */
-  .exp{position:absolute;bottom:-11px;left:50%;transform:translateX(-50%);z-index:3;
-       width:22px;height:22px;border-radius:50%;background:var(--card);border:1.5px solid var(--line);
-       color:var(--navy);font-weight:800;font-size:13px;line-height:0;display:flex;align-items:center;justify-content:center;cursor:pointer;transition:.12s}
-  .exp:hover{background:var(--navy);color:#fff;border-color:var(--navy)}
-  li.collapsed>ul{display:none}
-  li.collapsed>.node .exp .p{display:inline}
-  li:not(.collapsed)>.node .exp .p{display:none}
-  .exp .p::after{content:'+'} .exp .m::after{content:'–'}
-  li.collapsed>.node .exp .m{display:none}
-  li:not(.collapsed)>.node .exp .m{display:inline}
+/* ---------- drawer ---------- */
+.overlay{position:fixed;inset:0;background:rgba(4,7,13,.62);backdrop-filter:blur(3px);opacity:0;pointer-events:none;
+  transition:.25s;z-index:60}
+.overlay.on{opacity:1;pointer-events:auto}
+.drawer{position:fixed;top:0;right:0;height:100%;width:min(560px,100%);z-index:70;
+  background:linear-gradient(#0b1424,#0a1120);border-left:1px solid var(--line);
+  transform:translateX(100%);transition:transform .32s cubic-bezier(.4,0,.15,1);display:flex;flex-direction:column;
+  box-shadow:-30px 0 80px rgba(0,0,0,.5)}
+.drawer.on{transform:translateX(0)}
+.dr-head{padding:22px 26px 18px;border-bottom:1px solid var(--line2);position:relative;flex:none}
+.dr-close{position:absolute;top:18px;right:20px;width:34px;height:34px;border-radius:9px;border:1px solid var(--line);
+  background:var(--panel);color:var(--mut);cursor:pointer;font-size:17px;transition:.16s}
+.dr-close:hover{color:var(--ink);border-color:var(--gold-line)}
+.dr-role{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);font-weight:600}
+.dr-name{font-family:var(--serif);font-size:28px;font-weight:500;margin:6px 0 2px;line-height:1.1}
+.dr-sub{font-size:13px;color:var(--mut);display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:8px}
+.dr-sub .lab{color:var(--mut2)}
+.dr-body{overflow-y:auto;padding:8px 26px 40px;flex:1}
+.dr-body::-webkit-scrollbar{width:9px}.dr-body::-webkit-scrollbar-thumb{background:rgba(255,255,255,.12);border-radius:9px}
+.sec{margin-top:24px}
+.sec>h3{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-soft);font-weight:600;
+  margin:0 0 10px;display:flex;align-items:center;gap:9px}
+.sec>h3::after{content:"";flex:1;height:1px;background:var(--gold-line);opacity:.5}
+.mission{font-size:15px;line-height:1.55;color:var(--ink);background:rgba(216,185,120,.06);
+  border:1px solid var(--gold-line);border-radius:12px;padding:14px 16px}
+.ul{list-style:none;margin:0;padding:0}
+.ul li{position:relative;padding:6px 0 6px 20px;font-size:13.5px;color:var(--ink);line-height:1.5;border-bottom:1px solid var(--line2)}
+.ul li:last-child{border-bottom:none}
+.ul li::before{content:"";position:absolute;left:2px;top:13px;width:6px;height:6px;border-radius:50%;background:var(--gold);opacity:.7}
+.ul li b{color:var(--gold-soft);font-weight:600}
+.frontier{font-size:13px;line-height:1.55;color:var(--mut);background:rgba(224,120,120,.05);
+  border:1px solid rgba(224,120,120,.22);border-radius:12px;padding:12px 15px}
+.frontier b{color:#e6a5a5}
+.alcada{display:grid;gap:10px}
+.alc{border:1px solid var(--line);border-radius:11px;padding:12px 14px;background:var(--panel)}
+.alc .lv{font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;font-weight:700;margin-bottom:6px;display:flex;align-items:center;gap:8px}
+.alc.n1 .lv{color:var(--joao)} .alc.n2 .lv{color:var(--gold-soft)} .alc.n3 .lv{color:var(--felipe)}
+.alc .lv .tg{font-size:9.5px;letter-spacing:.06em;color:var(--mut2);font-weight:600;text-transform:none}
+.alc .txt{font-size:12.5px;color:var(--mut);line-height:1.5}
+.rev{font-size:12.5px;color:var(--mut);line-height:1.55;margin-top:10px;padding:10px 14px;border-radius:10px;
+  border:1px dashed var(--line);background:rgba(255,255,255,.02)}
+.rev b{color:var(--ink)}
+.kpis{display:grid;gap:9px}
+.kpi{border:1px solid var(--line);border-radius:11px;padding:11px 14px;background:var(--panel);
+  display:flex;gap:12px;align-items:flex-start}
+.kpi .idx{font-family:var(--serif);font-size:19px;color:var(--gold-soft);line-height:1;flex:none;width:24px}
+.kpi .kb{flex:1;min-width:0}
+.kpi .kn{font-size:13px;font-weight:600;color:var(--ink);line-height:1.4}
+.kpi .kt{font-size:10px;letter-spacing:.08em;text-transform:uppercase;font-weight:700;padding:2px 7px;border-radius:5px;
+  display:inline-block;margin-top:6px}
+.kt.res{color:var(--blue-soft);background:rgba(90,162,255,.12);border:1px solid var(--blue-line)}
+.kt.ala{color:var(--joao);background:rgba(127,211,182,.10);border:1px solid rgba(127,211,182,.3)}
+.kt.gd{color:var(--gold-soft);background:rgba(216,185,120,.10);border:1px solid var(--gold-line)}
+.kpi .km{font-size:12px;color:var(--mut);margin-top:5px}
+.kpi .km b{color:var(--gold-soft)}
+.links{display:grid;gap:6px}
+.lk{display:flex;gap:10px;font-size:12.5px;color:var(--mut);padding:6px 0;border-bottom:1px solid var(--line2)}
+.lk:last-child{border-bottom:none}
+.lk .lkk{color:var(--mut2);flex:none;width:130px;font-weight:600}
+.empty{margin-top:26px;text-align:center;padding:34px 20px;border:1px dashed var(--line);border-radius:14px;color:var(--mut)}
+.empty .big{font-family:var(--serif);font-size:20px;color:var(--ink);margin-bottom:8px}
 
-  /* ---------- MODAL (cartão) ---------- */
-  .overlay{position:fixed;inset:0;background:rgba(20,30,45,.55);backdrop-filter:blur(2px);display:none;align-items:flex-start;justify-content:center;z-index:50;padding:26px 16px;overflow-y:auto}
-  .overlay.on{display:flex}
-  .modal{background:#fff;max-width:820px;width:100%;border-radius:14px;box-shadow:0 20px 60px rgba(0,0,0,.3);overflow:hidden;animation:pop .16s ease}
-  @keyframes pop{from{transform:translateY(8px);opacity:.6}to{transform:none;opacity:1}}
-  .mclose{position:sticky;top:0;float:right;margin:10px 12px 0 0;z-index:5;background:var(--box);border:1px solid var(--boxln);border-radius:50%;width:30px;height:30px;font-size:17px;color:var(--navy);cursor:pointer;line-height:0}
-  .mclose:hover{background:#e5ebf3}
-  .cpad{padding:26px 30px 30px}
-  .c-over{font-size:9px;letter-spacing:2px;font-weight:700;color:var(--gold);text-transform:uppercase}
-  .c-h1{font-family:Georgia,serif;font-size:24px;font-weight:700;margin:6px 0 3px}
-  .c-sub{color:var(--mut);font-size:12px}
-  .c-sub b{color:var(--ink)}
-  .c-top{display:flex;flex-wrap:wrap;border:1px solid var(--boxln);border-radius:9px;margin:15px 0 4px;overflow:hidden}
-  .c-top .c{flex:1;min-width:33%;padding:10px 13px}
-  .c-top .c+.c{border-left:1px solid var(--boxln)}
-  .c-top .l{font-size:8.4px;letter-spacing:1.2px;text-transform:uppercase;color:var(--mut);font-weight:700;margin-bottom:3px}
-  .c-top .val{font-size:11.4px;color:var(--ink)}
-  .c-sec{display:flex;align-items:baseline;gap:10px;margin:20px 0 9px;padding-bottom:5px;border-bottom:2px solid var(--navy)}
-  .c-sec .t{font-size:11px;font-weight:800;letter-spacing:.7px;color:var(--navy);text-transform:uppercase}
-  .c-sec .f{margin-left:auto;font-size:8.6px;letter-spacing:.8px;color:var(--mut);text-transform:uppercase}
-  .card{border:1px solid var(--line);border-radius:10px;overflow:hidden}
-  .row{display:flex;border-top:1px solid var(--line)}
-  .row:first-child{border-top:none}
-  .row .k{width:30%;padding:10px 12px;background:var(--box);font-weight:700;color:var(--navy);font-size:10.6px}
-  .row .k .kk{display:block;font-size:8px;letter-spacing:.8px;color:var(--mut);font-weight:700;text-transform:uppercase;margin-top:3px}
-  .row .v{flex:1;padding:10px 13px;font-size:12px}
-  .item{margin:2px 0 6px;padding-left:19px;position:relative}
-  .item:last-child{margin-bottom:2px}
-  .item .n{position:absolute;left:0;top:0;color:var(--gold);font-weight:800}
-  .foco{color:var(--green);font-weight:800;font-size:9.6px;letter-spacing:.3px}
-  .fronteira{background:var(--box);border-left:3px solid var(--gold);border-radius:0 8px 8px 0;padding:10px 13px;margin:9px 0 2px;font-size:11.6px}
-  .fronteira b{color:var(--gold)}
-  .supremo{background:var(--dirbg);border-left:3px solid var(--gold);border-radius:0 8px 8px 0;padding:11px 14px;margin:16px 0 4px;font-size:12px}
-  .kpi{margin-top:11px}
-  .kpi .lab{display:flex;align-items:center;gap:8px;margin-bottom:5px;flex-wrap:wrap}
-  .kpi .lab .id{font-size:9.6px;font-weight:800;letter-spacing:1px;color:var(--navy);text-transform:uppercase}
-  .pill{font-size:8.2px;font-weight:800;letter-spacing:.6px;text-transform:uppercase;padding:2px 8px;border-radius:20px}
-  .p-res{background:var(--resbg);color:var(--res)} .p-ala{background:var(--alabg);color:var(--ala)} .p-grd{background:var(--grdbg);color:var(--grd)}
-  .proposta{display:inline-block;font-size:8.4px;font-weight:800;letter-spacing:.4px;text-transform:uppercase;color:var(--cri);background:var(--cribg);border:1px solid var(--criln);padding:2px 8px;border-radius:20px;margin-left:8px;vertical-align:middle}
-  .quem{font-size:11px;color:var(--mut);margin-top:4px}
-  .quem b{color:var(--ink)}
-  .c-foot{display:flex;margin-top:20px;padding-top:10px;border-top:1px solid var(--line);color:var(--mut);font-size:8.6px;letter-spacing:.7px;text-transform:uppercase}
-  .c-foot .r{margin-left:auto}
-
-  .pagefoot{max-width:1100px;margin:20px auto 0;padding-top:12px;border-top:1px solid var(--line);color:var(--mut);font-size:10px;letter-spacing:.5px;text-transform:uppercase;display:flex;flex-wrap:wrap;gap:8px}
-  .pagefoot .r{margin-left:auto}
-  @media(max-width:640px){.c-top .c{min-width:100%;border-left:none!important;border-top:1px solid var(--boxln)}.c-top .c:first-child{border-top:none}}
-  /* ===== Central de Governança · tema escuro + barra ===== */
-  body{ background:
-    radial-gradient(38% 38% at 14% 4%, rgba(90,162,255,.12), transparent 60%),
-    radial-gradient(38% 38% at 88% 3%, rgba(169,139,255,.10), transparent 60%),
-    linear-gradient(180deg,#070c16,#0a1322 55%,#070c16) !important;
-    background-attachment:fixed !important; padding-top:66px !important; }
-  .gv-top{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;gap:13px;
-    padding:11px 18px;background:rgba(8,13,22,.72);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
-    border-bottom:1px solid rgba(255,255,255,.08)}
-  .gv-back{display:inline-flex;align-items:center;gap:7px;text-decoration:none;font-family:ui-monospace,Menlo,Consolas,monospace;
-    font-size:12px;font-weight:600;letter-spacing:.6px;text-transform:uppercase;color:#eaf0f8;background:rgba(255,255,255,.06);
-    border:1px solid rgba(255,255,255,.15);padding:7px 14px;border-radius:22px;transition:.15s}
-  .gv-back:hover{background:rgba(255,255,255,.12);border-color:rgba(216,185,120,.55);color:#fff}
-  .gv-brand{display:flex;align-items:center;gap:9px;font-size:12.5px;color:#9fb0c6;min-width:0}
-  .gv-brand .cr{width:26px;height:26px;flex:none;border-radius:8px;display:flex;align-items:center;justify-content:center;
-    background:linear-gradient(160deg,#12233c,#0a1626);border:1px solid rgba(216,185,120,.35);color:#d8b978;font-family:Georgia,serif;font-weight:700;font-size:14px}
-  .gv-brand b{color:#eaf0f8;font-weight:700} .gv-brand .pg{color:#d8b978;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-  @media(max-width:600px){.gv-brand .sys{display:none}}
-  :root{ --ink:#eaf0f8; --navy:#8fb6ff; --gold:#d8b978; --mut:#9fb0c6; --line:rgba(255,255,255,.16);
-    --box:rgba(255,255,255,.06); --boxln:rgba(255,255,255,.14); --bg:#0a1322; --card:#0f1a2b; --dirbg:rgba(216,185,120,.14); }
-  .scroller .node{background:#0f1a2b}
-  .node.lvl-exec{background:rgba(255,255,255,.045)}
-  .modal{background:#0f1a2b!important}
-  .mclose{background:rgba(255,255,255,.08);color:#eaf0f8} .mclose:hover{background:rgba(255,255,255,.16)!important}
-  button.ctl{background:rgba(255,255,255,.06);color:#cfe0ff} button.ctl:hover{background:rgba(255,255,255,.12)!important;border-color:rgba(216,185,120,.4)}
-  .marca{background:rgba(255,255,255,.06);color:#9fb0c6;border-color:rgba(255,255,255,.14)}
-  .marca.aristo{background:rgba(216,185,120,.16)!important;color:#e8d2a0!important;border-color:rgba(216,185,120,.32)!important}
-  .marca.fish{background:rgba(90,162,255,.16)!important;color:#9cc4ff!important;border-color:rgba(90,162,255,.32)!important}
-  .p-res{background:rgba(216,185,120,.16)!important;color:#e8d2a0!important}
-  .p-ala{background:rgba(90,162,255,.16)!important;color:#9cc4ff!important}
-  .p-grd{background:rgba(255,255,255,.08)!important;color:#c3ccd8!important}
-  .cbadge.criar{background:rgba(216,185,120,.16);color:#e8d2a0;border-color:rgba(216,185,120,.3)}
-</style></head>
+footer{margin:56px 0 40px;padding-top:22px;border-top:1px solid var(--line2);
+  display:flex;flex-wrap:wrap;gap:8px 16px;justify-content:space-between;align-items:center;
+  font-size:11.5px;letter-spacing:.06em;color:var(--mut2);text-transform:uppercase}
+footer .v{color:var(--gold);font-weight:600}
+</style>
+</head>
 <body>
-<div class="gv-top">
-  <a class="gv-back" href="index.html">← Central</a>
-  <div class="gv-brand"><span class="cr">S</span><span class="sys"><b>Central de Governança</b> · </span><span class="pg">Organograma &amp; Cartões</span></div>
+
+<div class="topbar">
+  <div class="wrap row">
+    <a class="back" href="index.html">← Central</a>
+    <div class="brandmark">S</div>
+    <div class="crumb"><b>Central de Governança</b> <span class="hide">· Organograma &amp; Cartões</span></div>
+    <div class="spacer"></div>
+    <label class="searchbox">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+      <input id="q" type="text" placeholder="Buscar pessoa ou cargo…" autocomplete="off">
+    </label>
+  </div>
 </div>
+
 <div class="wrap">
-  <header>
-    <div class="over">Grupo Shrigma · Governança · Estrutura Organizacional</div>
-    <h1>Organograma do Grupo Shrigma</h1>
-    <div class="sub">A empresa em três diretorias. <b>Clique numa caixa</b> para abrir o <b>cartão de cargo</b> daquela cadeira. Use o <b>+</b> embaixo de cada líder para abrir o time.</div>
-  </header>
+  <section class="hero">
+    <p class="eyebrow">Grupo Shrigma · Governança · Estrutura Organizacional</p>
+    <h1 class="title">Organograma do <span class="accent">Grupo Shrigma</span></h1>
+    <p class="lead">Três diretorias — <b>Mateus</b>, <b>Felipe</b> e <b>João</b> — com a <b>Gestão de Projetos</b> (Viviane) e o <b>Administrativo</b> (Larissa) entre elas. <b>Clique em qualquer cadeira</b> para abrir o cartão de cargo — missão, escopo, matriz de alçadas e KPIs. Use o <b>+</b> abaixo de cada caixa para abrir o time.</p>
+  </section>
 
-  <div class="bar">
-    <span class="lgt">Diretorias</span>
-    <span class="lg"><span class="dot" style="background:var(--mateus)"></span>Mateus</span>
-    <span class="lg"><span class="dot" style="background:var(--felipe)"></span>Felipe</span>
-    <span class="lg"><span class="dot" style="background:var(--joao)"></span>João</span>
-    <span class="sep"></span>
-    <span class="lgt">Cartão</span>
-    <span class="lg"><span class="cbadge pronto" style="position:static">Pronto</span></span>
-    <span class="lg"><span class="cbadge criar" style="position:static">Rascunho</span></span>
-    <span class="btn">
-      <button class="ctl" onclick="expandAll(true)">Abrir todos os times</button>
-      <button class="ctl" onclick="expandAll(false)">Recolher</button>
-    </span>
+  <div class="controls">
+    <div class="legend">
+      <span class="legdot"><span class="cdot" style="background:var(--dir)"></span> Diretoria</span>
+      <span class="legdot"><span class="cdot" style="background:var(--lead)"></span> Líder</span>
+      <span class="legdot"><span class="cdot" style="background:var(--mem)"></span> Equipe</span>
+      <span class="legdot" style="opacity:.5">|</span>
+      <span class="legdot"><span class="chip ready">Cartão de Cargo</span> abre ao clicar</span>
+      <span class="legdot"><span class="chip soon">Sem cartão</span> ainda não recebido</span>
+    </div>
+    <div class="ctlspacer"></div>
+    <button class="btn" id="expandAll">Abrir todos os times</button>
+    <button class="btn" id="collapseAll">Recolher</button>
   </div>
-  <div class="hint">Todos os cargos já têm cartão. O selo <b>Pronto</b> é o cartão validado (o da Viviane); <b>Rascunho</b> é a proposta pronta para você e o Mateus revisarem. Os itens marcados <span style="color:var(--cri);font-weight:700">proposta</span> dentro do cartão são os que dependem dessa validação.</div>
+  <p class="note">Dentro de cada caixa: <b>Cartão de Cargo</b> = a ficha já abre ao clicar na cadeira. <b>Sem cartão de cargo</b> = a cadeira existe no organograma, mas o cartão ainda não foi recebido.</p>
 
-  <div class="scroller">
-    <div class="tree" id="tree"></div>
-  </div>
+  <div class="chartwrap"><div class="chart"><div class="tree" id="tree"></div></div></div>
 
-  <div class="pagefoot">
+  <footer>
     <span>Organograma + Cartões de Cargo · Grupo Shrigma — preparado por Viviane · Governança</span>
-    <span class="r">v2.0 · Agosto de 2026</span>
-  </div>
+    <span class="v">v3.5 · Setembro de 2026</span>
+  </footer>
 </div>
 
-<div class="overlay" id="overlay" onclick="if(event.target===this)closeCartao()">
-  <div class="modal">
-    <button class="mclose" onclick="closeCartao()">×</button>
-    <div class="cpad" id="cpad"></div>
+<div class="overlay" id="overlay"></div>
+<aside class="drawer" id="drawer" aria-hidden="true">
+  <div class="dr-head">
+    <button class="dr-close" id="drClose" aria-label="Fechar">✕</button>
+    <div class="dr-role" id="drRole"></div>
+    <div class="dr-name" id="drName"></div>
+    <div class="dr-sub" id="drSub"></div>
   </div>
-</div>
+  <div class="dr-body" id="drBody"></div>
+</aside>
 
 <script>
-/* =========================================================
-   CARTÕES DE CARGO  (deduplicados por CARGO, não por pessoa)
-   status:"pronto" = validado · "criar" = rascunho para revisar
-   Itens com proposta:true dependem de validação com Mateus/Ivan
-   ========================================================= */
-const CARGOS = {
+/* ============================ FICHAS DE CARGO ============================ */
+const F = {
+ b2b:{cargo:"Gestor de B2B", respondeA:"Diretor de Marca (Mateus)", area:"Atacado · Time de Vendedores", versao:"T18 · T6 · T11 v2.0 — jul/2026",
+  missao:"Construir e liderar uma rede de revendedores que recompra — receita recorrente de alta margem, feita pelo trabalho do time, não por desconto.",
+  escopo:["<b>Rede de revendedores</b> — onde crescer (cobertura regional, eventos, prospecção), quem entra pelos critérios e a saúde da rede.","<b>Time de vendas</b> — carteira, territórios, metas, coaching, produtividade e conflito de conta.","<b>Relação comercial com a rede</b> — condições, bonificações e exceções na política; guardião do MAP e da margem-piso.","<b>Sell-through</b> — apoio de PDV, treinamento e co-marketing pra rede girar; sell-in que não gira não conta como venda.","<b>Orçamento comercial do canal</b> — aloca eventos, amostras, kits e apoio à rede dentro do envelope aprovado."],
+  fronteira:"Não é dono de: preço de tabela, modelo de comissão e MAP / margem-piso (política comercial) · logística e expedição (Operações) · marketplace e varejo D2C.",
+  resultados:["Faturamento total do B2B ≥ R$ 250 mil no período, líquido de devoluções e cancelamentos (Bling).","≥ 75% dos vendedores batendo a meta individual de R$ 50 mil.","Qualidade do faturamento — sem sell-in de estoque parado, sem bonificação fora de 3–5%.","Rede girando e recomprando, sem ser puxada por desconto."],
+  n1:"Distribuir carteira/território e resolver conflito de conta · bonificação de 3–5% e exceções pontuais para o vendedor fechar · priorizar alocação de estoque escasso · onboardar revendedor e aprovar sell-through dentro do orçamento.",
+  n2:"Definir/ajustar metas do time e remanejar conta-chave · promover vendedor ou ajustar comissão na política · definir onde crescer a rede (eventos) · mix de kits · advertir/suspender revendedor por quebra de MAP.",
+  n3:"Contratar/desligar vendedor; mudar estrutura do time · mudar comissionamento ou plano de metas · compromisso anual com conta-chave; exclusividade · bonificação acima de 5% ou que fure MAP/margem-piso · aprovar revendedor fora dos critérios.",
+  reversibilidade:"Distribuir carteira, bonificar na faixa, onboardar e apoiar sell-through é reversível → rápido. Contratar/desligar, mudar comissão, exclusividade e furar MAP são caros de desfazer → N3.",
+  notas:"Bonificação à revenda = 3–5% (acima disso, N3). KPI supremo do canal: faturamento total do B2B, líquido de devoluções, puxado pelo trabalho do time — sem sell-in que não gira nem queima de preço.",
+  kpis:[{n:"Faturamento total do canal",t:"res",m:"≥ R$ 250 mil · lido semanalmente"},{n:"% do time de vendas na meta",t:"ala",m:"≥ 75% · % de vendedores em R$ 50 mil"}]},
 
-/* ---------- DIRETORIA ---------- */
-"dir-comercial":{status:"criar",ramo:"mateus",cargo:"Diretoria — Comercial, Performance e Criativo",frente:"Diretoria",respondeA:"Sociedade / Diretoria",
- missao:"Fazer o grupo crescer com performance — comandar aquisição (criativo e tráfego), venda (B2B e marketplace) e o motor administrativo-financeiro, com qualidade, números e pessoas em cada frente.",
- escopo:[
-  {t:"Aquisição & criativo",d:"O Aristocrata e Fishermans — criativo e performance."},
-  {t:"Vendas",d:"B2B (Leandro) e Marketplace (Uri)."},
-  {t:"Tráfego / mídia paga",d:"escala da aquisição (Pedro)."},
-  {t:"Administrativo & Financeiro",d:"a frente que sustenta o resto (Larissa)."},
-  {t:"Governança do time",d:"weeklys, 1:1 e metas das frentes comerciais."}],
- fronteira:"Não é dono da operação física (produção, despacho, supply — João) nem da marca/experiência/produto (Felipe). Dirige pelos 3 polos (qualidade, números, pessoas) — não executa.",
- supremo:"Crescimento com margem — faturamento e margem de contribuição das frentes comerciais.",
- alcadas:{n1:"Metas e prioridades das frentes comerciais; aprovar campanhas e verbas dentro do orçamento.",n2:"Ajustar estrutura do time comercial; redirecionar verba entre canais.",n3:"Mudar orçamento global; abrir/fechar canal ou marca; contratar/desligar liderança."},
- kpis:[
-  {nome:"Faturamento do grupo (frentes comerciais)",tipo:"res",meta:"a definir",freq:"mensal",proposta:true},
-  {nome:"Margem de contribuição",tipo:"res",meta:"a definir",freq:"mensal",proposta:true},
-  {nome:"Cadência de governança (weeklys/1:1 com ata)",tipo:"grd",meta:"100%",freq:"semanal"}],
- quem:"Mateus"},
+ creative:{cargo:"Creative Strategist", respondeA:"Diretor de Marca (Mateus)", area:"Criativo · Aristo + Fish", versao:"T18 v1.1 · T6 · T11 v2.1 — jul/2026",
+  missao:"Transformar leitura de público e de dados em criativos que conquistam clientes novos — e que o tráfego consegue escalar.",
+  escopo:["<b>Estratégia criativa da marca</b> — personas e ângulos a testar, ancorados no nível de consciência do público.","<b>Roadmap de testes</b> — o que entra na fila, em que ordem, e o critério de corte e escala de cada lote.","<b>Criação ponta a ponta</b> — briefa e dirige copy, edição, design e gravação; o que vai ao ar sai dela.","<b>Verba mensal de criação</b> — aloca entre UGC, gravações, atores e materiais dentro do envelope aprovado.","<b>Biblioteca de criativos</b> — repertório de ângulos, hooks e formatos da casa, mantido vivo pelo que performa.","<b>Co-input no sistema de escala</b> — alimenta a leitura criativa; a decisão de escala é do Gestor de Tráfego."],
+  fronteira:"Não é dona de: verba de mídia, compra de mídia e estrutura de campanha (Gestor de Tráfego) · preço, oferta e posicionamento — política de marca.",
+  resultados:["Cadência sustentada — criativos novos no ar toda semana, sem semana zerada no trimestre.","Portfólio de escaláveis crescendo — mais vencedores a cada período.","Receita de clientes novos vinda de criativo batendo o período anterior, na eficiência-alvo.","Sistema criativo que roda sem depender do gestor — padrões e biblioteca em 100% dos criativos novos."],
+  n1:"Aprovar briefing e liberar peça; aprovar/reprovar/mandar refazer · definir conceito (persona + ângulo + oferta) e prioridade da fila · matar conceito/persona/ângulo/hook que não performa · acionar ou dispensar criador e alocar filmagem + UGC até 5% do orçamento de ads.",
+  n2:"Mudar a aposta criativa do trimestre · mudar meta/cadência de produção · aprovar oferta nova que feche na margem · fechar criador recorrente dentro do envelope mensal.",
+  n3:"Desconto/preço/arquitetura de oferta que mexa na margem ou ROAS-alvo · peça com pessoa real que exija contrato ou cessão de imagem · mudança de posicionamento · filmagem/UGC acima de 5% do orçamento de ads.",
+  reversibilidade:"Testar e matar conceito, persona, ângulo, oferta ou formato é reversível → decide rápido (~70% da info). Preço, desconto, margem, imagem de pessoa real e posicionamento são caros de desfazer → N3.",
+  notas:"Teto de filmagem + UGC = 5% do orçamento de ads. Toda oferta nova modela a cascata de margem antes do ar (lição do caso PROCON). KPI supremo da empresa: margem de contribuição.",
+  kpis:[{n:"Criativos novos no ar / semana",t:"ala",m:"≥ meta · semanal"},{n:"Vencedores novos / semana + mês",t:"res",m:"bater o período anterior"},{n:"Receita de cliente novo (Meta) / sem + mês",t:"res",m:"bater o período anterior"},{n:"ROAS 7d-click, cliente novo",t:"res",m:"≥ média das últimas 4 semanas"},{n:"Frequência em cold (15d)",t:"gd",m:"< 4 · semanal"}]},
 
-"dir-marca":{status:"criar",ramo:"felipe",cargo:"Diretoria — Marca, Experiência e Produto",frente:"Diretoria",respondeA:"Sociedade / Diretoria",
- missao:"Cuidar da marca, da experiência do cliente e do produto — influência, atendimento, conteúdo orgânico, P&D e compras — para que percepção e experiência sustentem o crescimento.",
- escopo:[
-  {t:"Influência & afiliados",d:"parcerias que geram alcance e venda (Marcela)."},
-  {t:"Atendimento (CS/CX)",d:"Fishermans e O Aristocrata (Samuel)."},
-  {t:"Conteúdo orgânico",d:"as duas marcas (Julia e Julia R.)."},
-  {t:"Produto & compras",d:"P&D e compras/insumo de marca."},
-  {t:"Design de marca",d:"identidade e peças institucionais."}],
- fronteira:"Não é dono da aquisição paga/venda (Mateus) nem da operação física (João). Cuida da marca e da experiência, não do funil de performance.",
- supremo:"Saúde da marca e da experiência — reputação/CSAT e crescimento do orgânico.",
- alcadas:{n1:"Diretrizes de marca; prioridades de conteúdo e atendimento; parcerias dentro do orçamento.",n2:"Ajustar times de marca/CX; calendário de conteúdo.",n3:"Lançar produto novo; mudar posicionamento; orçamento global."},
- kpis:[
-  {nome:"CSAT / reputação do atendimento",tipo:"res",meta:"a definir",freq:"mensal",proposta:true},
-  {nome:"Crescimento do orgânico (alcance/engajamento)",tipo:"res",meta:"a definir",freq:"mensal",proposta:true},
-  {nome:"Parcerias/afiliados gerando receita",tipo:"ala",meta:"a definir",freq:"mensal",proposta:true}],
- quem:"Felipe"},
+ copy:{cargo:"Copywriter", respondeA:"Creative Strategist", area:"Criativo · Aristo + Fish", versao:"T5 — ago/2026",
+  missao:"Transformar o briefing e o ângulo aprovados em roteiros e textos que fazem o público parar, entender a oferta e agir.",
+  escopo:["Roteiro de vídeo (UGC, VSL, anúncio) dentro do ângulo e persona já definidos.","Copy de anúncio estático — headline, corpo e CTA para os testes da fila.","Adaptação de hooks validados para nova oferta, marca ou formato.","Copy de e-mail e legendas que sustentam a promessa do criativo.","Banco de hooks e copy da marca, atualizado pelo que performou."],
+  fronteira:"Não é dono de: definição do ângulo/persona estratégica (Creative Strategist) · aprovação de orçamento de produção · decisão de qual peça vai ao ar.",
+  resultados:["Cadência ≥ 30 vídeos/imagens upados/semana + 4 roteiros novos/semana.","Taxa de acerto subindo de ~9–11% para ≥ 12%.","Banco de hooks vivo — ≥ 1 hook vencedor por semana."],
+  n1:"Escrever/revisar roteiro e copy dentro do briefing e ângulo aprovados · escolher entre variações de headline/corpo/CTA · adaptar hook validado · propor hook novo dentro da persona (informa antes da fila).",
+  n2:"Sugerir mudança de tom ou de estrutura de copy para uma marca.",
+  n3:"Qualquer claim de resultado, comparação com concorrente ou promessa com risco jurídico/Procon · mudar a promessa central da oferta.",
+  reversibilidade:"Testar variação de copy/hook é reversível → decide rápido. Publicar claim, comparação ou atribuir fala a alguém é caro de desfazer → N3.",
+  kpis:[{n:"Taxa de acerto (roteiros/copies vencedores)",t:"res",m:"Piso 7% · Meta 11% · Excelente 15%"},{n:"CTR (imagem e vídeo)",t:"ala",m:"Piso 0,98% · Meta 1,5%"},{n:"Hook Rate de vídeo",t:"ala",m:"Piso 25% · Meta 36%"}]},
 
-"dir-operacoes":{status:"criar",ramo:"joao",cargo:"Diretoria — Operações",frente:"Diretoria",respondeA:"Sociedade / Diretoria",
- missao:"Garantir que o produto seja produzido, tenha insumo e chegue ao cliente no prazo e no custo — supply chain, produção e despacho com previsibilidade.",
- escopo:[
-  {t:"Supply chain & estoque",d:"comprar e ter insumo sem ruptura."},
-  {t:"Produção",d:"fazer no prazo, volume e padrão (Juliana)."},
-  {t:"Despacho / expedição",d:"entregar certo e no prazo das duas marcas (Alexandre)."},
-  {t:"Serviços & infra",d:"transporte e escritório."}],
- fronteira:"Não é dono do que vender ou de como comunicar (Mateus/Felipe). Dono de fazer, ter e entregar — não da demanda.",
- supremo:"Pedidos entregues no prazo com custo sob controle (OTIF).",
- alcadas:{n1:"Prioridade de produção/despacho; gestão de estoque e equipe operacional.",n2:"Ajustar turnos, fluxo e fornecedores dentro do orçamento.",n3:"Investimento em capacidade; troca estrutural de fornecedor; orçamento operacional."},
- kpis:[
-  {nome:"OTIF — pedidos entregues no prazo",tipo:"res",meta:"a definir",freq:"semanal",proposta:true},
-  {nome:"Ruptura de estoque",tipo:"grd",meta:"≤ meta",freq:"semanal",proposta:true},
-  {nome:"Custo / produtividade da produção",tipo:"ala",meta:"a definir",freq:"mensal",proposta:true}],
- quem:"João"},
+ designer:{cargo:"Designer", respondeA:"Creative Strategist", area:"Criativo · Aristo + Fish", versao:"T5 — ago/2026",
+  missao:"Transformar o roteiro e o briefing aprovados em peças visuais — estáticos, thumbnails, capas de UGC e motion básico — prontas para veicular, no padrão de cada marca.",
+  escopo:["Estático para anúncio (feed/stories) a partir do briefing aprovado.","Materiais gráficos de apoio — flyer, papelaria e peças institucionais.","Adaptação de formato — a mesma peça em feed, stories e outras proporções."],
+  fronteira:"Não é dono de: conceito criativo/ângulo (Creative Strategist) · identidade visual oficial da marca · vídeo/edição (Editor) · aprovação de orçamento ou escala.",
+  resultados:["Cadência ≥ 15 ads novos/semana, sem semana zerada.","Taxa de acerto de estático acima de 10% (hoje 12,35%).","Biblioteca de templates — ≥ 1 template novo/mês a partir de peça vencedora."],
+  n1:"Escolher composição, cores e tipografia do briefing aprovado · variações de formato · usar banco de imagens já licenciado.",
+  n2:"Propor um padrão visual novo, dentro da identidade já existente.",
+  n3:"Mudar elemento da identidade visual oficial (logo, paleta, tipografia) · comprar licença de imagem ou asset pago fora do banco.",
+  reversibilidade:"Testar variação de composição/cor é reversível → rápido. Mudar identidade oficial ou usar imagem de pessoa real sem aprovação é caro de desfazer → N3.",
+  kpis:[{n:"Peças que viraram vencedor",t:"res",m:"Piso 7% · Meta 11% · Excelente 15%"},{n:"CTR de imagem",t:"ala",m:"Piso 0,86% · Meta 1,2%"}]},
 
-/* ---------- GESTÃO · ramo Mateus ---------- */
-"gestor-b2b":{status:"criar",ramo:"mateus",cargo:"Gestor de B2B",frente:"Frente comercial · B2B",respondeA:"Mateus",
- missao:"Construir e liderar uma rede de revendedores que recompra — receita recorrente de alta margem, feita pelo time, não por desconto.",
- escopo:[
-  {t:"Rede de revendedores",d:"prospecção → ativação → recompra."},
-  {t:"Time de vendas",d:"rotina, meta e coaching dos vendedores."},
-  {t:"Funil",d:"leads e ligações (conversão, ciclo, custo)."},
-  {t:"Política comercial B2B",d:"dentro da margem definida."}],
- fronteira:"Não define preço/margem fora da política (N3) nem cuida do marketplace (Uri). Vende pelo time, não no lugar dele.",
- supremo:"Faturamento total do canal B2B.",
- alcadas:{n1:"Rotina e meta do time; abordagem comercial; priorização de carteira.",n2:"Ajustar script/política dentro da margem; remanejar carteira.",n3:"Mudar tabela de preço/margem; contratar/desligar vendedor."},
- kpis:[
-  {nome:"Faturamento total do canal",tipo:"res",meta:"≥ R$ 250 mil",freq:"semanal"},
-  {nome:"% do time de vendas na meta",tipo:"ala",meta:"≥ 75% batendo meta individual",freq:"semanal"},
-  {nome:"Recompra / receita recorrente",tipo:"res",meta:"a definir",freq:"mensal",proposta:true}],
- quem:"Leandro"},
+ editor:{cargo:"Editor de Vídeo", respondeA:"Creative Strategist", area:"Criativo · Aristo + Fish", versao:"T5 — ago/2026",
+  missao:"Transformar o roteiro e o material bruto em vídeo finalizado, pronto para veicular, mantendo o ritmo e o hook dos primeiros segundos.",
+  escopo:["Edição de UGC/depoimento — corte, ritmo e legendas a partir do roteiro aprovado.","Edição de anúncio (feed, stories, reels).","Edição de VSL e vídeo longo.","Legendagem e captions em todas as peças.","Curadoria da biblioteca de brutos e cortes, por marca."],
+  fronteira:"Não é dono de: roteiro e ângulo da peça (Creative Strategist e Copywriter) · aprovação de orçamento de gravação · decisão de qual peça vai ao ar.",
+  resultados:["Cadência ≥ 11 vídeos editados/semana, sem semana zerada.","Ratio Hold/Hook subindo da mediana de 24% para ≥ 27%.","Taxa de acerto de vídeo acima de 8% (hoje 8,27%)."],
+  n1:"Corte, ritmo, trilha licenciada e efeitos dentro do roteiro aprovado · ajustar legendas · escolher entre takes já gravados.",
+  n2:"Propor estilo/formato de edição novo (informa o CS) · recortar vídeo longo em cortes curtos não previstos.",
+  n3:"Alterar claim falado/escrito · usar imagem ou depoimento de pessoa real fora do autorizado · adicionar comparação com concorrente.",
+  reversibilidade:"Testar corte/ritmo é reversível → rápido. Alterar claim ou usar imagem de pessoa real fora do autorizado é caro de desfazer → N3.",
+  kpis:[{n:"Vídeos que viraram vencedor",t:"res",m:"Piso 7% · Meta 11% · Excelente 15%"},{n:"Ratio Hold/Hook",t:"ala",m:"Piso 18,4% · Meta 26%"}]},
 
-"estrategista-criativo":{status:"criar",ramo:"mateus",cargo:"Estrategista Criativo",frente:"Uma conta cada — Jorge (Fishermans) · Sabrina (O Aristocrata)",respondeA:"Mateus",
- missao:"Transformar leitura de público e de dados em criativos que conquistam clientes novos — e que o tráfego consegue escalar.",
- escopo:[
-  {t:"Estratégia criativa da conta",d:"ângulos, ofertas e linha."},
-  {t:"Time criativo",d:"copy, edição, design e filmmaker."},
-  {t:"Volume e acerto",d:"criativos novos/semana e vencedores."},
-  {t:"Leitura de dados",d:"aquisição, junto ao tráfego."}],
- fronteira:"Não gere a verba/tráfego (Pedro) nem o orgânico (conteúdo). Dono do criativo de aquisição, não da mídia.",
- supremo:"Receita de cliente novo puxada por criativo.",
- alcadas:{n1:"Linha criativa; priorização da fila; distribuição do time.",n2:"Testar novos formatos/ângulos; ajustar processo do time.",n3:"Mudar posicionamento da marca; orçamento de produção."},
- kpis:[
-  {nome:"Criativos novos no ar / semana",tipo:"ala",meta:"meta por conta",freq:"semanal"},
-  {nome:"Vencedores novos (semana + mês)",tipo:"res",meta:"bater o período anterior",freq:"semanal"},
-  {nome:"Receita de cliente novo",tipo:"res",meta:"bater o período anterior",freq:"semana + mês"},
-  {nome:"ROAS 7d-click de cliente novo",tipo:"res",meta:"≥ média das últimas 4 semanas",freq:"semanal"},
-  {nome:"Frequência em cold",tipo:"grd",meta:"< 4 em 15 dias",freq:"quinzenal"}],
- quem:"Jorge (Fishermans) e Sabrina (O Aristocrata) — mesmo cartão, uma conta cada."},
+ filmmaker:{cargo:"Filmmaker + Produtor Audiovisual", respondeA:"Creative Strategist", area:"Criativo · Aristo + Fish", versao:"SOP v1.0 · T6 · T11 — ago/2026",
+  missao:"Transformar roteiro aprovado em material bruto de qualidade — captado, organizado e entregue para o editor trabalhar sem retrabalho e com a empresa juridicamente resguardada.",
+  escopo:["Pré-produção e logística — agenda, casting, locações (Airbnb como padrão), compras cenográficas e catering.","Captação técnica — câmera, luz, áudio, enquadramento, Teleprompter; padrão S-log3 em cor natural.","Direção de set — condução do ator, ordem de gravação, planos e cenografia.","Integridade dos brutos — backup, diário de gravação (readme.txt), organização e transferência via SharePoint.","Segurança jurídica da captação — autorização de uso de imagem assinada antes de gravar.","Parque de equipamentos — compra, manutenção e listagem de danificados."],
+  fronteira:"Não é dono de: roteiro e hook (Copy) · edição final e aprovação da peça (Editor / Creative Strategist) · qualquer gasto sem consulta — teto atual R$ 0 (N3 até calibrar).",
+  resultados:["2 sessões/semana rodando, sem semana zerada no trimestre.","Zero captação sem autorização de uso de imagem registrada.","100% dos brutos com readme.txt e organização padrão.","Diária sem desperdício — TP e roteiros formatados antes do set."],
+  n1:"Setup de câmera/luz/áudio/enquadramento dentro do roteiro e locação · direção de cena, número de takes e variações · refazer takes na hora · teto de gasto R$ 0 (todo gasto é N3 até calibrar).",
+  n2:"Entregar o material bruto pro editor · adaptar a execução de uma cena no set (sinaliza pro copy) · sinalizar roteiro não gravável.",
+  n3:"Mudar hook/roteiro definido pelo copy · contratar/agendar ator, modelo, UGC ou locação paga (e qualquer gasto) · gravar pessoa real sem autorização · deixar entrar claim sensível não marcado.",
+  reversibilidade:"Refazer take no set é barato → decide rápido e sozinho. Gasto, imagem de pessoa real e claim sensível são caros de desfazer → N3.",
+  kpis:[{n:"Vídeos gravados por sessão",t:"ala",m:"10/dia · 2 sessões/semana"}]},
 
-"gestor-trafego":{status:"criar",ramo:"mateus",cargo:"Gestor de Tráfego",frente:"Frente de performance",respondeA:"Mateus",
- missao:"Escalar a aquisição paga com eficiência — transformar verba em cliente novo ao menor custo possível, sem furar os guardrails de frequência e margem.",
- escopo:[
-  {t:"Mídia paga",d:"Meta/Google das duas marcas."},
-  {t:"Estrutura de campanhas",d:"e distribuição da verba diária."},
-  {t:"Performance com criativos",d:"leitura junto aos estrategistas."},
-  {t:"Eficiência",d:"CAC e ROAS de aquisição."}],
- fronteira:"Não produz criativo (estrategistas) nem define a verba total (N3). Dono de como e onde o dinheiro roda, não de quanto existe.",
- supremo:"CAC de cliente novo na meta com volume crescente.",
- alcadas:{n1:"Estrutura de campanha; distribuição diária da verba; pausar/escalar.",n2:"Testar canais/estratégias de lance dentro do orçamento.",n3:"Mudar orçamento total de mídia; abrir canal novo."},
- kpis:[
-  {nome:"CAC de cliente novo",tipo:"res",meta:"na meta",freq:"semanal",proposta:true},
-  {nome:"ROAS de aquisição",tipo:"res",meta:"na meta",freq:"semanal",proposta:true},
-  {nome:"% da verba em criativos novos",tipo:"ala",meta:"na meta",freq:"semanal",proposta:true}],
- quem:"Pedro"},
+ trafego:{cargo:"Gestor de Tráfego", respondeA:"Diretor de Marca (Mateus)", area:"Mídia paga · todas as plataformas · Aristo + Fish", versao:"T18 v1.1 — jul/2026",
+  missao:"Decidir onde cada real de mídia senta — escalar o que segura a barra e cortar o que não segura, por marca — pra máxima receita de cliente novo com eficiência que protege a margem.",
+  escopo:["<b>Alocação de verba</b> — realoca, escala e corta dentro do orçamento do mês, sempre por marca.","<b>Estrutura de mídia</b> — contas, campanhas, conjuntos, lances, públicos e segmentação.","<b>Ciclo de vida do criativo no ar</b> — escala o vencedor, responde à fadiga; nenhum vencedor morre sem diagnóstico.","<b>Leitura de eficiência da aquisição</b> — audita o funil (receita de novo e eficiência blended) e a higiene de conta.","<b>Co-input no funil criativo</b> — devolve leitura de performance e fadiga; conceito e ângulo são do Creative."],
+  fronteira:"Não é dono de: conceito, ângulo e aprovação de peça (Creative Strategist) · orçamento mensal total, canal pago novo e estrutura de conta (direção) · preço, oferta e posicionamento.",
+  resultados:["Receita de cliente novo por marca batendo o período anterior.","Eficiência blended de aquisição (aMER) ≥ média das últimas 4 semanas, por marca.","Disciplina de alocação — spend acima da barra e em criativos novos dentro da banda o ano todo.","Painel que não mente — higiene de conta auditada e ritual de alocação com evidência toda semana."],
+  n1:"Realocar verba, criar conjunto e responder à fadiga → decide rápido.",
+  n2:"Ações táticas de alocação e resposta à conta dentro do orçamento aprovado.",
+  n3:"Estrutura de conta, orçamento mensal e canal pago novo → consulta antes.",
+  reversibilidade:"Realocar verba, criar conjunto e responder à fadiga é reversível → decide rápido. Estrutura de conta, orçamento e canal novo são caros de desfazer → N3.",
+  kpis:[{n:"Receita de cliente novo (por marca)",t:"res",m:"bater o período anterior"},{n:"aMER — eficiência blended",t:"res",m:"≥ média das últimas 4 semanas"},{n:"% do spend em criativos novos",t:"ala",m:"dentro da banda · por marca"}]},
 
-"gestor-marketplace":{status:"criar",ramo:"mateus",cargo:"Gestor de Marketplace",frente:"Frente comercial · Marketplace",respondeA:"Mateus",
- missao:"Crescer o marketplace como receita incremental de alta margem — sem furar paridade, sem derrubar reputação e sem aumentar a dependência de ads.",
- escopo:[
-  {t:"Canais de marketplace",d:"anúncios, preço e paridade."},
-  {t:"Margem do canal",d:"margem de contribuição (R$)."},
-  {t:"Estoque no Full",d:"cobertura 15–30 dias."},
-  {t:"Reputação & ads",d:"do canal."}],
- fronteira:"Não define preço fora da política nem cuida do B2B (Leandro). Dono do canal, não da política de preço global (N3).",
- supremo:"Margem de contribuição (R$) do canal.",
- alcadas:{n1:"Anúncios; preço dentro da política; gestão de estoque no Full.",n2:"Abrir/ajustar campanhas do canal; testar novos anúncios.",n3:"Furar paridade; mudar política de preço; abrir novo marketplace."},
- kpis:[
-  {nome:"Margem de contribuição do canal",tipo:"res",meta:"bater o período anterior",freq:"semanal"},
-  {nome:"TACOS do canal",tipo:"grd",meta:"≤ teto%, tendência de queda",freq:"semanal"},
-  {nome:"Cobertura de estoque no Full",tipo:"grd",meta:"15–30 dias",freq:"semanal"}],
- quem:"Uri"},
+ marketplace:{cargo:"Gestor de Marketplace", respondeA:"Diretor de Marca (Mateus)", area:"Marketplace · Canal Digital", versao:"T18 v1.0 · T6 · T11 v2.0 — jul/2026",
+  missao:"Crescer o marketplace como receita incremental de alta margem — sem furar a paridade, sem derrubar a reputação e sem aumentar a dependência de ads.",
+  escopo:["<b>Canal ponta a ponta</b> — sortimento listado, anúncios, conteúdo e presença da marca.","<b>Preço no canal dentro da paridade</b> — promoções, cupons, reprecificação e buy box (líquido ≥ preço do site).","<b>Estoque no Full</b> — cobertura, reposição e rebalanceio entre ruptura e encalhe.","<b>Ads do canal</b> — verba no orçamento do mês e campanhas por SKU.","<b>Reputação do canal</b> — rating, reclamações, cancelamentos e despacho no prazo."],
+  fronteira:"Não é dono de: preço do site e paridade (política) · abrir canal novo, exclusividade e liquidação relevante (direção) · logística e expedição próprias (Operações).",
+  resultados:["Margem de contribuição do canal (R$) batendo o período anterior — netando tudo.","TACOS ≤ teto com tendência de queda.","Cobertura do Full na faixa 15–30 dias sustentada.","Crescimento sem dano colateral — paridade SKU a SKU e reputação em pé."],
+  n1:"SKUs que listam/saem do sortimento aprovado · promoções, cupons e reprecificação na paridade · buy box e verba de ads no orçamento · cobertura do Full na faixa · resolver reclamações/cancelamentos.",
+  n2:"Ajustar mix de SKUs relevante · remanejar verba de ads / cortar campanha por ACOS · reposição emergencial no Full · reagir a mudança de algoritmo.",
+  n3:"Abrir canal novo ou exclusividade · furar paridade (vender abaixo do site) · liquidação relevante · ampliar orçamento de ads · contratar/desligar apoio dedicado.",
+  reversibilidade:"Sortimento, reprecificação na paridade, buy box, ads e reposição do Full são reversíveis → rápido. Abrir canal, furar paridade, liquidação e exclusividade são caros de desfazer → N3.",
+  notas:"Margem que esquece o custo do canal (comissão, tarifa do Full, frete subsidiado, gateway, impostos, ads) é fantasia. Furar paridade, mesmo temporário, é N3 — canibaliza o D2C.",
+  kpis:[{n:"Margem de contribuição do canal (R$)",t:"res",m:"bater o período anterior · semanal"},{n:"TACOS do canal",t:"res",m:"≤ teto · tendência ↓"},{n:"Cobertura de estoque no Full (dias)",t:"ala",m:"15–30 dias · semanal"}]},
 
-"diretora-administrativa":{status:"criar",ramo:"mateus",cargo:"Diretora Administrativa",frente:"Administrativo · Financeiro · RH",respondeA:"Mateus",
- missao:"Dar à empresa uma leitura confiável e no prazo da saúde financeira — e manter o administrativo (financeiro + RH) rodando sem ponto cego.",
- escopo:[
-  {t:"Financeiro",d:"fluxo de caixa, DRE, contas."},
-  {t:"Controladoria",d:"orçado vs realizado, margem."},
-  {t:"Administrativo & RH",d:"com a Ana M."},
-  {t:"Comunicação com o Mateus",d:"ritual fixo e bidirecional."}],
- fronteira:"Não define metas de negócio das áreas (só reporta) nem gasta fora do orçamento. Dona do número financeiro, não da decisão comercial.",
- supremo:"Saúde financeira lida no prazo — DRE e fluxo de caixa confiáveis e pontuais.",
- alcadas:{n1:"Rotina financeira; cobrança; organização do administrativo.",n2:"Ajustar processos financeiros; calendário de fechamento.",n3:"Política de crédito; investimentos; contratações."},
- kpis:[
-  {nome:"Fluxo de caixa / saldo projetado",tipo:"res",meta:"no prazo",freq:"quinzenal"},
-  {nome:"Margem / lucratividade (DRE)",tipo:"res",meta:"fechado no mês",freq:"mensal"},
-  {nome:"Inadimplência",tipo:"grd",meta:"≤ meta",freq:"mensal",proposta:true},
-  {nome:"Orçado vs realizado",tipo:"ala",meta:"dentro da faixa",freq:"mensal",proposta:true}],
- quem:"Larissa (Gabrielle no financeiro, Ana M. no RH)"},
+ projetos:{cargo:"Gestão de Projetos", respondeA:"Mateus", area:"Frente corporativa · Governança", versao:"T18 · T6 · T11 v1.0 — ago/2026",
+  missao:"Garantir que a operação do grupo rode nos padrões — reuniões, cronogramas, compromissos e processos acontecendo e sendo cumpridos —, conectando as pessoas certas e cobrando o que não anda.",
+  escopo:["<b>Governança & cadências</b> — dona do ritmo: weeklys, aplicação das atas, 1:1 dos diretores, compromissos cobrados.","<b>Processos & governança</b> — que SOPs e políticas existam, sejam seguidos e atualizados; painel de aderência.","<b>Indicadores & performance</b> — que cada área acompanhe seus KPIs no padrão e cumpra metas.","<b>Projetos com cronograma</b> — cronograma, pessoas conectadas, documentação e follow-up.","<b>Estruturação</b> — iniciativas que organizam a operação (rastreamento de tempo, cartões de cargo, dashboard)."],
+  fronteira:"Não é dona de: orçamento/custo dos projetos · os números de negócio das áreas (faturamento, ROAS, margem) · a execução das áreas (o \"como fazer\" é do líder).",
+  resultados:["100% das weeklys com ata e compromissos registrados e cobrados.","SOPs em uso e monitorados (painel), com os vermelhos tratados.","Projetos no prazo — lançamentos, campanhas e eventos entregues na data.","Cada área acompanhando seus KPIs de forma padronizada."],
+  n1:"Definir cadência e formato das reuniões/atas · auditar aderência a SOPs · montar cronogramas e conectar pessoas · cobrar compromissos · definir o padrão de rastreamento de tempo.",
+  n2:"Ajustar processos/SOPs entre áreas · propor e ajustar o painel e os indicadores · remanejar prazos de projeto.",
+  n3:"Mudar orçamento/custo de projeto · mexer em metas de negócio das áreas · contratar/desligar · mudar a estrutura de governança.",
+  reversibilidade:"Montar cronograma, marcar reuniões, auditar aderência e ajustar cadência são reversíveis → rápido. Orçamento, metas de negócio e estrutura são caros de desfazer → N3.",
+  notas:"Os números de negócio moram nas áreas — ela cobra que existam e sejam batidos, não os define. KPI supremo do cargo: taxa de compromissos cumpridos no prazo.",
+  kpis:[{n:"Compromissos cumpridos no prazo",t:"res",m:"≥ 90% · semanal"},{n:"Projetos com cronograma no prazo",t:"res",m:"≥ 85% · por projeto"},{n:"Aderência a padrões (SOPs / ata)",t:"ala",m:"≥ 90% · semanal"},{n:"Áreas acompanhando os próprios KPIs",t:"ala",m:"meta a definir · mensal"},{n:"Cadência de governança realizada",t:"gd",m:"100% · semanal"}]},
 
-"gestao-projetos":{status:"pronto",ramo:"mateus",cargo:"Gestão de Projetos",frente:"Frente corporativa · Governança",respondeA:"Mateus",
- missao:"Garantir que a operação do grupo rode nos padrões — que reuniões, cronogramas, compromissos e processos aconteçam e sejam cumpridos —, conectando as pessoas certas e cobrando o que não anda.",
- escopo:[
-  {t:"Governança & cadências",d:"weeklys, atas, 1:1 dos diretores, compromissos cobrados."},
-  {t:"Processos & governança",d:"que SOPs e processos existam, sejam seguidos e atualizados; painel de aderência.",foco:true},
-  {t:"Indicadores & performance",d:"que cada área acompanhe seus KPIs no padrão.",foco:true},
-  {t:"Projetos com cronograma",d:"cronograma, pessoas, documentação e follow-up."},
-  {t:"Estruturação",d:"rastreamento de tempo, cartões de cargo, dashboard."}],
- fronteira:"Não é dona do orçamento/custo dos projetos, dos números de negócio das áreas (faturamento, ROAS, margem) nem da execução das áreas (o “como fazer” é do líder).",
- supremo:"Taxa de compromissos cumpridos no prazo — o combinado acontece.",
- alcadas:{n1:"Cadência e formato de reuniões/atas; auditar aderência a SOPs; montar cronogramas; cobrar compromissos; padrão de rastreamento de tempo.",n2:"Ajustar processos/SOPs entre áreas; propor e ajustar o painel e indicadores; remanejar prazos dentro do escopo.",n3:"Mudar orçamento/custo de projeto; mexer em metas de negócio; contratar/desligar; mudar a estrutura de governança."},
- kpis:[
-  {nome:"Compromissos cumpridos no prazo",tipo:"res",meta:"≥ 90%",freq:"semanal"},
-  {nome:"Projetos com cronograma no prazo",tipo:"res",meta:"≥ 85%",freq:"por projeto"},
-  {nome:"Aderência a padrões (SOPs/ata) pelos líderes",tipo:"ala",meta:"≥ 90%",freq:"semanal",foco:"Processos & governança"},
-  {nome:"Áreas acompanhando os próprios KPIs no padrão",tipo:"ala",meta:"a definir",freq:"mensal",foco:"Indicadores & performance"},
-  {nome:"Cadência de governança realizada (com ata)",tipo:"grd",meta:"100%",freq:"semanal"}],
- quem:"Viviane"},
+ financeiro:{cargo:"Assistente Financeiro", respondeA:"Gestora Administrativa (Larissa)", area:"Administrativo · Financeiro", versao:"T5 v1.0 — jul/2026",
+  missao:"Garantir que todas as saídas de caixa do grupo sejam executadas com conferência, no prazo e registradas — para o financeiro operar sem erro, sem atraso e com rastreabilidade completa.",
+  escopo:["Conciliação de pós-venda (reembolsos, pedidos não encontrados, contestações).","Contas a pagar recorrentes (influencers, UGC, atores, comissões de vendedores).","Registro de saldos diários e lançamento de contas a pagar.","Conferência de recebimentos do atacado e geração de links de pagamento.","Cotações de frete."],
+  fronteira:"Não é dona de: consolidação/validação da DRE · mudança de metodologia financeira · pagamentos fora do orçamento ou sem histórico · concessão de desconto/condição comercial · reclassificação de meses fechados.",
+  resultados:["Zero reembolsos/pagamentos sem confirmação prévia no banco.","Saldos diários registrados sem lacunas no mês.","Comissões da semana conferidas sem atraso.","Contestações bancárias com documentação no prazo em 100% dos casos."],
+  n1:"Lançar contas a pagar com competência correta · reembolsos com ticket do Suporte · checar bancos e contestações · agenda de influencer/UGC · recebimentos do atacado · cotações de frete · links de pagamento · registrar saldos diários (Itaú, Pagar.me, Mercado Pago).",
+  n2:"Sinalizar divergência de classificação/competência · reportar contestações bancárias · informar andamento de reembolsos e pagamentos · apresentar cotações com recomendação · informar decisão de liberar/negar pedido ao Suporte.",
+  n3:"Pagamento/reembolso fora do orçamento ou sem histórico · reclassificar meses fechados · conceder condição/desconto de atacado · pagamento acima de R$ 100 mil a novo fornecedor · saída que estoure a projeção de caixa.",
+  reversibilidade:"Regra de ouro: qualquer saída de caixa não prevista e aprovada escala para a gestora antes de executar. Lançamentos na DRE, links de pagamento e reembolsos têm efeito externo e não se desfazem — confere antes.",
+  kpis:[{n:"Margem de Contribuição — CM3 % por marca",t:"res",m:"apura; gestora valida · mensal"},{n:"Lucro Líquido — DRE rateada",t:"res",m:"mensal"},{n:"LL/HC — Lucro por Head Count",t:"res",m:"mensal"},{n:"Runway — meses de caixa",t:"ala",m:"mínimo 3 meses"}]},
 
-/* ---------- GESTÃO · ramo Felipe ---------- */
-"gestao-influencia":{status:"criar",ramo:"felipe",cargo:"Gestão de Influência & Afiliados",frente:"Frente de marca",respondeA:"Felipe",
- missao:"Crescer a marca e a receita por meio de influenciadores e afiliados — parcerias que geram alcance qualificado e venda, com custo sob controle.",
- escopo:[
-  {t:"Estratégia de influência",d:"das duas marcas."},
-  {t:"Programa de afiliados",d:"recrutamento e ativação."},
-  {t:"Parcerias",d:"prospecção e negociação."},
-  {t:"Mensuração",d:"alcance → venda."}],
- fronteira:"Não gere mídia paga (Pedro) nem o orgânico próprio (conteúdo). Dona das parcerias externas, não da conta própria.",
- supremo:"Receita/alcance gerado por parcerias vs. investimento.",
- alcadas:{n1:"Escolha de parceiros; briefing; calendário de campanhas.",n2:"Negociar contrapartidas dentro do orçamento; testar formatos.",n3:"Contratos de longo prazo; orçamento total de influência."},
- kpis:[
-  {nome:"Receita atribuída a afiliados/influência",tipo:"res",meta:"a definir",freq:"mensal",proposta:true},
-  {nome:"Parcerias ativas no período",tipo:"ala",meta:"a definir",freq:"mensal",proposta:true},
-  {nome:"Custo por resultado (parceria)",tipo:"grd",meta:"≤ teto",freq:"mensal",proposta:true}],
- quem:"Marcela (com Manuela)"},
+ rh:{cargo:"Analista de RH & DP", respondeA:"Gestora Administrativa (Larissa)", area:"Administrativo · Gente", versao:"T5 v1.0 — jul/2026",
+  missao:"Garantir que o grupo tenha as pessoas certas contratadas, integradas e acompanhadas — com os processos de DP rodando sem erro e no prazo, para a operação nunca parar por falha de gente.",
+  escopo:["Admissão e desligamento CLT.","Controle e fechamento de ponto.","Fechamento de folha e interface com contabilidade.","Recrutamento e seleção.","Atestados e afastamentos.","Apuração e reporte dos KPIs de gente."],
+  fronteira:"Não é dona de: decisões finais de contratação/reprovação · cálculos de rescisão · acordos trabalhistas · ajustes de folha · políticas de benefícios.",
+  resultados:["Zero atrasos no pagamento de folha (até o 5º dia útil).","Admissão concluída sem retrabalho em 100% dos casos.","Nenhum candidato sem feedback no processo seletivo.","Linha de base dos 3 KPIs de gente reportada trimestralmente."],
+  n1:"Triar currículos · conduzir entrevistas de 1ª fase · feedback-padrão a reprovados · executar onboarding · manter planilhas e organogramas · lançar/conferir ponto · documentos de admissão · registrar férias/afastamentos · apurar KPIs.",
+  n2:"Reorganizar agenda que afete terceiros · sinalizar candidato fora do padrão · ajustar onboarding · reportar tendências dos KPIs e eNPS · regularizar inconsistência de ponto dentro da regra.",
+  n3:"Decisão final de contratação/reprovação · mudança de critério de vaga · reclamação/conflito · qualquer ajuste de folha · rescisão/acordo/advertência · dúvida trabalhista · exceção a política.",
+  reversibilidade:"Regra de ouro: risco legal, decisão sobre pessoas ou impacto no clima escala imediatamente para a gestora. Contato com candidato e dados à contabilidade têm efeito de marca/legal — conferir antes.",
+  kpis:[{n:"Rotatividade no período de experiência",t:"ala",m:"< 10% · por safra de 90 dias"},{n:"Turnover por setor",t:"res",m:"janela móvel de 12 meses"},{n:"eNPS — CLT e PJ",t:"res",m:"> 0 · resposta ≥ 60% · trimestral"}]},
 
-"cs-cx":{status:"criar",ramo:"felipe",cargo:"CS · CX (Atendimento)",frente:"Frente de experiência",respondeA:"Felipe",
- missao:"Garantir uma experiência de atendimento que resolve, retém e protege a reputação das duas marcas — pré e pós-venda.",
- escopo:[
-  {t:"Atendimento das duas marcas",d:"Fishermans e O Aristocrata, com líderes."},
-  {t:"Padrão & SLA",d:"tempo e qualidade de resposta."},
-  {t:"Reputação",d:"marketplaces e redes."},
-  {t:"Voz do cliente",d:"feedback → produto/operação."}],
- fronteira:"Não decide produto/estorno fora da política (escala) nem faz venda ativa. Dono da experiência de atendimento, não da política comercial.",
- supremo:"CSAT / reputação com SLA cumprido.",
- alcadas:{n1:"Rotina e escala; padrão de resposta; priorização.",n2:"Ajustar SLA/scripts; redistribuir times.",n3:"Política de estorno/troca; contratações."},
- kpis:[
-  {nome:"CSAT / nota de atendimento",tipo:"res",meta:"≥ meta",freq:"mensal",proposta:true},
-  {nome:"Tempo de 1ª resposta (SLA)",tipo:"grd",meta:"≤ meta",freq:"semanal",proposta:true},
-  {nome:"Reclamações resolvidas",tipo:"res",meta:"≥ meta",freq:"mensal",proposta:true}],
- quem:"Samuel (líderes: Maria — Fishermans; Vitória — O Aristocrata)"},
+ influencia:{cargo:"Gestora de Influência & Afiliados", respondeA:"Felipe (co-founder)", area:"Marca · O Aristocrata + Fishermans", versao:"T6 — jul/2026",
+  missao:"Trazer cliente rastreável mais barato que a mídia paga — afiliado com CPA travado abaixo da margem, influencer com venda rastreada + alcance que baixa o CAC combinado + UGC que alimenta o anúncio campeão.",
+  escopo:["Roster de creators e afiliados (prospecção → ativação → corte).","Programa de afiliados (regras, comissão, reposição).","Pipeline de influência (briefing → contrato padrão → compliance).","Ponte de UGC pro Creative.","Atribuição cupom + UTM das duas frentes."],
+  fronteira:"Não é dona da mídia paga (Creative) nem do atendimento ao cliente (CX / Samuel).",
+  resultados:["Baseline 90d das duas Receitas Rastreadas subindo por 2 trimestres.","ROI de influencers ≥ 3× sustentado no semestre.","Compliance de entrega ≥ 95% no fechamento de cada trimestre."],
+  n1:"Prospecção, seleção e contato no perfil e orçamento de permuta · kit/permuta no teto · parceria paga até R$ 1.500 · briefing de colab · aprovar afiliado no critério · testar e matar abordagem.",
+  n2:"Aposta de influência do período · parceria paga R$ 1.501–3.000 no envelope · mudar regras/comissão de afiliados (com registro) · contrato de colab no modelo padrão · alçada de entrada do time.",
+  n3:"Parceria paga R$ 3.001–10.000 ou fora do padrão · compromisso anual com plataforma · cessão de imagem com contrato · claim de saúde · ação que afete preço/posicionamento. Acima de R$ 10 mil: Felipe com Mateus e João.",
+  reversibilidade:"Contato, permuta e teste de criador são reversíveis → rápido. Contrato pago, compromisso longo e cessão de imagem são caros de desfazer → devagar.",
+  notas:"Permuta — Fishermans: 2 linhas; Aristocrata: 3 sabonetes. Comissão: Fishermans 15% · Aristocrata 22% (converge p/ 15%). Contrato sempre no modelo padrão antes de qualquer pagamento.",
+  kpis:[{n:"Receita Rastreada Afiliados",t:"res",m:"baseline 90d · tendência subindo"},{n:"ROAS Afiliados",t:"res",m:"estruturalmente positivo · mensal"},{n:"Afiliados Ativos / mês",t:"ala",m:"mínimo por marca + reposição"},{n:"Receita Rastreada Influencers",t:"res",m:"baseline 90d · tendência subindo"},{n:"ROI Influencers",t:"res",m:"≥ 3× saudável"},{n:"Compliance de Entrega",t:"ala",m:"≥ 95% · semanal"}]},
 
-"conteudo-organico":{status:"criar",ramo:"felipe",cargo:"Conteúdo Orgânico",frente:"Uma conta cada — Julia (Fishermans) · Julia R. (O Aristocrata)",respondeA:"Felipe",
- missao:"Crescer a marca no orgânico — construir audiência e engajamento que sustentam a aquisição e a percepção da marca.",
- escopo:[
-  {t:"Calendário & produção",d:"conteúdo orgânico da conta."},
-  {t:"Linha editorial",d:"formatos e tom da marca."},
-  {t:"Crescimento",d:"seguidores, alcance, engajamento."},
-  {t:"Comunidade",d:"relação com a audiência."}],
- fronteira:"Não gere mídia paga (Pedro) nem parcerias (Marcela). Dona da conta orgânica da marca.",
- supremo:"Crescimento e engajamento do orgânico da conta.",
- alcadas:{n1:"Pauta, calendário, formatos e publicação.",n2:"Testar novos formatos/linhas; ajustar frequência.",n3:"Mudar posicionamento da marca no orgânico."},
- kpis:[
-  {nome:"Crescimento de seguidores/alcance",tipo:"res",meta:"a definir",freq:"mensal",proposta:true},
-  {nome:"Engajamento médio",tipo:"ala",meta:"a definir",freq:"semanal",proposta:true},
-  {nome:"Volume publicado no calendário",tipo:"grd",meta:"100% do planejado",freq:"semanal",proposta:true}],
- quem:"Julia (Fishermans) e Julia R. (O Aristocrata) — mesmo cartão, uma conta cada."},
+ auxinfluencia:{cargo:"Auxiliar de Influência e Afiliados", respondeA:"Gestora de Influência (Marcela)", area:"Influência · Fishermans", versao:"T5 v1.0 — ago/2026",
+  missao:"Apoiar a execução operacional das ações de influência e afiliados da Fishermans — prospecção, contato, logística e acompanhamento de conteúdo dentro dos padrões, com autonomia crescente.",
+  escopo:["<b>Influenciadores</b> — prospecção e contato no nicho pesca/raiz/outdoor; envio de kit e logística; cobrança de entregas e confirmação de postagem.","<b>Afiliados</b> — aprovação no critério (1.000 seguidores mínimo); criação de cupom e link trackeado.","<b>Permuta</b> — regra padrão (até 2 linhas), sem validação prévia.","<b>Parcerias pagas</b> — apoio à negociação; fechamento validado com a Gestora."],
+  fronteira:"Parceria paga: fechamento sempre validado com a Gestora antes da confirmação final.",
+  resultados:["Compliance de entrega saudável (≥ 95%).","Afiliados ativos e prospecções alinhadas com a Gestora no primeiro ciclo."],
+  n1:"Prospecção e contato · envio de kit e logística · cobrança de prazos · aprovar afiliado no critério · cupom/link trackeado · permuta padrão (até 2 linhas).",
+  n2:"Parceria paga de qualquer valor (decide e informa depois) · encerrar contato com criador · testar nova abordagem de prospecção.",
+  n3:"Permuta fora do padrão · mudança de template de contrato · qualquer exceção às regras da matriz.",
+  reversibilidade:"Prospecção, contato e permuta padrão são reversíveis → decide sozinha. Fechamento pago passa pela Gestora.",
+  kpis:[{n:"Compliance de Entrega",t:"ala",m:"≥ 95% · semanal/mensal"},{n:"Afiliados Ativos cadastrados",t:"ala",m:"a definir com a Gestora"},{n:"Prospecções realizadas",t:"ala",m:"semanal"}]},
 
-/* ---------- GESTÃO · ramo João ---------- */
-"gerente-supply-chain":{status:"criar",ramo:"joao",cargo:"Gerente de Supply Chain",frente:"Operações · Suprimentos",respondeA:"João",
- missao:"Garantir insumo e estoque para produzir e vender sem ruptura e sem excesso — comprar certo, na hora certa, ao custo certo.",
- escopo:[
-  {t:"Estoque & reposição",d:"níveis e giro."},
-  {t:"Compras / fornecedores",d:"com o time de compras."},
-  {t:"Logística de entrada",d:"recebimento e endereçamento."},
-  {t:"Serviços & infra",d:"apoio ao escritório."}],
- fronteira:"Não decide o que produzir (produção/demanda) nem o mix de venda. Dono de ter o insumo, não da demanda.",
- supremo:"Ruptura zero com estoque enxuto.",
- alcadas:{n1:"Reposição; pedidos de compra dentro do orçamento; equipe de apoio.",n2:"Trocar/ajustar fornecedor dentro da política.",n3:"Contrato estrutural de fornecedor; investimento em estoque."},
- kpis:[
-  {nome:"Ruptura de estoque",tipo:"grd",meta:"≤ meta",freq:"semanal",proposta:true},
-  {nome:"Cobertura / giro de estoque",tipo:"res",meta:"na faixa",freq:"mensal",proposta:true},
-  {nome:"Custo de compra vs. orçado",tipo:"ala",meta:"≤ orçado",freq:"mensal",proposta:true}],
- quem:"Cadeira em aberto — a definir"},
+ cscx:{cargo:"Líder de CS / CX", respondeA:"Felipe (co-founder)", area:"Atendimento · O Aristocrata + Fishermans", versao:"T6 — jul/2026",
+  missao:"Segurar o cliente que custou caro para adquirir — resolução rápida e verdadeira que contém o custo, protege a reputação que sustenta a conversão do pago e devolve LTV.",
+  escopo:["Atendimento das duas marcas em todos os canais (Gleap, e-mail SAC, RA, WhatsApp crítico).","Políticas, macros e artigos de ajuda + alçada interna do time.","Leitura semanal de motivos com causa-raiz roteada à área dona.","Compensações com justificativa registrada no ClickUp.","Contestações e reversão de cancelamento."],
+  fronteira:"Não é dono da causa a montante — atraso/extravio é logística, defeito/expectativa é produto, promessa que não bate é copy/Creative; o CS roteia com evidência, não absorve.",
+  resultados:["CSAT ≥ 85–90% sustentado nas duas marcas.","RA nota ≥ 8,0, resposta 100% e resolução ≥ 90% — rumo ao selo RA1000.","Custo de Resolução estável ou caindo vs. baseline.","Zero compensação sem justificativa registrada."],
+  n1:"Gerir o time (métrica, tom, QA, cross-training) · desenhar processos/SOPs e ferramentas · ponto final do caso ambíguo · compensação dentro do padrão até reembolso total · PROCON de rotina.",
+  n2:"Exceção pontual de política (com registro) · mudar macro/SOP, SLA e régua de qualidade · definir alçada de entrada do time · resposta pública dentro da política.",
+  n3:"Mudar política de reembolso/compensação · mexer na estrutura do time (contratar/desligar/reporte) · caso com risco jurídico/imagem alto · compensação que afete a margem · bloquear cliente/acionar jurídico · compromisso anual com ferramenta.",
+  reversibilidade:"Gerir time, ajustar processo/macro, QA e compensar no padrão são reversíveis → rápido. Mudar política, estrutura, expor a marca ou criar precedente jurídico é caro de desfazer → N3.",
+  notas:"Régua de compensação: N1 retenção (cupom até 10%); N2 líder de marca (frete/parcial até 15%); N3 Samuel (acima de 15% ou total). Anti-abuso: 3+ bonificações em 90 dias sobem para N3.",
+  kpis:[{n:"Tempo de Resolução",t:"ala",m:"chat/WhatsApp no mesmo dia · e-mail < 24h"},{n:"CSAT",t:"res",m:"≥ 85–90% · semanal"},{n:"Custo de Resolução",t:"res",m:"estável ou caindo · mensal"},{n:"Índice Reclame Aqui",t:"res",m:"nota ≥ 8,0 · resposta 100%"}]},
 
-"encarregado-producao":{status:"criar",ramo:"joao",cargo:"Encarregada de Produção",frente:"Operações · Produção",respondeA:"João",
- missao:"Produzir no prazo, no volume e no padrão de qualidade — com a equipe de produção rodando de forma previsível.",
- escopo:[
-  {t:"Programação de produção",d:"do dia e da semana."},
-  {t:"Equipe",d:"mono, multi e finalização."},
-  {t:"Qualidade",d:"padrão do produto."},
-  {t:"Produtividade & perdas",d:"eficiência da linha."}],
- fronteira:"Não compra insumo (supply) nem despacha (Alexandre). Dona de fazer no padrão, não de ter ou entregar.",
- supremo:"Produção no prazo dentro do padrão de qualidade.",
- alcadas:{n1:"Programação diária; distribuição da equipe; padrão de qualidade.",n2:"Ajustar fluxo/turno dentro do plano.",n3:"Investimento em máquina/capacidade; contratação."},
- kpis:[
-  {nome:"Produção no prazo (plano cumprido)",tipo:"res",meta:"≥ meta",freq:"semanal",proposta:true},
-  {nome:"Perdas / retrabalho",tipo:"grd",meta:"≤ meta",freq:"semanal",proposta:true},
-  {nome:"Produtividade por pessoa",tipo:"ala",meta:"a definir",freq:"mensal",proposta:true}],
- quem:"Juliana"},
+ n2fish:{cargo:"N2 de Marca — Fishermans", respondeA:"Head de CX (Samuel)", area:"Atendimento · Fishermans", versao:"T5 — 03/09/2026",
+  missao:"Garantir que a experiência do cliente Fishermans se resolva dentro da marca, sem chegar à gestão, sendo referência técnica das N1 e dona dos processos da marca no dia a dia.",
+  escopo:["Demandas da marca — fila, casos que as N1 não resolvem, prioritários.","Auditoria de reembolsos — classifica e confere o pacote antes de subir.","Referência técnica das N1.","Rupturas de logística — território exclusivo Fishermans.","Ocorrências, métricas do chat (2x/dia) e Reclame Aqui.","Pedidos e NFs no Bling · recuperação de chargeback."],
+  fronteira:"Não é dona de: gestão de pessoas · reembolso total ou acima do teto da Régua N2 · resposta pública sensível no RA · alteração de política/SOP/macro · caso com risco jurídico · desfecho financeiro do chargeback.",
+  resultados:["Reembolso total (N3) como % dos casos ≤ meta.","Casos resolvidos sem escalonamento ao Head de CX ≥ meta.","100% dos pacotes ao Financeiro completos na 1ª tentativa.","Reputação Fishermans no RA mantida."],
+  n1:"Régua N1 (cupom/brinde/cortesia) · monitorar o chat e redistribuir a fila · tirar dúvida das N1 · priorizar caso urgente · conduzir rupturas · fechar tickets e ocorrências · executar os 5 passos do RA.",
+  n2:"Régua N2 (frete grátis/parcial até o teto, com checklist) · contestação de cartão · pedido não criado → Financeiro · criar/alterar pedido e NF no Bling · desfecho de ruptura · chargeback (monta pacote) · reportar métricas 2x/dia.",
+  n3:"Régua N3 (reembolso total/acima do teto) · resposta pública sensível no RA · mudar macro/SOP/política · caso com risco jurídico · cancelamento fora da rotina · compromisso que crie precedente.",
+  reversibilidade:"Reembolso, NF cancelada e resposta pública são irreversíveis → devagar, checklist item a item. Cupom, brinde e reenvio são reversíveis → rápido.",
+  notas:"Esta cadeira não gerencia pessoas — é referência técnica das N1. RA cobre as duas marcas quando a fila exige (combinar com a N2 de O Aristocrata).",
+  kpis:[{n:"Custo de compensação Fishermans",t:"res",m:"R$ concedidos ÷ receita · semanal"},{n:"% de casos resolvidos na Régua N1",t:"ala",m:"semanal"},{n:"Tempo médio de resolução da ruptura",t:"ala",m:"semanal"},{n:"Casos escalados ao Head de CX",t:"res",m:"volume · semanal"},{n:"Reclame Aqui Fishermans",t:"res",m:"resposta no prazo + solução"}]},
 
-"encarregado-despacho":{status:"criar",ramo:"joao",cargo:"Encarregado de Despacho",frente:"Operações · Expedição",respondeA:"João",
- missao:"Expedir os pedidos das duas marcas no prazo e sem erro — do pedido pronto à transportadora.",
- escopo:[
-  {t:"Despacho das duas marcas",d:"Fishermans e O Aristocrata, com líderes."},
-  {t:"Conferência & embalagem",d:"padrão de expedição."},
-  {t:"Prazo",d:"tempo de expedição."},
-  {t:"Erros de envio",d:"troca/extravio."}],
- fronteira:"Não produz (Juliana) nem atende o cliente (Samuel). Dono de entregar certo e no prazo.",
- supremo:"Pedidos expedidos no prazo sem erro.",
- alcadas:{n1:"Rotina e escala; priorização de pedidos.",n2:"Ajustar fluxo/transportadora dentro da política.",n3:"Troca estrutural de transportadora; investimento."},
- kpis:[
-  {nome:"Pedidos expedidos no prazo",tipo:"res",meta:"≥ meta",freq:"diário/semanal",proposta:true},
-  {nome:"Erros de envio (troca/extravio)",tipo:"grd",meta:"≤ meta",freq:"semanal",proposta:true},
-  {nome:"Custo de frete/expedição",tipo:"ala",meta:"≤ orçado",freq:"mensal",proposta:true}],
- quem:"Alexandre (líderes: Ketlyn — Fishermans; Thainara — O Aristocrata)"},
+ n2aristo:{cargo:"N2 de Marca — O Aristocrata", respondeA:"Head de CX (Samuel)", area:"Atendimento · O Aristocrata", versao:"T5 — 03/09/2026",
+  missao:"Garantir que a experiência do cliente O Aristocrata se resolva dentro da marca, sem chegar à gestão, sendo referência técnica das N1 e dona dos processos da marca no dia a dia.",
+  escopo:["Demandas da marca — fila, casos que as N1 não resolvem, prioritários.","Auditoria de reembolsos.","Referência técnica das N1.","Ocorrências, métricas do chat (2x/dia) e Reclame Aqui.","Pedidos e NFs no Bling.","Moderação de comentários — retaguarda, quando a fila da marca acumula."],
+  fronteira:"Não é dona de: rupturas de logística (exclusivo Fishermans) · gestão de pessoas · reembolso total ou acima do teto da Régua N2 · resposta pública sensível no RA · alteração de política/SOP/macro · caso com risco jurídico.",
+  resultados:["Reembolso total (N3) como % dos casos ≤ meta.","Casos resolvidos sem escalonamento ao Head de CX ≥ meta.","100% dos pacotes ao Financeiro completos na 1ª tentativa.","Reputação O Aristocrata no RA mantida."],
+  n1:"Régua N1 (cupom/brinde/cortesia) · monitorar o chat e redistribuir a fila · tirar dúvida das N1 · priorizar caso urgente · fechar tickets e ocorrências · executar os 5 passos do RA.",
+  n2:"Régua N2 (frete grátis/parcial até o teto, com checklist) · contestação de cartão · pedido não criado → Financeiro · criar/alterar pedido e NF no Bling · exceção pontual com registro · reportar métricas 2x/dia.",
+  n3:"Régua N3 (reembolso total/acima do teto) · resposta pública sensível no RA · mudar macro/SOP/política · caso com risco jurídico · cancelamento fora da rotina · compromisso que crie precedente.",
+  reversibilidade:"Reembolso, NF cancelada e resposta pública são irreversíveis → devagar, checklist item a item. Cupom, brinde e reenvio são reversíveis → rápido.",
+  notas:"Escopo idêntico ao da N2 Fishermans, exceto rupturas de logística e chargeback. Se O Aristocrata passar a ter ruptura recorrente, este é o campo que muda primeiro.",
+  kpis:[{n:"Custo de compensação O Aristocrata",t:"res",m:"R$ concedidos ÷ receita · semanal"},{n:"% de casos resolvidos na Régua N1",t:"ala",m:"semanal"},{n:"Casos escalados ao Head de CX",t:"res",m:"volume · semanal"},{n:"Reclame Aqui O Aristocrata",t:"res",m:"resposta no prazo + solução"}]},
 
-/* ---------- EXECUÇÃO (versão enxuta) ---------- */
-"vendedor-b2b":{status:"criar",ramo:"mateus",cargo:"Vendedor B2B",frente:"Time de vendas",respondeA:"Leandro (Gestor de B2B)",
- missao:"Vender e desenvolver a carteira de revendedores — gerar recompra de alta margem.",
- entregas:["Prospecção e ligações diárias","Fechamento e follow-up","Recompra da carteira","CRM atualizado"],
- fronteira:"Segue a política de preço/margem — não negocia fora dela.",
- kpis:[
-  {nome:"Meta individual de faturamento",tipo:"res",meta:"na meta",freq:"semanal",proposta:true},
-  {nome:"Ligações / dia",tipo:"ala",meta:"meta diária",freq:"diário",proposta:true},
-  {nome:"Ciclo de fechamento",tipo:"grd",meta:"≤ meta",freq:"mensal",proposta:true}],
- quem:"Juliano, Ede, Guilherme, Vinicius e +1"},
+ n1:{cargo:"N1 de Atendimento", respondeA:"Head de CX (Samuel) · ref. técnica: N2 da marca", area:"Atendimento · remanejável entre marcas", versao:"T5 — 03/09/2026",
+  missao:"Resolver o caso do cliente no primeiro contato, em qualquer canal, dentro das políticas — para que só chegue à N2 o que realmente precisa dela.",
+  escopo:["Atendimento multicanal — chat, e-mail e comentários/DM.","Registro no ClickUp — todo atendimento vira ticket. Atendimento sem registro não aconteceu.","Aplicação das políticas e SOPs, sem inventar exceção.","Triagem e encaminhamento com informação completa.","Régua Nível 1 — cupom, brinde e cortesia como primeira tentativa."],
+  fronteira:"Não é dono de: reembolso parcial/total · resposta pública no RA · criar/alterar pedido e NF no Bling · exceção que crie precedente · risco jurídico · definição de política/macro/SOP.",
+  resultados:["% de casos resolvidos no 1º contato ≥ meta.","% resolvidos na Régua N1 sem virar compensação ≥ meta.","100% dos atendimentos registrados e classificados no ClickUp.","Escalonamentos à N2 com pacote completo."],
+  n1:"Responder em qualquer canal dentro de política/SOP · Régua N1 (cupom/brinde) · classificar/registrar/encerrar ticket · reenviar rastreio, 2ª via de NF · priorizar a própria fila · chamar comentário público para o privado.",
+  n2:"Escalar à N2 o caso que sai do SOP (com pacote montado) · sinalizar caso com potencial crítico · exceção pontual de tom/prazo (com registro) · reportar padrão da fila.",
+  n3:"Régua N2 e N3 · resposta pública no RA · promessa fora da política · criar/alterar pedido e NF · risco jurídico (escala direto) · reincidência/suspeita de abuso.",
+  reversibilidade:"Mensagem enviada e resposta publicada são irreversíveis — reler antes de enviar. Classificação de ticket e escolha de canal são reversíveis → rápido.",
+  notas:"Na dúvida entre escalar e resolver, escale. O erro barato é escalar demais; o caro é prometer o que a empresa não vai cumprir. Cadeira portátil entre marcas — muda catálogo, prazo e tom, não a alçada.",
+  kpis:[{n:"% de casos resolvidos no 1º contato",t:"res",m:"semanal"},{n:"% resolvidos na Régua N1",t:"ala",m:"semanal"},{n:"Tempo de 1ª resposta no canal",t:"ala",m:"diário"},{n:"Escalonamentos devolvidos por falta de info",t:"res",m:"semanal"}]},
 
-"copywriter":{status:"criar",ramo:"mateus",cargo:"Copywriter",frente:"Time criativo",respondeA:"Estrategista Criativo da conta",
- missao:"Escrever criativos e textos que convertem, dentro da linha da conta.",
- entregas:["Roteiros e copies de criativos","Ganchos e variações para teste","Textos de campanha","Volume da fila criativa"],
- fronteira:"Segue a estratégia do Estrategista Criativo; não define verba/mídia.",
- kpis:[
-  {nome:"Volume de copies entregues",tipo:"ala",meta:"meta da fila",freq:"semanal",proposta:true},
-  {nome:"Copies em criativos vencedores",tipo:"res",meta:"a definir",freq:"mensal",proposta:true}],
- quem:"Diulia (Fishermans), Paulo (O Aristocrata)"},
+ operacional:{cargo:"Operacional de Suporte", respondeA:"Head de CX (Samuel)", area:"Back-office de Suporte · em transição p/ Sistemas", versao:"T5 — 03/09/2026",
+  missao:"Fazer o back-office do Suporte funcionar — que nenhum caso trave por pedido, nota fiscal ou transportadora — para o atendimento resolver sem depender da gestão.",
+  escopo:["Lista Operacional no ClickUp — dono da fila das duas marcas.","Pedidos e NFs no Bling — criar, editar, refazer NF rejeitada, cancelar, devolução.","Transportadoras — abrir, acompanhar e conduzir até o desfecho.","Checkout diário de pedidos (manhã e tarde).","Fechamento por e-mail no encerramento do ticket.","Manutenção dos SOPs operacionais e capacitação das N2 em Bling."],
+  fronteira:"Não é dono de: compensação ao cliente (régua é do atendimento) · resposta pública no RA · gestão de pessoas · política e alçada · decisões do setor de Sistemas.",
+  resultados:["Fila Operacional sem ticket parado além do SLA.","NF rejeitada refeita dentro do prazo.","Zero pedido perdido no checkout diário — conferência em 100% dos dias úteis.","SOPs operacionais revisados e vigentes."],
+  n1:"Conduzir/encerrar tickets Operacional · criar/editar/recriar pedido e NF · refazer NF rejeitada · abrir/acompanhar transportadora · conferência de checkout · e-mail de encerramento · priorizar a própria fila.",
+  n2:"Cancelamento/devolução dentro da rotina · escalar transportadora quando o prazo estoura · apontar SOP desatualizado · capacitar as N2 em Bling · apoio operacional a caso de RA.",
+  n3:"Cancelar NF/pedido fora da rotina · qualquer valor devolvido ao cliente · mudar SOP/fluxo/automação (propõe, não publica) · risco jurídico · compromisso com transportadora/fornecedor com custo · mover escopo Suporte↔Sistemas.",
+  reversibilidade:"NF cancelada, pedido cancelado e e-mail enviado são irreversíveis — confere antes. Abrir chamado e editar pedido não faturado são reversíveis → rápido.",
+  notas:"Cadeira em transição gradual para o setor de Sistemas (30–45 dias). Cada território transferido sai do cartão numa revisão — não deixar escopo órfão.",
+  kpis:[{n:"Idade média do ticket Operacional",t:"res",m:"semanal"},{n:"NFs rejeitadas e tempo de refazimento",t:"ala",m:"semanal"},{n:"Conferência de checkout (manhã/tarde)",t:"ala",m:"100% dos dias úteis"},{n:"Casos de transportadora resolvidos",t:"res",m:"semanal"},{n:"SOPs operacionais vigentes",t:"ala",m:"100% · mensal"}]},
 
-"editor-video":{status:"criar",ramo:"mateus",cargo:"Editor de Vídeo",frente:"Time criativo",respondeA:"Estrategista Criativo da conta",
- missao:"Editar vídeos e criativos no padrão e no volume da conta.",
- entregas:["Edição de criativos de aquisição","Variações para teste","Ajustes rápidos","Padrão visual da marca"],
- fronteira:"Segue o briefing do estrategista; não define pauta.",
- kpis:[
-  {nome:"Volume de edições entregues",tipo:"ala",meta:"meta da fila",freq:"semanal",proposta:true},
-  {nome:"Tempo de entrega por peça",tipo:"grd",meta:"≤ meta",freq:"semanal",proposta:true}],
- quem:"Maria (Fishermans); Yasmin, Gustavo e Felipe (O Aristocrata)"},
+ moderacao:{cargo:"Atendimento Prioritário e Moderação", respondeA:"Head de CX (Samuel)", area:"Grupo · as duas marcas", versao:"T5 — 03/09/2026",
+  missao:"Ser o canal rápido da empresa — para o cliente que não pode esperar a fila normal e para o comentário público que não pode ficar sem resposta.",
+  escopo:["Chat como primeiro canal de resposta rápida.","Casos prioritários e críticos (WhatsApp prioritário).","Moderação de comentários (Meta Business Suite e Replient) — 1ª opção, nas duas marcas.","Redação de respostas de tickets operacionais.","E-mail — triagem das caixas contatos@.","Apoio a levantamentos da gestão."],
+  fronteira:"Não é dono de: reembolso acima da Régua N1 · resposta pública no RA (N2/gestão) · criar/alterar pedido e NF · gestão de pessoas · definição de quem é caso crítico (a gestão classifica).",
+  resultados:["Tempo até 1º contato em caso prioritário ≤ meta.","Comentários públicos sem resposta ao fim do dia = zero, nas duas marcas.","% de prioritários com desfecho sem virar reclamação pública ≥ meta.","Caixas contatos@ organizadas."],
+  n1:"Atender/conduzir o chat · contato ativo no WhatsApp prioritário (caso já classificado) · moderar comentário · Régua N1 · redigir resposta de ticket operacional · triar as caixas contatos@.",
+  n2:"Priorizar caso ainda não classificado quando o risco é evidente (informa no dia) · escalar comentário que sai da política · exceção pontual no chat · devolver a moderação à N2 quando o prioritário aperta · reportar o humor do cliente.",
+  n3:"Régua N2/N3 · resposta pública sensível · Reclame Aqui (encaminha à N2) · mudar macro/tom/política de moderação · risco jurídico · prometer prazo/reenvio/troca que dependa de operação.",
+  reversibilidade:"Comentário publicado e mensagem pelo WhatsApp da empresa são irreversíveis → devagar. Ocultar spam e chamar para o privado são reversíveis → rápido.",
+  notas:"A tensão central: moderação e caso prioritário disputam a mesma hora. A cadeira tem a alçada de devolver a moderação à N2 quando o prioritário aperta, sem pedir. Velocidade é o valor da cadeira, não a autonomia financeira.",
+  kpis:[{n:"Tempo até 1º contato em caso prioritário",t:"ala",m:"diário"},{n:"Comentários públicos sem resposta ao fim do dia",t:"res",m:"zero · diário"},{n:"Prioritários que viraram reclamação pública",t:"res",m:"semanal"},{n:"Tickets operacionais redigidos no prazo",t:"ala",m:"diário"}]},
 
-"designer":{status:"criar",ramo:"mateus",cargo:"Designer",frente:"Time criativo / Marca",respondeA:"Estrategista Criativo (ou Diretoria de Marca)",
- missao:"Criar peças visuais (estáticos, stories, storymaker) no padrão da marca.",
- entregas:["Criativos estáticos e stories","Materiais de marca","Variações para teste","Padrão visual"],
- fronteira:"Segue a linha criativa/marca; não define estratégia.",
- kpis:[
-  {nome:"Volume de peças entregues",tipo:"ala",meta:"meta da fila",freq:"semanal",proposta:true},
-  {nome:"Peças em campanhas vencedoras",tipo:"res",meta:"a definir",freq:"mensal",proposta:true}],
- quem:"Tirzah (Fishermans); Mariana (storymaker) e Cesar (O Aristocrata); Welington (marca)"},
+ pd_briefing:{cargo:"Briefing & Direcionamento de Produto", respondeA:"Felipe (Diretor)", area:"P&D / Novos Produtos", versao:"T5 v1.0 — ago/2026",
+  missao:"Dar o direcionamento que transforma ideia em produto: briefing claro para o Wellington finalizar a arte e para a Brendha buscar o fornecedor certo — sem retrabalho em nenhuma das pontas.",
+  escopo:["Briefing de produto novo em duas pontas — arte (Wellington) e técnico-comercial (Brendha).","Pré-design com IA até o mais próximo da finalização.","Handoff ao Wellington com o direcionamento final da arte.","Criação e controle dos EANs de todos os SKUs novos."],
+  fronteira:"Não é dela: arte final, faca e 3D (Wellington) · contato técnico com gráficas (Wellington) · negociação e compra (Brendha) · aprovar arte para produção e definir o pipeline (Felipe).",
+  resultados:["Linha Polpa lançada com as 4 artes direcionadas e aprovadas.","Esteira de produtos novos girando — nenhum SKU parado por falta de direcionamento.","100% dos SKUs novos com EAN criado antes do pedido de compra."],
+  n1:"Direção criativa e iterações com IA dentro do briefing · referências e moodboards · ordem da própria fila · criação de EAN de SKU aprovado.",
+  n2:"Enviar arte com direcionamento final ao Wellington e briefing à Brendha (registra no canal) · ajuste pós-feedback que não altera claim/custo · pausar peça para destravar prioritária.",
+  n3:"Nome de produto · qualquer claim de rótulo/embalagem · mudança de formato/material/tamanho que altere custo · incluir/tirar SKU do pipeline · qualquer gasto ou ferramenta nova (teto R$ 0).",
+  reversibilidade:"Tudo que é digital é reversível → decide rápido. Arte liberada para faca ou lote impresso é irreversível — passa pelo Felipe, e a liberação técnica é do Wellington.",
+  kpis:[{n:"Rodadas por Peça",t:"res",m:"≤ 1,5 rodada por peça aprovada"},{n:"Esteira da Semana",t:"ala",m:"≥ 90% do planejado"},{n:"Ciclo do SKU Completo",t:"res",m:"baseline 60 dias · quinzenal"}]},
 
-"filmmaker":{status:"criar",ramo:"mateus",cargo:"Filmmaker",frente:"Time criativo",respondeA:"Estrategista Criativo da conta",
- missao:"Captar e produzir vídeo para os criativos e a marca.",
- entregas:["Captação de vídeo","Bruto organizado para edição","Produção de gravações"],
- fronteira:"Segue o briefing/estratégia; não faz a edição final.",
- kpis:[{nome:"Gravações entregues no prazo",tipo:"ala",meta:"meta",freq:"semanal",proposta:true}],
- quem:"Fernando (Fishermans)"},
+ compras:{cargo:"Analista de Compras · Novos Produtos", respondeA:"Felipe (Diretor)", area:"P&D / Novos Produtos", versao:"T5 v1.0 — ago/2026",
+  missao:"Fazer as novas compras fluírem: do briefing ao pedido fechado e recebido, no melhor custo e prazo que o mercado dá.",
+  escopo:["Prospecção e cotação para SKU novo — mínimo 3 cotações documentadas + comparativo.","Negociação de preço, prazo, pagamento e MOQ.","Amostras — solicitar, acompanhar e garantir o abatimento no pedido final.","Acompanhamento da 1ª compra até o recebimento conferido."],
+  fronteira:"Não é dela: specs e direcionamento (Nicole/Felipe) · ajuste técnico de embalagem (Wellington) · recompra e reposição (João) · fechar fornecedor e assinar 1ª compra sozinha (N3).",
+  resultados:["Fornecedor da linha Polpa fechado e 1ª entrega encaminhada.","Funil de novas compras girando toda semana — nenhum SKU parado.","Toda amostra do período abatida do pedido final."],
+  n1:"Prospectar, cotar e descartar fornecedor fora da spec · follow-ups e cobrança de prazo · negociar qualquer melhoria (preço/prazo/MOQ) · pedir amostra com abatimento já combinado.",
+  n2:"Amostra paga sem abatimento (quando não cedem, com justificativa) · ajuste de cronograma que não ameaça o lançamento · agrupar amostras num mesmo envio.",
+  n3:"Fechar fornecedor e assinar 1ª compra de SKU novo (toda PO nova passa pelo Felipe) · pagamento antecipado/sinal · mudança de spec/material/MOQ que altere custo · cronograma que ameace lançamento.",
+  reversibilidade:"Cotar e negociar é reversível → rápido. Pedido assinado ou sinal pago é caro de desfazer — conferir a proposta final contra o briefing da Nicole, item a item.",
+  notas:"Regra de ouro da amostra: sempre abatida do pedido final, negociada por escrito antes de pagar. Saving se mede contra a melhor cotação inicial documentada.",
+  kpis:[{n:"Funil no Prazo",t:"ala",m:"≥ 90% dos SKUs no prazo do marco"},{n:"Saving de Negociação",t:"res",m:"≥ 5% abaixo da melhor cotação"}]},
 
-"assistente-financeiro":{status:"criar",ramo:"mateus",cargo:"Assistente Financeiro",frente:"Financeiro",respondeA:"Larissa (Diretora Administrativa)",
- missao:"Sustentar a rotina financeira — contas, conciliação e organização — para o fechamento sair no prazo.",
- entregas:["Contas a pagar/receber","Conciliação bancária","Apoio ao DRE/fechamento","Cobrança"],
- fronteira:"Segue a política financeira; não aprova pagamento fora da alçada.",
- kpis:[
-  {nome:"Contas em dia (sem atraso)",tipo:"grd",meta:"100%",freq:"semanal",proposta:true},
-  {nome:"Fechamento no prazo",tipo:"res",meta:"no prazo",freq:"mensal",proposta:true}],
- quem:"Gabrielle"},
+ pd_design:{cargo:"Designer de Produto & Embalagem", respondeA:"Felipe (Diretor) · recebe direcionamento da Nicole", area:"P&D / Novos Produtos · regime por projetos (até 4/mês)", versao:"T5 v1.0 — ago/2026",
+  missao:"Transformar o direcionamento da Nicole em arte final pronta para rodar — com qualidade, velocidade e o olho técnico de quem conhece gráfica.",
+  escopo:["Arte final, faca e simulação 3D a partir do briefing da Nicole.","Contato técnico direto com gráficas e fornecedores de embalagem (nacionais ou chineses).","Propostas de melhoria de embalagem — material, acabamento, cor, custo.","Guarda e versionamento dos arquivos finais de cada SKU."],
+  fronteira:"Não é dele: conceito e direcionamento do produto (Nicole/Felipe) · negociação comercial (Brendha) · aprovar arte para produção (Felipe).",
+  resultados:["Artes da linha Polpa aprovadas pela gráfica sem retrabalho técnico.","A fila do design nunca é o gargalo do funil de novos produtos.","≥ 2 propostas de melhoria de embalagem apresentadas."],
+  n1:"Decisão técnica de finalização (arquivo, perfil de cor, sangria, faca) · interlocução técnica com a gráfica na spec · ordem da própria fila.",
+  n2:"Ajuste técnico que muda levemente o visual sem mudar conceito/claim/custo · proposta de melhoria de embalagem com estimativa de impacto.",
+  n3:"Qualquer mudança que altere custo/material/formato/claim · liberar arquivo final para produção (só com aval do Felipe) · compromisso com gráfica que gere custo/prazo · projeto extra além dos 4 do mês.",
+  reversibilidade:"Arquivo é reversível — itera rápido. Arquivo liberado à gráfica e lote rodado são irreversíveis — conferência final (texto, EAN, claim, faca) antes de toda liberação.",
+  kpis:[{n:"Entrega no Prazo",t:"ala",m:"≥ 90% · semanal"},{n:"Aprovação de Primeira",t:"res",m:"≥ 80% das peças aceitas de primeira"}]},
 
-"analista-rh":{status:"criar",ramo:"mateus",cargo:"Analista de RH",frente:"Administrativo · RH",respondeA:"Larissa (Diretora Administrativa)",
- missao:"Cuidar das pessoas no operacional de RH — admissão, rotina e clima — dando base ao administrativo.",
- entregas:["Admissão/desligamento e documentação","Folha e benefícios (apoio)","Rotina de RH","Apoio ao clima"],
- fronteira:"Segue a política de RH; decisões de contratação são da liderança.",
- kpis:[
-  {nome:"Processos de RH no prazo",tipo:"grd",meta:"no prazo",freq:"mensal",proposta:true},
-  {nome:"Turnover",tipo:"res",meta:"≤ meta",freq:"mensal",proposta:true}],
- quem:"Ana M."},
+ encdespacho:{cargo:"Encarregado de Despacho", respondeA:"Operações · Supply Chain (João)", area:"Despacho · Fishermans + O Aristocrata", versao:"T5 v1.0 — set/2026",
+  missao:"Garantir que todos os pedidos das equipes de despacho sejam separados, embalados e expedidos dentro dos SLAs de cada canal, com qualidade, organização e comunicação proativa.",
+  escopo:["<b>Gestão das ondas</b> — 1ª onda (marketplace, cutoff 10h) e 2ª onda (Shopify), com gaiolas prontas até 15h.","<b>Supervisão operacional</b> — picking, conferência, embalagem e etiquetagem das equipes Sabonete e Linhas.","<b>FIFO e qualidade</b> — saída dos lotes mais antigos primeiro nos cosméticos O Aristocrata (validade).","<b>Rupturas</b> — identifica e reporta antes que impactem o SLA do dia.","<b>Reporte diário</b> — volume, SLAs, rupturas e ocorrências ao Gerente até 17:30h."],
+  fronteira:"Não é dono de: notas fiscais e sistema Bling (Allan / Cadu) · definição de processo sem aprovação do Gerente · tratamento de devoluções (Eq. Flex e Allan).",
+  resultados:["SLA de marketplace ≥ 95% dos pedidos no prazo, sem semana abaixo de 90%.","Erro de separação ≤ 2 pedidos/semana.","Reporte diário 100% dos dias úteis, antes das 17:30h."],
+  n1:"Priorizar pedidos e definir sequência das ondas · designar tarefas e posições às equipes · reorganizar picking em ruptura parcial · separar e descartar embalagem com defeito.",
+  n2:"Exceção de SLA justificada (fora do cutoff documentado) · redistribuição temporária de função entre equipes · alerta imediato ao Gerente por ruptura crítica.",
+  n3:"Mudança no processo de separação/embalagem · hora extra da equipe · ação em pedido com erro que já saiu para o cliente.",
+  reversibilidade:"Reorganizar picking e resequenciar ondas é reversível → decide rápido. Mudar processo, autorizar hora extra e agir em pedido já despachado são caros de desfazer → N3.",
+  notas:"Equipes — Supervisoras: Thaynara (Sabonete), Izabella (Linhas); Eq. Flex: Melry, Vanessa. Reporte é diário, não eventual; ruptura crítica comunica na hora. KPI supremo: SLA de despacho por canal.",
+  kpis:[{n:"SLA cumprido (por canal)",t:"res",m:"≥ 95% · semanal"},{n:"Taxa de atraso",t:"res",m:"< 1% · semanal"},{n:"Pedidos despachados / dia",t:"ala",m:"zerar fila · diário"},{n:"Erro de separação",t:"gd",m:"≤ 2 / semana"},{n:"Reporte ao Gerente",t:"ala",m:"100% dias úteis"}]},
 
-"estagiaria-parcerias":{status:"criar",ramo:"felipe",cargo:"Estagiária de Parcerias",frente:"Influência & Afiliados",respondeA:"Marcela (Gestão de Influência)",
- missao:"Apoiar a gestão de influência/afiliados na operação das parcerias.",
- entregas:["Prospecção e contato com parceiros","Organização de campanhas e envios","Acompanhamento de entregáveis","Planilha de resultados"],
- fronteira:"Executa sob a Marcela; não fecha contrato.",
- kpis:[{nome:"Parceiros contatados/ativados",tipo:"ala",meta:"meta",freq:"semanal",proposta:true}],
- quem:"Manuela"},
+ encproducao:{cargo:"Encarregado de Produção", respondeA:"Operações · Supply Chain (João)", area:"Produção · Fishermans (linhas de pesca)", versao:"T5 v1.0 — set/2026",
+  missao:"Coordenar a produção diária de linhas Fishermans, garantindo metas de volume e qualidade, controle de estoque de acabados e comunicação proativa de gargalos e necessidades.",
+  escopo:["<b>Execução da produção</b> — coordena as 3 máquinas e a finalização conforme a prioridade do dia (lista de faltantes do despacho).","<b>Qualidade no chão de fábrica</b> — inspeção visual, separa não-conformes para rebobinagem, mantém a área organizada.","<b>Registro e estoque</b> — registra produção no Excel; controla estoque de acabados e coordena a contagem quinzenal.","<b>Distribuição de equipe</b> — aloca operadores por máquina (1:1) e finalização; redistribui em tempo real.","<b>Reporte proativo</b> — MP terminando, insumos faltantes, máquina com problema, meta em risco — antes de virar crise."],
+  fronteira:"Não é dono de: compra de MP (Nicole / Compras) · definição de meta de produção (Gerente / Diretor) · gestão de estoque de MP (Compras).",
+  resultados:["Produção ≥ 85% da meta diária por SKU, sem semana abaixo de 75%.","Taxa de refugo < 3% da produção do período.","Zero paradas por falta de MP — alerta proativo com ≥ 1 dia de antecedência."],
+  n1:"Sequência de produção por SKU e máquina · designar operadores · separar não-conformes (inspeção visual) · reorganizar equipe em falha de máquina.",
+  n2:"Trocar SKU prioritário fora do plano · redistribuição de equipe fora do padrão · alerta à Gerente sobre risco de meta.",
+  n3:"Descarte definitivo de lote não-conforme (perda de inventário) · parada de máquina não planejada · mudança de horário ou escala.",
+  reversibilidade:"Resequenciar produção, mover operador e separar não-conforme são reversíveis → rápido. Descartar lote, parar máquina e mudar escala têm impacto de inventário ou folha → N3.",
+  notas:"Alertas de MP chegam com ≥ 1 dia de antecedência. Toda separação de não-conforme é registrada (causa + quantidade). KPI supremo: produção vs meta por SKU.",
+  kpis:[{n:"Produção vs meta",t:"res",m:"≥ 85% · diário"},{n:"Taxa de refugo",t:"res",m:"< 3% · semanal"},{n:"Eficiência de máquina",t:"ala",m:"≥ 80% · diário"},{n:"Ruptura de estoque",t:"gd",m:"≤ 3 / mês"},{n:"Alertas proativos",t:"ala",m:"registro mensal"}]},
 
-"lider-atendimento":{status:"criar",ramo:"felipe",cargo:"Líder de Atendimento",frente:"CS · CX (uma marca)",respondeA:"Samuel (CS · CX)",
- missao:"Liderar o time de atendimento de uma marca — garantir SLA, padrão e resolução.",
- entregas:["Escala e rotina do time","Padrão de resposta","Casos escalados","Reporte de voz do cliente"],
- fronteira:"Segue a política de CX (Samuel); escala o que foge da alçada.",
- kpis:[
-  {nome:"SLA de 1ª resposta do time",tipo:"grd",meta:"≤ meta",freq:"semanal",proposta:true},
-  {nome:"CSAT do time",tipo:"res",meta:"≥ meta",freq:"mensal",proposta:true}],
- quem:"Maria (Fishermans), Vitória (O Aristocrata)"},
+ julia_fish:{cargo:"Gestão de Conteúdo Orgânico · Fishermans", respondeA:"Felipe · 1:1 quinzenal", area:"Orgânico · Fishermans (+ tutoria Aristocrata até a virada)", versao:"T5 v3.0 — ago/2026",
+  missao:"Audiência própria que traz cliente a custo quase zero. E deixar a cadeira espelhada (Aristocrata) de pé sem depender de mim.",
+  escopo:["Calendário e produção da Fishermans ponta a ponta — decide e programa, comunica sem pedir aprovação.","Teste de formato/hook e replicação do vencedor.","Leitura semanal do ranking, com decisão registrada.","Troca de padrão vencedor com a cadeira espelhada.","Tutoria transitória do Aristocrata — escrever e manter SOPs, revisar calendário com o Felipe, apoiar a JR."],
+  fronteira:"Não é dela: responder comentário/mensagem (suporte) · collabs, reposts e influencers (Marcela) · conduzir o 1:1 da JR e declarar a virada (Felipe) · verba (Creative) · o resultado do Aristocrata (KPI da JR).",
+  resultados:["Piso de 5 peças/semana por 2 trimestres.","EQ ≥ 1% no semestre, com alcance de não-seguidores estável ou subindo.","≥ 1 vencedor por semana após o baseline (out/2026), CTR subindo.","Cadeira Aristocrata autônoma até jan/2027, com SOP testado por quem não o escreveu."],
+  n1:"Todo o calendário da Fishermans (pauta, mix, cadência, formato, horário) · hooks e variações · arquivar formato morto no dado · na tutoria: escrever/versionar SOP e dar consideração à JR.",
+  n2:"Trend na janela de 24–48h · série ou conta nova em plataforma existente · mudar mix de pilares ou cadência-base · alterar piso/checklist por um ciclo (com hipótese registrada).",
+  n3:"Claim sensível ou comparação nominal · qualquer verba (teto R$ 0) · resposta pública em crise · plataforma/ferramenta/custo novo · assumir a execução do Aristocrata por mais de uma semana · escopo da cadeira espelhada.",
+  reversibilidade:"Post comum é reversível → decide com ~70% da info. Irreversível sobe mesmo dentro da alçada: resposta pública sensível, imagem sem autorização, claim que encosta em doença, compromisso com terceiro.",
+  notas:"Medir no substrato limpo: seguidor nunca é KPI; EQ e vencedores só em post não impulsionado. Vencedor = top 10% do baseline da Fishermans (out/2026), corte fixo. Nada é somado entre as marcas.",
+  kpis:[{n:"Taxa de Vencedores",t:"res",m:"≥ 1/semana · tendência subindo"},{n:"Piso de Produção",t:"ala",m:"100% (3 vídeos + 2 posts/sem)"},{n:"Engajamento Qualificado (EQ)",t:"res",m:"≥ 1% · semanal"},{n:"CTR do Link",t:"res",m:"baseline 90d · subindo"}]},
 
-"analista-cx":{status:"criar",ramo:"felipe",cargo:"Analista de Atendimento (CX)",frente:"CS · CX",respondeA:"Líder de Atendimento da marca",
- missao:"Atender o cliente resolvendo no 1º contato sempre que possível, no padrão da marca.",
- entregas:["Atendimento pré e pós-venda","Moderação e resposta em canais","Registro de casos","Encaminhamento do que escala"],
- fronteira:"Segue o script/política; não decide estorno fora da alçada.",
- kpis:[
-  {nome:"Tempo de resposta",tipo:"grd",meta:"≤ meta",freq:"diário",proposta:true},
-  {nome:"Casos resolvidos no 1º contato",tipo:"res",meta:"≥ meta",freq:"semanal",proposta:true}],
- quem:"Adão, João (operacional) e Carlos (Fishermans); Geovane, Juliano e Vivian (O Aristocrata)"},
+ julia_aristo:{cargo:"Gestão de Conteúdo Orgânico · O Aristocrata", respondeA:"Felipe · 1:1 quinzenal (tutoria: Julia Benincasa até a virada)", area:"Orgânico · O Aristocrata (cadeira nova)", versao:"T5 v1.0 — ago/2026",
+  missao:"Audiência própria que traz cliente a custo quase zero. Absorver o padrão Shrigma a ponto de rodar a cadeira sem tutela — e deixá-lo melhor escrito.",
+  escopo:["Calendário e produção do Aristocrata (pauta → checklist → publicação → report).","Teste de formato/hook e replicação do vencedor.","Leitura semanal do ranking — a leitura é dela desde a semana 1.","Troca de padrão vencedor com a cadeira espelhada.","Até a virada: 1:1 quinzenal e devolver cada correção como linha de SOP."],
+  fronteira:"Não é dela: responder comentário/mensagem (suporte) · collabs, reposts e influencers (Marcela) · verba (teto R$ 0) · conteúdo e números da Fishermans · formulação, claim regulatório e rótulo.",
+  resultados:["Cadeira autônoma até jan/2027.","Piso de 5 peças/semana por 2 trimestres.","EQ ≥ 1% no semestre, alcance de não-seguidores subindo.","≥ 1 vencedor/semana após o baseline; SOP versionado por ela e testado por terceiro."],
+  n1:"Desde a semana 1: hooks, variações, ordem e horário · regravar/arquivar peça fraca · montar o calendário · testar o vencedor da espelhada. Após a virada: publicar sem aprovação; pauta, mix, cadência e formato.",
+  n2:"Desde a semana 1: propor série/formato novo · ajuste de cadência em semana atípica. Após a virada: trend 24–48h · aposentar formato morto · mudar mix/cadência (com hipótese).",
+  n3:"Claim sensível (pele, alergia, doença, eficácia) e comparação nominal · qualquer verba (R$ 0) · resposta pública em crise · plataforma/ferramenta/custo novo · publicar na conta da Fishermans · imagem sem autorização · compromisso com terceiro.",
+  reversibilidade:"Post comum é reversível → publica com ~70% da info. Irreversível sobe: resposta pública sensível, imagem sem autorização, claim que encosta em doença, compromisso com terceiro.",
+  notas:"Fase de tutela até a virada (Anexo A): as peças passam por Felipe e Julia Benincasa. Vencedor = top 10% do baseline herdado da JB (out/2026). O KPI de Aderência ao Padrão expira na virada.",
+  kpis:[{n:"Taxa de Vencedores",t:"res",m:"90d leitura · depois ≥ 1/sem"},{n:"Piso de Produção",t:"ala",m:"3/sem no 1º mês, 5 depois"},{n:"Engajamento Qualificado (EQ)",t:"res",m:"≥ 1% após baseline"},{n:"CTR do Link",t:"res",m:"baseline 90d · subindo"},{n:"Aderência ao Padrão",t:"ala",m:"≥ 80% · transitório (expira na virada)"}]},
 
-"estagiario-pd":{status:"criar",ramo:"felipe",cargo:"Estagiário de P&D",frente:"Produto",respondeA:"Felipe (Diretoria de Produto)",
- missao:"Apoiar a pesquisa e o desenvolvimento de produto — testar, documentar e trazer insumo para decisões.",
- entregas:["Pesquisa de produto/mercado","Testes e amostras","Documentação","Apoio a lançamentos"],
- fronteira:"Executa sob a diretoria de produto; não decide lançamento.",
- kpis:[{nome:"Entregas de pesquisa no prazo",tipo:"ala",meta:"no prazo",freq:"mensal",proposta:true}],
- quem:"Nicole"},
-
-"assistente-compras":{status:"criar",ramo:"felipe",cargo:"Assistente de Compras",frente:"Compras",respondeA:"Felipe / Supply Chain",
- missao:"Apoiar as compras — cotação, pedido e acompanhamento — para não faltar insumo.",
- entregas:["Cotações com fornecedores","Emissão e acompanhamento de pedidos","Conferência de recebimento","Planilha de compras"],
- fronteira:"Compra dentro da política/orçamento; não fecha contrato estrutural.",
- kpis:[
-  {nome:"Pedidos sem ruptura",tipo:"grd",meta:"100%",freq:"semanal",proposta:true},
-  {nome:"Economia vs. cotação base",tipo:"ala",meta:"meta",freq:"mensal",proposta:true}],
- quem:"Brendha"},
-
-"aux-estoque":{status:"criar",ramo:"joao",cargo:"Auxiliar de Estoque",frente:"Supply Chain",respondeA:"Gerente de Supply Chain",
- missao:"Manter o estoque organizado, contado e disponível.",
- entregas:["Recebimento e endereçamento","Contagem / inventário","Separação para produção/despacho","Controle de níveis"],
- fronteira:"Executa a rotina de estoque; não faz compras.",
- kpis:[{nome:"Acuracidade de inventário",tipo:"grd",meta:"≥ meta",freq:"mensal",proposta:true}],
- quem:"A definir"},
-
-"assistente-producao":{status:"criar",ramo:"joao",cargo:"Assistente de Produção",frente:"Produção",respondeA:"Gerente de Supply Chain / Produção",
- missao:"Apoiar a produção na rotina e no fluxo do dia.",
- entregas:["Preparação de materiais","Apoio às etapas de produção","Organização do posto","Registro de produção"],
- fronteira:"Segue a programação da encarregada.",
- kpis:[{nome:"Metas diárias de apoio cumpridas",tipo:"ala",meta:"meta",freq:"diário",proposta:true}],
- quem:"Cadu"},
-
-"motorista-servicos":{status:"criar",ramo:"joao",cargo:"Motorista / Serviços",frente:"Serviços & Infra",respondeA:"Gerente de Supply Chain",
- missao:"Garantir transporte e serviços que sustentam a operação e o escritório.",
- entregas:["Entregas e coletas","Serviços externos","Apoio logístico","Manutenções simples"],
- fronteira:"Executa a agenda de serviços; não define rota estrutural.",
- kpis:[{nome:"Serviços no prazo",tipo:"grd",meta:"no prazo",freq:"semanal",proposta:true}],
- quem:"Cristiano"},
-
-"aux-escritorio":{status:"criar",ramo:"joao",cargo:"Auxiliar de Escritório / Serviços",frente:"Serviços & Infra",respondeA:"Gerente de Supply Chain",
- missao:"Manter o escritório e os serviços internos funcionando.",
- entregas:["Organização e limpeza","Apoio administrativo","Serviços internos","Recepção/apoio"],
- fronteira:"Executa a rotina de serviços internos.",
- kpis:[{nome:"Rotina de serviços em dia",tipo:"grd",meta:"em dia",freq:"semanal",proposta:true}],
- quem:"Rosane"},
-
-"auxiliar-producao":{status:"criar",ramo:"joao",cargo:"Auxiliar de Produção",frente:"Equipe de Produção",respondeA:"Juliana (Encarregada de Produção)",
- missao:"Executar as etapas de produção (mono, multi, finalização) no padrão e no ritmo.",
- entregas:["Produção na etapa (mono/multi/finalização)","Padrão de qualidade","Volume da meta diária","Cuidado com perdas"],
- fronteira:"Segue a programação e o padrão da encarregada.",
- kpis:[
-  {nome:"Volume / meta diária",tipo:"ala",meta:"meta",freq:"diário",proposta:true},
-  {nome:"Perdas / retrabalho",tipo:"grd",meta:"≤ meta",freq:"semanal",proposta:true}],
- quem:"Viviane (mono), Sirley (multi), Maria e Isabela (finalização)"},
-
-"lider-despacho":{status:"criar",ramo:"joao",cargo:"Líder de Despacho",frente:"Despacho (uma marca)",respondeA:"Alexandre (Encarregado de Despacho)",
- missao:"Liderar o despacho de uma marca — expedir no prazo e sem erro.",
- entregas:["Escala e rotina do despacho","Conferência e embalagem","Prazo de expedição","Correção de erros"],
- fronteira:"Segue a política de despacho (Alexandre); escala exceções.",
- kpis:[
-  {nome:"Pedidos no prazo do time",tipo:"res",meta:"≥ meta",freq:"diário",proposta:true},
-  {nome:"Erros de envio",tipo:"grd",meta:"≤ meta",freq:"semanal",proposta:true}],
- quem:"Ketlyn (Fishermans), Thainara (O Aristocrata)"},
-
-"auxiliar-despacho":{status:"criar",ramo:"joao",cargo:"Auxiliar de Despacho",frente:"Equipe de Despacho",respondeA:"Líder de Despacho da marca",
- missao:"Separar, conferir e embalar pedidos para expedição.",
- entregas:["Separação de pedidos","Conferência","Embalagem","Organização da expedição"],
- fronteira:"Segue a rotina do líder de despacho.",
- kpis:[
-  {nome:"Pedidos embalados / dia",tipo:"ala",meta:"meta",freq:"diário",proposta:true},
-  {nome:"Erros de separação",tipo:"grd",meta:"≤ meta",freq:"semanal",proposta:true}],
- quem:"Vanessa e Melry (Fishermans), Suely e +1 (O Aristocrata)"}
+ vendedorb2b:{cargo:"Vendedor B2B", respondeA:"Gestor de B2B (Leandro)", area:"Atacado · Fishermans · Time de Vendedores", versao:"T5 v0.2 — ago/2026",
+  missao:"Fazer a carteira de revendedores atribuída girar e recomprar — bater a meta individual por venda ativa (telefone/WhatsApp), relacionamento e sell-through, não por desconto ou bonificação fora da faixa.",
+  escopo:["<b>Carteira e território atribuídos</b> — vender por telefone e WhatsApp para lojas revendedoras em todo o Brasil; visita presencial só em Curitiba e região.","<b>Relação comercial do dia a dia</b> — negociar pedidos e intermediar bonificação pontual dentro da faixa (2%) e dos kits aprovados.","<b>Sell-through no PDV</b> — apoiar o revendedor a girar estoque (exposição, treinamento, acompanhamento de giro).","<b>Saúde da carteira</b> — sinalizar revendedor parado, risco de conta ou quebra de MAP ao Gestor.","<b>CRM e relato</b> — manter carteira, pedidos e follow-ups atualizados (base do KPI de % do time na meta)."],
+  fronteira:"Não é dono de: definição de território/carteira e conta-chave (Gestor) · preço de tabela, comissão, MAP e margem-piso (política comercial) · onboarding fora dos critérios, suspensão ou corte de revendedor (Gestor) · orçamento comercial do canal.",
+  resultados:["Faturamento individual ≥ R$ 50 mil/mês, sustentado no trimestre (líquido, Bling). Meta da equipe = R$ 250 mil/mês.","Qualidade do faturamento — sem sell-in de estoque parado e sem bonificação fora da faixa (2%).","Carteira girando — revendedor ativo repetindo pedido no trimestre, sem ser puxado por desconto."],
+  n1:"Priorizar a agenda da própria carteira · negociar condição e intermediar bonificação pontual dentro da faixa (2%) e dos kits aprovados, sem consultar · organizar apoio de sell-through dentro do orçamento alocado.",
+  n2:"Não se aplica diretamente — remanejar carteira, ajustar meta e mix de kits são do Gestor de B2B; o vendedor é informado, não decide.",
+  n3:"Bonificação acima de 2% ou que fure margem-piso/MAP · compromisso especial (prazo estendido, exclusividade, volume fora do padrão) · revendedor em risco (inadimplência, quebra de MAP, queda de giro) · novo revendedor fora dos critérios.",
+  reversibilidade:"Negociar dentro da faixa e organizar sell-through é reversível → decide sozinho. Bonificação fora da faixa, compromisso especial e o que afeta a carteira de outro vendedor são caros de desfazer → leva ao Gestor.",
+  notas:"Comissionamento: 6% na 1ª compra do revendedor · 3% na recompra (compras dentro de 30 dias da 1ª ainda contam 6%). Bonificação à revenda = 2% (todas informadas ao Gestor).",
+  kpis:[{n:"Faturamento individual",t:"res",m:"≥ R$ 50 mil · mensal"},{n:"Cobertura e giro da carteira",t:"ala",m:"revendedores ativos que recompraram · mensal"}]}
 };
 
-/* =========================================================
-   ORGANOGRAMA (árvore) — cada nó aponta para um cargo
-   ========================================================= */
-const ORG = {
- name:"Grupo Shrigma", role:"Diretoria", ramo:"dir", root:true,
- children:[
-  { name:"Mateus", role:"Diretoria", cargo:"dir-comercial", ramo:"mateus", children:[
-     {name:"Leandro", role:"Gestor de B2B", cargo:"gestor-b2b", ramo:"mateus", children:[
-        {name:"Juliano", role:"Vendedor B2B", cargo:"vendedor-b2b", ramo:"mateus"},
-        {name:"Ede", role:"Vendedor B2B", cargo:"vendedor-b2b", ramo:"mateus"},
-        {name:"Guilherme", role:"Vendedor B2B", cargo:"vendedor-b2b", ramo:"mateus"},
-        {name:"Vinicius", role:"Vendedor B2B", cargo:"vendedor-b2b", ramo:"mateus"},
-        {name:"+1", role:"Vendedor B2B", cargo:"vendedor-b2b", ramo:"mateus"} ]},
-     {name:"Jorge", role:"Estrategista Criativo", marca:"fish", marcaL:"Fishermans", cargo:"estrategista-criativo", ramo:"mateus", children:[
-        {name:"Diulia", role:"Copywriter", cargo:"copywriter", ramo:"mateus"},
-        {name:"Maria", role:"Editora de Vídeo", cargo:"editor-video", ramo:"mateus"},
-        {name:"Tirzah", role:"Designer", cargo:"designer", ramo:"mateus"},
-        {name:"Fernando", role:"Filmmaker", cargo:"filmmaker", ramo:"mateus"} ]},
-     {name:"Sabrina", role:"Estrategista Criativo", marca:"aristo", marcaL:"O Aristocrata", cargo:"estrategista-criativo", ramo:"mateus", children:[
-        {name:"Paulo", role:"Copywriter", cargo:"copywriter", ramo:"mateus"},
-        {name:"Yasmin", role:"Editora de Vídeo", cargo:"editor-video", ramo:"mateus"},
-        {name:"Gustavo", role:"Editor de Vídeo", cargo:"editor-video", ramo:"mateus"},
-        {name:"Felipe", role:"Editor de Vídeo", cargo:"editor-video", ramo:"mateus"},
-        {name:"Mariana", role:"Design · Storymaker", cargo:"designer", ramo:"mateus"},
-        {name:"Cesar", role:"Designer", cargo:"designer", ramo:"mateus"} ]},
-     {name:"Pedro", role:"Gestor de Tráfego", cargo:"gestor-trafego", ramo:"mateus"},
-     {name:"Uri", role:"Gestor de Marketplace", cargo:"gestor-marketplace", ramo:"mateus"},
-     {name:"Viviane", role:"Gestão de Projetos", cargo:"gestao-projetos", ramo:"mateus"},
-     {name:"Larissa", role:"Diretora Administrativa", cargo:"diretora-administrativa", ramo:"mateus", children:[
-        {name:"Gabrielle", role:"Assistente Financeiro", cargo:"assistente-financeiro", ramo:"mateus"},
-        {name:"Ana M.", role:"Analista de RH", cargo:"analista-rh", ramo:"mateus"} ]}
+/* ============================ ÁRVORE ============================ */
+/* Nível 1 (filhos do Grupo Shrigma): as 3 diretorias em vermelho, com a Gestão
+   de Projetos (Viviane) e o Administrativo (Larissa) — líderes, laranja — ENTRE elas.
+   lead:1 => laranja · dir:1 => vermelho · demais => verde. */
+const TOP = [
+ {r:"Diretoria", n:"Mateus", dir:1, tag:"Comercial · Performance · Criativo — B2B, criativo, tráfego e marketplace.", team:[
+   {r:"Gestor de B2B", n:"Leandro", f:"b2b", lead:1, team:[
+     {r:"Vendedor B2B", n:"Juliano", f:"vendedorb2b"},{r:"Vendedor B2B", n:"Ede", f:"vendedorb2b"},{r:"Vendedor B2B", n:"Guilherme", f:"vendedorb2b"},{r:"Vendedor B2B", n:"Vinicius", f:"vendedorb2b"},{r:"Vendedor B2B", n:"Vaga", f:"vendedorb2b"}]},
+   {r:"Estrategista Criativo", n:"Jorge", bd:"Fishermans", f:"creative", lead:1, team:[
+     {r:"Copywriter", n:"Diulia", f:"copy"},{r:"Editora de Vídeo", n:"Maria", f:"editor"},{r:"Designer", n:"Tirzah", f:"designer"}]},
+   {r:"Estrategista Criativo", n:"Sabrina", bd:"O Aristocrata", f:"creative", lead:1, team:[
+     {r:"Copywriter", n:"Paulo", f:"copy"},{r:"Editora de Vídeo", n:"Yasmin", f:"editor"},{r:"Editor de Vídeo", n:"Gustavo", f:"editor"},{r:"Editor de Vídeo", n:"Felipe", f:"editor"},{r:"Design · Storymaker", n:"Mariana"},{r:"Designer", n:"Cesar", f:"designer"}]},
+   {r:"Gestor de Tráfego", n:"Pedro", f:"trafego", lead:1},
+   {r:"Gestor de Marketplace", n:"Uri", f:"marketplace", lead:1}
   ]},
-  { name:"Felipe", role:"Diretoria", cargo:"dir-marca", ramo:"felipe", children:[
-     {name:"Marcela", role:"Gestão de Influência", cargo:"gestao-influencia", ramo:"felipe", children:[
-        {name:"Manuela", role:"Estagiária de Parcerias", cargo:"estagiaria-parcerias", ramo:"felipe"} ]},
-     {name:"Samuel", role:"CS · CX (Atendimento)", cargo:"cs-cx", ramo:"felipe", children:[
-        {name:"Maria", role:"Líder Atendimento", marca:"fish", marcaL:"Fishermans", cargo:"lider-atendimento", ramo:"felipe", children:[
-           {name:"Adão", role:"Atendimento N1", cargo:"analista-cx", ramo:"felipe"},
-           {name:"João", role:"Operacional", cargo:"analista-cx", ramo:"felipe"},
-           {name:"Carlos", role:"Moderação", cargo:"analista-cx", ramo:"felipe"} ]},
-        {name:"Vitória", role:"Líder Atendimento", marca:"aristo", marcaL:"O Aristocrata", cargo:"lider-atendimento", ramo:"felipe", children:[
-           {name:"Geovane", role:"Atendimento N1", cargo:"analista-cx", ramo:"felipe"},
-           {name:"Juliano", role:"Atendimento", cargo:"analista-cx", ramo:"felipe"},
-           {name:"Vivian", role:"Atendimento", cargo:"analista-cx", ramo:"felipe"} ]} ]},
-     {name:"Julia", role:"Conteúdo Orgânico", marca:"fish", marcaL:"Fishermans", cargo:"conteudo-organico", ramo:"felipe"},
-     {name:"Julia R.", role:"Conteúdo Orgânico", marca:"aristo", marcaL:"O Aristocrata", cargo:"conteudo-organico", ramo:"felipe"},
-     {name:"Nicole", role:"Estagiária de P&D", cargo:"estagiario-pd", ramo:"felipe"},
-     {name:"Brendha", role:"Assistente de Compras", cargo:"assistente-compras", ramo:"felipe"},
-     {name:"Welington", role:"Designer", cargo:"designer", ramo:"felipe"}
+ {r:"Gestão de Projetos", n:"Viviane", f:"projetos", lead:1},
+ {r:"Diretoria", n:"Felipe", dir:1, tag:"Marca · Experiência · Produto — influência, atendimento (CS/CX), conteúdo orgânico e P&D.", team:[
+   {r:"Gestão de Influência", n:"Marcela", f:"influencia", lead:1, team:[
+     {r:"Estagiária de Parcerias", n:"Manuela", f:"auxinfluencia"}]},
+   {r:"CS · CX (Atendimento)", n:"Samuel", f:"cscx", lead:1, team:[
+     {r:"Líder Atendimento", n:"Maria", bd:"Fishermans", f:"n2fish", team:[
+        {r:"Atendimento N1", n:"Adão", f:"n1"},{r:"Atendimento N1", n:"Letícia", f:"n1"}]},
+     {r:"Operacional", n:"João", f:"operacional"},
+     {r:"Moderação", n:"Carlos", f:"moderacao"},
+     {r:"Líder Atendimento", n:"Vitória", bd:"O Aristocrata", f:"n2aristo", team:[
+        {r:"Atendimento N1", n:"Geovane", f:"n1"},{r:"Atendimento N1", n:"Juliano", f:"n1"},{r:"Atendimento N1", n:"Vivian", f:"n1"}]}
+     ]},
+   {r:"Conteúdo Orgânico", n:"Julia", bd:"Fishermans", f:"julia_fish", lead:1, team:[
+     {r:"Conteúdo Orgânico", n:"Julia R.", bd:"O Aristocrata", f:"julia_aristo"}]},
+   {area:1, r:"P&D · Novos Produtos", tag:"Time de P&D / Novos Produtos — responde diretamente ao Felipe.", team:[
+     {r:"Estagiária de P&D", n:"Nicole", f:"pd_briefing"},
+     {r:"Assistente de Compras", n:"Brendha", f:"compras"},
+     {r:"Designer", n:"Welington", f:"pd_design"}]}
   ]},
-  { name:"João", role:"Diretoria", cargo:"dir-operacoes", ramo:"joao", children:[
-     {name:"—", role:"Gerente de Supply Chain", cargo:"gerente-supply-chain", ramo:"joao", vago:true, children:[
-        {name:"—", role:"Auxiliar de Estoque", cargo:"aux-estoque", ramo:"joao", vago:true},
-        {name:"Cadu", role:"Assistente de Produção", cargo:"assistente-producao", ramo:"joao"},
-        {name:"Cristiano", role:"Motorista / Serviços", cargo:"motorista-servicos", ramo:"joao"},
-        {name:"Rosane", role:"Aux. Escritório / Serviços", cargo:"aux-escritorio", ramo:"joao"} ]},
-     {name:"Juliana", role:"Encarregada de Produção", cargo:"encarregado-producao", ramo:"joao", children:[
-        {name:"Viviane", role:"Aux. Mono", cargo:"auxiliar-producao", ramo:"joao"},
-        {name:"Sirley", role:"Aux. Multi", cargo:"auxiliar-producao", ramo:"joao"},
-        {name:"Maria", role:"Finalização", cargo:"auxiliar-producao", ramo:"joao"},
-        {name:"Isabela", role:"Finalização", cargo:"auxiliar-producao", ramo:"joao"} ]},
-     {name:"Alexandre", role:"Encarregado de Despacho", cargo:"encarregado-despacho", ramo:"joao", children:[
-        {name:"Ketlyn", role:"Líder Despacho", marca:"fish", marcaL:"Fishermans", cargo:"lider-despacho", ramo:"joao", children:[
-           {name:"Vanessa", role:"Aux. Despacho", cargo:"auxiliar-despacho", ramo:"joao"},
-           {name:"Melry", role:"Aux. Despacho", cargo:"auxiliar-despacho", ramo:"joao"} ]},
-        {name:"Thainara", role:"Líder Despacho", marca:"aristo", marcaL:"O Aristocrata", cargo:"lider-despacho", ramo:"joao", children:[
-           {name:"Suely", role:"Aux. Despacho", cargo:"auxiliar-despacho", ramo:"joao"},
-           {name:"—", role:"Aux. Despacho", cargo:"auxiliar-despacho", ramo:"joao", vago:true} ]} ]}
+ {r:"Diretoria Administrativa", n:"Larissa", lead:1, team:[
+   {area:1, r:"Rotina Administrativa", tag:"Financeiro, RH e apoio administrativo — responde à Larissa.", team:[
+     {r:"Assistente Financeiro", n:"Gabrielle", f:"financeiro"},
+     {r:"Analista de RH", n:"Ana M.", f:"rh"},
+     {r:"Auxiliar Administrativo", n:"Rosane"}]}
+  ]},
+ {r:"Diretoria", n:"João", dir:1, tag:"Operações · Supply Chain — produção, estoque e despacho.", team:[
+   {r:"Gerente de Supply Chain", n:"Vaga", lead:1, team:[
+     {r:"Auxiliar Administrativo de Produção", n:"Allan"},
+     {r:"Assistente de Produção", n:"Cadu"},
+     {r:"Motorista / Serviços", n:"Cristiano"},
+     {r:"Encarregada de Produção", n:"Juliana", f:"encproducao", lead:1, team:[
+        {r:"Aux. Mono", n:"Viviane"},{r:"Aux. Multi", n:"Sirley"},{r:"Finalização", n:"Maria"},{r:"Finalização", n:"Isabela"}]},
+     {r:"Encarregado de Despacho", n:"Alexandre", f:"encdespacho", lead:1, team:[
+        {r:"Líder Despacho", n:"Ketlyn", bd:"Fishermans", team:[
+           {r:"Aux. Despacho", n:"Vanessa"},{r:"Aux. Despacho", n:"Melry"}]},
+        {r:"Líder Despacho", n:"Thainara", bd:"O Aristocrata", team:[
+           {r:"Aux. Despacho", n:"Suely"},{r:"Aux. Despacho", n:"Vaga"}]}
+        ]}
+     ]}
   ]}
- ]
-};
+];
 
-/* =========================================================
-   RENDER da árvore
-   ========================================================= */
-function esc(s){return (s==null?"":String(s)).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
+/* ============================ RENDER ============================ */
+function esc(s){return (s==null?"":String(s)).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");}
+function kindOf(node){ return node.dir?'dir':(node.lead?'lead':'mem'); }
 
-function nodeHTML(n, depth){
-  const hasKids = n.children && n.children.length;
-  let lvl = depth===0 ? "lvl-root" : depth===1 ? "lvl-dir" : depth>=3 ? "lvl-exec" : "lvl-lead";
-  const rcls = "r-"+(n.ramo||"dir");
-  const marca = n.marca ? `<span class="marca ${n.marca}">${esc(n.marcaL||"")}</span>` : "";
-  const vago = n.vago ? "vago" : "";
-
-  if(n.root){
-    // nó topo simples, não clicável
-    return `<li><div class="node ${lvl} ${rcls}" style="cursor:default"><div class="cap"></div>
-      <div class="body"><div class="role">Governança</div><div class="name" style="font-family:Georgia,serif">${esc(n.name)}</div></div></div>
-      ${hasKids?`<ul>${n.children.map(c=>nodeHTML(c,depth+1)).join("")}</ul>`:""}</li>`;
+const LOGO = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTI3Mi44MiIgaGVpZ2h0PSIyMjQuOTczIiB2aWV3Qm94PSIwIDAgMTI3Mi44MiAyMjQuOTczIj4KPGRlZnM+CjxnPgo8ZyBpZD0iZ2x5cGgtMC0wIj4KPHBhdGggZD0iTSAyMC4yMzQzNzUgLTU1Ljc2NTYyNSBDIDE2LjQ2MDkzOCAtNTguOTg0Mzc1IDEzLjUwNzgxMiAtNjIuODk4NDM4IDExLjM3NSAtNjcuNTE1NjI1IEMgOS4yNSAtNzIuMTI4OTA2IDguMTg3NSAtNzYuOTc2NTYyIDguMTg3NSAtODIuMDYyNSBDIDguMTg3NSAtODguNSA5Ljc2OTUzMSAtOTQuMzc4OTA2IDEyLjkzNzUgLTk5LjcwMzEyNSBDIDE2LjEwMTU2MiAtMTA1LjAyMzQzOCAyMC4zNDc2NTYgLTEwOS4yNjk1MzEgMjUuNjcxODc1IC0xMTIuNDM3NSBDIDMwLjk5MjE4OCAtMTE1LjYwMTU2MiAzNi44Nzg5MDYgLTExNy4xODc1IDQzLjMyODEyNSAtMTE3LjE4NzUgTCAxNDAuOTM3NSAtMTE3LjE4NzUgTCAxNDAuOTM3NSAtOTMuNzY1NjI1IEwgNDMuMzI4MTI1IC05My43NjU2MjUgQyA0MC4wOTc2NTYgLTkzLjc2NTYyNSAzNy4zMzU5MzggLTkyLjYxNzE4OCAzNS4wNDY4NzUgLTkwLjMyODEyNSBDIDMyLjc1MzkwNiAtODguMDM1MTU2IDMxLjYwOTM3NSAtODUuMjgxMjUgMzEuNjA5Mzc1IC04Mi4wNjI1IEMgMzEuNjA5Mzc1IC03OC44MzIwMzEgMzIuODYzMjgxIC03Ni4wMTk1MzEgMzUuMzc1IC03My42MjUgQyAzNy4zNDM3NSAtNzIuMDM5MDYyIDM5Ljg1MTU2MiAtNzEuMDcwMzEyIDQyLjkwNjI1IC03MC43MTg3NSBDIDQ1Ljk2ODc1IC03MC4zNjMyODEgNDkuMzgyODEyIC03MC4xODc1IDUzLjE1NjI1IC03MC4xODc1IEMgNTMuODAwNzgxIC03MC4xODc1IDU0LjQ1MzEyNSAtNzAuMTg3NSA1NS4xMDkzNzUgLTcwLjE4NzUgTCA1NS4yMDMxMjUgLTcwLjE4NzUgQyA2NC4zNjcxODggLTcwLjAxOTUzMSA3My41MzkwNjIgLTY5Ljk4ODI4MSA4Mi43MTg3NSAtNzAuMDkzNzUgTCA4NS40MjE4NzUgLTcwLjA5Mzc1IEMgODkuODkwNjI1IC03MC4xNTYyNSA5NC4zMzU5MzggLTcwLjIzODI4MSA5OC43NjU2MjUgLTcwLjM0Mzc1IEMgMTAwLjI5Njg3NSAtNzAuMzQzNzUgMTAxLjg1MTU2MiAtNzAuMzY3MTg4IDEwMy40Mzc1IC03MC40MjE4NzUgQyAxMDcuMDkzNzUgLTcwLjUzNTE1NiAxMTAuOTUzMTI1IC03MC4zNzUgMTE1LjAxNTYyNSAtNjkuOTM3NSBDIDExOS4wODU5MzggLTY5LjUgMTIzLjE0NDUzMSAtNjguMzI4MTI1IDEyNy4xODc1IC02Ni40MjE4NzUgQyAxMzcuMjgxMjUgLTYxLjIzNDM3NSAxNDMuNTAzOTA2IC01My4wMTU2MjUgMTQ1Ljg1OTM3NSAtNDEuNzY1NjI1IEMgMTQ2LjgzNTkzOCAtMzYuNDcyNjU2IDE0Ni42NzE4NzUgLTMxLjI1NzgxMiAxNDUuMzU5Mzc1IC0yNi4xMjUgQyAxNDMuOTQxNDA2IC0yMC42NjQwNjIgMTQxLjM0NzY1NiAtMTUuODMyMDMxIDEzNy41NzgxMjUgLTExLjYyNSBDIDEzNC4xOTE0MDYgLTcuOTE0MDYyIDEzMC4yNTc4MTIgLTUuMDUwNzgxIDEyNS43ODEyNSAtMy4wMzEyNSBDIDEyMS4zMTI1IC0xLjAwNzgxMiAxMTYuNjE3MTg4IDAgMTExLjcwMzEyNSAwIEwgMTIuMTI1IDAgTCAxMi4xMjUgLTIzLjQyMTg3NSBMIDExMS43MDMxMjUgLTIzLjQyMTg3NSBDIDExNC44NjcxODggLTIzLjQyMTg3NSAxMTcuNjc5Njg4IC0yNC43MDMxMjUgMTIwLjE0MDYyNSAtMjcuMjY1NjI1IEMgMTIyLjY0ODQzOCAtMzAuMTA5Mzc1IDEyMy41NTA3ODEgLTMzLjQ2ODc1IDEyMi44NDM3NSAtMzcuMzQzNzUgQyAxMjIuMDcwMzEyIC00MS4wNTA3ODEgMTIwLjA3ODEyNSAtNDMuNzI2NTYyIDExNi44NTkzNzUgLTQ1LjM3NSBDIDExMy4zNjcxODggLTQ2Ljc4OTA2MiAxMDkuMDMxMjUgLTQ3LjMzMjAzMSAxMDMuODQzNzUgLTQ3IEMgMTAyLjMxMjUgLTQ2Ljk0NTMxMiAxMDAuNzgxMjUgLTQ2LjkyMTg3NSA5OS4yNSAtNDYuOTIxODc1IEMgOTQuNzgxMjUgLTQ2LjgxNjQwNiA5MC4yMjI2NTYgLTQ2LjczNDM3NSA4NS41NzgxMjUgLTQ2LjY3MTg3NSBMIDgyLjg3NSAtNDYuNjcxODc1IEMgNzMuNTM5MDYyIC00Ni41MTU2MjUgNjQuMTQ4NDM4IC00Ni41NDY4NzUgNTQuNzAzMTI1IC00Ni43NjU2MjUgQyA1NC4wOTc2NTYgLTQ2Ljc2NTYyNSA1My41IC00Ni43NjU2MjUgNTIuOTA2MjUgLTQ2Ljc2NTYyNSBDIDQ3LjgyMDMxMiAtNDYuNjQ4NDM4IDQyLjQyNTc4MSAtNDcuMDcwMzEyIDM2LjcxODc1IC00OC4wMzEyNSBDIDMxLjAxOTUzMSAtNDguOTg4MjgxIDI1LjUyMzQzOCAtNTEuNTY2NDA2IDIwLjIzNDM3NSAtNTUuNzY1NjI1IFogTSAyMC4yMzQzNzUgLTU1Ljc2NTYyNSAiLz4KPC9nPgo8ZyBpZD0iZ2x5cGgtMC0xIj4KPHBhdGggZD0iTSAzMS42MDkzNzUgLTQ2Ljg0Mzc1IEwgMzEuNjA5Mzc1IDAgTCA4LjE4NzUgMCBMIDguMTg3NSAtMTE3LjE4NzUgTCAzMS42MDkzNzUgLTExNy4xODc1IEwgMzEuNjA5Mzc1IC03MC4yNjU2MjUgTCAxMjMuNDIxODc1IC03MC4yNjU2MjUgTCAxMjMuNDIxODc1IC0xMTcuMTg3NSBMIDE0Ni44MjgxMjUgLTExNy4xODc1IEwgMTQ2LjgyODEyNSAwIEwgMTIzLjQyMTg3NSAwIEwgMTIzLjQyMTg3NSAtNDYuODQzNzUgWiBNIDMxLjYwOTM3NSAtNDYuODQzNzUgIi8+CjwvZz4KPGcgaWQ9ImdseXBoLTAtMiI+CjxwYXRoIGQ9Ik0gMzEuNjA5Mzc1IC0zOS4wNjI1IEwgMzEuNjA5Mzc1IDAgTCA4LjE4NzUgMCBMIDguMTg3NSAtMTE3LjE4NzUgTCA5MS4xNDA2MjUgLTExNy4xODc1IEMgOTguMzQ3NjU2IC0xMTcuMTg3NSAxMDQuODk4NDM4IC0xMTUuNDI1NzgxIDExMC43OTY4NzUgLTExMS45MDYyNSBDIDExNi42OTE0MDYgLTEwOC4zODI4MTIgMTIxLjM5ODQzOCAtMTAzLjY2MDE1NiAxMjQuOTIxODc1IC05Ny43MzQzNzUgQyAxMjguNDUzMTI1IC05MS44MTY0MDYgMTMwLjIxODc1IC04NS4yODEyNSAxMzAuMjE4NzUgLTc4LjEyNSBDIDEzMC4yMTg3NSAtNzAuNDI1NzgxIDEyOC4yMDcwMzEgLTYzLjQ2MDkzOCAxMjQuMTg3NSAtNTcuMjM0Mzc1IEMgMTIwLjE3NTc4MSAtNTEuMDE1NjI1IDExNC44OTQ1MzEgLTQ2LjI2OTUzMSAxMDguMzQzNzUgLTQzIEwgMTMxLjE4NzUgLTAuNDA2MjUgTCAxMDQuNTc4MTI1IC0wLjQwNjI1IEwgODMuODU5Mzc1IC0zOS4wNjI1IFogTSAzMS42MDkzNzUgLTkzLjc2NTYyNSBMIDMxLjYwOTM3NSAtNjIuNDg0Mzc1IEwgOTEuMTQwNjI1IC02Mi40ODQzNzUgQyA5NS40NjA5MzggLTYyLjQ4NDM3NSA5OS4xNDg0MzggLTY0LjAwNzgxMiAxMDIuMjAzMTI1IC02Ny4wNjI1IEMgMTA1LjI2NTYyNSAtNzAuMTI1IDEwNi43OTY4NzUgLTczLjgxMjUgMTA2Ljc5Njg3NSAtNzguMTI1IEMgMTA2Ljc5Njg3NSAtODIuNDM3NSAxMDUuMjY1NjI1IC04Ni4xMTcxODggMTAyLjIwMzEyNSAtODkuMTcxODc1IEMgOTkuMTQ4NDM4IC05Mi4yMzQzNzUgOTUuNDYwOTM4IC05My43NjU2MjUgOTEuMTQwNjI1IC05My43NjU2MjUgWiBNIDMxLjYwOTM3NSAtOTMuNzY1NjI1ICIvPgo8L2c+CjxnIGlkPSJnbHlwaC0wLTMiPgo8cGF0aCBkPSJNIDguMTg3NSAtMTE3LjE4NzUgTCAzMS42MDkzNzUgLTExNy4xODc1IEwgMzEuNjA5Mzc1IDAgTCA4LjE4NzUgMCBaIE0gOC4xODc1IC0xMTcuMTg3NSAiLz4KPC9nPgo8ZyBpZD0iZ2x5cGgtMC00Ij4KPHBhdGggZD0iTSA1NS4wMzEyNSAwIEMgNDIuNTMxMjUgMCAzMS41MDM5MDYgLTQuNTg1OTM4IDIxLjk1MzEyNSAtMTMuNzY1NjI1IEMgMTIuNzczNDM4IC0yMy4zMTY0MDYgOC4xODc1IC0zNC4zNDM3NSA4LjE4NzUgLTQ2Ljg0Mzc1IEwgOC4xODc1IC03MC4yNjU2MjUgQyA4LjE4NzUgLTgyLjgxNjQwNiAxMi43NzM0MzggLTkzLjg3NSAyMS45NTMxMjUgLTEwMy40Mzc1IEMgMzEuNTAzOTA2IC0xMTIuNjAxNTYyIDQyLjUzMTI1IC0xMTcuMTg3NSA1NS4wMzEyNSAtMTE3LjE4NzUgTCA5OC4wMzEyNSAtMTE3LjE4NzUgQyAxMTAuNTMxMjUgLTExNy4xODc1IDEyMS41ODIwMzEgLTExMi42MDE1NjIgMTMxLjE4NzUgLTEwMy40Mzc1IEMgMTM4LjIzODI4MSAtOTYuMjgxMjUgMTQyLjU4MjAzMSAtODcuODQzNzUgMTQ0LjIxODc1IC03OC4xMjUgTCAxMjAuMTQwNjI1IC03OC4xMjUgQyAxMTguNDQxNDA2IC04Mi43Njk1MzEgMTE1LjU5NzY1NiAtODYuNTM1MTU2IDExMS42MDkzNzUgLTg5LjQyMTg3NSBDIDEwNy42Mjg5MDYgLTkyLjMxNjQwNiAxMDMuMTAxNTYyIC05My43NjU2MjUgOTguMDMxMjUgLTkzLjc2NTYyNSBMIDU1LjAzMTI1IC05My43NjU2MjUgQyA0OC41OTM3NSAtOTMuNzY1NjI1IDQzLjA3ODEyNSAtOTEuNDcyNjU2IDM4LjQ4NDM3NSAtODYuODkwNjI1IEMgMzMuODk4NDM4IC04Mi4zMDQ2ODggMzEuNjA5Mzc1IC03Ni43NjU2MjUgMzEuNjA5Mzc1IC03MC4yNjU2MjUgTCAzMS42MDkzNzUgLTQ2Ljg0Mzc1IEMgMzEuNjA5Mzc1IC00MC40MDYyNSAzMy44OTg0MzggLTM0Ljg5MDYyNSAzOC40ODQzNzUgLTMwLjI5Njg3NSBDIDQzLjA3ODEyNSAtMjUuNzEwOTM4IDQ4LjU5Mzc1IC0yMy40MjE4NzUgNTUuMDMxMjUgLTIzLjQyMTg3NSBMIDk4LjAzMTI1IC0yMy40MjE4NzUgQyAxMDMuMTAxNTYyIC0yMy40MjE4NzUgMTA3LjYyODkwNiAtMjQuODY3MTg4IDExMS42MDkzNzUgLTI3Ljc2NTYyNSBDIDExNS41OTc2NTYgLTMwLjY2MDE1NiAxMTguNDQxNDA2IC0zNC40MjU3ODEgMTIwLjE0MDYyNSAtMzkuMDYyNSBMIDgyLjM5MDYyNSAtMzkuMDYyNSBMIDgyLjM5MDYyNSAtNjIuNDg0Mzc1IEwgMTQ0Ljg3NSAtNjIuNDg0Mzc1IEwgMTQ0Ljg3NSAtNDYuODQzNzUgQyAxNDQuODc1IC0zNC4zNDM3NSAxNDAuMzEyNSAtMjMuMzE2NDA2IDEzMS4xODc1IC0xMy43NjU2MjUgQyAxMjEuNTgyMDMxIC00LjU4NTkzOCAxMTAuNTMxMjUgMCA5OC4wMzEyNSAwIFogTSA1NS4wMzEyNSAwICIvPgo8L2c+CjxnIGlkPSJnbHlwaC0wLTUiPgo8cGF0aCBkPSJNIDMxLjYwOTM3NSAtODUuMTcxODc1IEwgMzEuNjA5Mzc1IDAgTCA4LjE4NzUgMCBMIDguMTg3NSAtMTE5LjE1NjI1IEwgMzMuNTc4MTI1IC0xMTkuMTU2MjUgTCA5NC4wOTM3NSAtNDcuNDIxODc1IEwgMTU0LjYwOTM3NSAtMTE5LjE1NjI1IEwgMTgwIC0xMTkuMTU2MjUgTCAxODAgMCBMIDE1Ni41NzgxMjUgMCBMIDE1Ni41NzgxMjUgLTg1LjE3MTg3NSBMIDk0LjA5Mzc1IC0xMS4xNDA2MjUgWiBNIDMxLjYwOTM3NSAtODUuMTcxODc1ICIvPgo8L2c+CjxnIGlkPSJnbHlwaC0wLTYiPgo8cGF0aCBkPSJNIDM0LjgxMjUgMCBMIDguMTg3NSAwIEwgNzEuMjUgLTExNy4xODc1IEwgOTUuODEyNSAtMTE3LjE4NzUgTCAxNTguODc1IDAgTCAxMzIuMjY1NjI1IDAgTCA4My41MzEyNSAtOTAuNSBaIE0gMzQuODEyNSAwICIvPgo8L2c+CjwvZz4KPGNsaXBQYXRoIGlkPSJjbGlwLTAiPgo8cGF0aCBjbGlwLXJ1bGU9Im5vbnplcm8iIGQ9Ik0gNjMgMC4wMDM5MDYyNSBMIDE3NCAwLjAwMzkwNjI1IEwgMTc0IDIyMiBMIDYzIDIyMiBaIE0gNjMgMC4wMDM5MDYyNSAiLz4KPC9jbGlwUGF0aD4KPGNsaXBQYXRoIGlkPSJjbGlwLTEiPgo8cGF0aCBjbGlwLXJ1bGU9Im5vbnplcm8iIGQ9Ik0gMCAwLjAwMzkwNjI1IEwgMTI3IDAuMDAzOTA2MjUgTCAxMjcgODAgTCAwIDgwIFogTSAwIDAuMDAzOTA2MjUgIi8+CjwvY2xpcFBhdGg+CjwvZGVmcz4KPGcgZmlsbD0icmdiKDk1LjY4NjM0JSwgOTYuNDcwNjQyJSwgOTcuMjU0OTQ0JSkiIGZpbGwtb3BhY2l0eT0iMSI+Cjx1c2UgeGxpbms6aHJlZj0iI2dseXBoLTAtMCIgeD0iMjQxLjE4MTY5MyIgeT0iMTc2LjEzNTA5OSIvPgo8dXNlIHhsaW5rOmhyZWY9IiNnbHlwaC0wLTEiIHg9IjM5Ni42NTU0MjciIHk9IjE3Ni4xMzUwOTkiLz4KPHVzZSB4bGluazpocmVmPSIjZ2x5cGgtMC0yIiB4PSI1NTEuNjI2MDExIiB5PSIxNzYuMTM1MDk5Ii8+Cjx1c2UgeGxpbms6aHJlZj0iI2dseXBoLTAtMyIgeD0iNjkwLjk5ODkwNiIgeT0iMTc2LjEzNTA5OSIvPgo8dXNlIHhsaW5rOmhyZWY9IiNnbHlwaC0wLTQiIHg9IjczMC43NDc4NTQiIHk9IjE3Ni4xMzUwOTkiLz4KPHVzZSB4bGluazpocmVmPSIjZ2x5cGgtMC01IiB4PSI4ODMuODczNTUiIHk9IjE3Ni4xMzUwOTkiLz4KPHVzZSB4bGluazpocmVmPSIjZ2x5cGgtMC02IiB4PSIxMDcyLjA1MjExNSIgeT0iMTc2LjEzNTA5OSIvPgo8L2c+CjxnIGNsaXAtcGF0aD0idXJsKCNjbGlwLTApIj4KPHBhdGggZmlsbC1ydWxlPSJub256ZXJvIiBmaWxsPSJyZ2IoOTUuNjg2MzQlLCA5Ni40NzA2NDIlLCA5Ny4yNTQ5NDQlKSIgZmlsbC1vcGFjaXR5PSIxIiBkPSJNIDE0Mi4yNzM0MzggMC4wMDM5MDYyNSBMIDE0Mi4yNzM0MzggOTQuODUxNTYyIEwgOTQuODQ3NjU2IDk0Ljg1MTU2MiBMIDk0Ljg0NzY1NiA2My4yMzQzNzUgTCA2My4yMzQzNzUgNjMuMjM0Mzc1IEwgNjMuMjM0Mzc1IDE1OC4wODU5MzggTCA5NC44NDc2NTYgMTU4LjA4NTkzOCBMIDk0Ljg0NzY1NiAxMjYuNDY4NzUgTCAxNDIuMjczNDM4IDEyNi40Njg3NSBMIDE0Mi4yNzM0MzggMjIxLjM4NjcxOSBMIDE3My45NjA5MzggMjIxLjM4NjcxOSBMIDE3My45NjA5MzggMzEuNjE3MTg4IFogTSAxNDIuMjczNDM4IDAuMDAzOTA2MjUgIi8+CjwvZz4KPHBhdGggZmlsbC1ydWxlPSJub256ZXJvIiBmaWxsPSJyZ2IoOTUuNjg2MzQlLCA5Ni40NzA2NDIlLCA5Ny4yNTQ5NDQlKSIgZmlsbC1vcGFjaXR5PSIxIiBkPSJNIDExMC42NTYyNSAxNTguMDgyMDMxIEwgMTEwLjY1NjI1IDE3My45NjQ4NDQgTCA0Ny40MjU3ODEgMTczLjk2NDg0NCBMIDQ3LjQyNTc4MSAxNTguMDgyMDMxIEwgMzEuNjE3MTg4IDE3My45NjQ4NDQgTCAwLjI4NTE1NiAyMDUuMjIyNjU2IEwgMCAyMDUuNTgyMDMxIEwgMTEwLjY1NjI1IDIwNS41ODIwMzEgTCAxMjYuNDY0ODQ0IDIyMS4zODY3MTkgTCAxMjYuNDY0ODQ0IDE0Mi4yNzczNDQgWiBNIDExMC42NTYyNSAxNTguMDgyMDMxICIvPgo8cGF0aCBmaWxsLXJ1bGU9Im5vbnplcm8iIGZpbGw9InJnYig5NS42ODYzNCUsIDk2LjQ3MDY0MiUsIDk3LjI1NDk0NCUpIiBmaWxsLW9wYWNpdHk9IjEiIGQ9Ik0gMTMuMzc1IDE3My45NjQ4NDQgTCAwIDE5My40OTIxODggTCA0Ny40MjU3ODEgMTQ2LjA2NjQwNiBMIDQ3LjQyNTc4MSAxMjQuMzIwMzEyIFogTSAxMy4zNzUgMTczLjk2NDg0NCAiLz4KPGcgY2xpcC1wYXRoPSJ1cmwoI2NsaXAtMSkiPgo8cGF0aCBmaWxsLXJ1bGU9Im5vbnplcm8iIGZpbGw9InJnYig5NS42ODYzNCUsIDk2LjQ3MDY0MiUsIDk3LjI1NDk0NCUpIiBmaWxsLW9wYWNpdHk9IjEiIGQ9Ik0gMTI2LjQ2NDg0NCAwLjAwMzkwNjI1IEwgMTEwLjY1NjI1IDE1LjgwODU5NCBMIDAgMTUuODA4NTk0IEwgMC4yODUxNTYgMTYuMDk3NjU2IEwgNDcuNDI1NzgxIDYzLjIzNDM3NSBMIDQ3LjQyNTc4MSA0Ny40MjU3ODEgTCAxMTAuNjU2MjUgNDcuNDI1NzgxIEwgMTEwLjY1NjI1IDYzLjIzNDM3NSBMIDEyNi40NjQ4NDQgNzkuMDQyOTY5IFogTSAxMjYuNDY0ODQ0IDAuMDAzOTA2MjUgIi8+CjwvZz4KPHBhdGggZmlsbC1ydWxlPSJub256ZXJvIiBmaWxsPSJyZ2IoOTUuNjg2MzQlLCA5Ni40NzA2NDIlLCA5Ny4yNTQ5NDQlKSIgZmlsbC1vcGFjaXR5PSIxIiBkPSJNIDEzLjM3NSA0Ny40MjU3ODEgTCA0Ny40MjU3ODEgOTcuMjEwOTM4IEwgNDcuNDI1NzgxIDc1LjM5NDUzMSBMIDAgMjcuOTY4NzUgWiBNIDEzLjM3NSA0Ny40MjU3ODEgIi8+Cjwvc3ZnPgo=";
+function boxHTML(node){
+  if(node.area){
+    return `<div class="box area" data-f="__area__" data-n="${esc(node.r)}" data-r="área" data-tag="${esc(node.tag||'')}">
+      <div class="arealabel">${esc(node.r)}</div></div>`;
   }
+  const vac = node.n==="Vaga";
+  const bd = node.bd ? `<span class="bd">${esc(node.bd)}</span>`:"";
+  const nm = vac ? `<span class="vac">Vaga</span>` : esc(node.n);
+  const cctag = node.dir ? "" : `<div class="cctag ${node.f?'ready':'none'}">${node.f?'Cartão de Cargo':'Sem cartão de cargo'}</div>`;
+  const df = node.dir ? "__dir__" : (node.f||"");
+  const tag = node.dir ? ` data-tag="${esc(node.tag||'')}"` : "";
+  const shattr = node.shared ? ` data-shared="${esc(node.shared)}"` : "";
+  return `<div class="box k-${kindOf(node)}${node.dir?' dir':''}${node.shared?' sharedbox':''}" data-f="${df}" data-n="${esc(node.n)}" data-r="${esc(node.r)}" data-bd="${esc(node.bd||'')}"${tag}${shattr}>
+      ${cctag}
+      <div class="role">${esc(node.r)}</div>
+      <div class="name">${nm}${bd}</div>
+    </div>`;
+}
+function togHTML(n){ return `<button class="tog" aria-label="Abrir/recolher time"><span class="sym">+</span><span class="ct">${n}</span></button>`; }
 
-  const c = CARGOS[n.cargo] || {};
-  const badge = n.cargo ? `<span class="cbadge ${c.status==='pronto'?'pronto':'criar'}">${c.status==='pronto'?'Pronto':'Rascunho'}</span>` : "";
-  const exp = hasKids ? `<div class="exp" onclick="event.stopPropagation();this.closest('li').classList.toggle('collapsed')"><span class="p"></span><span class="m"></span></div>` : "";
-  const collapsed = (depth>=1 && hasKids) ? "collapsed" : "";
-
-  return `<li class="${collapsed}">
-    <div class="node ${lvl} ${rcls} ${vago}" ${n.cargo?`onclick="openCartao('${n.cargo}')"`:''}>
-      <div class="cap"></div>
-      ${badge}
-      <div class="body">
-        <div class="role">${esc(n.role||"")}</div>
-        <div class="name">${esc(n.name)}${marca}</div>
-      </div>
-      ${exp}
-    </div>
-    ${hasKids?`<ul>${n.children.map(x=>nodeHTML(x,depth+1)).join("")}</ul>`:""}
-  </li>`;
+function renderNode(node){
+  const has = node.team && node.team.length;
+  let li = `<li>${boxHTML(node)}`;
+  if(has){
+    li += togHTML(node.team.length);
+    li += `<ul class="collapsed">${node.team.map(ch=>renderNode(ch)).join('')}</ul>`;
+  }
+  li += `</li>`;
+  return li;
 }
 
-function renderTree(){
-  document.getElementById('tree').innerHTML = `<ul>${nodeHTML(ORG,0)}</ul>`;
-  centerScroll();
-}
-function centerScroll(){
-  const sc=document.querySelector('.scroller'), tr=document.getElementById('tree');
-  if(sc && tr){ sc.scrollLeft = Math.max(0,(tr.scrollWidth - sc.clientWidth)/2); }
-}
-window.addEventListener('resize',centerScroll);
+// cadeira compartilhada — centralizada entre dois líderes, com ligação para os dois
+const SHARED = {r:"Filmmaker", n:"Fernando", bd:"Fish + Aristo", f:"filmmaker", shared:1, between:["Jorge","Sabrina"]};
 
-function expandAll(open){
-  document.querySelectorAll('#tree li').forEach(li=>{
-    if(li.querySelector(':scope > ul')) li.classList.toggle('collapsed', !open);
+function build(){
+  const topLis = TOP.map(n=>renderNode(n)).join('');
+  const rootBox = `<div class="box root" data-f="__root__" data-n="Grupo Shrigma" data-r="Governança">
+      <div class="role">Governança</div><img class="logo" alt="Grupo Shrigma" src="${LOGO}"></div>`;
+  document.getElementById('tree').innerHTML =
+    `<ul><li>${rootBox}<ul>${topLis}</ul></li></ul>`;
+  const chart=document.querySelector('.chart');
+  let svg=document.getElementById('links');
+  if(!svg){ svg=document.createElementNS('http://www.w3.org/2000/svg','svg'); svg.id='links'; svg.setAttribute('class','links'); chart.insertBefore(svg, chart.firstChild); }
+  let sh=document.getElementById('sharedNode');
+  if(!sh){ sh=document.createElement('div'); sh.id='sharedNode'; sh.className='sharednode'; chart.appendChild(sh); }
+  sh.innerHTML=boxHTML(SHARED);
+  requestAnimationFrame(drawLinks);
+}
+
+function drawLinks(){
+  const chart=document.querySelector('.chart'); const svg=document.getElementById('links'); const sh=document.getElementById('sharedNode');
+  if(!svg||!sh) return;
+  const setSvg=()=>{ const W=chart.scrollWidth, H=Math.max(chart.scrollHeight, chart.offsetHeight);
+    svg.setAttribute('width',W); svg.setAttribute('height',H); svg.style.width=W+'px'; svg.style.height=H+'px'; };
+  chart.style.minHeight=''; // reset before measuring
+  const cr=chart.getBoundingClientRect();
+  const boxes=[...document.querySelectorAll('.box')];
+  const A=boxes.find(b=>b.dataset.n===SHARED.between[0] && !b.classList.contains('root'));
+  const B=boxes.find(b=>b.dataset.n===SHARED.between[1] && !b.classList.contains('root'));
+  const vis=el=>el&&el.offsetParent!==null;
+  if(!vis(A)||!vis(B)){ sh.style.display='none'; svg.innerHTML=''; setSvg(); return; }
+  sh.style.display='block';
+  const ra=A.getBoundingClientRect(), rb=B.getBoundingClientRect();
+  const la=A.closest('li').getBoundingClientRect(), lb=B.closest('li').getBoundingClientRect();
+  const ax=ra.left+ra.width/2-cr.left, bx=rb.left+rb.width/2-cr.left;
+  const fx=(ax+bx)/2;                                   // centro entre os dois líderes
+  const topY=Math.max(la.bottom, lb.bottom)-cr.top + 30; // abaixo das duas equipes
+  const w=sh.offsetWidth||200;
+  sh.style.left=(fx-w/2)+'px'; sh.style.top=topY+'px';
+  // ligações simétricas: base de cada líder → topo do card compartilhado
+  const ay=ra.bottom-cr.top, by=rb.bottom-cr.top;
+  const ftx=fx, fty=topY;                               // topo-centro do Fernando
+  const c1=(ay+fty)/2, c2=(by+fty)/2;
+  let out='';
+  out+=`<path d="M ${ax.toFixed(1)} ${ay.toFixed(1)} C ${ax.toFixed(1)} ${c1.toFixed(1)}, ${ftx.toFixed(1)} ${(fty-38).toFixed(1)}, ${ftx.toFixed(1)} ${fty.toFixed(1)}"/>`;
+  out+=`<path d="M ${bx.toFixed(1)} ${by.toFixed(1)} C ${bx.toFixed(1)} ${c2.toFixed(1)}, ${ftx.toFixed(1)} ${(fty-38).toFixed(1)}, ${ftx.toFixed(1)} ${fty.toFixed(1)}"/>`;
+  svg.innerHTML=out;
+  const fbottom=topY+(sh.offsetHeight||64)+24;
+  chart.style.minHeight=Math.max(chart.scrollHeight, fbottom)+'px';
+  setSvg();
+}
+window.addEventListener('resize',()=>requestAnimationFrame(drawLinks));
+build();
+
+/* ---------- interações ---------- */
+const overlay=document.getElementById('overlay'), drawer=document.getElementById('drawer');
+function openInfo(name, role, html){
+  document.getElementById('drRole').textContent = role;
+  document.getElementById('drName').textContent = name;
+  document.getElementById('drSub').innerHTML = '';
+  document.getElementById('drBody').innerHTML = html;
+  overlay.classList.add('on'); drawer.classList.add('on'); drawer.setAttribute('aria-hidden','false');
+}
+function openFicha(fkey, name, role, bd){
+  const f = F[fkey];
+  document.getElementById('drRole').textContent = role || (f?f.cargo:'');
+  document.getElementById('drName').textContent = name;
+  const sub=document.getElementById('drSub');
+  if(f){
+    sub.innerHTML = `${bd?`<span><span class="lab">Marca</span> ${esc(bd)}</span>`:''}
+      <span><span class="lab">Cargo</span> ${esc(f.cargo)}</span>
+      <span><span class="lab">Responde a</span> ${esc(f.respondeA)}</span>`;
+    let b=`<div class="sec"><div class="mission">${f.missao}</div></div>`;
+    b+=`<div class="sec"><h3>Escopo — territórios</h3><ul class="ul">${f.escopo.map(e=>`<li>${e}</li>`).join('')}</ul></div>`;
+    if(f.fronteira) b+=`<div class="sec"><h3>Fronteira</h3><div class="frontier"><b>Não é dono de:</b> ${esc(f.fronteira.replace(/^Não é don[ao] de:\s*/,''))}</div></div>`;
+    if(f.resultados&&f.resultados.length) b+=`<div class="sec"><h3>Resultados esperados</h3><ul class="ul">${f.resultados.map(e=>`<li>${esc(e)}</li>`).join('')}</ul></div>`;
+    b+=`<div class="sec"><h3>Matriz de alçadas</h3><div class="alcada">
+        <div class="alc n1"><div class="lv">N1 <span class="tg">decide, não comunica</span></div><div class="txt">${esc(f.n1)}</div></div>
+        <div class="alc n2"><div class="lv">N2 <span class="tg">decide e informa</span></div><div class="txt">${esc(f.n2)}</div></div>
+        <div class="alc n3"><div class="lv">N3 <span class="tg">consulta antes</span></div><div class="txt">${esc(f.n3)}</div></div>
+      </div>${f.reversibilidade?`<div class="rev"><b>Reversibilidade —</b> ${esc(f.reversibilidade)}</div>`:''}${f.notas?`<div class="rev"><b>Calibração —</b> ${esc(f.notas)}</div>`:''}</div>`;
+    if(f.kpis&&f.kpis.length) b+=`<div class="sec"><h3>KPIs do cargo</h3><div class="kpis">${f.kpis.map((k,i)=>{
+        const tc=k.t==='res'?'res':(k.t==='ala'?'ala':'gd'); const tl=k.t==='res'?'Resultado':(k.t==='ala'?'Alavanca':'Guardrail');
+        return `<div class="kpi"><div class="idx">${i+1}</div><div class="kb"><div class="kn">${esc(k.n)}</div><span class="kt ${tc}">${tl}</span><div class="km"><b>Meta:</b> ${esc(k.m)}</div></div></div>`;}).join('')}</div></div>`;
+    b+=`<div class="sec"><div class="rev" style="text-align:center;color:var(--mut2)">Cartão de cargo · ${esc(f.versao)}</div></div>`;
+    document.getElementById('drBody').innerHTML=b;
+  } else {
+    document.getElementById('drRole').textContent = role;
+    sub.innerHTML = `${bd?`<span><span class="lab">Marca</span> ${esc(bd)}</span>`:''}<span><span class="lab">Cargo</span> ${esc(role)}</span>`;
+    const vac = name==="Vaga";
+    document.getElementById('drBody').innerHTML = `<div class="empty"><div class="big">${vac?'Cadeira em aberto':'Cartão de cargo em preparação'}</div>${vac?'Esta cadeira está prevista no organograma e ainda não foi preenchida.':'A cadeira existe no organograma. A ficha de cargo desta pessoa ainda não foi recebida — assim que chegar, aparece aqui ao clicar.'}</div>`;
+  }
+  overlay.classList.add('on'); drawer.classList.add('on'); drawer.setAttribute('aria-hidden','false');
+}
+function closeFicha(){ overlay.classList.remove('on'); drawer.classList.remove('on'); drawer.setAttribute('aria-hidden','true'); }
+overlay.addEventListener('click', closeFicha);
+document.getElementById('drClose').addEventListener('click', closeFicha);
+document.addEventListener('keydown', e=>{ if(e.key==='Escape') closeFicha(); });
+
+function setTog(tog, open){ const el=tog.parentElement.querySelector(':scope > ul'); if(!el) return;
+  el.classList.toggle('collapsed', !open); tog.querySelector('.sym').textContent = open?'–':'+'; }
+
+document.addEventListener('click', e=>{
+  const tg=e.target.closest('.tog');
+  if(tg){ const el=tg.parentElement.querySelector(':scope > ul'); const willOpen=el.classList.contains('collapsed');
+    setTog(tg, willOpen); requestAnimationFrame(drawLinks); return; }
+  const box=e.target.closest('.box');
+  if(box){
+    if(box.dataset.f==='__root__'){ openInfo('Grupo Shrigma','Governança',
+      `<div class="sec"><div class="mission">Estrutura organizacional do Grupo Shrigma — três diretorias (Mateus, Felipe e João), com a Gestão de Projetos e o Administrativo dando apoio às três. Clique em cada cadeira para abrir o cartão de cargo.</div></div>`); return; }
+    if(box.dataset.f==='__area__'){ openInfo(box.dataset.n,'Área',
+      `<div class="sec"><div class="mission">${esc(box.dataset.tag||'')}</div></div><div class="sec"><div class="rev">As pessoas desta área estão logo abaixo — clique em cada cadeira para o cartão de cargo.</div></div>`); return; }
+    if(box.dataset.f==='__dir__'){ openInfo(box.dataset.n,'Diretoria',
+      `<div class="sec"><div class="mission">${esc(box.dataset.tag||'')}</div></div><div class="sec"><div class="rev">As frentes desta diretoria estão logo abaixo no organograma — clique em cada cadeira para o cartão de cargo completo.</div></div>`); return; }
+    openFicha(box.dataset.f, box.dataset.n==="Vaga"?"Vaga":box.dataset.n, box.dataset.r, box.dataset.bd); return;
+  }
+});
+
+document.getElementById('expandAll').addEventListener('click',()=>{
+  document.querySelectorAll('.tog').forEach(t=>setTog(t,true)); requestAnimationFrame(drawLinks);
+});
+document.getElementById('collapseAll').addEventListener('click',()=>{
+  document.querySelectorAll('.tog').forEach(t=>setTog(t,false)); requestAnimationFrame(drawLinks);
+});
+
+/* ---------- busca ---------- */
+const q=document.getElementById('q');
+q&&q.addEventListener('input',()=>{
+  const v=q.value.trim().toLowerCase();
+  const boxes=document.querySelectorAll('.box');
+  if(!v){ boxes.forEach(c=>c.classList.remove('dim')); return; }
+  document.querySelectorAll('.tog').forEach(t=>setTog(t,true)); // abre tudo p/ ver os matches
+  boxes.forEach(c=>{
+    const hit=((c.dataset.n||'')+' '+(c.dataset.r||'')+' '+(c.dataset.bd||'')).toLowerCase().includes(v);
+    c.classList.toggle('dim', !hit);
   });
-}
-
-/* =========================================================
-   MODAL do cartão de cargo
-   ========================================================= */
-const PILL={res:['Resultado','p-res'],ala:['Alavanca','p-ala'],grd:['Guardrail','p-grd']};
-
-function cartaoHTML(id){
-  const c = CARGOS[id]; if(!c) return "<p>Cartão não encontrado.</p>";
-  const rev = c.status==='pronto' ? 'agosto de 2026 · v1.0' : 'agosto de 2026 · rascunho para validar';
-  let h = "";
-  h += `<div class="c-over">Grupo Shrigma · Cartão de Cargo · ${c.status==='pronto'?'Validado':'Rascunho'}</div>`;
-  h += `<div class="c-h1">${esc(c.cargo)}</div>`;
-  h += `<div class="c-sub">${esc(c.frente||'')} · Grupo Shrigma</div>`;
-
-  h += `<div class="c-top">
-    <div class="c"><div class="l">Responde a</div><div class="val">${esc(c.respondeA||'—')}</div></div>
-    <div class="c"><div class="l">Última revisão</div><div class="val">${rev}</div></div>
-    <div class="c"><div class="l">Gatilho de atualização</div><div class="val">mudança real no cargo · escopo/foco · meta ou KPI</div></div>
-  </div>`;
-
-  // Definição
-  h += `<div class="c-sec"><span class="t">Definição do cargo</span></div><div class="card">`;
-  h += `<div class="row"><div class="k">Missão</div><div class="v">${esc(c.missao)}</div></div>`;
-  if(c.escopo){
-    h += `<div class="row"><div class="k">Escopo<span class="kk">Território, não tarefa</span></div><div class="v">`;
-    c.escopo.forEach((e,i)=>{ h += `<div class="item"><span class="n">${i+1}</span> <b>${esc(e.t)}</b> — ${esc(e.d)} ${e.foco?'<span class="foco">FOCO</span>':''}</div>`; });
-    h += `<div class="fronteira"><b>Fronteira — não é dono de:</b> ${esc(c.fronteira)}</div></div></div>`;
-  } else if(c.entregas){
-    h += `<div class="row"><div class="k">Principais entregas</div><div class="v">`;
-    c.entregas.forEach((e,i)=>{ h += `<div class="item"><span class="n">${i+1}</span> ${esc(e)}</div>`; });
-    h += `</div></div>`;
-    h += `<div class="row"><div class="k">Fronteira</div><div class="v">${esc(c.fronteira)}</div></div>`;
-  }
-  h += `</div>`;
-
-  if(c.supremo){ h += `<div class="supremo">★ <b>KPI supremo:</b> ${esc(c.supremo)}</div>`; }
-
-  // Alçadas (só gestão)
-  if(c.alcadas){
-    h += `<div class="c-sec"><span class="t">Alçadas</span><span class="f">o que decide sozinho</span></div><div class="card">`;
-    h += `<div class="row"><div class="k">N1 — decide, não comunica</div><div class="v">${esc(c.alcadas.n1)}</div></div>`;
-    h += `<div class="row"><div class="k">N2 — decide e informa</div><div class="v">${esc(c.alcadas.n2)}</div></div>`;
-    h += `<div class="row"><div class="k">N3 — consulta antes</div><div class="v">${esc(c.alcadas.n3)}</div></div>`;
-    h += `</div>`;
-  }
-
-  // KPIs
-  h += `<div class="c-sec"><span class="t">KPIs do cargo</span></div>`;
-  c.kpis.forEach((k,i)=>{
-    const p = PILL[k.tipo]||PILL.res;
-    h += `<div class="kpi"><div class="lab"><span class="id">KPI ${i+1}</span><span class="pill ${p[1]}">${p[0]}</span>`;
-    if(k.foco) h += `<span style="font-size:9.4px;color:var(--green);font-weight:700">· Foco: ${esc(k.foco)}</span>`;
-    if(k.proposta) h += `<span class="proposta">proposta</span>`;
-    h += `</div><div class="card"><div class="row"><div class="k">Nome</div><div class="v"><b>${esc(k.nome)}</b></div></div>
-      <div class="row"><div class="k">Meta · Frequência</div><div class="v">${esc(k.meta)} · ${esc(k.freq)}</div></div></div></div>`;
-  });
-
-  h += `<div class="quem" style="margin-top:16px"><b>Ocupa hoje:</b> ${esc(c.quem||'—')}</div>`;
-  h += `<div class="c-foot"><span>Cartão de Cargo · ${esc(c.cargo)} — Grupo Shrigma</span><span class="r">${c.status==='pronto'?'v1.0':'rascunho'} · ago/2026</span></div>`;
-  return h;
-}
-
-function openCartao(id){
-  document.getElementById('cpad').innerHTML = cartaoHTML(id);
-  const o=document.getElementById('overlay'); o.classList.add('on'); o.scrollTop=0;
-  document.body.style.overflow='hidden';
-}
-function closeCartao(){ document.getElementById('overlay').classList.remove('on'); document.body.style.overflow=''; }
-document.addEventListener('keydown',e=>{ if(e.key==='Escape') closeCartao(); });
-
-renderTree();
+});
 </script>
-</body></html>
+</body>
+</html>

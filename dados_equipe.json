@@ -1334,6 +1334,28 @@
           "src": "cron",
           "ts": 1789140167634,
           "url": ""
+        },
+        {
+          "p": "Uri",
+          "nome": "Criação de kits Aristocrata no ML - Kit interno do ML(conjunto de anúncios)",
+          "c": "Sem categoria",
+          "m": 46,
+          "cron": 46,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789146032048,
+          "url": "https://app.clickup.com/t/86akgz6nk"
+        },
+        {
+          "p": "Marcela",
+          "nome": "reuniao felipe e pedro",
+          "c": "Rotina",
+          "m": 45,
+          "cron": 45,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789146038439,
+          "url": "https://app.clickup.com/t/86akgzfcb"
         }
       ]
     }

@@ -1191,6 +1191,149 @@
           "src": "cron",
           "ts": 1789119291398,
           "url": "https://app.clickup.com/t/86akgrdud"
+        },
+        {
+          "p": "Uri",
+          "nome": "Atualização campanha de descontos amazon fishermans",
+          "c": "Rotina",
+          "m": 49,
+          "cron": 49,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789122726597,
+          "url": "https://app.clickup.com/t/86akgrgpu"
+        },
+        {
+          "p": "Uri",
+          "nome": "Atualização de preços amazon fishermans",
+          "c": "Rotina",
+          "m": 59,
+          "cron": 59,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789125705011,
+          "url": "https://app.clickup.com/t/86akgrwv8"
+        },
+        {
+          "p": "Samuel",
+          "nome": "Weekly Suporte",
+          "c": "Reunião",
+          "m": 45,
+          "cron": 45,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789070400000,
+          "url": "https://app.clickup.com/t/86akgc9dq"
+        },
+        {
+          "p": "Uri",
+          "nome": "Atualização campanha de descontos amazon fishermans",
+          "c": "Rotina",
+          "m": 0,
+          "cron": 0,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789129235893,
+          "url": "https://app.clickup.com/t/86akgrgpu"
+        },
+        {
+          "p": "Uri",
+          "nome": "Atualização campanha de descontos amazon fishermans",
+          "c": "Rotina",
+          "m": 15,
+          "cron": 15,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789130138063,
+          "url": "https://app.clickup.com/t/86akgrgpu"
+        },
+        {
+          "p": "Marcela",
+          "nome": "responder todos wpp",
+          "c": "Rotina",
+          "m": 100,
+          "cron": 100,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789126329799,
+          "url": "https://app.clickup.com/t/86akgukzj"
+        },
+        {
+          "p": "Marcela",
+          "nome": "plano de ação estruturacao- fishermnas",
+          "c": "Rotina",
+          "m": 120,
+          "cron": 120,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789125165601,
+          "url": "https://app.clickup.com/t/86akgumcc"
+        },
+        {
+          "p": "Marcela",
+          "nome": "contratos aristocrata",
+          "c": "Rotina",
+          "m": 40,
+          "cron": 40,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789133128874,
+          "url": "https://app.clickup.com/t/86akgw2d3"
+        },
+        {
+          "p": "Marcela",
+          "nome": "CROAR CUPONS",
+          "c": "Rotina",
+          "m": 40,
+          "cron": 40,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789140093676,
+          "url": "https://app.clickup.com/t/86akgyj1v"
+        },
+        {
+          "p": "Uri",
+          "nome": "Reativação dos anúncios FMSB em todas as plataformas",
+          "c": "Sem categoria",
+          "m": 8,
+          "cron": 8,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789143601564,
+          "url": "https://app.clickup.com/t/86akgywth"
+        },
+        {
+          "p": "Uri",
+          "nome": "Revisão de campanhas de desconto e capanhas de ads do FMSB em todas as lojas.",
+          "c": "Sem categoria",
+          "m": 7,
+          "cron": 7,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789144158115,
+          "url": "https://app.clickup.com/t/86akgz210"
+        },
+        {
+          "p": "Uri",
+          "nome": "Criação de kits Aristocrata no ML - Kit interno do ML(conjunto de anúncios)",
+          "c": "Sem categoria",
+          "m": 22,
+          "cron": 22,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789144682537,
+          "url": "https://app.clickup.com/t/86akgz6nk"
+        },
+        {
+          "p": "Leandro",
+          "nome": "",
+          "c": "Sem categoria",
+          "m": 90,
+          "cron": 90,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789140167634,
+          "url": ""
         }
       ]
     }

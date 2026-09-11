@@ -1136,6 +1136,61 @@
           "src": "cron",
           "ts": 1789064519235,
           "url": "https://app.clickup.com/t/86akfmb9m"
+        },
+        {
+          "p": "Uri",
+          "nome": "SAC/NF",
+          "c": "Rotina",
+          "m": 22,
+          "cron": 22,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789120957731,
+          "url": "https://app.clickup.com/t/86akgrdud"
+        },
+        {
+          "p": "Uri",
+          "nome": "Colher informações para habilitar o faturador amazon",
+          "c": "Imprevisto",
+          "m": 1,
+          "cron": 1,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789122303546,
+          "url": "https://app.clickup.com/t/86akgrfvd"
+        },
+        {
+          "p": "Uri",
+          "nome": "SAC/NF",
+          "c": "Rotina",
+          "m": 0,
+          "cron": 0,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789122378496,
+          "url": "https://app.clickup.com/t/86akgrdud"
+        },
+        {
+          "p": "Uri",
+          "nome": "SAC/NF",
+          "c": "Rotina",
+          "m": 45,
+          "cron": 45,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789119900000,
+          "url": "https://app.clickup.com/t/86akgrdud"
+        },
+        {
+          "p": "Uri",
+          "nome": "SAC/NF",
+          "c": "Rotina",
+          "m": 53,
+          "cron": 53,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789119291398,
+          "url": "https://app.clickup.com/t/86akgrdud"
         }
       ]
     }

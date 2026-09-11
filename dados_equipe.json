@@ -962,6 +962,17 @@
           "url": "https://app.clickup.com/t/86akfh6fm"
         },
         {
+          "p": "Samuel",
+          "nome": "Novas Políticas de Troca ",
+          "c": "Projeto",
+          "m": 154,
+          "cron": 154,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789061196356,
+          "url": "https://app.clickup.com/t/86akempfp"
+        },
+        {
           "p": "Sabrina",
           "nome": "SEPARAR OS VÍDEOS SOLTINHO",
           "c": "Rotina",
@@ -982,6 +993,149 @@
           "src": "cron",
           "ts": 1789057800000,
           "url": "https://app.clickup.com/t/86ak72pmc"
+        },
+        {
+          "p": "Jorge",
+          "nome": "Revisar criativos da FISHERMANS",
+          "c": "Rotina",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789065000000,
+          "url": "https://app.clickup.com/t/86akghgdq"
+        },
+        {
+          "p": "Jorge",
+          "nome": "Pensar em uma forma de começar a traquear dados de influenciadores a partir de Setembro",
+          "c": "Compromisso",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789056000000,
+          "url": "https://app.clickup.com/t/86ak8u0nz"
+        },
+        {
+          "p": "Jorge",
+          "nome": "[Fishermans] Mapear editor de vídeos Fishermans",
+          "c": "Compromisso",
+          "m": 10,
+          "cron": 10,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789068400225,
+          "url": "https://app.clickup.com/t/86akfmb17"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "planilha",
+          "c": "Projeto",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789063200000,
+          "url": "https://app.clickup.com/t/86akgjdh6"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "SEPARAR OS VÍDEOS SOLTINHO",
+          "c": "Rotina",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789065000000,
+          "url": "https://app.clickup.com/t/86akge91u"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "pensar em como delegar as taks",
+          "c": "Projeto",
+          "m": 45,
+          "cron": 45,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789066800000,
+          "url": "https://app.clickup.com/t/86akgjf2p"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "marcela sobre influ",
+          "c": "Reunião",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789069500000,
+          "url": "https://app.clickup.com/t/86akgjf8z"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "REVISÃO DE ADS",
+          "c": "Rotina",
+          "m": 15,
+          "cron": 15,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789071300000,
+          "url": "https://app.clickup.com/t/86akfh6fm"
+        },
+        {
+          "p": "Marcela",
+          "nome": "1.1 com felipe",
+          "c": "Sem categoria",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789069828974,
+          "url": "https://app.clickup.com/t/86akgjmjn"
+        },
+        {
+          "p": "Marcela",
+          "nome": "[Aristocrata] Pensar em uma maneira melhor de aproveitar os conteúdos dos influenciadores (que não estão sendo utilizados) nos ads e orgânico, mapeando semanalmente",
+          "c": "Compromisso",
+          "m": 40,
+          "cron": 40,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789069241698,
+          "url": "https://app.clickup.com/t/86akfmbdu"
+        },
+        {
+          "p": "Marcela",
+          "nome": "[Fishermans] Pensar em uma maneira melhor de aproveitar os conteúdos dos influenciadores (que não estão sendo utilizados) nos ads e orgânico, mapeando semanalmente",
+          "c": "Compromisso",
+          "m": 55,
+          "cron": 55,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789068354767,
+          "url": "https://app.clickup.com/t/86akfmb7d"
+        },
+        {
+          "p": "Marcela",
+          "nome": "prospecção aristocrata",
+          "c": "Rotina",
+          "m": 116,
+          "cron": 116,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789064742225,
+          "url": "https://app.clickup.com/t/86akfhbt4"
+        },
+        {
+          "p": "Marcela",
+          "nome": "[Fishermans] Criar link de UTM para influenciadores que se recusam a divulgar cupom de desconto",
+          "c": "Compromisso",
+          "m": 120,
+          "cron": 120,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789064519235,
+          "url": "https://app.clickup.com/t/86akfmb9m"
         }
       ]
     }

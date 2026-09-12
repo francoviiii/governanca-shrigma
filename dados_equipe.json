@@ -1356,6 +1356,160 @@
           "src": "cron",
           "ts": 1789146038439,
           "url": "https://app.clickup.com/t/86akgzfcb"
+        },
+        {
+          "p": "Uri",
+          "nome": "Atualização de estoque remocça da Amazônica 4X 0.40mm",
+          "c": "Imprevisto",
+          "m": 12,
+          "cron": 12,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789151476579,
+          "url": "https://app.clickup.com/t/86akh20g8"
+        },
+        {
+          "p": "Samuel",
+          "nome": "Dashboard & Demandas Reativas",
+          "c": "Rotina",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789124400000,
+          "url": "https://app.clickup.com/t/86akh2yqv"
+        },
+        {
+          "p": "Samuel",
+          "nome": "Reunião 1:1 Direção",
+          "c": "Sem categoria",
+          "m": 45,
+          "cron": 45,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789128000000,
+          "url": "https://app.clickup.com/t/86akh2zg6"
+        },
+        {
+          "p": "Samuel",
+          "nome": "Dashboard & Demandas Reativas",
+          "c": "Rotina",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789131600000,
+          "url": "https://app.clickup.com/t/86akh2yqv"
+        },
+        {
+          "p": "Samuel",
+          "nome": "Atualização de Biblioteca - Baseado em FAQ",
+          "c": "Projeto",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789179300000,
+          "url": "https://app.clickup.com/t/86akemz8b"
+        },
+        {
+          "p": "Leandro",
+          "nome": "",
+          "c": "Sem categoria",
+          "m": 0,
+          "cron": 0,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789154902330,
+          "url": ""
+        },
+        {
+          "p": "Leandro",
+          "nome": "",
+          "c": "Sem categoria",
+          "m": 1,
+          "cron": 1,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789154906148,
+          "url": ""
+        },
+        {
+          "p": "Samuel",
+          "nome": "Novas Políticas de Troca ",
+          "c": "Projeto",
+          "m": 45,
+          "cron": 45,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789143300000,
+          "url": "https://app.clickup.com/t/86akempfp"
+        },
+        {
+          "p": "Leandro",
+          "nome": "",
+          "c": "Sem categoria",
+          "m": 0,
+          "cron": 0,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789155007671,
+          "url": ""
+        },
+        {
+          "p": "Leandro",
+          "nome": "",
+          "c": "Sem categoria",
+          "m": 0,
+          "cron": 0,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789155014464,
+          "url": ""
+        },
+        {
+          "p": "Leandro",
+          "nome": "",
+          "c": "Sem categoria",
+          "m": 90,
+          "cron": 90,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789124400000,
+          "url": ""
+        },
+        {
+          "p": "Samuel",
+          "nome": "Organograma ",
+          "c": "Projeto",
+          "m": 165,
+          "cron": 165,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789149600000,
+          "url": "https://app.clickup.com/t/86akh32v8"
+        },
+        {
+          "p": "Jorge",
+          "nome": "Organizar e voltar com as gravações da FISHERMANS",
+          "c": "Projeto",
+          "m": 120,
+          "cron": 120,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789150122303,
+          "url": "https://app.clickup.com/t/86ak8qkct"
+        },
+        {
+          "p": "Jorge",
+          "nome": "Finalizar a PÁGINA DO COPO",
+          "c": "Sem categoria",
+          "m": 150,
+          "cron": 150,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789148337761,
+          "url": "https://app.clickup.com/t/86akh4aag"
         }
       ]
     }

@@ -311,6 +311,72 @@
           "src": "cron",
           "ts": 1789404246000,
           "url": "https://app.clickup.com/t/86akhmtt3"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "reunião liderança",
+          "c": "Reunião",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789390800000,
+          "url": "https://app.clickup.com/t/86akhr0n1"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "reunião weekly",
+          "c": "Reunião",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789394400000,
+          "url": "https://app.clickup.com/t/86akhr10d"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "preparar slides",
+          "c": "Rotina",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789387200000,
+          "url": "https://app.clickup.com/t/86akhrd4c"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "preparar entrevista",
+          "c": "Projeto",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789403400000,
+          "url": "https://app.clickup.com/t/86akhrdhr"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "entrevista vitoria",
+          "c": "Reunião",
+          "m": 15,
+          "cron": 15,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789405200000,
+          "url": "https://app.clickup.com/t/86akhrdva"
+        },
+        {
+          "p": "Marcela",
+          "nome": "criar anúncios tiktokshop",
+          "c": "Imprevisto",
+          "m": 50,
+          "cron": 50,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789405124704,
+          "url": "https://app.clickup.com/t/86akhr5h8"
         }
       ]
     }

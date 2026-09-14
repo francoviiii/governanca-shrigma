@@ -14,6 +14,28 @@
           "src": "cron",
           "ts": 1789296460004,
           "url": "https://app.clickup.com/t/86akhc84d"
+        },
+        {
+          "p": "Jorge",
+          "nome": "Preecnher planilha de AD VÍDEO + IMAGEM",
+          "c": "Rotina",
+          "m": 300,
+          "cron": 300,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789330010663,
+          "url": "https://app.clickup.com/t/86akhe7em"
+        },
+        {
+          "p": "Jorge",
+          "nome": "Preencher KPIs",
+          "c": "Rotina",
+          "m": 37,
+          "cron": 37,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789348285252,
+          "url": "https://app.clickup.com/t/86akhebh4"
         }
       ]
     }

@@ -597,6 +597,39 @@
           "src": "cron",
           "ts": 1789482702570,
           "url": "https://app.clickup.com/t/86akhxda8"
+        },
+        {
+          "p": "Uri",
+          "nome": "Solucionar conflito de preçso entre ML e Amazon Fishermans",
+          "c": "Imprevisto",
+          "m": 68,
+          "cron": 68,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789489174499,
+          "url": "https://app.clickup.com/t/86akja7um"
+        },
+        {
+          "p": "Marcela",
+          "nome": "responder todos",
+          "c": "Rotina",
+          "m": 100,
+          "cron": 100,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789487482409,
+          "url": "https://app.clickup.com/t/86akjbbvx"
+        },
+        {
+          "p": "Marcela",
+          "nome": "contratos aristocrata",
+          "c": "Rotina",
+          "m": 17,
+          "cron": 17,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789493054190,
+          "url": "https://app.clickup.com/t/86akjc6ng"
         }
       ]
     }

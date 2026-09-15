@@ -123,13 +123,14 @@
   <div class="note">
     <b>Como salvar (simples):</b> o painel <b>salva sozinho no seu navegador</b> a cada clique — você não precisa fazer mais nada no dia a dia. O <b>“Baixar backup”</b> gera um arquivo do seu histórico (guarde ou leve para outro computador com “Restaurar”).<br>
     <b>Sobre o GitHub:</b> o arquivo do painel fica no GitHub só para <b>hospedar a ferramenta</b> — você o coloca lá <b>uma única vez</b>. Não precisa “comitar” toda semana; os dados vivem no seu navegador.<br>
-    <b>Lógica:</b> monitore sinais, não pessoas. Atenção só no amarelo e no vermelho. O 1:1 é quinzenal — nas semanas sem 1:1, deixe em “—”.
+    <b>Lógica:</b> monitore sinais, não pessoas. Atenção só no amarelo e no vermelho. O 1:1 é quinzenal — nas semanas sem 1:1, deixe em “—”.<br>
+    <b>Weeklys:</b> <b>Weekly de time</b> = a área faz a weekly e aplica a ata; <b>Weekly de lideranças</b> = a reunião de liderança. Nem toda área tem time — se a área <b>não tem weekly de time</b>, deixe em “—” (o vazio já significa “não tem”).
   </div>
   <footer>Painel de Aderência · Grupo Shrigma</footer>
 </div>
 
 <script>
-const CRITERIOS = ["SOPs em uso","Ata da weekly","1:1 do time (quinzenal)","Rastreamento de tempo","Compromissos cumpridos"];
+const CRITERIOS = ["SOPs em uso","Weekly de time (ata aplicada)","Weekly de lideranças","1:1 do time (quinzenal)","Rastreamento de tempo","Compromissos cumpridos"];
 const AREAS = [
   {area:"Comercial / B2B", dono:"Leandro"}, {area:"Marketplace", dono:"Uri"},
   {area:"Criativo · O Aristocrata", dono:"Sabrina"}, {area:"Criativo · Fishermans", dono:"Jorge"},
@@ -138,7 +139,7 @@ const AREAS = [
   {area:"Despacho", dono:"Alexandre"}, {area:"Financeiro", dono:"Larissa"}
 ];
 const LABELS=["—","OK","Atenção","Falha"];
-const KEY="painelAderencia_v3";
+const KEY="painelAderencia_v4";
 const el=id=>document.getElementById(id);
 const vazio=()=>AREAS.map(()=>CRITERIOS.map(()=>0));
 const obsVazio=()=>AREAS.map(()=>"");
@@ -159,11 +160,16 @@ function normaliza(){
 }
 function carregar(){
   try{ const s=localStorage.getItem(KEY); if(s){ DATA=JSON.parse(s); normaliza(); return; } }catch(e){}
-  // migra do formato anterior (sem a área Despacho, que entrou antes do Financeiro)
-  try{ const old=localStorage.getItem("painelAderencia_v2"); if(old){ DATA=JSON.parse(old);
+  // migra do v3 (5 medidas) -> v4: entra "Weekly de lideranças" na coluna 2
+  try{ const v3=localStorage.getItem("painelAderencia_v3"); if(v3){ DATA=JSON.parse(v3);
+    DATA.semanas.forEach(w=>{ (w.status||[]).forEach(row=>{ if(Array.isArray(row)&&row.length===5) row.splice(2,0,0); }); });
+    normaliza(); salvar(); return; } }catch(e){}
+  // migra do v2 (9 áreas, 5 medidas) -> v4: entra a área Despacho (índice 8) e a medida (coluna 2)
+  try{ const v2=localStorage.getItem("painelAderencia_v2"); if(v2){ DATA=JSON.parse(v2);
     DATA.semanas.forEach(w=>{
-      if(Array.isArray(w.status)&&w.status.length===9) w.status.splice(8,0,CRITERIOS.map(()=>0));
+      if(Array.isArray(w.status)&&w.status.length===9) w.status.splice(8,0,[0,0,0,0,0]);
       if(Array.isArray(w.obs)&&w.obs.length===9) w.obs.splice(8,0,"");
+      (w.status||[]).forEach(row=>{ if(Array.isArray(row)&&row.length===5) row.splice(2,0,0); });
     });
     normaliza(); salvar(); return; } }catch(e){}
   DATA={ atual:0, semanas:[ novaSemana("Semana 1") ] };

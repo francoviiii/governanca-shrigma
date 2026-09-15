@@ -7,7 +7,7 @@
         {
           "p": "Uri",
           "nome": "Fechamentos semanais",
-          "c": "Sem categoria",
+          "c": "Rotina",
           "m": 94,
           "cron": 94,
           "prog": 0,
@@ -40,7 +40,7 @@
         {
           "p": "Uri",
           "nome": "SAC/NF",
-          "c": "Sem categoria",
+          "c": "Rotina",
           "m": 24,
           "cron": 24,
           "prog": 0,
@@ -51,7 +51,7 @@
         {
           "p": "Uri",
           "nome": "Estudos e análises de preços Fishermans",
-          "c": "Sem categoria",
+          "c": "Rotina",
           "m": 0,
           "cron": 0,
           "prog": 0,
@@ -62,7 +62,7 @@
         {
           "p": "Uri",
           "nome": "Estudos e análises de preços Fishermans",
-          "c": "Sem categoria",
+          "c": "Rotina",
           "m": 5,
           "cron": 5,
           "prog": 0,
@@ -73,7 +73,7 @@
         {
           "p": "Uri",
           "nome": "Estudos e análises de preços Fishermans",
-          "c": "Sem categoria",
+          "c": "Rotina",
           "m": 80,
           "cron": 80,
           "prog": 0,
@@ -161,7 +161,7 @@
         {
           "p": "Uri",
           "nome": "Verificar Anúncios de clientes B2B vendendo mais barato que o piso",
-          "c": "Sem categoria",
+          "c": "Imprevisto",
           "m": 34,
           "cron": 34,
           "prog": 0,
@@ -172,7 +172,7 @@
         {
           "p": "Uri",
           "nome": "Estudos e análises de preços Fishermans",
-          "c": "Sem categoria",
+          "c": "Rotina",
           "m": 7,
           "cron": 7,
           "prog": 0,
@@ -194,7 +194,7 @@
         {
           "p": "Uri",
           "nome": "Conferência de estoque dos anúncios fishermans ML",
-          "c": "Sem categoria",
+          "c": "Rotina",
           "m": 3,
           "cron": 3,
           "prog": 0,
@@ -205,7 +205,7 @@
         {
           "p": "Uri",
           "nome": "Emissão de NF Aristo ML",
-          "c": "Sem categoria",
+          "c": "Rotina",
           "m": 3,
           "cron": 3,
           "prog": 0,
@@ -216,7 +216,7 @@
         {
           "p": "Uri",
           "nome": "Conferência de estoque dos anúncios fishermans ML",
-          "c": "Sem categoria",
+          "c": "Rotina",
           "m": 39,
           "cron": 39,
           "prog": 0,
@@ -227,7 +227,7 @@
         {
           "p": "Uri",
           "nome": "Emissão de NF Aristo ML",
-          "c": "Sem categoria",
+          "c": "Rotina",
           "m": 0,
           "cron": 0,
           "prog": 0,
@@ -238,7 +238,7 @@
         {
           "p": "Uri",
           "nome": "Atualização e criação de planilha de estoque Marketplace",
-          "c": "Sem categoria",
+          "c": "Projeto",
           "m": 8,
           "cron": 8,
           "prog": 0,
@@ -249,7 +249,7 @@
         {
           "p": "Uri",
           "nome": "Atualização de campanhas abertas para afiliados",
-          "c": "Sem categoria",
+          "c": "Rotina",
           "m": 6,
           "cron": 6,
           "prog": 0,
@@ -260,7 +260,7 @@
         {
           "p": "Uri",
           "nome": "Atualização e criação de planilha de estoque Marketplace",
-          "c": "Sem categoria",
+          "c": "Projeto",
           "m": 40,
           "cron": 40,
           "prog": 0,
@@ -293,7 +293,7 @@
         {
           "p": "Uri",
           "nome": "Atualização de campanhas abertas para afiliados",
-          "c": "Sem categoria",
+          "c": "Rotina",
           "m": 5,
           "cron": 5,
           "prog": 0,
@@ -304,7 +304,7 @@
         {
           "p": "Uri",
           "nome": "Conferência de estoque dos anúncios fishermans ML",
-          "c": "Sem categoria",
+          "c": "Rotina",
           "m": 6,
           "cron": 6,
           "prog": 0,
@@ -381,7 +381,7 @@
         {
           "p": "Uri",
           "nome": "Solucionar problemas de cadastro em todas as lojas que necessário",
-          "c": "Sem categoria",
+          "c": "Imprevisto",
           "m": 31,
           "cron": 31,
           "prog": 0,
@@ -392,7 +392,7 @@
         {
           "p": "Uri",
           "nome": "Denunciar anuncios de revenda do ariatocrata ML",
-          "c": "Sem categoria",
+          "c": "Imprevisto",
           "m": 18,
           "cron": 18,
           "prog": 0,
@@ -447,7 +447,7 @@
         {
           "p": "Uri",
           "nome": "Atualizar estoque fishermans, remover skus esgotadas",
-          "c": "Sem categoria",
+          "c": "Imprevisto",
           "m": 30,
           "cron": 30,
           "prog": 0,
@@ -458,7 +458,7 @@
         {
           "p": "Uri",
           "nome": "NF Ariato Desodorante Bling",
-          "c": "Sem categoria",
+          "c": "Rotina",
           "m": 3,
           "cron": 3,
           "prog": 0,
@@ -468,7 +468,7 @@
         },
         {
           "p": "Samuel",
-          "nome": "Novas Políticas de Troca ",
+          "nome": "Novas Políticas de Troca | Atualização do Troque Ecommerce",
           "c": "Projeto",
           "m": 210,
           "cron": 210,
@@ -520,6 +520,83 @@
           "src": "cron",
           "ts": 1789422485213,
           "url": "https://app.clickup.com/t/86akhzrhj"
+        },
+        {
+          "p": "Uri",
+          "nome": "SAC/NF",
+          "c": "Rotina",
+          "m": 34,
+          "cron": 34,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789471262755,
+          "url": "https://app.clickup.com/t/86akj4c76"
+        },
+        {
+          "p": "Uri",
+          "nome": "Varredura no ML para identificar vendedores do Aristo",
+          "c": "Imprevisto",
+          "m": 18,
+          "cron": 18,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789473750097,
+          "url": "https://app.clickup.com/t/86akj4r7d"
+        },
+        {
+          "p": "Uri",
+          "nome": "Denunciar lojas e anúncios vendendo Aristo no ML",
+          "c": "Imprevisto",
+          "m": 57,
+          "cron": 57,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789474889327,
+          "url": "https://app.clickup.com/t/86akj57hr"
+        },
+        {
+          "p": "Jorge",
+          "nome": "Finalizar os KITS da página para rodarmos como oferta",
+          "c": "Projeto",
+          "m": 240,
+          "cron": 240,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789405200000,
+          "url": "https://app.clickup.com/t/86akj5e2u"
+        },
+        {
+          "p": "Jorge",
+          "nome": "Revisar candidaturas de EDITOR DE VÍDEO",
+          "c": "Projeto",
+          "m": 45,
+          "cron": 45,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789472832544,
+          "url": "https://app.clickup.com/t/86akhjnr5"
+        },
+        {
+          "p": "Jorge",
+          "nome": "Atualizar o método de PAGAMENTO DO LOOM ()",
+          "c": "Imprevisto",
+          "m": 5,
+          "cron": 5,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789476112872,
+          "url": "https://app.clickup.com/t/86akhdcda"
+        },
+        {
+          "p": "Uri",
+          "nome": "Criar anúncios dos kits mistos Tiktok Aristo",
+          "c": "Projeto",
+          "m": 49,
+          "cron": 49,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789482702570,
+          "url": "https://app.clickup.com/t/86akhxda8"
         }
       ]
     }

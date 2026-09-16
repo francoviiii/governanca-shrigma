@@ -744,7 +744,7 @@
         {
           "p": "Samuel",
           "nome": "Handoff -ClickUp",
-          "c": "Sem categoria",
+          "c": "Projeto",
           "m": 45,
           "cron": 45,
           "prog": 0,
@@ -762,6 +762,149 @@
           "src": "cron",
           "ts": 1789498662127,
           "url": "https://app.clickup.com/t/86akjg358"
+        },
+        {
+          "p": "Uri",
+          "nome": "SCA/NF",
+          "c": "Rotina",
+          "m": 57,
+          "cron": 57,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789557974106,
+          "url": "https://app.clickup.com/t/86akjpjh7"
+        },
+        {
+          "p": "Uri",
+          "nome": "Baixar preços do Aristocrata no ML, devido a revendedor bloqueando o catálogo.",
+          "c": "Imprevisto",
+          "m": 37,
+          "cron": 37,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789561491701,
+          "url": "https://app.clickup.com/t/86akjq7nw"
+        },
+        {
+          "p": "Uri",
+          "nome": "Criar anúncios de kits mistos Aristo para todas as plataformas",
+          "c": "Projeto",
+          "m": 12,
+          "cron": 12,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789563860339,
+          "url": "https://app.clickup.com/t/86akhxdu5"
+        },
+        {
+          "p": "Marcela",
+          "nome": "responder todos wpp",
+          "c": "Rotina",
+          "m": 80,
+          "cron": 80,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789559556815,
+          "url": "https://app.clickup.com/t/86akjr169"
+        },
+        {
+          "p": "Uri",
+          "nome": "Análise de conversão Fishermas 7D",
+          "c": "Sem categoria",
+          "m": 42,
+          "cron": 42,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789565414878,
+          "url": "https://app.clickup.com/t/86akjrk3j"
+        },
+        {
+          "p": "Uri",
+          "nome": "Criar anúncios de kits mistos Aristo para todas as plataformas",
+          "c": "Projeto",
+          "m": 28,
+          "cron": 28,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789568009985,
+          "url": "https://app.clickup.com/t/86akhxdu5"
+        },
+        {
+          "p": "Marcela",
+          "nome": "mandar mensagem pedindo postagem do feedback desodorante",
+          "c": "Rotina",
+          "m": 36,
+          "cron": 36,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789566783657,
+          "url": "https://app.clickup.com/t/86akjr1fq"
+        },
+        {
+          "p": "Marcela",
+          "nome": "follow up",
+          "c": "Rotina",
+          "m": 45,
+          "cron": 45,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789566286123,
+          "url": "https://app.clickup.com/t/86akjtyuk"
+        },
+        {
+          "p": "Marcela",
+          "nome": "resolver questões com live attos",
+          "c": "Rotina",
+          "m": 55,
+          "cron": 55,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789565793978,
+          "url": "https://app.clickup.com/t/86akju0w7"
+        },
+        {
+          "p": "Uri",
+          "nome": "Análise de conversão Fishermas 7D",
+          "c": "Sem categoria",
+          "m": 41,
+          "cron": 41,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789569676102,
+          "url": "https://app.clickup.com/t/86akjrk3j"
+        },
+        {
+          "p": "Marcela",
+          "nome": "fazer envio Ander, mateus, joao, marcelo",
+          "c": "Rotina",
+          "m": 45,
+          "cron": 45,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789567930988,
+          "url": "https://app.clickup.com/t/86akgw3mt"
+        },
+        {
+          "p": "Marcela",
+          "nome": "reuniao de debriefing",
+          "c": "Reunião",
+          "m": 76,
+          "cron": 76,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789567105655,
+          "url": "https://app.clickup.com/t/86akjtd5a"
+        },
+        {
+          "p": "Jorge",
+          "nome": "Resolver problema KITS + BLING",
+          "c": "Projeto",
+          "m": 270,
+          "cron": 270,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789560900000,
+          "url": "https://app.clickup.com/t/86akjx7eq"
         }
       ]
     }

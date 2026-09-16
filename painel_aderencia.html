@@ -124,7 +124,9 @@
     <b>Como salvar (simples):</b> o painel <b>salva sozinho no seu navegador</b> a cada clique — você não precisa fazer mais nada no dia a dia. O <b>“Baixar backup”</b> gera um arquivo do seu histórico (guarde ou leve para outro computador com “Restaurar”).<br>
     <b>Sobre o GitHub:</b> o arquivo do painel fica no GitHub só para <b>hospedar a ferramenta</b> — você o coloca lá <b>uma única vez</b>. Não precisa “comitar” toda semana; os dados vivem no seu navegador.<br>
     <b>Lógica:</b> monitore sinais, não pessoas. Atenção só no amarelo e no vermelho. O 1:1 é quinzenal — nas semanas sem 1:1, deixe em “—”.<br>
-    <b>Weeklys:</b> <b>Weekly de time</b> = a área faz a weekly e aplica a ata; <b>Weekly de lideranças</b> = a reunião de liderança. Nem toda área tem time — se a área <b>não tem weekly de time</b>, deixe em “—” (o vazio já significa “não tem”).
+    <b>Weeklys:</b> <b>Weekly de time</b> = a área faz a weekly e aplica a ata; <b>Weekly de lideranças</b> = a reunião de liderança. Nem toda área tem time — se a área <b>não tem weekly de time</b>, deixe em “—” (o vazio já significa “não tem”).<br>
+    <b>Como o % é calculado:</b> aderência é uma <b>proporção</b> — itens OK ÷ itens avaliados (“Atenção” vale meio ponto; “Falha”, zero). Ela mede <b>qualidade, não volume</b>: uma semana com poucos itens, quase todos verdes, pode ter % mais alto que uma semana em que você avaliou muito mais coisas. Por isso o painel mostra o número de <b>“itens avaliados”</b> ao lado do % — um % alto com poucos itens vale menos que um % um pouco menor com muitos itens.<br>
+    <b>Cor da área (visão geral):</b> reflete a média da área, não o pior ponto — <b>verde ≥ 80%</b>, <b>amarelo 50–79%</b>, <b>vermelho < 50%</b>. Assim uma área com um verde e um amarelo fica amarela (atenção), e não vermelha.
   </div>
   <footer>Painel de Aderência · Grupo Shrigma</footer>
 </div>
@@ -195,10 +197,15 @@ function render(){
   body.querySelectorAll(".obs").forEach(i=>i.oninput=()=>{ S().obs[+i.dataset.a]=i.value; salvar(); });
   renderKpis(); renderTrend(); renderHeat(); renderDetail(+el("areaSel").value||0);
 }
-function scoreSemana(s){ let v=0,a=0,r=0,tot=0; s.status.forEach(row=>row.forEach(x=>{ if(x>0)tot++; if(x===1)v++; if(x===2)a++; if(x===3)r++; })); return {v,a,r,tot,ader: tot?Math.round(v/tot*100):0}; }
-function scoreArea(s,ai){ const row=s.status[ai]; if(row.some(x=>x===3))return 3; if(row.some(x=>x===2))return 2; if(row.some(x=>x===1))return 1; return 0; }
+// aderência = proporção de itens OK entre os avaliados; "Atenção" vale meio ponto, "Falha" zero.
+function adher(cells){ let pts=0,tot=0; cells.forEach(x=>{ if(x>0){tot++; if(x===1)pts+=1; else if(x===2)pts+=0.5;} }); return {tot, pct: tot?Math.round(pts/tot*100):0}; }
+// cor por faixa: verde >=80%, amarelo >=50%, vermelho abaixo; neutro se nada avaliado.
+function corFaixa(pct,tot){ if(!tot) return 0; return pct>=80?1:pct>=50?2:3; }
+function scoreSemana(s){ let v=0,a=0,r=0; s.status.forEach(row=>row.forEach(x=>{ if(x===1)v++; else if(x===2)a++; else if(x===3)r++; }));
+  const g=adher([].concat(...s.status)); return {v,a,r,tot:g.tot,ader:g.pct}; }
+function scoreArea(s,ai){ const g=adher(s.status[ai]); return corFaixa(g.pct,g.tot); }
 function renderKpis(){ const k=scoreSemana(S()); el("kpis").innerHTML=`
-  <div class="kpi"><div class="v" style="color:var(--navy)">${k.ader}%</div><div class="l">Aderência (semana)</div></div>
+  <div class="kpi"><div class="v" style="color:var(--navy)">${k.tot?k.ader+"%":"—"}</div><div class="l">Aderência · ${k.tot} ${k.tot===1?"item avaliado":"itens avaliados"}</div></div>
   <div class="kpi"><div class="v" style="color:var(--v)">${k.v}</div><div class="l">OK</div></div>
   <div class="kpi"><div class="v" style="color:var(--a)">${k.a}</div><div class="l">Atenção</div></div>
   <div class="kpi"><div class="v" style="color:var(--r)">${k.r}</div><div class="l">Falha — agir aqui</div></div>`; }
@@ -206,8 +213,9 @@ function renderTrend(){ const t=el("trend"); t.innerHTML="";
   DATA.semanas.forEach((s,i)=>{ const k=scoreSemana(s); const col=document.createElement("div"); col.className="tcol";
     const val=document.createElement("div"); val.className="tval"; val.textContent=k.tot?k.ader+"%":"—";
     const bar=document.createElement("div"); bar.className="tbar"; bar.style.height=(k.tot?Math.max(k.ader,3):2)+"%";
-    bar.style.background=k.ader>=85?"var(--v)":k.ader>=60?"var(--a)":k.tot?"var(--r)":"var(--n)";
-    const lab=document.createElement("div"); lab.className="tlab"; lab.textContent=s.semana; if(i===DATA.atual){lab.style.color="var(--navy)";lab.style.fontWeight="700";}
+    bar.style.background=k.ader>=80?"var(--v)":k.ader>=50?"var(--a)":k.tot?"var(--r)":"var(--n)";
+    const lab=document.createElement("div"); lab.className="tlab"; lab.innerHTML=s.semana+(k.tot?`<br><span style="color:var(--mut);font-size:9.5px">${k.tot} itens</span>`:"");
+    if(i===DATA.atual){lab.style.color="var(--navy)";lab.style.fontWeight="700";}
     col.appendChild(val); col.appendChild(bar); col.appendChild(lab); t.appendChild(col); }); }
 function renderHeat(){ const cores=["rgba(255,255,255,.07)","var(--v)","var(--a)","var(--r)"];
   let h='<table><thead><tr><th style="text-align:left">Área</th>'+DATA.semanas.map(s=>`<th>${s.semana}</th>`).join("")+'</tr></thead><tbody>';

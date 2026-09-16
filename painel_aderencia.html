@@ -38,6 +38,18 @@
   .area-name{font-weight:650;font-size:14px} .area-owner{color:var(--mut);font-size:12px}
   .cell{cursor:pointer;user-select:none;border:none;border-radius:8px;padding:7px 4px;font-size:12px;font-weight:650;width:100%;min-width:72px}
   .s0{background:var(--nbg);color:var(--n)} .s1{background:var(--vbg);color:var(--v)} .s2{background:var(--abg);color:var(--a)} .s3{background:var(--rbg);color:var(--r)}
+  .cellwrap{display:flex;flex-direction:column;align-items:stretch;gap:4px}
+  .notebtn{cursor:pointer;border:1px solid var(--line);background:transparent;border-radius:7px;padding:2px 4px;font-size:10.5px;font-weight:600;color:var(--mut);line-height:1.3;opacity:.75;transition:.12s}
+  .notebtn:hover{opacity:1;border-color:var(--navy);color:var(--txt)}
+  .notebtn.has{opacity:1;border-color:var(--a);color:var(--a);background:rgba(230,181,61,.10)}
+  /* modal de nota */
+  .modal-bg{position:fixed;inset:0;z-index:200;background:rgba(4,8,15,.62);backdrop-filter:blur(3px);display:none;align-items:center;justify-content:center;padding:18px}
+  .modal-bg.open{display:flex}
+  .modal{background:#141c2b;border:1px solid var(--line);border-radius:16px;max-width:480px;width:100%;padding:20px 22px;box-shadow:0 20px 60px rgba(0,0,0,.5)}
+  .modal h3{font-size:15px;margin:0 0 3px;color:var(--txt)} .modal .msub{font-size:12.5px;color:var(--mut);margin-bottom:12px}
+  .modal textarea{width:100%;min-height:120px;background:rgba(255,255,255,.05);border:1px solid var(--line);border-radius:10px;padding:11px 12px;color:var(--txt);font-family:inherit;font-size:13.5px;resize:vertical}
+  .modal textarea:focus{outline:none;border-color:var(--navy)}
+  .modal-row{display:flex;gap:9px;justify-content:flex-end;margin-top:14px;flex-wrap:wrap}
   .obs{width:100%;min-width:150px;background:transparent;border:1px dashed var(--line);border-radius:8px;padding:7px 9px;color:var(--txt);font-size:12.5px;font-family:inherit}
   .obs:focus{outline:none;border-color:var(--navy);border-style:solid}
   .legend{display:flex;flex-wrap:wrap;gap:14px;margin:14px 2px;color:var(--mut);font-size:12.5px;align-items:center}
@@ -73,6 +85,24 @@
     --v:#3fce85; --vbg:#123a22; --a:#e6b53d; --abg:#3a2f10; --r:#f0736f; --rbg:#3a1a1a; --n:#8b95a8; --nbg:#1e2536; }
   select,input,button{background:rgba(255,255,255,.06)}
   button.p{background:var(--navy);color:#08111f}
+  /* relatório */
+  #reportView{position:fixed;inset:0;z-index:300;background:#0a1322;overflow:auto;display:none;padding:26px 18px 60px}
+  #reportView.open{display:block}
+  .rpt{max-width:820px;margin:0 auto;background:#fff;color:#1c2230;border-radius:12px;padding:34px 40px;font-size:13.5px;line-height:1.55}
+  .rpt h1{font-family:Georgia,serif;font-size:23px;margin:0} .rpt .rsub{color:#586173;font-size:13px;margin-top:4px}
+  .rpt .rrule{height:3px;background:linear-gradient(90deg,#c49a3f,transparent);margin:12px 0 18px;border-radius:3px}
+  .rpt .rkpis{display:flex;gap:18px;flex-wrap:wrap;margin-bottom:8px}
+  .rpt .rkpi b{font-size:22px;font-family:Georgia,serif} .rpt .rkpi span{display:block;font-size:11.5px;color:#586173;text-transform:uppercase;letter-spacing:.5px}
+  .rpt h2{font-size:12px;text-transform:uppercase;letter-spacing:.7px;color:#1f3a5f;border-bottom:1.5px solid #e4e7ed;padding-bottom:5px;margin:22px 0 10px}
+  .rpt .area-blk{margin-bottom:14px;break-inside:avoid}
+  .rpt .area-h{font-weight:750;font-size:14px} .rpt .area-h .ad{font-weight:600;font-size:12px;color:#586173;margin-left:8px}
+  .rpt .note-i{margin:4px 0 0 2px;padding-left:12px;border-left:3px solid #e4e7ed;font-size:12.5px}
+  .rpt .note-i .m{font-weight:700} .rpt .pill{display:inline-block;font-size:10px;font-weight:800;padding:1px 7px;border-radius:20px;margin-left:6px;vertical-align:middle}
+  .rpt .p1{background:#e7f6ee;color:#1f9d57} .rpt .p2{background:#fbf1d9;color:#9a6b00} .rpt .p3{background:#fbe6e6;color:#c0392b}
+  .rpt .muted{color:#8a92a0;font-size:12.5px} .rpt .rfoot{margin-top:22px;border-top:1.5px solid #e4e7ed;padding-top:9px;color:#8a92a0;font-size:11.5px}
+  .rbar{max-width:820px;margin:0 auto 14px;display:flex;gap:9px;justify-content:flex-end}
+  @media print{ body>*{display:none!important} #reportView.open{display:block!important;position:static;padding:0;background:#fff}
+    #reportView .rbar{display:none!important} .rpt{box-shadow:none;border-radius:0;max-width:none;padding:0} }
 </style>
 </head>
 <body>
@@ -92,6 +122,7 @@
     <button onclick="delWeek()">🗑 Excluir esta semana</button>
     <span class="saved" id="saved"></span>
     <span style="margin-left:auto"></span>
+    <button class="p" onclick="gerarRelatorio()">📄 Gerar relatório da semana</button>
     <button onclick="backup()">⬇ Baixar backup</button>
     <label class="p" style="cursor:pointer;padding:8px 12px;border-radius:9px">⬆ Restaurar<input type="file" accept="application/json" onchange="restore(event)" style="display:none"></label>
   </div>
@@ -126,9 +157,32 @@
     <b>Lógica:</b> monitore sinais, não pessoas. Atenção só no amarelo e no vermelho. O 1:1 é quinzenal — nas semanas sem 1:1, deixe em “—”.<br>
     <b>Weeklys:</b> <b>Weekly de time</b> = a área faz a weekly e aplica a ata; <b>Weekly de lideranças</b> = a reunião de liderança. Nem toda área tem time — se a área <b>não tem weekly de time</b>, deixe em “—” (o vazio já significa “não tem”).<br>
     <b>Como o % é calculado:</b> aderência é uma <b>proporção</b> — itens OK ÷ itens avaliados (“Atenção” vale meio ponto; “Falha”, zero). Ela mede <b>qualidade, não volume</b>: uma semana com poucos itens, quase todos verdes, pode ter % mais alto que uma semana em que você avaliou muito mais coisas. Por isso o painel mostra o número de <b>“itens avaliados”</b> ao lado do % — um % alto com poucos itens vale menos que um % um pouco menor com muitos itens.<br>
-    <b>Cor da área (visão geral):</b> reflete a média da área, não o pior ponto — <b>verde ≥ 80%</b>, <b>amarelo 50–79%</b>, <b>vermelho < 50%</b>. Assim uma área com um verde e um amarelo fica amarela (atenção), e não vermelha.
+    <b>Cor da área (visão geral):</b> reflete a média da área, não o pior ponto — <b>verde ≥ 80%</b>, <b>amarelo 50–79%</b>, <b>vermelho < 50%</b>. Assim uma área com um verde e um amarelo fica amarela (atenção), e não vermelha.<br>
+    <b>Observações por medida:</b> no “<b>＋ obs</b>” abaixo de cada célula você escreve uma ressalva daquela medida (ex.: em “SOPs em uso”). Depois, no <b>“Gerar relatório da semana”</b>, tudo isso vira um resumo pronto para imprimir ou salvar em PDF.
   </div>
   <footer>Painel de Aderência · Grupo Shrigma</footer>
+</div>
+
+<!-- modal de observação por medida -->
+<div class="modal-bg" id="noteModal">
+  <div class="modal">
+    <h3 id="noteTitle">Observação</h3>
+    <div class="msub" id="noteSub"></div>
+    <textarea id="noteText" placeholder="Escreva a ressalva desta medida… ex.: SOP existe mas está desatualizado; combinado revisar até sexta."></textarea>
+    <div class="modal-row">
+      <button onclick="limparNota()">Limpar</button>
+      <button class="p" onclick="fecharNota()">Salvar e fechar</button>
+    </div>
+  </div>
+</div>
+
+<!-- relatório semanal -->
+<div id="reportView">
+  <div class="rbar">
+    <button class="p" onclick="window.print()">🖨 Imprimir / Salvar PDF</button>
+    <button onclick="fecharRelatorio()">Fechar</button>
+  </div>
+  <div class="rpt" id="rptBody"></div>
 </div>
 
 <script>
@@ -146,9 +200,10 @@ const KEY="painelAderencia_v4";
 const el=id=>document.getElementById(id);
 const vazio=()=>AREAS.map(()=>CRITERIOS.map(()=>0));
 const obsVazio=()=>AREAS.map(()=>"");
+const notasVazio=()=>AREAS.map(()=>CRITERIOS.map(()=>""));
 
 let DATA;
-function novaSemana(nome){ return {semana:nome||"Semana 1", status:vazio(), obs:obsVazio()}; }
+function novaSemana(nome){ return {semana:nome||"Semana 1", status:vazio(), obs:obsVazio(), notas:notasVazio()}; }
 // garante que toda semana tenha 1 linha por área e 1 coluna por critério (evita erro ao adicionar áreas)
 function normaliza(){
   if(!DATA||!Array.isArray(DATA.semanas)) return;
@@ -158,6 +213,10 @@ function normaliza(){
     w.status.forEach(row=>{ while(row.length<CRITERIOS.length) row.push(0); });
     if(!Array.isArray(w.obs)) w.obs=obsVazio();
     while(w.obs.length<AREAS.length) w.obs.push("");
+    // notas por medida (área × critério)
+    if(!Array.isArray(w.notas)) w.notas=notasVazio();
+    while(w.notas.length<AREAS.length) w.notas.push(CRITERIOS.map(()=>""));
+    w.notas.forEach(row=>{ while(row.length<CRITERIOS.length) row.push(""); });
   });
   if(typeof DATA.atual!=="number"||DATA.atual<0||DATA.atual>=DATA.semanas.length) DATA.atual=0;
 }
@@ -190,11 +249,14 @@ function render(){
   const body=el("body"); body.innerHTML="";
   AREAS.forEach((a,ai)=>{
     let h=`<td class="area-cell"><div class="area-name">${a.area}</div><div class="area-owner">${a.dono}</div></td>`;
-    S().status[ai].forEach((s,ci)=>{ h+=`<td><button class="cell s${s}" data-a="${ai}" data-c="${ci}">${LABELS[s]}</button></td>`; });
+    S().status[ai].forEach((s,ci)=>{ const temNota=!!(S().notas[ai][ci]||"").trim();
+      h+=`<td><div class="cellwrap"><button class="cell s${s}" data-a="${ai}" data-c="${ci}">${LABELS[s]}</button>`
+       +`<button class="notebtn${temNota?" has":""}" data-a="${ai}" data-c="${ci}" title="${temNota?"Ver/editar observação":"Adicionar observação"}">${temNota?"💬":"＋ obs"}</button></div></td>`; });
     h+=`<td><input class="obs" data-a="${ai}" value="${(S().obs[ai]||"").replace(/"/g,'&quot;')}" placeholder="—"></td>`;
     const tr=document.createElement("tr"); tr.innerHTML=h; body.appendChild(tr);
   });
   body.querySelectorAll(".cell").forEach(b=>b.onclick=()=>{ const ai=+b.dataset.a,ci=+b.dataset.c; S().status[ai][ci]=(S().status[ai][ci]+1)%4; salvar(); render(); });
+  body.querySelectorAll(".notebtn").forEach(b=>b.onclick=()=>abrirNota(+b.dataset.a,+b.dataset.c));
   body.querySelectorAll(".obs").forEach(i=>i.oninput=()=>{ S().obs[+i.dataset.a]=i.value; salvar(); });
   renderKpis(); renderTrend(); renderHeat(); renderDetail(+el("areaSel").value||0);
 }
@@ -233,6 +295,55 @@ function addWeek(){ DATA.semanas.push(novaSemana("Semana "+(DATA.semanas.length+
 function delWeek(){ DATA.semanas.splice(DATA.atual,1); if(!DATA.semanas.length)DATA.semanas.push(novaSemana("Semana 1")); DATA.atual=Math.max(0,DATA.atual-1); salvar(); render(); }
 function backup(){ const blob=new Blob([JSON.stringify(DATA,null,2)],{type:"application/json"}); const a=document.createElement("a"); a.href=URL.createObjectURL(blob); a.download="painel_aderencia_backup.json"; a.click(); }
 function restore(e){ const f=e.target.files[0]; if(!f)return; const rd=new FileReader(); rd.onload=()=>{ try{ DATA=JSON.parse(rd.result); DATA.atual=0; normaliza(); salvar(); render(); }catch(err){ alert("Arquivo inválido."); } }; rd.readAsText(f); }
+
+/* ===== Observação por medida (balão) ===== */
+let notaAtual={ai:-1,ci:-1};
+function abrirNota(ai,ci){ notaAtual={ai,ci}; el("noteTitle").textContent=AREAS[ai].area;
+  el("noteSub").textContent="Medida: "+CRITERIOS[ci]+"  ·  "+(S().semana||"");
+  el("noteText").value=S().notas[ai][ci]||""; el("noteModal").classList.add("open"); setTimeout(()=>el("noteText").focus(),40); }
+function fecharNota(){ const {ai,ci}=notaAtual; if(ai>=0){ S().notas[ai][ci]=el("noteText").value.trim(); salvar(); } el("noteModal").classList.remove("open"); render(); }
+function limparNota(){ el("noteText").value=""; }
+el("noteModal").addEventListener("click",e=>{ if(e.target.id==="noteModal") fecharNota(); });
+document.addEventListener("keydown",e=>{ if(e.key==="Escape"){ if(el("noteModal").classList.contains("open")) fecharNota(); else if(el("reportView").classList.contains("open")) fecharRelatorio(); } });
+
+/* ===== Relatório semanal ===== */
+function esc(t){ return (t==null?"":String(t)).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
+function gerarRelatorio(){
+  const s=S(), k=scoreSemana(s);
+  const hoje=new Date().toLocaleDateString("pt-BR");
+  const pnome=["","OK","Atenção","Falha"];
+  let areasHTML="";
+  AREAS.forEach((a,ai)=>{
+    const g=adher(s.status[ai]);
+    if(!g.tot) return; // pula áreas sem nada avaliado
+    const cor=corFaixa(g.pct,g.tot); const corTxt=cor===1?"em dia":cor===2?"atenção":"crítico";
+    // pontos de atenção (amarelo/vermelho) e notas
+    let itens="";
+    CRITERIOS.forEach((c,ci)=>{ const st=s.status[ai][ci], nota=(s.notas[ai][ci]||"").trim();
+      if(st>=2 || nota){ itens+=`<div class="note-i"><span class="m">${esc(c)}</span>`
+        +(st>=1?`<span class="pill p${st}">${pnome[st]}</span>`:"")
+        +(nota?`<div>${esc(nota)}</div>`:"")+`</div>`; }
+    });
+    areasHTML+=`<div class="area-blk"><div class="area-h">${esc(a.area)} <span class="ad">${g.pct}% · ${g.tot} itens · ${corTxt}</span></div>`
+      +(itens||`<div class="muted" style="margin-left:2px">Tudo OK — sem ressalvas.</div>`)+`</div>`;
+  });
+  const rpt=`
+    <h1>Relatório de Aderência</h1>
+    <div class="rsub">Grupo Shrigma · Governança &nbsp;·&nbsp; <b>${esc(s.semana)}</b> &nbsp;·&nbsp; gerado em ${hoje}</div>
+    <div class="rrule"></div>
+    <div class="rkpis">
+      <div class="rkpi"><b>${k.tot?k.ader+"%":"—"}</b><span>Aderência</span></div>
+      <div class="rkpi"><b>${k.tot}</b><span>Itens avaliados</span></div>
+      <div class="rkpi"><b style="color:#1f9d57">${k.v}</b><span>OK</span></div>
+      <div class="rkpi"><b style="color:#9a6b00">${k.a}</b><span>Atenção</span></div>
+      <div class="rkpi"><b style="color:#c0392b">${k.r}</b><span>Falha</span></div>
+    </div>
+    <h2>Por área — pontos de atenção e observações</h2>
+    ${areasHTML||'<div class="muted">Nenhuma área avaliada nesta semana.</div>'}
+    <div class="rfoot">Painel de Aderência · Grupo Shrigma — resumo automático das anotações da semana. Preparado por Viviane · Gestão de Projetos.</div>`;
+  el("rptBody").innerHTML=rpt; el("reportView").classList.add("open"); window.scrollTo(0,0);
+}
+function fecharRelatorio(){ el("reportView").classList.remove("open"); }
 
 carregar(); render();
 </script>

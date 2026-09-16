@@ -630,6 +630,138 @@
           "src": "cron",
           "ts": 1789493054190,
           "url": "https://app.clickup.com/t/86akjc6ng"
+        },
+        {
+          "p": "Jorge",
+          "nome": "Finalizar PÁGINA DOS KITS",
+          "c": "Sem categoria",
+          "m": 315,
+          "cron": 315,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789478100000,
+          "url": "https://app.clickup.com/t/86akjduf5"
+        },
+        {
+          "p": "Uri",
+          "nome": "Envio das unidades faltantes nos kits aristocrata",
+          "c": "Compromisso",
+          "m": 15,
+          "cron": 15,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789497624606,
+          "url": "https://app.clickup.com/t/86akhxukq"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "fazendo copy",
+          "c": "Imprevisto",
+          "m": 180,
+          "cron": 180,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789473600000,
+          "url": "https://app.clickup.com/t/86akjdza1"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "fazendo roteiro fernando",
+          "c": "Imprevisto",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789489800000,
+          "url": "https://app.clickup.com/t/86akjdzxx"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "lendo copies teste",
+          "c": "Rotina",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789493400000,
+          "url": "https://app.clickup.com/t/86akje0qf"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "fazendo roteiro fernando",
+          "c": "Imprevisto",
+          "m": 101,
+          "cron": 101,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789498009841,
+          "url": "https://app.clickup.com/t/86akjdzxx"
+        },
+        {
+          "p": "Uri",
+          "nome": "Emissão de NF Aristo",
+          "c": "Sem categoria",
+          "m": 16,
+          "cron": 16,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789501198177,
+          "url": "https://app.clickup.com/t/86akjffwj"
+        },
+        {
+          "p": "Marcela",
+          "nome": "implementar pedidos live attos",
+          "c": "Rotina",
+          "m": 115,
+          "cron": 115,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789494751267,
+          "url": "https://app.clickup.com/t/86akjbbpv"
+        },
+        {
+          "p": "Marcela",
+          "nome": "seleção de perfis para aristocrata",
+          "c": "Rotina",
+          "m": 90,
+          "cron": 90,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789496262914,
+          "url": "https://app.clickup.com/t/86akjbcd6"
+        },
+        {
+          "p": "Samuel",
+          "nome": "Dashboard & Demandas Reativas",
+          "c": "Projeto",
+          "m": 120,
+          "cron": 120,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789470000000,
+          "url": "https://app.clickup.com/t/86akj5p70"
+        },
+        {
+          "p": "Samuel",
+          "nome": "Handoff -ClickUp",
+          "c": "Sem categoria",
+          "m": 45,
+          "cron": 45,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789480800000,
+          "url": "https://app.clickup.com/t/86akjbrjh"
+        },
+        {
+          "p": "Jorge",
+          "nome": "Gravar ADS do MÊS CLINETE + LANÇAMENTO FISHERMANS",
+          "c": "Imprevisto",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789498662127,
+          "url": "https://app.clickup.com/t/86akjg358"
         }
       ]
     }

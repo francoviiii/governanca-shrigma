@@ -1103,6 +1103,72 @@
           "src": "cron",
           "ts": 1789651240230,
           "url": "https://app.clickup.com/t/86akkamwu"
+        },
+        {
+          "p": "Marcela",
+          "nome": "resolver envios dos influs",
+          "c": "Imprevisto",
+          "m": 36,
+          "cron": 36,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789651424751,
+          "url": "https://app.clickup.com/t/86akkb9qh"
+        },
+        {
+          "p": "Marcela",
+          "nome": "responder todos",
+          "c": "Rotina",
+          "m": 100,
+          "cron": 100,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789647603148,
+          "url": "https://app.clickup.com/t/86akkb9e3"
+        },
+        {
+          "p": "Samuel",
+          "nome": "Retorno a direção do contato a casos prioritários",
+          "c": "Sem categoria",
+          "m": 0,
+          "cron": 0,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789654626123,
+          "url": "https://app.clickup.com/t/86akkd6xr"
+        },
+        {
+          "p": "Samuel",
+          "nome": "Retorno a direção do contato a casos prioritários",
+          "c": "Sem categoria",
+          "m": 45,
+          "cron": 45,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789651800000,
+          "url": "https://app.clickup.com/t/86akkd6xr"
+        },
+        {
+          "p": "Jorge",
+          "nome": "1:1 MATEUS",
+          "c": "Reunião",
+          "m": 90,
+          "cron": 90,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789649905054,
+          "url": "https://app.clickup.com/t/86akkdfa5"
+        },
+        {
+          "p": "Jorge",
+          "nome": "SITE - Adicionar botão de conferir suas compras",
+          "c": "Sem categoria",
+          "m": 5,
+          "cron": 5,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789655013702,
+          "url": "https://app.clickup.com/t/86akjducu"
         }
       ]
     }

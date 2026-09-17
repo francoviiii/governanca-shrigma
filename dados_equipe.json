@@ -700,7 +700,7 @@
         {
           "p": "Uri",
           "nome": "Emissão de NF Aristo",
-          "c": "Sem categoria",
+          "c": "Gestão",
           "m": 16,
           "cron": 16,
           "prog": 0,
@@ -810,7 +810,7 @@
         {
           "p": "Uri",
           "nome": "Análise de conversão Fishermas 7D",
-          "c": "Sem categoria",
+          "c": "Gestão",
           "m": 42,
           "cron": 42,
           "prog": 0,
@@ -865,7 +865,7 @@
         {
           "p": "Uri",
           "nome": "Análise de conversão Fishermas 7D",
-          "c": "Sem categoria",
+          "c": "Gestão",
           "m": 41,
           "cron": 41,
           "prog": 0,
@@ -898,7 +898,7 @@
         {
           "p": "Uri",
           "nome": "Análise de conversão Fishermas 7D",
-          "c": "Sem categoria",
+          "c": "Gestão",
           "m": 202,
           "cron": 202,
           "prog": 0,
@@ -920,7 +920,7 @@
         {
           "p": "Marcela",
           "nome": "acompanhar envios fishermans manuella",
-          "c": "Sem categoria",
+          "c": "Monitoramento",
           "m": 35,
           "cron": 35,
           "prog": 0,
@@ -953,7 +953,7 @@
         {
           "p": "Uri",
           "nome": "Análise de conversão Fishermas 7D",
-          "c": "Sem categoria",
+          "c": "Gestão",
           "m": 26,
           "cron": 26,
           "prog": 0,
@@ -1019,7 +1019,7 @@
         {
           "p": "Uri",
           "nome": "NF Aristo envio 17/09",
-          "c": "Sem categoria",
+          "c": "Gestão",
           "m": 5,
           "cron": 5,
           "prog": 0,
@@ -1030,13 +1030,79 @@
         {
           "p": "Uri",
           "nome": "NF Fishermans e Aristo ML",
-          "c": "Sem categoria",
+          "c": "Gestão",
           "m": 20,
           "cron": 20,
           "prog": 0,
           "src": "cron",
           "ts": 1789607848605,
           "url": "https://app.clickup.com/t/86akk65g8"
+        },
+        {
+          "p": "Uri",
+          "nome": "SAC/NF/Envios atrasados",
+          "c": "Gestão",
+          "m": 47,
+          "cron": 47,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789643960486,
+          "url": "https://app.clickup.com/t/86akka1bh"
+        },
+        {
+          "p": "Uri",
+          "nome": "Análise de conversão x estoque Full Fishermans",
+          "c": "Monitoramento",
+          "m": 3,
+          "cron": 3,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789647107007,
+          "url": "https://app.clickup.com/t/86akkahnz"
+        },
+        {
+          "p": "Uri",
+          "nome": "Análise de conversão x estoque Full Fishermans",
+          "c": "Monitoramento",
+          "m": 28,
+          "cron": 28,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789648787693,
+          "url": "https://app.clickup.com/t/86akkahnz"
+        },
+        {
+          "p": "Uri",
+          "nome": "Atualização de campanhas ADS - Execução estratégica=> Tracionar o Full Fishermans",
+          "c": "Gestão",
+          "m": 11,
+          "cron": 11,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789650553453,
+          "url": "https://app.clickup.com/t/86akkbpxh"
+        },
+        {
+          "p": "Samuel",
+          "nome": "Alinhamento Pauta de Desligamento",
+          "c": "Sem categoria",
+          "m": 135,
+          "cron": 135,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789642800000,
+          "url": "https://app.clickup.com/t/86akkbvbd"
+        },
+        {
+          "p": "Uri",
+          "nome": "Criar e anunciar kits com o alicate - Fishermans",
+          "c": "Projeto",
+          "m": 17,
+          "cron": 17,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789651240230,
+          "url": "https://app.clickup.com/t/86akkamwu"
         }
       ]
     }

@@ -1213,6 +1213,39 @@
           "src": "cron",
           "ts": 1789660469779,
           "url": "https://app.clickup.com/t/86akkf45u"
+        },
+        {
+          "p": "Uri",
+          "nome": "Estruturar campanha de ADS dos novos kits Fishermans",
+          "c": "Projeto",
+          "m": 10,
+          "cron": 10,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789664665150,
+          "url": "https://app.clickup.com/t/86akkfjxh"
+        },
+        {
+          "p": "Uri",
+          "nome": "Estruturar campanha de desconto dos novos kits Fishermans ML",
+          "c": "Projeto",
+          "m": 13,
+          "cron": 13,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789665294008,
+          "url": "https://app.clickup.com/t/86akkgtdm"
+        },
+        {
+          "p": "Uri",
+          "nome": "Estruturar e ativas ofertas relâmpago para o final de semana Fishermans ML",
+          "c": "Sem categoria",
+          "m": 22,
+          "cron": 22,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789666150222,
+          "url": "https://app.clickup.com/t/86akkh9x1"
         }
       ]
     }

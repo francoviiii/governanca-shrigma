@@ -634,7 +634,7 @@
         {
           "p": "Jorge",
           "nome": "Finalizar PÁGINA DOS KITS",
-          "c": "Sem categoria",
+          "c": "Projeto",
           "m": 315,
           "cron": 315,
           "prog": 0,
@@ -896,6 +896,17 @@
           "url": "https://app.clickup.com/t/86akjtd5a"
         },
         {
+          "p": "Uri",
+          "nome": "Análise de conversão Fishermas 7D",
+          "c": "Sem categoria",
+          "m": 202,
+          "cron": 202,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789574504542,
+          "url": "https://app.clickup.com/t/86akjrk3j"
+        },
+        {
           "p": "Jorge",
           "nome": "Resolver problema KITS + BLING",
           "c": "Projeto",
@@ -905,6 +916,127 @@
           "src": "cron",
           "ts": 1789560900000,
           "url": "https://app.clickup.com/t/86akjx7eq"
+        },
+        {
+          "p": "Marcela",
+          "nome": "acompanhar envios fishermans manuella",
+          "c": "Sem categoria",
+          "m": 35,
+          "cron": 35,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789580022589,
+          "url": "https://app.clickup.com/t/86akjwfpx"
+        },
+        {
+          "p": "Marcela",
+          "nome": "mandar mensagem sobre politicas de reuniões",
+          "c": "Rotina",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789582680678,
+          "url": "https://app.clickup.com/t/86akjr1me"
+        },
+        {
+          "p": "Marcela",
+          "nome": "fazer envios live attos",
+          "c": "Rotina",
+          "m": 25,
+          "cron": 25,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789583003598,
+          "url": "https://app.clickup.com/t/86akjbc4w"
+        },
+        {
+          "p": "Uri",
+          "nome": "Análise de conversão Fishermas 7D",
+          "c": "Sem categoria",
+          "m": 26,
+          "cron": 26,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789586886262,
+          "url": "https://app.clickup.com/t/86akjrk3j"
+        },
+        {
+          "p": "Marcela",
+          "nome": "alterar planilha live attos",
+          "c": "Rotina",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789583631880,
+          "url": "https://app.clickup.com/t/86akk0v1e"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "reunião desodorante",
+          "c": "Reunião",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789567200000,
+          "url": "https://app.clickup.com/t/86akk1vc7"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "copy",
+          "c": "Imprevisto",
+          "m": 120,
+          "cron": 120,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789560000000,
+          "url": "https://app.clickup.com/t/86akk1vza"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "fazendo roteiro fernando",
+          "c": "Imprevisto",
+          "m": 150,
+          "cron": 150,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789576200000,
+          "url": "https://app.clickup.com/t/86akjdzxx"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "analise de vido",
+          "c": "Rotina",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789585200000,
+          "url": "https://app.clickup.com/t/86akk1wve"
+        },
+        {
+          "p": "Uri",
+          "nome": "NF Aristo envio 17/09",
+          "c": "Sem categoria",
+          "m": 5,
+          "cron": 5,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789596807067,
+          "url": "https://app.clickup.com/t/86akk4g6d"
+        },
+        {
+          "p": "Uri",
+          "nome": "NF Fishermans e Aristo ML",
+          "c": "Sem categoria",
+          "m": 20,
+          "cron": 20,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789607848605,
+          "url": "https://app.clickup.com/t/86akk65g8"
         }
       ]
     }

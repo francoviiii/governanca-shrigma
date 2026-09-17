@@ -1105,6 +1105,17 @@
           "url": "https://app.clickup.com/t/86akkamwu"
         },
         {
+          "p": "Uri",
+          "nome": "Criar e anunciar kits com o alicate - Fishermans",
+          "c": "Projeto",
+          "m": 116,
+          "cron": 116,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789653483465,
+          "url": "https://app.clickup.com/t/86akkamwu"
+        },
+        {
           "p": "Marcela",
           "nome": "resolver envios dos influs",
           "c": "Imprevisto",
@@ -1169,6 +1180,39 @@
           "src": "cron",
           "ts": 1789655013702,
           "url": "https://app.clickup.com/t/86akjducu"
+        },
+        {
+          "p": "Marcela",
+          "nome": "reunião pimenta",
+          "c": "Reunião",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789653941794,
+          "url": "https://app.clickup.com/t/86akkdhdk"
+        },
+        {
+          "p": "Marcela",
+          "nome": "prospecção",
+          "c": "Rotina",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789652494096,
+          "url": "https://app.clickup.com/t/86akgzf69"
+        },
+        {
+          "p": "Uri",
+          "nome": "Criar anúncios kits Copo ML Fishermans",
+          "c": "Projeto",
+          "m": 22,
+          "cron": 22,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789660469779,
+          "url": "https://app.clickup.com/t/86akkf45u"
         }
       ]
     }

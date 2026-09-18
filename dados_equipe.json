@@ -1499,6 +1499,160 @@
           "src": "cron",
           "ts": 1789726602673,
           "url": "https://app.clickup.com/t/86akkwrkw"
+        },
+        {
+          "p": "Uri",
+          "nome": "Adiconar novos anúncios nas campanhas abertas de afiliados",
+          "c": "Projeto",
+          "m": 11,
+          "cron": 11,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789729578168,
+          "url": "https://app.clickup.com/t/86akkwp2q"
+        },
+        {
+          "p": "Uri",
+          "nome": "Revisão de tasks nas lojas",
+          "c": "Gestão",
+          "m": 37,
+          "cron": 37,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789730553087,
+          "url": "https://app.clickup.com/t/86akkx5yy"
+        },
+        {
+          "p": "Uri",
+          "nome": "FBA Aristocrata",
+          "c": "Projeto",
+          "m": 34,
+          "cron": 34,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789733179147,
+          "url": "https://app.clickup.com/t/86akk0dz5"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "revisão de ads",
+          "c": "Rotina",
+          "m": 45,
+          "cron": 45,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789730100000,
+          "url": "https://app.clickup.com/t/86akkxqg1"
+        },
+        {
+          "p": "Uri",
+          "nome": "Padronização do carrocel de fotos Fishermans",
+          "c": "Gestão",
+          "m": 78,
+          "cron": 78,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789735198044,
+          "url": "https://app.clickup.com/t/86akky5ge"
+        },
+        {
+          "p": "Marcela",
+          "nome": "mudar perfil wpp",
+          "c": "Rotina",
+          "m": 10,
+          "cron": 10,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789735525368,
+          "url": "https://app.clickup.com/t/86akky6w5"
+        },
+        {
+          "p": "Marcela",
+          "nome": "responder todos",
+          "c": "Rotina",
+          "m": 94,
+          "cron": 94,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789730499906,
+          "url": "https://app.clickup.com/t/86akkxjwy"
+        },
+        {
+          "p": "Uri",
+          "nome": "FBA Aristocrata",
+          "c": "Projeto",
+          "m": 74,
+          "cron": 74,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789739884890,
+          "url": "https://app.clickup.com/t/86akk0dz5"
+        },
+        {
+          "p": "Uri",
+          "nome": "Contestação de devolução Fishermans - Venda 2000018353075134",
+          "c": "Gestão",
+          "m": 9,
+          "cron": 9,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789744912036,
+          "url": "https://app.clickup.com/t/86akm207p"
+        },
+        {
+          "p": "Jorge",
+          "nome": "[Fishermans] Pensar em uma maneira melhor de aproveitar os conteúdos dos influenciadores (que não estão sendo utilizados) nos ads e orgânico, mapeando semanalmente",
+          "c": "Compromisso",
+          "m": 20,
+          "cron": 20,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789743731708,
+          "url": "https://app.clickup.com/t/86akfmb5x"
+        },
+        {
+          "p": "Jorge",
+          "nome": "Elaborar um plano de ação para o DIA DO CLIENTE (15/09)",
+          "c": "Projeto",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789741342136,
+          "url": "https://app.clickup.com/t/86akb6h7f"
+        },
+        {
+          "p": "Jorge",
+          "nome": "Mudar BANNER DA FISHERMANS",
+          "c": "Projeto",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789741368020,
+          "url": "https://app.clickup.com/t/86akgm9m4"
+        },
+        {
+          "p": "Marcela",
+          "nome": "criar cupons manu",
+          "c": "Gestão",
+          "m": 35,
+          "cron": 35,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789745112263,
+          "url": "https://app.clickup.com/t/86akm0j0y"
+        },
+        {
+          "p": "Marcela",
+          "nome": "[Fishermans] Implementar afiliados direto no site",
+          "c": "Compromisso",
+          "m": 150,
+          "cron": 150,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789739147710,
+          "url": "https://app.clickup.com/t/86akj5xdj"
         }
       ]
     }

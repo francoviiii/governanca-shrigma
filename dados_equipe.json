@@ -1653,6 +1653,28 @@
           "src": "cron",
           "ts": 1789739147710,
           "url": "https://app.clickup.com/t/86akj5xdj"
+        },
+        {
+          "p": "Uri",
+          "nome": "FBA Aristocrata",
+          "c": "Projeto",
+          "m": 36,
+          "cron": 36,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789751100548,
+          "url": "https://app.clickup.com/t/86akk0dz5"
+        },
+        {
+          "p": "Uri",
+          "nome": "Padronização do carrocel de fotos Fishermans",
+          "c": "Gestão",
+          "m": 13,
+          "cron": 13,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789753249848,
+          "url": "https://app.clickup.com/t/86akky5ge"
         }
       ]
     }

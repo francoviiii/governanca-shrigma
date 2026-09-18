@@ -1466,6 +1466,39 @@
           "src": "cron",
           "ts": 1789685988426,
           "url": "https://app.clickup.com/t/86akkt6cw"
+        },
+        {
+          "p": "Uri",
+          "nome": "SAC/NF/Envios",
+          "c": "Rotina",
+          "m": 36,
+          "cron": 36,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789723440744,
+          "url": "https://app.clickup.com/t/86akkwnpp"
+        },
+        {
+          "p": "Uri",
+          "nome": "Adiconar vídeos nos novos anúncios de kits",
+          "c": "Projeto",
+          "m": 16,
+          "cron": 16,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789725580439,
+          "url": "https://app.clickup.com/t/86akkwp1u"
+        },
+        {
+          "p": "Uri",
+          "nome": "Atualizar e baixar mais o preço de catálogo - Revendedores baixando cada vez mais os preços",
+          "c": "Imprevisto",
+          "m": 6,
+          "cron": 6,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789726602673,
+          "url": "https://app.clickup.com/t/86akkwrkw"
         }
       ]
     }

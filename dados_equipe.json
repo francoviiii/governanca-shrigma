@@ -1873,6 +1873,17 @@
           "src": "cron",
           "ts": 1789807642423,
           "url": "https://app.clickup.com/t/86akm9xdh"
+        },
+        {
+          "p": "Uri",
+          "nome": "Padronização do carrocel de fotos Fishermans",
+          "c": "Gestão",
+          "m": 61,
+          "cron": 61,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789809349989,
+          "url": "https://app.clickup.com/t/86akky5ge"
         }
       ]
     }

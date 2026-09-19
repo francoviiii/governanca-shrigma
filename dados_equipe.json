@@ -1884,6 +1884,50 @@
           "src": "cron",
           "ts": 1789809349989,
           "url": "https://app.clickup.com/t/86akky5ge"
+        },
+        {
+          "p": "Uri",
+          "nome": "FBA Aristocrata",
+          "c": "Projeto",
+          "m": 25,
+          "cron": 25,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789819141095,
+          "url": "https://app.clickup.com/t/86akk0dz5"
+        },
+        {
+          "p": "Uri",
+          "nome": "Emitir NFs com status pendentes de todas as lojas",
+          "c": "Gestão",
+          "m": 24,
+          "cron": 24,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789827320110,
+          "url": "https://app.clickup.com/t/86akmdrp3"
+        },
+        {
+          "p": "Uri",
+          "nome": "Adicionar videos nos anúncios dos kits mistos desodorante + Sabonete ML Aristo",
+          "c": "Projeto",
+          "m": 12,
+          "cron": 12,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789828890948,
+          "url": "https://app.clickup.com/t/86akmdccb"
+        },
+        {
+          "p": "Uri",
+          "nome": "Ticket ML Fishermans - anúncios ancorados de forma indevida com anúncios da Amazon",
+          "c": "Imprevisto",
+          "m": 13,
+          "cron": 13,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789829652908,
+          "url": "https://app.clickup.com/t/86akm9xdh"
         }
       ]
     }

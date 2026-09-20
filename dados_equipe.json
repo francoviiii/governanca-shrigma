@@ -14,6 +14,39 @@
           "src": "cron",
           "ts": 1789897969493,
           "url": "https://app.clickup.com/t/86akmgq8a"
+        },
+        {
+          "p": "Uri",
+          "nome": "Fechamento Semanal Aristocrata",
+          "c": "Rotina",
+          "m": 31,
+          "cron": 31,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789901257177,
+          "url": "https://app.clickup.com/t/86akmgq8d"
+        },
+        {
+          "p": "Uri",
+          "nome": "Desativar ADS Amazon aristo",
+          "c": "Imprevisto",
+          "m": 3,
+          "cron": 3,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789903105485,
+          "url": "https://app.clickup.com/t/86akmgtuy"
+        },
+        {
+          "p": "Uri",
+          "nome": "Analisar concorrência de preços Fishermans Shopee",
+          "c": "Estudo",
+          "m": 33,
+          "cron": 33,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789905163467,
+          "url": "https://app.clickup.com/t/86akmg15x"
         }
       ]
     }

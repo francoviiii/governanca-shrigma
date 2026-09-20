@@ -47,6 +47,28 @@
           "src": "cron",
           "ts": 1789905163467,
           "url": "https://app.clickup.com/t/86akmg15x"
+        },
+        {
+          "p": "Uri",
+          "nome": "Analisar concorrência de preços Fishermans Shopee",
+          "c": "Estudo",
+          "m": 80,
+          "cron": 80,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789920652491,
+          "url": "https://app.clickup.com/t/86akmg15x"
+        },
+        {
+          "p": "Uri",
+          "nome": "Preenchimento de Atas e planilha",
+          "c": "Rotina",
+          "m": 4,
+          "cron": 4,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789926670806,
+          "url": "https://app.clickup.com/t/86akmhja2"
         }
       ]
     }

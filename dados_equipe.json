@@ -124,6 +124,171 @@
           "src": "cron",
           "ts": 1789940139989,
           "url": "https://app.clickup.com/t/86akmj3c7"
+        },
+        {
+          "p": "Uri",
+          "nome": "SAC/NF",
+          "c": "Rotina",
+          "m": 33,
+          "cron": 33,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789991042929,
+          "url": "https://app.clickup.com/t/86akmv9tx"
+        },
+        {
+          "p": "Uri",
+          "nome": "Analisar estoque e oportunidades para minimizar o impacto da ruptura de estoque na semana",
+          "c": "Estudo",
+          "m": 12,
+          "cron": 12,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789993082663,
+          "url": "https://app.clickup.com/t/86akmgqbz"
+        },
+        {
+          "p": "Uri",
+          "nome": "Analisar queda de vendas do copo térmico",
+          "c": "Gestão",
+          "m": 0,
+          "cron": 0,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789995207877,
+          "url": "https://app.clickup.com/t/86akmgqbj"
+        },
+        {
+          "p": "Uri",
+          "nome": "Preenchimento de Atas e planilha",
+          "c": "Rotina",
+          "m": 27,
+          "cron": 27,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789997131827,
+          "url": "https://app.clickup.com/t/86akmhja2"
+        },
+        {
+          "p": "Marcela",
+          "nome": "reuniao fishermans",
+          "c": "Reunião",
+          "m": 97,
+          "cron": 97,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789991474500,
+          "url": "https://app.clickup.com/t/86akmvnfr"
+        },
+        {
+          "p": "Uri",
+          "nome": "Preenchimento de Atas e planilha",
+          "c": "Rotina",
+          "m": 0,
+          "cron": 0,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789998752530,
+          "url": "https://app.clickup.com/t/86akmhja2"
+        },
+        {
+          "p": "Uri",
+          "nome": "Alterar logo do perfil das lojas ML e Shopee Aristo",
+          "c": "Imprevisto",
+          "m": 3,
+          "cron": 3,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789998930346,
+          "url": "https://app.clickup.com/t/86akmfmh8"
+        },
+        {
+          "p": "Uri",
+          "nome": "Analise e gestão estoque Full Fishermans",
+          "c": "Gestão",
+          "m": 23,
+          "cron": 23,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789999504098,
+          "url": "https://app.clickup.com/t/86akmy2uf"
+        },
+        {
+          "p": "Marcela",
+          "nome": "reuniao aristocrata",
+          "c": "Reunião",
+          "m": 57,
+          "cron": 57,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789997218699,
+          "url": "https://app.clickup.com/t/86akmyake"
+        },
+        {
+          "p": "Uri",
+          "nome": "Analisar queda de vendas do copo térmico",
+          "c": "Gestão",
+          "m": 22,
+          "cron": 22,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790003131796,
+          "url": "https://app.clickup.com/t/86akmgqbj"
+        },
+        {
+          "p": "Marcela",
+          "nome": "reuniao adv da pesca",
+          "c": "Reunião",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790001634410,
+          "url": "https://app.clickup.com/t/86akmza07"
+        },
+        {
+          "p": "Uri",
+          "nome": "Abertura de reclamação devido a antecipação do horário de coleta - ML Fishermans",
+          "c": "Imprevisto",
+          "m": 4,
+          "cron": 4,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790004492067,
+          "url": "https://app.clickup.com/t/86akmzkpr"
+        },
+        {
+          "p": "Uri",
+          "nome": "Estudo de preços para aumento de preço no ML Aristocrata",
+          "c": "Estudo",
+          "m": 19,
+          "cron": 19,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790005536010,
+          "url": "https://app.clickup.com/t/86akmhm7m"
+        },
+        {
+          "p": "Uri",
+          "nome": "Adicionar dados fiscais aos produtos ML Aristo para o Full ML",
+          "c": "Projeto",
+          "m": 25,
+          "cron": 25,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790006708188,
+          "url": "https://app.clickup.com/t/86akn01p6"
+        },
+        {
+          "p": "Uri",
+          "nome": "Adicionar dados fiscais aos produtos ML Aristo para o Full ML",
+          "c": "Projeto",
+          "m": 0,
+          "cron": 0,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790009406785,
+          "url": "https://app.clickup.com/t/86akn01p6"
         }
       ]
     }

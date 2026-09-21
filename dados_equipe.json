@@ -289,6 +289,28 @@
           "src": "cron",
           "ts": 1790009406785,
           "url": "https://app.clickup.com/t/86akn01p6"
+        },
+        {
+          "p": "Uri",
+          "nome": "Adicionar dados fiscais aos produtos ML Aristo para o Full ML",
+          "c": "Projeto",
+          "m": 26,
+          "cron": 26,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790009436461,
+          "url": "https://app.clickup.com/t/86akn01p6"
+        },
+        {
+          "p": "Marcela",
+          "nome": "responder todos",
+          "c": "Rotina",
+          "m": 100,
+          "cron": 100,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790004431087,
+          "url": "https://app.clickup.com/t/86akn0y4r"
         }
       ]
     }

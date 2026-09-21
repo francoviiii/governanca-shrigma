@@ -69,6 +69,61 @@
           "src": "cron",
           "ts": 1789926670806,
           "url": "https://app.clickup.com/t/86akmhja2"
+        },
+        {
+          "p": "Jorge",
+          "nome": "Finalizar planilha de ADS EM VÍDEO",
+          "c": "Projeto",
+          "m": 180,
+          "cron": 180,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789905600000,
+          "url": "https://app.clickup.com/t/86akmhn8p"
+        },
+        {
+          "p": "Jorge",
+          "nome": "Finalizar planilha de ADS EM IMG",
+          "c": "Projeto",
+          "m": 165,
+          "cron": 165,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789917300000,
+          "url": "https://app.clickup.com/t/86akmhn90"
+        },
+        {
+          "p": "Jorge",
+          "nome": "[Fishermans] Renomear criativos (10 anúncios/conjuntos)",
+          "c": "Compromisso",
+          "m": 25,
+          "cron": 25,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789931169879,
+          "url": "https://app.clickup.com/t/86akfmb4u"
+        },
+        {
+          "p": "Jorge",
+          "nome": "Finalizar de preencher a SEMANA e KPIS",
+          "c": "Rotina",
+          "m": 45,
+          "cron": 45,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789932023830,
+          "url": "https://app.clickup.com/t/86akmhva0"
+        },
+        {
+          "p": "Uri",
+          "nome": "NF´s pendentes - Emissão - Aristo e Fishermans todas as lojas",
+          "c": "Gestão",
+          "m": 22,
+          "cron": 22,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789940139989,
+          "url": "https://app.clickup.com/t/86akmj3c7"
         }
       ]
     }

@@ -685,6 +685,50 @@
           "src": "cron",
           "ts": 1790093937119,
           "url": "https://app.clickup.com/t/86akncrzk"
+        },
+        {
+          "p": "Uri",
+          "nome": "Adicionar dados fiscais aos produtos ML Aristo para o Full ML",
+          "c": "Projeto",
+          "m": 39,
+          "cron": 39,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790095563004,
+          "url": "https://app.clickup.com/t/86akn01p6"
+        },
+        {
+          "p": "Uri",
+          "nome": "Levantamento vendas AR - Provável ruptura",
+          "c": "Imprevisto",
+          "m": 6,
+          "cron": 6,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790098451223,
+          "url": "https://app.clickup.com/t/86akneymd"
+        },
+        {
+          "p": "Marcela",
+          "nome": "separar videos tiktok shop",
+          "c": "Rotina",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790095240163,
+          "url": "https://app.clickup.com/t/86aknajha"
+        },
+        {
+          "p": "Marcela",
+          "nome": "1.1 pedro",
+          "c": "Rotina",
+          "m": 25,
+          "cron": 25,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790098169095,
+          "url": "https://app.clickup.com/t/86akng25j"
         }
       ]
     }

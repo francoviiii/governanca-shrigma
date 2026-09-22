@@ -311,6 +311,237 @@
           "src": "cron",
           "ts": 1790004431087,
           "url": "https://app.clickup.com/t/86akn0y4r"
+        },
+        {
+          "p": "Uri",
+          "nome": "Analise de concorrência dos anúncios vencedores de catálogo Fishermans",
+          "c": "Gestão",
+          "m": 45,
+          "cron": 45,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790011041433,
+          "url": "https://app.clickup.com/t/86akn14j6"
+        },
+        {
+          "p": "Uri",
+          "nome": "Analise de concorrência dos anúncios vencedores de catálogo Fishermans",
+          "c": "Gestão",
+          "m": 0,
+          "cron": 0,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790016396244,
+          "url": "https://app.clickup.com/t/86akn14j6"
+        },
+        {
+          "p": "Uri",
+          "nome": "Contestação de devoluções Fishermans",
+          "c": "Gestão",
+          "m": 12,
+          "cron": 12,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790016434308,
+          "url": "https://app.clickup.com/t/86akn3fht"
+        },
+        {
+          "p": "Marcela",
+          "nome": "separar documentos para gabi",
+          "c": "Imprevisto",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790015537844,
+          "url": "https://app.clickup.com/t/86akn1kf5"
+        },
+        {
+          "p": "Marcela",
+          "nome": "1.1 felipe",
+          "c": "Rotina",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790015563370,
+          "url": "https://app.clickup.com/t/86akn3uy3"
+        },
+        {
+          "p": "Marcela",
+          "nome": "acompanhar as metas",
+          "c": "Rotina",
+          "m": 45,
+          "cron": 45,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790014681063,
+          "url": "https://app.clickup.com/t/86akkxk0a"
+        },
+        {
+          "p": "Marcela",
+          "nome": "terminar de chamar as pessoas do felipe",
+          "c": "Rotina",
+          "m": 17,
+          "cron": 17,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790016373056,
+          "url": "https://app.clickup.com/t/86akkxjyk"
+        },
+        {
+          "p": "Marcela",
+          "nome": "follow up com demais",
+          "c": "Rotina",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790013805533,
+          "url": "https://app.clickup.com/t/86akkxjyr"
+        },
+        {
+          "p": "Marcela",
+          "nome": "chamar pessoas que felipe falou",
+          "c": "Rotina",
+          "m": 20,
+          "cron": 20,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790016329522,
+          "url": "https://app.clickup.com/t/86akejjq5"
+        },
+        {
+          "p": "Uri",
+          "nome": "Contestação de devoluções Fishermans",
+          "c": "Gestão",
+          "m": 16,
+          "cron": 16,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790018143799,
+          "url": "https://app.clickup.com/t/86akn3fht"
+        },
+        {
+          "p": "Uri",
+          "nome": "Nova campanha Amazon Ads Aristocrata",
+          "c": "Gestão",
+          "m": 5,
+          "cron": 5,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790019528918,
+          "url": "https://app.clickup.com/t/86akmgtx4"
+        },
+        {
+          "p": "Uri",
+          "nome": "Analisar o funcionamento da automatização de preços no ML Fishermans",
+          "c": "Gestão",
+          "m": 28,
+          "cron": 28,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790019836388,
+          "url": "https://app.clickup.com/t/86akn0rfc"
+        },
+        {
+          "p": "Marcela",
+          "nome": "fazer envios",
+          "c": "Rotina",
+          "m": 36,
+          "cron": 36,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790018284204,
+          "url": "https://app.clickup.com/t/86akn4ymx"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "preprao reunião",
+          "c": "Rotina",
+          "m": 90,
+          "cron": 90,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789992000000,
+          "url": "https://app.clickup.com/t/86akn58tb"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "reunião",
+          "c": "Reunião",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789997400000,
+          "url": "https://app.clickup.com/t/86akn598f"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "reunião",
+          "c": "Reunião",
+          "m": 45,
+          "cron": 45,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790001000000,
+          "url": "https://app.clickup.com/t/86akn598f"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "copy vídeos",
+          "c": "Rotina",
+          "m": 105,
+          "cron": 105,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790007300000,
+          "url": "https://app.clickup.com/t/86akn59m6"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "roteiro influ",
+          "c": "Rotina",
+          "m": 75,
+          "cron": 75,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790013600000,
+          "url": "https://app.clickup.com/t/86akn59xw"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "falar gustavo",
+          "c": "Reunião",
+          "m": 15,
+          "cron": 15,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790018100000,
+          "url": "https://app.clickup.com/t/86akn5a77"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "separar hooks",
+          "c": "Rotina",
+          "m": 45,
+          "cron": 45,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790019000000,
+          "url": "https://app.clickup.com/t/86akn5ag9"
+        },
+        {
+          "p": "Jorge",
+          "nome": "Atualizar PDP, copllections e e dobras",
+          "c": "Projeto",
+          "m": 225,
+          "cron": 225,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790008200000,
+          "url": "https://app.clickup.com/t/86akn5rgm"
         }
       ]
     }

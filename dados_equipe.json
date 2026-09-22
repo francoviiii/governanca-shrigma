@@ -542,6 +542,149 @@
           "src": "cron",
           "ts": 1790008200000,
           "url": "https://app.clickup.com/t/86akn5rgm"
+        },
+        {
+          "p": "Uri",
+          "nome": "SAC/NF/Envios",
+          "c": "Rotina",
+          "m": 62,
+          "cron": 62,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790076547048,
+          "url": "https://app.clickup.com/t/86akn9t5j"
+        },
+        {
+          "p": "Jorge",
+          "nome": "Separar com o CLAUDE tudo que falei na WEEKLY + SEMANAL com o time em plano de ação",
+          "c": "Sem categoria",
+          "m": 135,
+          "cron": 135,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1789995600000,
+          "url": "https://app.clickup.com/t/86akn1n87"
+        },
+        {
+          "p": "Uri",
+          "nome": "Aumentar preços de skus em catálogo Fishermans",
+          "c": "Gestão",
+          "m": 39,
+          "cron": 39,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790080998417,
+          "url": "https://app.clickup.com/t/86akmgquk"
+        },
+        {
+          "p": "Uri",
+          "nome": "Analiizar o otimizar anúncios fishermans ML",
+          "c": "Gestão",
+          "m": 98,
+          "cron": 98,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790083340816,
+          "url": "https://app.clickup.com/t/86akn9wga"
+        },
+        {
+          "p": "Marcela",
+          "nome": "responder demais",
+          "c": "Rotina",
+          "m": 55,
+          "cron": 55,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790081939335,
+          "url": "https://app.clickup.com/t/86aknajg3"
+        },
+        {
+          "p": "Marcela",
+          "nome": "analisar videos entrevistas",
+          "c": "Rotina",
+          "m": 36,
+          "cron": 36,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790086215063,
+          "url": "https://app.clickup.com/t/86aknbtnc"
+        },
+        {
+          "p": "Marcela",
+          "nome": "analisar retorno meta ads",
+          "c": "Rotina",
+          "m": 110,
+          "cron": 110,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790081793858,
+          "url": "https://app.clickup.com/t/86aknaxb0"
+        },
+        {
+          "p": "Marcela",
+          "nome": "pensar em formatos de gravação",
+          "c": "Rotina",
+          "m": 15,
+          "cron": 15,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790087524562,
+          "url": "https://app.clickup.com/t/86aknajnc"
+        },
+        {
+          "p": "Uri",
+          "nome": "Validar ID nas Contas ML Aristo e Fishermans",
+          "c": "Imprevisto",
+          "m": 8,
+          "cron": 8,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790089414245,
+          "url": "https://app.clickup.com/t/86aknajr1"
+        },
+        {
+          "p": "Marcela",
+          "nome": "[Fishermans] Alinhar com influencer a possibilidade da Fishermans criar perfis de youtube e publicar video deles",
+          "c": "Compromisso",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790086470268,
+          "url": "https://app.clickup.com/t/86akna6rg"
+        },
+        {
+          "p": "Uri",
+          "nome": "Monitorar catálogo Fishermans ML - Relacionar revendedores vendendo mais caro no catálogo da plataforma",
+          "c": "Gestão",
+          "m": 29,
+          "cron": 29,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790092839406,
+          "url": "https://app.clickup.com/t/86aknd7e2"
+        },
+        {
+          "p": "Uri",
+          "nome": "Analisar CVs Analista",
+          "c": "Gestão",
+          "m": 15,
+          "cron": 15,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790094653183,
+          "url": "https://app.clickup.com/t/86akn9t7p"
+        },
+        {
+          "p": "Marcela",
+          "nome": "documento pro kee",
+          "c": "Imprevisto",
+          "m": 15,
+          "cron": 15,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790093937119,
+          "url": "https://app.clickup.com/t/86akncrzk"
         }
       ]
     }

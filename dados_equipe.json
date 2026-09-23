@@ -962,17 +962,6 @@
           "url": "https://app.clickup.com/t/86aknt4hc"
         },
         {
-          "p": "Sabrina",
-          "nome": "[013.7] - [INGREDIENTES IA]",
-          "c": "Sem categoria",
-          "m": 0,
-          "cron": 0,
-          "prog": 0,
-          "src": "cron",
-          "ts": 1790173588651,
-          "url": "https://app.clickup.com/t/86akdhhv7"
-        },
-        {
           "p": "Marcela",
           "nome": "1.1 manuella",
           "c": "Gestão",
@@ -982,6 +971,17 @@
           "src": "cron",
           "ts": 1790173084947,
           "url": "https://app.clickup.com/t/86aknuka8"
+        },
+        {
+          "p": "Uri",
+          "nome": "Reunião Gerente de Contas Amazon Aristo",
+          "c": "Reunião",
+          "m": 113,
+          "cron": 113,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790176543319,
+          "url": "https://app.clickup.com/t/86aknqjan"
         },
         {
           "p": "Marcela",
@@ -1004,6 +1004,50 @@
           "src": "cron",
           "ts": 1790178647068,
           "url": "https://app.clickup.com/t/86aknak4u"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "relatório",
+          "c": "Projeto",
+          "m": 45,
+          "cron": 45,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790172900000,
+          "url": "https://app.clickup.com/t/86aknr8rm"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "revisão de ads",
+          "c": "Rotina",
+          "m": 40,
+          "cron": 40,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790179800000,
+          "url": "https://app.clickup.com/t/86aknwyr3"
+        },
+        {
+          "p": "Uri",
+          "nome": "Entrevista candidatos vaga Analista de Marketplaces",
+          "c": "Projeto",
+          "m": 33,
+          "cron": 33,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790183389733,
+          "url": "https://app.clickup.com/t/86aknwzpu"
+        },
+        {
+          "p": "Marcela",
+          "nome": "reuniao ff pesca",
+          "c": "Reunião",
+          "m": 36,
+          "cron": 36,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790181447742,
+          "url": "https://app.clickup.com/t/86akmj4y4"
         }
       ]
     }

@@ -729,6 +729,105 @@
           "src": "cron",
           "ts": 1790098169095,
           "url": "https://app.clickup.com/t/86akng25j"
+        },
+        {
+          "p": "Uri",
+          "nome": "Ativar ofertas relâmpago Fishermans ML e + Promos",
+          "c": "Gestão",
+          "m": 85,
+          "cron": 85,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790101769122,
+          "url": "https://app.clickup.com/t/86akngve6"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "relatório para Lari",
+          "c": "Projeto",
+          "m": 75,
+          "cron": 75,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790078400000,
+          "url": "https://app.clickup.com/t/86aknhdeb"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "copy",
+          "c": "Rotina",
+          "m": 105,
+          "cron": 105,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790082900000,
+          "url": "https://app.clickup.com/t/86aknhfkm"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "copy",
+          "c": "Rotina",
+          "m": 120,
+          "cron": 120,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790092800000,
+          "url": "https://app.clickup.com/t/86aknhg44"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "falar com as pessoas",
+          "c": "Imprevisto",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790100000000,
+          "url": "https://app.clickup.com/t/86aknhhnr"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "copy",
+          "c": "Rotina",
+          "m": 45,
+          "cron": 45,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790101800000,
+          "url": "https://app.clickup.com/t/86aknhhyp"
+        },
+        {
+          "p": "Uri",
+          "nome": "Pausar anúncios e Ads AR ML",
+          "c": "Imprevisto",
+          "m": 2,
+          "cron": 2,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790106911330,
+          "url": "https://app.clickup.com/t/86aknjfzz"
+        },
+        {
+          "p": "Uri",
+          "nome": "Ativar ofertas relâmpago Fishermans ML e + Promos",
+          "c": "Gestão",
+          "m": 14,
+          "cron": 14,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790107614945,
+          "url": "https://app.clickup.com/t/86akngve6"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "fishermans",
+          "c": "Imprevisto",
+          "m": 90,
+          "cron": 90,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790104500000,
+          "url": "https://app.clickup.com/t/86aknn9hd"
         }
       ]
     }

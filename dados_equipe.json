@@ -828,6 +828,182 @@
           "src": "cron",
           "ts": 1790104500000,
           "url": "https://app.clickup.com/t/86aknn9hd"
+        },
+        {
+          "p": "Uri",
+          "nome": "SAC/NF/Envios",
+          "c": "Rotina",
+          "m": 27,
+          "cron": 27,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790162407198,
+          "url": "https://app.clickup.com/t/86aknqbty"
+        },
+        {
+          "p": "Uri",
+          "nome": "Envio de item faltando no pedido Aristocrata ML - Pedido: 2000015052558927",
+          "c": "Imprevisto",
+          "m": 1,
+          "cron": 1,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790164007167,
+          "url": "https://app.clickup.com/t/86aknqh46"
+        },
+        {
+          "p": "Uri",
+          "nome": "SAC/NF/Envios",
+          "c": "Rotina",
+          "m": 36,
+          "cron": 36,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790164090148,
+          "url": "https://app.clickup.com/t/86aknqbty"
+        },
+        {
+          "p": "Uri",
+          "nome": "FBA Aristocrata",
+          "c": "Projeto",
+          "m": 11,
+          "cron": 11,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790166581935,
+          "url": "https://app.clickup.com/t/86akk0dz5"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "analise de ads",
+          "c": "Rotina",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790166600000,
+          "url": "https://app.clickup.com/t/86aknr8jq"
+        },
+        {
+          "p": "Uri",
+          "nome": "FBA Aristocrata",
+          "c": "Projeto",
+          "m": 0,
+          "cron": 0,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790167831824,
+          "url": "https://app.clickup.com/t/86akk0dz5"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "[028.8] - [SABONETE DE COCO IA]",
+          "c": "Sem categoria",
+          "m": 0,
+          "cron": 0,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790168387941,
+          "url": "https://app.clickup.com/t/86akhdy0e"
+        },
+        {
+          "p": "Uri",
+          "nome": "Nova campanha Amazon Ads Aristocrata",
+          "c": "Gestão",
+          "m": 7,
+          "cron": 7,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790170288892,
+          "url": "https://app.clickup.com/t/86akmgtx4"
+        },
+        {
+          "p": "Uri",
+          "nome": "Nova campanha Amazon Ads Aristocrata",
+          "c": "Gestão",
+          "m": 14,
+          "cron": 14,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790170726941,
+          "url": "https://app.clickup.com/t/86akmgtx4"
+        },
+        {
+          "p": "Uri",
+          "nome": "Habilitação do faturador ML Aristo",
+          "c": "Projeto",
+          "m": 66,
+          "cron": 66,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790171614012,
+          "url": "https://app.clickup.com/t/86aknt475"
+        },
+        {
+          "p": "Marcela",
+          "nome": "reuniao sobre black friday aristocrata",
+          "c": "Reunião",
+          "m": 70,
+          "cron": 70,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790168637054,
+          "url": "https://app.clickup.com/t/86aknrnc8"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "reunião",
+          "c": "Reunião",
+          "m": 75,
+          "cron": 75,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790168400000,
+          "url": "https://app.clickup.com/t/86aknt4hc"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "[013.7] - [INGREDIENTES IA]",
+          "c": "Sem categoria",
+          "m": 0,
+          "cron": 0,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790173588651,
+          "url": "https://app.clickup.com/t/86akdhhv7"
+        },
+        {
+          "p": "Marcela",
+          "nome": "1.1 manuella",
+          "c": "Gestão",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790173084947,
+          "url": "https://app.clickup.com/t/86aknuka8"
+        },
+        {
+          "p": "Marcela",
+          "nome": "fazer envios dos influs",
+          "c": "Rotina",
+          "m": 35,
+          "cron": 35,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790178623748,
+          "url": "https://app.clickup.com/t/86aknrqb1"
+        },
+        {
+          "p": "Marcela",
+          "nome": "resolver travas da manuella",
+          "c": "Gestão",
+          "m": 35,
+          "cron": 35,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790178647068,
+          "url": "https://app.clickup.com/t/86aknak4u"
         }
       ]
     }

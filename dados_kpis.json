@@ -1,9 +1,8 @@
 ={
- "updated": "23/09/2026, 20:21",
+ "updated": "24/09/2026, 20:20",
  "brands": {
   "Fishermans": {
    "weeks": [
-    "S01 07/07",
     "S02 13/07",
     "S03 20/07",
     "S04 27/07",
@@ -25,10 +24,51 @@
      "area": "Criativo Jorge (MULTI)",
      "kpis": [
       {
-       "nome": "Criativos produzidos / semana",
-       "meta": "Bater período anterior",
+       "nome": "Receita liquida Site (Meta + orgânico)",
+       "meta": "",
        "valores": [
         null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+       ]
+      },
+      {
+       "nome": "MER",
+       "meta": "",
+       "valores": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+       ]
+      },
+      {
+       "nome": "Criativos produzidos / semana",
+       "meta": "",
+       "valores": [
         null,
         null,
         null,
@@ -48,9 +88,8 @@
       },
       {
        "nome": "Criativos novos no ar / semana",
-       "meta": "Bater período anterior",
+       "meta": "10",
        "valores": [
-        10,
         10,
         8,
         17,
@@ -70,9 +109,8 @@
       },
       {
        "nome": "Vencedores novos / semana",
-       "meta": "Bater período anterior",
+       "meta": "1",
        "valores": [
-        1,
         1,
         0,
         1,
@@ -92,9 +130,8 @@
       },
       {
        "nome": "Receita de cliente novo (Meta)",
-       "meta": "Bater período anterior",
+       "meta": "26980.65",
        "valores": [
-        26980.65,
         24174.39,
         67668.78,
         52888.41,
@@ -114,9 +151,8 @@
       },
       {
        "nome": "ROAS 7d-click",
-       "meta": "≥ média das últimas 4 semanas",
+       "meta": "1.96",
        "valores": [
-        1.96,
         3.05,
         2.25,
         2.74,
@@ -136,9 +172,8 @@
       },
       {
        "nome": "ROAS cliente novo",
-       "meta": "≥ média das últimas 4 semanas",
+       "meta": "1.96",
        "valores": [
-        1.96,
         3.05,
         2.25,
         2.74,
@@ -158,9 +193,8 @@
       },
       {
        "nome": "Frequência",
-       "meta": "≥ média das últimas 4 semanas",
+       "meta": "3.49",
        "valores": [
-        3.49,
         3.37,
         4.12,
         4.32,
@@ -180,9 +214,8 @@
       },
       {
        "nome": "Valor gasto em mídia (Meta Ads) — semana",
-       "meta": "Acompanhar tendência (relação com CPL)",
+       "meta": "",
        "valores": [
-        null,
         null,
         null,
         null,
@@ -207,9 +240,8 @@
      "kpis": [
       {
        "nome": "Criativos novos no ar / semana",
-       "meta": "Bater período anterior",
+       "meta": "",
        "valores": [
-        null,
         null,
         null,
         null,
@@ -229,9 +261,8 @@
       },
       {
        "nome": "Vencedores novos / semana",
-       "meta": "Bater período anterior",
+       "meta": "",
        "valores": [
-        null,
         null,
         null,
         null,
@@ -251,9 +282,8 @@
       },
       {
        "nome": "Receita de cliente novo (Meta)",
-       "meta": "Bater período anterior",
+       "meta": "",
        "valores": [
-        null,
         null,
         null,
         null,
@@ -273,9 +303,8 @@
       },
       {
        "nome": "ROAS 7d-click",
-       "meta": "≥ média das últimas 4 semanas",
+       "meta": "",
        "valores": [
-        null,
         null,
         null,
         null,
@@ -295,9 +324,8 @@
       },
       {
        "nome": "ROAS cliente novo",
-       "meta": "≥ média das últimas 4 semanas",
+       "meta": "",
        "valores": [
-        null,
         null,
         null,
         null,
@@ -317,9 +345,8 @@
       },
       {
        "nome": "Frequência",
-       "meta": "≥ média das últimas 4 semanas",
+       "meta": "",
        "valores": [
-        null,
         null,
         null,
         null,
@@ -339,9 +366,8 @@
       },
       {
        "nome": "Valor gasto em mídia (Meta Ads) — semana",
-       "meta": "Acompanhar tendência (relação com CPL)",
+       "meta": "",
        "valores": [
-        null,
         null,
         null,
         null,
@@ -366,9 +392,8 @@
      "kpis": [
       {
        "nome": "Criativos novos no ar / semana",
-       "meta": "Bater período anterior",
+       "meta": "",
        "valores": [
-        null,
         null,
         null,
         null,
@@ -388,9 +413,8 @@
       },
       {
        "nome": "Vencedores novos / semana",
-       "meta": "Bater período anterior",
+       "meta": "",
        "valores": [
-        null,
         null,
         null,
         null,
@@ -410,9 +434,8 @@
       },
       {
        "nome": "Receita de cliente novo (Meta)",
-       "meta": "Bater período anterior",
+       "meta": "",
        "valores": [
-        null,
         null,
         null,
         null,
@@ -432,9 +455,8 @@
       },
       {
        "nome": "ROAS 7d-click",
-       "meta": "≥ média das últimas 4 semanas",
+       "meta": "",
        "valores": [
-        null,
         null,
         null,
         null,
@@ -454,9 +476,8 @@
       },
       {
        "nome": "ROAS cliente novo",
-       "meta": "≥ média das últimas 4 semanas",
+       "meta": "",
        "valores": [
-        null,
         null,
         null,
         null,
@@ -476,9 +497,8 @@
       },
       {
        "nome": "Frequência",
-       "meta": "≥ média das últimas 4 semanas",
+       "meta": "",
        "valores": [
-        null,
         null,
         null,
         null,
@@ -498,9 +518,8 @@
       },
       {
        "nome": "Valor gasto em mídia (Meta Ads) — semana",
-       "meta": "Acompanhar tendência (relação com CPL)",
+       "meta": "",
        "valores": [
-        null,
         null,
         null,
         null,
@@ -524,10 +543,9 @@
      "area": "Marketplace Uri",
      "kpis": [
       {
-       "nome": "Faturamento bruto",
-       "meta": "Bater período anterior",
+       "nome": "Faturamento bruto dos canais",
+       "meta": "",
        "valores": [
-        null,
         null,
         null,
         88620.6,
@@ -557,7 +575,6 @@
         null,
         null,
         null,
-        null,
         11341.17,
         15232.65,
         0.1124,
@@ -569,9 +586,8 @@
       },
       {
        "nome": "TACOS do canal",
-       "meta": "≤ teto (tendência ↓)",
+       "meta": "0.0758",
        "valores": [
-        0.0758,
         0.0507,
         0.0507,
         0.0726,
@@ -591,9 +607,8 @@
       },
       {
        "nome": "Cobertura de estoque no Full (dias)",
-       "meta": "15–30 dias",
+       "meta": "44",
        "valores": [
-        44,
         30,
         15,
         14,
@@ -617,10 +632,9 @@
      "area": "B2B Leandro",
      "kpis": [
       {
-       "nome": "Faturamento total do canal",
-       "meta": "≥ R$ 250 mil/mês",
+       "nome": "Faturamento total",
+       "meta": "45726.77",
        "valores": [
-        45726.77,
         77252.7,
         39085.53,
         124320,
@@ -640,9 +654,8 @@
       },
       {
        "nome": "% do time de vendas na meta",
-       "meta": "≥ 75%",
+       "meta": "0.1829",
        "valores": [
-        0.1829,
         0.493,
         0.6493,
         1.1437,
@@ -678,6 +691,47 @@
         null,
         null,
         null,
+        null
+       ]
+      },
+      {
+       "nome": "Quantidade de ligações feitas",
+       "meta": "",
+       "valores": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+       ]
+      },
+      {
+       "nome": "Quantidade de conversões",
+       "meta": "",
+       "valores": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         null
        ]
@@ -688,10 +742,30 @@
      "area": "Orgânico Julia",
      "kpis": [
       {
-       "nome": "Conteúdo no ar / semana",
-       "meta": "Mínimo do baseline (ex.: 5)",
+       "nome": "Faturamento / Vendas",
+       "meta": "",
        "valores": [
         null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+       ]
+      },
+      {
+       "nome": "Conteúdo no ar / semana",
+       "meta": "Não iniciado",
+       "valores": [
         5,
         4,
         10,
@@ -711,9 +785,8 @@
       },
       {
        "nome": "Engajamento Qualificado (EQ)",
-       "meta": "≥ 1%",
+       "meta": "Não iniciado",
        "valores": [
-        null,
         0.0056,
         0.001,
         0.01,
@@ -733,9 +806,8 @@
       },
       {
        "nome": "Conteúdos Campeões",
-       "meta": "2 Conteúdos",
+       "meta": "Não iniciado",
        "valores": [
-        null,
         2,
         1,
         2,
@@ -754,8 +826,8 @@
        ]
       },
       {
-       "nome": "CTR (UTM)",
-       "meta": "Baseline, tendência ↑",
+       "nome": "Cliques gerados",
+       "meta": "",
        "valores": [
         null,
         null,
@@ -763,12 +835,74 @@
         null,
         null,
         null,
-        0.019,
-        0.0188,
-        0.0282,
         null,
-        0.0048,
-        0.0263,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+       ]
+      },
+      {
+       "nome": "Visualizações gerais do perfil",
+       "meta": "",
+       "valores": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+       ]
+      },
+      {
+       "nome": "Valor de conversão",
+       "meta": "",
+       "valores": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+       ]
+      },
+      {
+       "nome": "Ganho de seguidores",
+       "meta": "",
+       "valores": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         null,
         null,
@@ -781,10 +915,30 @@
      "area": "Influencers & Afiliados Marcela",
      "kpis": [
       {
-       "nome": "ROAS Afiliados",
-       "meta": "Estruturalmente positivo",
+       "nome": "Valor em Vendas de Cupom",
+       "meta": "",
        "valores": [
-        5.7,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        4273,
+        5784,
+        3536,
+        null,
+        null,
+        null,
+        null
+       ]
+      },
+      {
+       "nome": "ROAS Afiliados",
+       "meta": "5,7x",
+       "valores": [
         8.7,
         5.4,
         8.2,
@@ -804,9 +958,8 @@
       },
       {
        "nome": "Afiliados Ativos / mês",
-       "meta": "Mínimo por marca",
+       "meta": "52",
        "valores": [
-        52,
         52,
         52,
         52,
@@ -826,9 +979,8 @@
       },
       {
        "nome": "ROAS Influencers",
-       "meta": "≥ 300% (3x)",
+       "meta": "0.035",
        "valores": [
-        0.035,
         0.026,
         0.028,
         0.018,
@@ -848,9 +1000,8 @@
       },
       {
        "nome": "Compliance de Entrega",
-       "meta": "≥ 95%",
+       "meta": "0.1",
        "valores": [
-        0.1,
         0.7,
         0.9,
         1,
@@ -861,7 +1012,7 @@
         1,
         0.2,
         0.3,
-        45,
+        0.45,
         null,
         null,
         null,
@@ -869,8 +1020,8 @@
        ]
       },
       {
-       "nome": "Valor em Vendas de Cupom/ semana",
-       "meta": "≥ 3k",
+       "nome": "Quantidade de Contatos feitos",
+       "meta": "",
        "valores": [
         null,
         null,
@@ -881,9 +1032,71 @@
         null,
         null,
         null,
-        4273,
-        5784,
-        3536,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+       ]
+      },
+      {
+       "nome": "Quantidade de respostas",
+       "meta": "",
+       "valores": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+       ]
+      },
+      {
+       "nome": "Quantidade de propostas",
+       "meta": "",
+       "valores": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+       ]
+      },
+      {
+       "nome": "Quantidade de fechamento",
+       "meta": "",
+       "valores": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         null,
         null,
@@ -906,7 +1119,7 @@
      41471.92,
      43976.93,
      44934.37,
-     17079.27
+     23307.76
     ],
     "frequency": [
      6.133414,
@@ -920,7 +1133,7 @@
      6.525107,
      6.977909,
      6.33906,
-     4.271982
+     4.709917
     ],
     "roas": [
      3.070812,
@@ -934,7 +1147,7 @@
      2.607246,
      3.280085,
      2.067041,
-     2.152938
+     2.274319
     ],
     "revenue": [
      122322.53,
@@ -948,7 +1161,7 @@
      108127.48,
      144248.09,
      92881.17,
-     36770.61
+     53009.27
     ],
     "purchases": [
      617,
@@ -962,7 +1175,7 @@
      605,
      675,
      543,
-     207
+     290
     ],
     "ctr": [
      1.653533,
@@ -976,7 +1189,7 @@
      1.380067,
      1.572149,
      1.39444,
-     1.207052
+     1.240608
     ],
     "conta": "1673618863095880",
     "fonte": "Meta Business (ao vivo)",
@@ -985,7 +1198,6 @@
    "shopify": {
     "organic": {
      "sales": [
-      null,
       null,
       null,
       null,
@@ -1019,7 +1231,6 @@
       null,
       null,
       null,
-      null,
       null
      ]
     }
@@ -1027,7 +1238,6 @@
   },
   "Aristocrata": {
    "weeks": [
-    "S01 07/07",
     "S02 13/07",
     "S03 20/07",
     "S04 27/07",
@@ -1042,17 +1252,70 @@
     "S13 28/09",
     "S14 05/10",
     "S15 12/10",
-    "S16 19/10"
+    "S16 19/10",
+    "S15 26/10",
+    "S16 02/11",
+    "S15 09/11",
+    "S16 16/11"
    ],
    "areas": [
     {
      "area": "Criativo Sabrina",
      "kpis": [
       {
-       "nome": "Criativos produzidos / semana (vídeo + imagem)",
-       "meta": "Bater período anterior",
+       "nome": "Receita liquida Site (Meta + orgânico)",
+       "meta": "",
        "valores": [
         null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+       ]
+      },
+      {
+       "nome": "MER",
+       "meta": "",
+       "valores": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+       ]
+      },
+      {
+       "nome": "Criativos produzidos / semana (vídeo + imagem)",
+       "meta": "",
+       "valores": [
         null,
         null,
         null,
@@ -1067,14 +1330,17 @@
         null,
         null,
         null,
+        null,
+        null,
+        null,
+        null,
         null
        ]
       },
       {
        "nome": "Criativos novos no ar / semana",
-       "meta": "Bater período anterior",
+       "meta": "10",
        "valores": [
-        10,
         6,
         20,
         29,
@@ -1089,14 +1355,17 @@
         null,
         null,
         null,
+        null,
+        null,
+        null,
+        null,
         null
        ]
       },
       {
        "nome": "Vencedores novos / semana",
-       "meta": "Bater período anterior",
+       "meta": "1",
        "valores": [
-        1,
         0,
         2,
         3,
@@ -1111,14 +1380,17 @@
         null,
         null,
         null,
+        null,
+        null,
+        null,
+        null,
         null
        ]
       },
       {
        "nome": "Receita de cliente novo",
-       "meta": "Bater período anterior",
+       "meta": "72699.91",
        "valores": [
-        72699.91,
         293740.99,
         241296,
         281290,
@@ -1133,14 +1405,17 @@
         null,
         null,
         null,
+        null,
+        null,
+        null,
+        null,
         null
        ]
       },
       {
        "nome": "ROAS 7d-click, cliente novo",
-       "meta": "Bater período anterior",
+       "meta": "4.45",
        "valores": [
-        4.45,
         3.94,
         3.27,
         3.46,
@@ -1155,14 +1430,17 @@
         null,
         null,
         null,
+        null,
+        null,
+        null,
+        null,
         null
        ]
       },
       {
        "nome": "Frequência",
-       "meta": "< 4",
+       "meta": "2.73",
        "valores": [
-        2.73,
         2.93,
         2.21,
         2.27,
@@ -1177,12 +1455,16 @@
         null,
         null,
         null,
+        null,
+        null,
+        null,
+        null,
         null
        ]
       },
       {
-       "nome": "Valor gasto em mídia (Meta Ads) — semana",
-       "meta": "Acompanhar tendência (relação com CPL)",
+       "nome": "Hook Hate",
+       "meta": "",
        "valores": [
         null,
         null,
@@ -1190,12 +1472,90 @@
         null,
         null,
         null,
-        113719.47,
-        110794.53,
-        80506,
-        60711.05,
-        80699.48,
-        80226,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+       ]
+      },
+      {
+       "nome": "Retenção do Corpo",
+       "meta": "",
+       "valores": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+       ]
+      },
+      {
+       "nome": "CAC",
+       "meta": "",
+       "valores": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+       ]
+      },
+      {
+       "nome": "CPC",
+       "meta": "",
+       "valores": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         null,
         null,
@@ -1209,9 +1569,8 @@
      "kpis": [
       {
        "nome": "Faturamento bruto",
-       "meta": "Bater período anterior",
+       "meta": "",
        "valores": [
-        null,
         null,
         null,
         null,
@@ -1223,6 +1582,10 @@
         65510.07,
         91704.14,
         128132.51,
+        null,
+        null,
+        null,
+        null,
         null,
         null,
         null,
@@ -1241,10 +1604,13 @@
         null,
         null,
         null,
-        null,
         9047.82,
         13524.38,
         0.1498,
+        null,
+        null,
+        null,
+        null,
         null,
         null,
         null,
@@ -1253,9 +1619,8 @@
       },
       {
        "nome": "TACOS do canal",
-       "meta": "15–30 dias",
+       "meta": "0.0721",
        "valores": [
-        0.0721,
         0.0741,
         0.0758,
         0.0427,
@@ -1270,13 +1635,20 @@
         null,
         null,
         null,
+        null,
+        null,
+        null,
+        null,
         null
        ]
       },
       {
        "nome": "Cobertura de estoque no Full (dias)",
-       "meta": "Mínimo do baseline (ex.: 5)",
+       "meta": "X",
        "valores": [
+        null,
+        null,
+        null,
         null,
         null,
         null,
@@ -1301,10 +1673,34 @@
      "area": "Orgânico Julia",
      "kpis": [
       {
-       "nome": "Conteúdo no ar / semana",
-       "meta": "≥ 1%",
+       "nome": "Faturamento / Vendas",
+       "meta": "",
        "valores": [
         null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+       ]
+      },
+      {
+       "nome": "Conteúdo no ar / semana",
+       "meta": "Não iniciado",
+       "valores": [
         5,
         5,
         10,
@@ -1319,14 +1715,17 @@
         null,
         null,
         null,
+        null,
+        null,
+        null,
+        null,
         null
        ]
       },
       {
        "nome": "Engajamento Qualificado (EQ)",
-       "meta": "Baseline, tendência ↑",
+       "meta": "Não iniciado",
        "valores": [
-        null,
         0.0217,
         0.0047,
         0.0056,
@@ -1341,14 +1740,17 @@
         null,
         null,
         null,
+        null,
+        null,
+        null,
+        null,
         null
        ]
       },
       {
        "nome": "Conteúdos Campeões",
-       "meta": "2 Conteúdos",
+       "meta": "Não iniciado",
        "valores": [
-        null,
         null,
         3,
         3,
@@ -1363,12 +1765,16 @@
         null,
         null,
         null,
+        null,
+        null,
+        null,
+        null,
         null
        ]
       },
       {
-       "nome": "CTR",
-       "meta": "Baseline, tendência ↑",
+       "nome": "Visualizações gerais do perfil",
+       "meta": "",
        "valores": [
         null,
         null,
@@ -1376,12 +1782,90 @@
         null,
         null,
         null,
-        0.08,
-        0.0504,
-        0.0318,
-        0.052000000000000005,
         null,
-        0.051,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+       ]
+      },
+      {
+       "nome": "Cliques gerados",
+       "meta": "",
+       "valores": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+       ]
+      },
+      {
+       "nome": "Valor de conversao",
+       "meta": "",
+       "valores": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+       ]
+      },
+      {
+       "nome": "Ganho de seguidores",
+       "meta": "",
+       "valores": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         null,
         null,
@@ -1394,10 +1878,34 @@
      "area": "Influencers & Afiliados Marcela",
      "kpis": [
       {
-       "nome": "ROAS Afiliados",
-       "meta": "Estruturalmente positivo",
+       "nome": "Valor em Vendas de Cupom/ semana",
+       "meta": "",
        "valores": [
-        4.55,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        134810,
+        86894,
+        119601,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+       ]
+      },
+      {
+       "nome": "ROAS Afiliados",
+       "meta": "4.55",
+       "valores": [
         3.47,
         3.55,
         2.35,
@@ -1412,14 +1920,17 @@
         null,
         null,
         null,
+        null,
+        null,
+        null,
+        null,
         null
        ]
       },
       {
        "nome": "Afiliados Ativos / mês",
-       "meta": "Mínimo por marca",
+       "meta": "46",
        "valores": [
-        46,
         46,
         46,
         46,
@@ -1434,14 +1945,17 @@
         null,
         null,
         null,
+        null,
+        null,
+        null,
+        null,
         null
        ]
       },
       {
        "nome": "ROAS Influencers",
-       "meta": "≥ 300% (3x)",
+       "meta": "0.1",
        "valores": [
-        0.1,
         0.1,
         0.1,
         0.1,
@@ -1456,14 +1970,17 @@
         null,
         null,
         null,
+        null,
+        null,
+        null,
+        null,
         null
        ]
       },
       {
        "nome": "Compliance de Entrega",
-       "meta": "≥ 95%",
+       "meta": "1",
        "valores": [
-        1,
         1,
         1,
         1,
@@ -1478,12 +1995,16 @@
         null,
         null,
         null,
+        null,
+        null,
+        null,
+        null,
         null
        ]
       },
       {
-       "nome": "Valor em Vendas de Cupom/ semana",
-       "meta": ">15k",
+       "nome": "Quantidade de Contatos feitos",
+       "meta": "",
        "valores": [
         null,
         null,
@@ -1494,9 +2015,87 @@
         null,
         null,
         null,
-        134810,
-        86894,
-        119601,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+       ]
+      },
+      {
+       "nome": "Quantidade de respostas",
+       "meta": "",
+       "valores": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+       ]
+      },
+      {
+       "nome": "Quantidade de propostas",
+       "meta": "",
+       "valores": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+       ]
+      },
+      {
+       "nome": "Quantidade de fechamento",
+       "meta": "",
+       "valores": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         null,
         null,
@@ -1519,7 +2118,7 @@
      97206.77,
      92728.47,
      89771.98,
-     29834.23
+     40879.06
     ],
     "frequency": [
      4.20475,
@@ -1533,7 +2132,7 @@
      6.727721,
      4.675384,
      4.688558,
-     3.127497
+     3.477547
     ],
     "roas": [
      4.378851,
@@ -1547,7 +2146,7 @@
      6.798465,
      4.981875,
      4.937035,
-     4.739045
+     4.701655
     ],
     "revenue": [
      406366.14,
@@ -1561,7 +2160,7 @@
      660856.78,
      461961.62,
      443207.42,
-     141385.75
+     192199.22
     ],
     "purchases": [
      2661,
@@ -1575,7 +2174,7 @@
      4410,
      3153,
      2995,
-     972
+     1309
     ],
     "ctr": [
      2.754215,
@@ -1589,7 +2188,7 @@
      2.074479,
      2.073024,
      1.917536,
-     1.960891
+     1.972069
     ],
     "conta": "2042553482892986",
     "fonte": "Meta Business (ao vivo)",
@@ -1613,11 +2212,17 @@
       null,
       null,
       null,
+      null,
+      null,
+      null,
       null
      ]
     },
     "coupon": {
      "sales": [
+      null,
+      null,
+      null,
       null,
       null,
       null,

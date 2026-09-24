@@ -1048,6 +1048,193 @@
           "src": "cron",
           "ts": 1790181447742,
           "url": "https://app.clickup.com/t/86akmj4y4"
+        },
+        {
+          "p": "Uri",
+          "nome": "Entrevista candidatos vaga Analista de Marketplaces",
+          "c": "Projeto",
+          "m": 27,
+          "cron": 27,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790186375711,
+          "url": "https://app.clickup.com/t/86aknwzpu"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "planilha",
+          "c": "Rotina",
+          "m": 40,
+          "cron": 40,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790182200000,
+          "url": "https://app.clickup.com/t/86akg802c"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "organizar tasks",
+          "c": "Imprevisto",
+          "m": 15,
+          "cron": 15,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790184600000,
+          "url": "https://app.clickup.com/t/86akny01r"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "revisão de copy",
+          "c": "Rotina",
+          "m": 15,
+          "cron": 15,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790185500000,
+          "url": "https://app.clickup.com/t/86akny0ap"
+        },
+        {
+          "p": "Leandro",
+          "nome": "Atendimento Vendedores",
+          "c": "Rotina",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790161200000,
+          "url": "https://app.clickup.com/t/86aknyhvb"
+        },
+        {
+          "p": "Jorge",
+          "nome": "1:1 COM TODO TIME",
+          "c": "Reunião",
+          "m": 180,
+          "cron": 180,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790164800000,
+          "url": "https://app.clickup.com/t/86aknyjwu"
+        },
+        {
+          "p": "Jorge",
+          "nome": "CALL SOBRE A PÁGINA",
+          "c": "Reunião",
+          "m": 105,
+          "cron": 105,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790181900000,
+          "url": "https://app.clickup.com/t/86aknyka3"
+        },
+        {
+          "p": "Uri",
+          "nome": "Ativar ofertas relâmpago ML Fishermans",
+          "c": "Gestão",
+          "m": 38,
+          "cron": 38,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790189472325,
+          "url": "https://app.clickup.com/t/86aknywyw"
+        },
+        {
+          "p": "Marcela",
+          "nome": "prospectar",
+          "c": "Rotina",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790187126042,
+          "url": "https://app.clickup.com/t/86akkxjye"
+        },
+        {
+          "p": "Marcela",
+          "nome": "negociar com demais",
+          "c": "Rotina",
+          "m": 36,
+          "cron": 36,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790188585193,
+          "url": "https://app.clickup.com/t/86aknz81j"
+        },
+        {
+          "p": "Marcela",
+          "nome": "subir e analisar roteiros e entrevistas open mic",
+          "c": "Rotina",
+          "m": 75,
+          "cron": 75,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790186289640,
+          "url": "https://app.clickup.com/t/86aknz86r"
+        },
+        {
+          "p": "Marcela",
+          "nome": "criar campanhas tiktok aristo",
+          "c": "Rotina",
+          "m": 15,
+          "cron": 15,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790189903906,
+          "url": "https://app.clickup.com/t/86aknajkw"
+        },
+        {
+          "p": "Uri",
+          "nome": "Ativar ofertas relâmpago ML Fishermans",
+          "c": "Gestão",
+          "m": 37,
+          "cron": 37,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790192034716,
+          "url": "https://app.clickup.com/t/86aknywyw"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "revisão de ads",
+          "c": "Rotina",
+          "m": 15,
+          "cron": 15,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790186400000,
+          "url": "https://app.clickup.com/t/86aknwyr3"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "planilha",
+          "c": "Rotina",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790187300000,
+          "url": "https://app.clickup.com/t/86akg802c"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "foreplay",
+          "c": "Rotina",
+          "m": 45,
+          "cron": 45,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790191800000,
+          "url": "https://app.clickup.com/t/86aknzx5x"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "revisão de ads",
+          "c": "Rotina",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790202600000,
+          "url": "https://app.clickup.com/t/86aknwyr3"
         }
       ]
     }

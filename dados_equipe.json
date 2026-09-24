@@ -1226,6 +1226,17 @@
           "url": "https://app.clickup.com/t/86aknzx5x"
         },
         {
+          "p": "Uri",
+          "nome": "Contestação de devolução Fishermans ML",
+          "c": "Gestão",
+          "m": 909,
+          "cron": 909,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790194311131,
+          "url": "https://app.clickup.com/t/86akp0c8x"
+        },
+        {
           "p": "Sabrina",
           "nome": "revisão de ads",
           "c": "Rotina",
@@ -1235,6 +1246,204 @@
           "src": "cron",
           "ts": 1790202600000,
           "url": "https://app.clickup.com/t/86aknwyr3"
+        },
+        {
+          "p": "Uri",
+          "nome": "Contestação de devolução Fishermans ML",
+          "c": "Gestão",
+          "m": 15,
+          "cron": 15,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790193600000,
+          "url": "https://app.clickup.com/t/86akp0c8x"
+        },
+        {
+          "p": "Uri",
+          "nome": "Contestação de devolução Fishermans ML",
+          "c": "Gestão",
+          "m": 15,
+          "cron": 15,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790193600000,
+          "url": "https://app.clickup.com/t/86akp0c8x"
+        },
+        {
+          "p": "Uri",
+          "nome": "Contestação de devolução Fishermans ML",
+          "c": "Gestão",
+          "m": 15,
+          "cron": 15,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790193631410,
+          "url": "https://app.clickup.com/t/86akp0c8x"
+        },
+        {
+          "p": "Uri",
+          "nome": "SAC/NF/Envios",
+          "c": "Rotina",
+          "m": 15,
+          "cron": 15,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790249056040,
+          "url": "https://app.clickup.com/t/86akp4wva"
+        },
+        {
+          "p": "Uri",
+          "nome": "Atualizar estoque das Mono no ML",
+          "c": "Gestão",
+          "m": 55,
+          "cron": 55,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790250916429,
+          "url": "https://app.clickup.com/t/86akp549b"
+        },
+        {
+          "p": "Uri",
+          "nome": "Analisar e preparar ação para giro de MLB´s parados no Full Fishermans",
+          "c": "Gestão",
+          "m": 147,
+          "cron": 147,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790254218868,
+          "url": "https://app.clickup.com/t/86aknv97t"
+        },
+        {
+          "p": "Marcela",
+          "nome": "responder demais influenciadores",
+          "c": "Rotina",
+          "m": 96,
+          "cron": 96,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790251128927,
+          "url": "https://app.clickup.com/t/86akp6af6"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "revisão de ads",
+          "c": "Rotina",
+          "m": 25,
+          "cron": 25,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790250600000,
+          "url": "https://app.clickup.com/t/86aknwyr3"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "processo onboarding carlos",
+          "c": "Projeto",
+          "m": 75,
+          "cron": 75,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790252100000,
+          "url": "https://app.clickup.com/t/86akp6fey"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "planilha",
+          "c": "Rotina",
+          "m": 179,
+          "cron": 179,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790257464176,
+          "url": "https://app.clickup.com/t/86akg802c"
+        },
+        {
+          "p": "Jorge",
+          "nome": "Reunião com BARBARA + JOÃO",
+          "c": "Projeto",
+          "m": 105,
+          "cron": 105,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790253900000,
+          "url": "https://app.clickup.com/t/86akp7m27"
+        },
+        {
+          "p": "Uri",
+          "nome": "Verificação de anúncios concorrentes no ML Fishermans de clientes B2B",
+          "c": "Monitoramento",
+          "m": 0,
+          "cron": 0,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790263048777,
+          "url": "https://app.clickup.com/t/86aknv8z1"
+        },
+        {
+          "p": "Uri",
+          "nome": "Desativar anúncios Aristocrata - Ruptura de sabonetes FM e AR",
+          "c": "Imprevisto",
+          "m": 14,
+          "cron": 14,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790263206585,
+          "url": "https://app.clickup.com/t/86aknxmmd"
+        },
+        {
+          "p": "Uri",
+          "nome": "Monitoramento das contas",
+          "c": "Monitoramento",
+          "m": 22,
+          "cron": 22,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790264098228,
+          "url": "https://app.clickup.com/t/86akp8bbg"
+        },
+        {
+          "p": "Marcela",
+          "nome": "revisar contratos",
+          "c": "Rotina",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790266621586,
+          "url": "https://app.clickup.com/t/86aknajgg"
+        },
+        {
+          "p": "Leandro",
+          "nome": "Atendimento Vendedores",
+          "c": "Rotina",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790247625961,
+          "url": "https://app.clickup.com/t/86akp9ce9"
+        },
+        {
+          "p": "Leandro",
+          "nome": "Atendimento Vendedores",
+          "c": "Rotina",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790247600000,
+          "url": "https://app.clickup.com/t/86akp9daa"
+        },
+        {
+          "p": "Leandro",
+          "nome": "Acompanhamento Novo Vendedor",
+          "c": "Compromisso",
+          "m": 165,
+          "cron": 165,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790251200000,
+          "url": "https://app.clickup.com/t/86akp9ezr"
         }
       ]
     }

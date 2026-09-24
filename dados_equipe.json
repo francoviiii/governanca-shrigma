@@ -1444,6 +1444,39 @@
           "src": "cron",
           "ts": 1790251200000,
           "url": "https://app.clickup.com/t/86akp9ezr"
+        },
+        {
+          "p": "Marcela",
+          "nome": "criar campanha tiktokshop",
+          "c": "Rotina",
+          "m": 15,
+          "cron": 15,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790270394769,
+          "url": "https://app.clickup.com/t/86akkb9t4"
+        },
+        {
+          "p": "Marcela",
+          "nome": "analisar perfis",
+          "c": "Rotina",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790267747215,
+          "url": "https://app.clickup.com/t/86akkb9tx"
+        },
+        {
+          "p": "Marcela",
+          "nome": "shoppe afiliados",
+          "c": "Rotina",
+          "m": 10,
+          "cron": 10,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790270811576,
+          "url": "https://app.clickup.com/t/86akpa8b5"
         }
       ]
     }

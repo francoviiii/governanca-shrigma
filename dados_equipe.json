@@ -1094,17 +1094,6 @@
           "url": "https://app.clickup.com/t/86akny0ap"
         },
         {
-          "p": "Leandro",
-          "nome": "Atendimento Vendedores",
-          "c": "Rotina",
-          "m": 60,
-          "cron": 60,
-          "prog": 0,
-          "src": "cron",
-          "ts": 1790161200000,
-          "url": "https://app.clickup.com/t/86aknyhvb"
-        },
-        {
           "p": "Jorge",
           "nome": "1:1 COM TODO TIME",
           "c": "Reunião",
@@ -1402,6 +1391,28 @@
           "url": "https://app.clickup.com/t/86akp8bbg"
         },
         {
+          "p": "Uri",
+          "nome": "Criar e agendar publicações nos canais de transmissão das lojas.",
+          "c": "Rotina",
+          "m": 97,
+          "cron": 97,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790267199974,
+          "url": "https://app.clickup.com/t/86akp8n90"
+        },
+        {
+          "p": "Jorge",
+          "nome": "Revisar contéudo do INSTAGRAM da Diulia + Julia",
+          "c": "Projeto",
+          "m": 499,
+          "cron": 499,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790267544118,
+          "url": "https://app.clickup.com/t/86akp92fm"
+        },
+        {
           "p": "Marcela",
           "nome": "revisar contratos",
           "c": "Rotina",
@@ -1411,17 +1422,6 @@
           "src": "cron",
           "ts": 1790266621586,
           "url": "https://app.clickup.com/t/86aknajgg"
-        },
-        {
-          "p": "Leandro",
-          "nome": "Atendimento Vendedores",
-          "c": "Rotina",
-          "m": 60,
-          "cron": 60,
-          "prog": 0,
-          "src": "cron",
-          "ts": 1790247625961,
-          "url": "https://app.clickup.com/t/86akp9ce9"
         },
         {
           "p": "Leandro",
@@ -1477,6 +1477,127 @@
           "src": "cron",
           "ts": 1790270811576,
           "url": "https://app.clickup.com/t/86akpa8b5"
+        },
+        {
+          "p": "Marcela",
+          "nome": "passar para a Julia influs",
+          "c": "Rotina",
+          "m": 15,
+          "cron": 15,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790274003663,
+          "url": "https://app.clickup.com/t/86akpau0d"
+        },
+        {
+          "p": "Uri",
+          "nome": "Monitoramento das contas",
+          "c": "Monitoramento",
+          "m": 35,
+          "cron": 35,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790275752398,
+          "url": "https://app.clickup.com/t/86akp8bbg"
+        },
+        {
+          "p": "Leandro",
+          "nome": "Reunião Time",
+          "c": "Reunião",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790266500000,
+          "url": "https://app.clickup.com/t/86akpc92d"
+        },
+        {
+          "p": "Leandro",
+          "nome": "Acompanhamento Novo Vendedor",
+          "c": "Compromisso",
+          "m": 120,
+          "cron": 120,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790269200000,
+          "url": "https://app.clickup.com/t/86akpcnbb"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "planilha",
+          "c": "Rotina",
+          "m": 105,
+          "cron": 105,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790269200000,
+          "url": "https://app.clickup.com/t/86akg802c"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "falar carlos",
+          "c": "Reunião",
+          "m": 45,
+          "cron": 45,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790276400000,
+          "url": "https://app.clickup.com/t/86akpfmg4"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "roteiro",
+          "c": "Imprevisto",
+          "m": 45,
+          "cron": 45,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790279100000,
+          "url": "https://app.clickup.com/t/86akpfmhc"
+        },
+        {
+          "p": "Uri",
+          "nome": "NFs pendentes Fishermans ML",
+          "c": "Rotina",
+          "m": 480,
+          "cron": 480,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790296622865,
+          "url": "https://app.clickup.com/t/86akpg2f6"
+        },
+        {
+          "p": "Uri",
+          "nome": "NFs pendentes Fishermans ML",
+          "c": "Rotina",
+          "m": 15,
+          "cron": 15,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790324545464,
+          "url": "https://app.clickup.com/t/86akpg2f6"
+        },
+        {
+          "p": "Uri",
+          "nome": "NFs pendentes Fishermans ML",
+          "c": "Rotina",
+          "m": 15,
+          "cron": 15,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790298900000,
+          "url": "https://app.clickup.com/t/86akpg2f6"
+        },
+        {
+          "p": "Uri",
+          "nome": "NFs pendentes Fishermans ML",
+          "c": "Rotina",
+          "m": 15,
+          "cron": 15,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790324659757,
+          "url": "https://app.clickup.com/t/86akpg2f6"
         }
       ]
     }

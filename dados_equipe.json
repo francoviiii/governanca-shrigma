@@ -1598,6 +1598,138 @@
           "src": "cron",
           "ts": 1790324659757,
           "url": "https://app.clickup.com/t/86akpg2f6"
+        },
+        {
+          "p": "Uri",
+          "nome": "SAC/NF/Envios",
+          "c": "Rotina",
+          "m": 10,
+          "cron": 10,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790334756648,
+          "url": "https://app.clickup.com/t/86akphqrz"
+        },
+        {
+          "p": "Uri",
+          "nome": "Monitoramento das contas",
+          "c": "Monitoramento",
+          "m": 27,
+          "cron": 27,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790335390161,
+          "url": "https://app.clickup.com/t/86akp8bbg"
+        },
+        {
+          "p": "Uri",
+          "nome": "Verificação de anúncios concorrentes no ML Fishermans de clientes B2B",
+          "c": "Monitoramento",
+          "m": 35,
+          "cron": 35,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790337015844,
+          "url": "https://app.clickup.com/t/86aknv8z1"
+        },
+        {
+          "p": "Marcela",
+          "nome": "reuniao com pedro",
+          "c": "Reunião",
+          "m": 45,
+          "cron": 45,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790334407882,
+          "url": "https://app.clickup.com/t/86akphym4"
+        },
+        {
+          "p": "Marcela",
+          "nome": "reunião com pimenta",
+          "c": "Reunião",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790334065263,
+          "url": "https://app.clickup.com/t/86akphp2j"
+        },
+        {
+          "p": "Uri",
+          "nome": "Ticket ML Fishermans - anúncios ancorados de forma indevida com anúncios da Amazon",
+          "c": "Imprevisto",
+          "m": 31,
+          "cron": 31,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790339108448,
+          "url": "https://app.clickup.com/t/86akm9xdh"
+        },
+        {
+          "p": "Jorge",
+          "nome": "Ler o documento do Mateus sobre a FISHERMANS",
+          "c": "Projeto",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790337600000,
+          "url": "https://app.clickup.com/t/86akphy25"
+        },
+        {
+          "p": "Uri",
+          "nome": "Verificação de anúncios concorrentes no ML Fishermans de clientes B2B",
+          "c": "Monitoramento",
+          "m": 65,
+          "cron": 65,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790341477117,
+          "url": "https://app.clickup.com/t/86aknv8z1"
+        },
+        {
+          "p": "Marcela",
+          "nome": "reuniao Ivan",
+          "c": "Reunião",
+          "m": 68,
+          "cron": 68,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790341222874,
+          "url": "https://app.clickup.com/t/86akpjmp7"
+        },
+        {
+          "p": "Uri",
+          "nome": "Analise da conta Shopee Fishermans",
+          "c": "Gestão",
+          "m": 55,
+          "cron": 55,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790345395464,
+          "url": "https://app.clickup.com/t/86akphyqh"
+        },
+        {
+          "p": "Jorge",
+          "nome": "Ver o vídeo do Nathan sobre BLACK FRIDAY e o que podemos fazer",
+          "c": "Compromisso",
+          "m": 90,
+          "cron": 90,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790341200000,
+          "url": "https://app.clickup.com/t/86akphy3t"
+        },
+        {
+          "p": "Uri",
+          "nome": "Nova Precificação Fishermans",
+          "c": "Projeto",
+          "m": 31,
+          "cron": 31,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790353071486,
+          "url": "https://app.clickup.com/t/86akpm8nh"
         }
       ]
     }

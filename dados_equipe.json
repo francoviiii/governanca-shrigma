@@ -1730,6 +1730,17 @@
           "src": "cron",
           "ts": 1790353071486,
           "url": "https://app.clickup.com/t/86akpm8nh"
+        },
+        {
+          "p": "Uri",
+          "nome": "Nova Precificação Fishermans",
+          "c": "Projeto",
+          "m": 13,
+          "cron": 13,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790354925074,
+          "url": "https://app.clickup.com/t/86akpm8nh"
         }
       ]
     }

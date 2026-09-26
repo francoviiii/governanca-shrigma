@@ -1939,6 +1939,17 @@
           "src": "cron",
           "ts": 1790361900000,
           "url": "https://app.clickup.com/t/86akptq9b"
+        },
+        {
+          "p": "Uri",
+          "nome": "SAC/NF",
+          "c": "Rotina",
+          "m": 16,
+          "cron": 16,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790418665999,
+          "url": "https://app.clickup.com/t/86akpxbxm"
         }
       ]
     }

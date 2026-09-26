@@ -1950,6 +1950,17 @@
           "src": "cron",
           "ts": 1790418665999,
           "url": "https://app.clickup.com/t/86akpxbxm"
+        },
+        {
+          "p": "Uri",
+          "nome": "Atualização de estoque e precificação Fishermans ",
+          "c": "Gestão",
+          "m": 87,
+          "cron": 87,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790428248170,
+          "url": "https://app.clickup.com/t/86akpxk4z"
         }
       ]
     }

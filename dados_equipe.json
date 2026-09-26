@@ -1741,6 +1741,204 @@
           "src": "cron",
           "ts": 1790354925074,
           "url": "https://app.clickup.com/t/86akpm8nh"
+        },
+        {
+          "p": "Uri",
+          "nome": "Nova Precificação Fishermans",
+          "c": "Projeto",
+          "m": 69,
+          "cron": 69,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790355728395,
+          "url": "https://app.clickup.com/t/86akpm8nh"
+        },
+        {
+          "p": "Uri",
+          "nome": "Monitoramento das contas",
+          "c": "Monitoramento",
+          "m": 33,
+          "cron": 33,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790359868575,
+          "url": "https://app.clickup.com/t/86akp8bbg"
+        },
+        {
+          "p": "Uri",
+          "nome": "Execução atualização da precificação Fishermans Shopee",
+          "c": "Gestão",
+          "m": 47,
+          "cron": 47,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790362054350,
+          "url": "https://app.clickup.com/t/86akpr3db"
+        },
+        {
+          "p": "Marcela",
+          "nome": "reuniao black",
+          "c": "Reunião",
+          "m": 120,
+          "cron": 120,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790355828919,
+          "url": "https://app.clickup.com/t/86akpq5f4"
+        },
+        {
+          "p": "Uri",
+          "nome": "Execução atualização da precificação Fishermans TikTok Shop",
+          "c": "Gestão",
+          "m": 26,
+          "cron": 26,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790364897712,
+          "url": "https://app.clickup.com/t/86akpt2k1"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "separar anuncios para análise",
+          "c": "Rotina",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790335800000,
+          "url": "https://app.clickup.com/t/86akpt2wr"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "reunião mateus",
+          "c": "Reunião",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790337600000,
+          "url": "https://app.clickup.com/t/86akpt37k"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "planilha",
+          "c": "Rotina",
+          "m": 75,
+          "cron": 75,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790341200000,
+          "url": "https://app.clickup.com/t/86akpt3pu"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "revisão de candidatura",
+          "c": "Projeto",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790352000000,
+          "url": "https://app.clickup.com/t/86akpt3zy"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "revisão de ads",
+          "c": "Rotina",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790346600000,
+          "url": "https://app.clickup.com/t/86aknwyr3"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "planilha",
+          "c": "Rotina",
+          "m": 90,
+          "cron": 90,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790353800000,
+          "url": "https://app.clickup.com/t/86akg802c"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "reunião",
+          "c": "Reunião",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790359200000,
+          "url": "https://app.clickup.com/t/86aknt4hc"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "revisão de ads",
+          "c": "Rotina",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790362800000,
+          "url": "https://app.clickup.com/t/86aknwyr3"
+        },
+        {
+          "p": "Jorge",
+          "nome": "Call de BLACK FRIDAY",
+          "c": "Projeto",
+          "m": 165,
+          "cron": 165,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790355600000,
+          "url": "https://app.clickup.com/t/86akptkzc"
+        },
+        {
+          "p": "Leandro",
+          "nome": "Orientações Diarias.",
+          "c": "Rotina",
+          "m": 75,
+          "cron": 75,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790334900000,
+          "url": "https://app.clickup.com/t/86akptk9g"
+        },
+        {
+          "p": "Leandro",
+          "nome": "Atendimento Novo Vendedor",
+          "c": "Compromisso",
+          "m": 120,
+          "cron": 120,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790340300000,
+          "url": "https://app.clickup.com/t/86akptntm"
+        },
+        {
+          "p": "Leandro",
+          "nome": "Treinamento Novo Vendedor",
+          "c": "Compromisso",
+          "m": 105,
+          "cron": 105,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790353800000,
+          "url": "https://app.clickup.com/t/86akptppb"
+        },
+        {
+          "p": "Leandro",
+          "nome": "Negociações",
+          "c": "Gestão",
+          "m": 105,
+          "cron": 105,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790361900000,
+          "url": "https://app.clickup.com/t/86akptq9b"
         }
       ]
     }

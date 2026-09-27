@@ -1,5 +1,5 @@
 ={
- "updated": "26/09/2026, 20:20",
+ "updated": "27/09/2026, 20:20",
  "brands": {
   "Fishermans": {
    "weeks": [
@@ -24,28 +24,28 @@
      "area": "Criativo Jorge (MULTI)",
      "kpis": [
       {
-       "nome": "Receita liquida Site (Meta + orgânico)",
+       "nome": "Receita liquida Site",
        "meta": "",
        "valores": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         null,
         null,
         null
        ]
       },
       {
-       "nome": "MER",
+       "nome": "MER (Índice de Eficiência de Marketing)",
        "meta": "",
        "valores": [
         null,
@@ -67,7 +67,7 @@
       },
       {
        "nome": "Criativos produzidos / semana",
-       "meta": "",
+       "meta": "-",
        "valores": [
         null,
         null,
@@ -214,7 +214,7 @@
       },
       {
        "nome": "Valor gasto em mídia (Meta Ads) — semana",
-       "meta": "",
+       "meta": "-",
        "valores": [
         null,
         null,
@@ -240,7 +240,7 @@
      "kpis": [
       {
        "nome": "Criativos novos no ar / semana",
-       "meta": "",
+       "meta": "-",
        "valores": [
         null,
         null,
@@ -261,7 +261,7 @@
       },
       {
        "nome": "Vencedores novos / semana",
-       "meta": "",
+       "meta": "-",
        "valores": [
         null,
         null,
@@ -282,7 +282,7 @@
       },
       {
        "nome": "Receita de cliente novo (Meta)",
-       "meta": "",
+       "meta": "-",
        "valores": [
         null,
         null,
@@ -303,7 +303,7 @@
       },
       {
        "nome": "ROAS 7d-click",
-       "meta": "",
+       "meta": "-",
        "valores": [
         null,
         null,
@@ -324,7 +324,7 @@
       },
       {
        "nome": "ROAS cliente novo",
-       "meta": "",
+       "meta": "-",
        "valores": [
         null,
         null,
@@ -345,7 +345,7 @@
       },
       {
        "nome": "Frequência",
-       "meta": "",
+       "meta": "-",
        "valores": [
         null,
         null,
@@ -366,7 +366,7 @@
       },
       {
        "nome": "Valor gasto em mídia (Meta Ads) — semana",
-       "meta": "",
+       "meta": "-",
        "valores": [
         null,
         null,
@@ -392,7 +392,7 @@
      "kpis": [
       {
        "nome": "Criativos novos no ar / semana",
-       "meta": "",
+       "meta": "-",
        "valores": [
         null,
         null,
@@ -413,7 +413,7 @@
       },
       {
        "nome": "Vencedores novos / semana",
-       "meta": "",
+       "meta": "-",
        "valores": [
         null,
         null,
@@ -434,7 +434,7 @@
       },
       {
        "nome": "Receita de cliente novo (Meta)",
-       "meta": "",
+       "meta": "-",
        "valores": [
         null,
         null,
@@ -455,7 +455,7 @@
       },
       {
        "nome": "ROAS 7d-click",
-       "meta": "",
+       "meta": "-",
        "valores": [
         null,
         null,
@@ -476,7 +476,7 @@
       },
       {
        "nome": "ROAS cliente novo",
-       "meta": "",
+       "meta": "-",
        "valores": [
         null,
         null,
@@ -497,7 +497,7 @@
       },
       {
        "nome": "Frequência",
-       "meta": "",
+       "meta": "-",
        "valores": [
         null,
         null,
@@ -518,7 +518,7 @@
       },
       {
        "nome": "Valor gasto em mídia (Meta Ads) — semana",
-       "meta": "",
+       "meta": "-",
        "valores": [
         null,
         null,
@@ -546,8 +546,8 @@
        "nome": "Faturamento bruto dos canais",
        "meta": "",
        "valores": [
-        null,
-        null,
+        0,
+        0,
         88620.6,
         94978.32,
         95702.28,
@@ -557,7 +557,7 @@
         104684.31,
         139265.22,
         117345.56,
-        null,
+        108070.06,
         null,
         null,
         null
@@ -565,7 +565,7 @@
       },
       {
        "nome": "CMV",
-       "meta": "",
+       "meta": "-",
        "valores": [
         null,
         null,
@@ -575,10 +575,10 @@
         null,
         null,
         null,
-        11341.17,
-        15232.65,
-        0.1124,
         null,
+        0.1094,
+        0.1124,
+        0.1333,
         null,
         null,
         null
@@ -599,7 +599,7 @@
         0.0512,
         0.0416,
         0.0457,
-        null,
+        0.0435,
         null,
         null,
         null
@@ -620,7 +620,7 @@
         45,
         60,
         45,
-        null,
+        30,
         null,
         null,
         null
@@ -646,7 +646,7 @@
         17161,
         40049,
         93604,
-        null,
+        0,
         null,
         null,
         null
@@ -675,7 +675,7 @@
       },
       {
        "nome": "MQL",
-       "meta": "",
+       "meta": "-",
        "valores": [
         null,
         null,
@@ -696,7 +696,7 @@
       },
       {
        "nome": "Quantidade de ligações feitas",
-       "meta": "",
+       "meta": "-",
        "valores": [
         null,
         null,
@@ -717,7 +717,7 @@
       },
       {
        "nome": "Quantidade de conversões",
-       "meta": "",
+       "meta": "-",
        "valores": [
         null,
         null,
@@ -745,18 +745,18 @@
        "nome": "Faturamento / Vendas",
        "meta": "",
        "valores": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         null,
         null,
         null
@@ -777,7 +777,7 @@
         8,
         11,
         13,
-        null,
+        20,
         null,
         null,
         null
@@ -798,7 +798,7 @@
         0.0158,
         0.0219,
         0.0172,
-        null,
+        0.0038,
         null,
         null,
         null
@@ -819,7 +819,7 @@
         3,
         3,
         3,
-        null,
+        4,
         null,
         null,
         null
@@ -827,7 +827,7 @@
       },
       {
        "nome": "Cliques gerados",
-       "meta": "",
+       "meta": "-",
        "valores": [
         null,
         null,
@@ -839,8 +839,8 @@
         null,
         null,
         null,
-        null,
-        null,
+        4,
+        75,
         null,
         null,
         null
@@ -848,7 +848,7 @@
       },
       {
        "nome": "Visualizações gerais do perfil",
-       "meta": "",
+       "meta": "-",
        "valores": [
         null,
         null,
@@ -860,8 +860,8 @@
         null,
         null,
         null,
-        null,
-        null,
+        4943,
+        4861,
         null,
         null,
         null
@@ -869,7 +869,7 @@
       },
       {
        "nome": "Valor de conversão",
-       "meta": "",
+       "meta": "-",
        "valores": [
         null,
         null,
@@ -881,8 +881,8 @@
         null,
         null,
         null,
-        null,
-        null,
+        336.23,
+        223.87,
         null,
         null,
         null
@@ -890,7 +890,7 @@
       },
       {
        "nome": "Ganho de seguidores",
-       "meta": "",
+       "meta": "-",
        "valores": [
         null,
         null,
@@ -902,8 +902,8 @@
         null,
         null,
         null,
-        null,
-        null,
+        830,
+        880,
         null,
         null,
         null
@@ -918,18 +918,18 @@
        "nome": "Valor em Vendas de Cupom",
        "meta": "",
        "valores": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         4273,
         5784,
         3536,
-        null,
+        0,
         null,
         null,
         null
@@ -1021,7 +1021,7 @@
       },
       {
        "nome": "Quantidade de Contatos feitos",
-       "meta": "",
+       "meta": "-",
        "valores": [
         null,
         null,
@@ -1042,7 +1042,7 @@
       },
       {
        "nome": "Quantidade de respostas",
-       "meta": "",
+       "meta": "-",
        "valores": [
         null,
         null,
@@ -1063,7 +1063,7 @@
       },
       {
        "nome": "Quantidade de propostas",
-       "meta": "",
+       "meta": "-",
        "valores": [
         null,
         null,
@@ -1084,7 +1084,7 @@
       },
       {
        "nome": "Quantidade de fechamento",
-       "meta": "",
+       "meta": "-",
        "valores": [
         null,
         null,
@@ -1119,7 +1119,7 @@
      41471.92,
      43976.93,
      44934.37,
-     35772.04
+     42222.38
     ],
     "frequency": [
      6.133414,
@@ -1133,7 +1133,7 @@
      6.525107,
      6.977909,
      6.33906,
-     5.566627
+     5.87925
     ],
     "roas": [
      3.070812,
@@ -1147,7 +1147,7 @@
      2.607246,
      3.280085,
      2.067041,
-     2.247264
+     2.261998
     ],
     "revenue": [
      122322.53,
@@ -1161,7 +1161,7 @@
      108127.48,
      144248.09,
      92881.17,
-     80389.21
+     95506.96
     ],
     "purchases": [
      617,
@@ -1175,7 +1175,7 @@
      605,
      675,
      543,
-     432
+     503
     ],
     "ctr": [
      1.653533,
@@ -1189,7 +1189,7 @@
      1.380067,
      1.572149,
      1.39444,
-     1.241699
+     1.253571
     ],
     "conta": "1673618863095880",
     "fonte": "Meta Business (ao vivo)",
@@ -1263,21 +1263,21 @@
      "area": "Criativo Sabrina",
      "kpis": [
       {
-       "nome": "Receita liquida Site (Meta + orgânico)",
+       "nome": "Receita liquida Site",
        "meta": "",
        "valores": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         null,
         null,
         null,
@@ -1288,8 +1288,8 @@
        ]
       },
       {
-       "nome": "MER",
-       "meta": "",
+       "nome": "MER (Índice de Eficiência de Marketing)",
+       "meta": "-",
        "valores": [
         null,
         null,
@@ -1314,7 +1314,7 @@
       },
       {
        "nome": "Criativos produzidos / semana (vídeo + imagem)",
-       "meta": "",
+       "meta": "-",
        "valores": [
         null,
         null,
@@ -1464,7 +1464,7 @@
       },
       {
        "nome": "Hook Hate",
-       "meta": "",
+       "meta": "-",
        "valores": [
         null,
         null,
@@ -1489,7 +1489,7 @@
       },
       {
        "nome": "Retenção do Corpo",
-       "meta": "",
+       "meta": "-",
        "valores": [
         null,
         null,
@@ -1514,7 +1514,7 @@
       },
       {
        "nome": "CAC",
-       "meta": "",
+       "meta": "-",
        "valores": [
         null,
         null,
@@ -1539,7 +1539,7 @@
       },
       {
        "nome": "CPC",
-       "meta": "",
+       "meta": "-",
        "valores": [
         null,
         null,
@@ -1571,9 +1571,9 @@
        "nome": "Faturamento bruto",
        "meta": "",
        "valores": [
-        null,
-        null,
-        null,
+        0,
+        0,
+        0,
         75890.1,
         103988.11,
         106439.43,
@@ -1582,7 +1582,7 @@
         65510.07,
         91704.14,
         128132.51,
-        null,
+        128967.62,
         null,
         null,
         null,
@@ -1607,7 +1607,7 @@
         9047.82,
         13524.38,
         0.1498,
-        null,
+        0.1495,
         null,
         null,
         null,
@@ -1632,7 +1632,7 @@
         0.0251,
         0.032,
         0.0436,
-        null,
+        0.0327,
         null,
         null,
         null,
@@ -1676,18 +1676,18 @@
        "nome": "Faturamento / Vendas",
        "meta": "",
        "valores": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         null,
         null,
         null,
@@ -1774,7 +1774,7 @@
       },
       {
        "nome": "Visualizações gerais do perfil",
-       "meta": "",
+       "meta": "-",
        "valores": [
         null,
         null,
@@ -1799,7 +1799,7 @@
       },
       {
        "nome": "Cliques gerados",
-       "meta": "",
+       "meta": "-",
        "valores": [
         null,
         null,
@@ -1824,7 +1824,7 @@
       },
       {
        "nome": "Valor de conversao",
-       "meta": "",
+       "meta": "-",
        "valores": [
         null,
         null,
@@ -1849,7 +1849,7 @@
       },
       {
        "nome": "Ganho de seguidores",
-       "meta": "",
+       "meta": "-",
        "valores": [
         null,
         null,
@@ -1881,18 +1881,18 @@
        "nome": "Valor em Vendas de Cupom/ semana",
        "meta": "",
        "valores": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         134810,
         86894,
         119601,
-        null,
+        0,
         null,
         null,
         null,
@@ -2004,7 +2004,7 @@
       },
       {
        "nome": "Quantidade de Contatos feitos",
-       "meta": "",
+       "meta": "-",
        "valores": [
         null,
         null,
@@ -2029,7 +2029,7 @@
       },
       {
        "nome": "Quantidade de respostas",
-       "meta": "",
+       "meta": "-",
        "valores": [
         null,
         null,
@@ -2054,7 +2054,7 @@
       },
       {
        "nome": "Quantidade de propostas",
-       "meta": "",
+       "meta": "-",
        "valores": [
         null,
         null,
@@ -2079,7 +2079,7 @@
       },
       {
        "nome": "Quantidade de fechamento",
-       "meta": "",
+       "meta": "-",
        "valores": [
         null,
         null,
@@ -2118,7 +2118,7 @@
      97206.77,
      92728.47,
      89771.98,
-     66122.61
+     79607.28
     ],
     "frequency": [
      4.20475,
@@ -2132,7 +2132,7 @@
      6.727721,
      4.675384,
      4.688558,
-     3.784738
+     3.993391
     ],
     "roas": [
      4.378851,
@@ -2146,7 +2146,7 @@
      6.798465,
      4.981875,
      4.937035,
-     4.564913
+     4.531316
     ],
     "revenue": [
      406366.14,
@@ -2160,7 +2160,7 @@
      660856.78,
      461961.62,
      443207.42,
-     301843.94
+     360725.77
     ],
     "purchases": [
      2661,
@@ -2174,7 +2174,7 @@
      4410,
      3153,
      2995,
-     2028
+     2431
     ],
     "ctr": [
      2.754215,
@@ -2188,7 +2188,7 @@
      2.074479,
      2.073024,
      1.917536,
-     2.014743
+     2.046854
     ],
     "conta": "2042553482892986",
     "fonte": "Meta Business (ao vivo)",

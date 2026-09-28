@@ -14,6 +14,17 @@
           "src": "cron",
           "ts": 1790512956810,
           "url": "https://app.clickup.com/t/86akq26g0"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "kpi",
+          "c": "Rotina",
+          "m": 75,
+          "cron": 75,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790551800000,
+          "url": "https://app.clickup.com/t/86akq457n"
         }
       ]
     }

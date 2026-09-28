@@ -25,6 +25,226 @@
           "src": "cron",
           "ts": 1790551800000,
           "url": "https://app.clickup.com/t/86akq457n"
+        },
+        {
+          "p": "Uri",
+          "nome": "Criar Envio FBA Fishermans",
+          "c": "Gestão",
+          "m": 50,
+          "cron": 50,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790591656802,
+          "url": "https://app.clickup.com/t/86akpxm1c"
+        },
+        {
+          "p": "Uri",
+          "nome": "Criar Envio Full Fishermans linhas",
+          "c": "Gestão",
+          "m": 0,
+          "cron": 0,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790594676782,
+          "url": "https://app.clickup.com/t/86akpxm0r"
+        },
+        {
+          "p": "Uri",
+          "nome": "Criar Envio Full Fishermans linhas",
+          "c": "Gestão",
+          "m": 50,
+          "cron": 50,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790591684556,
+          "url": "https://app.clickup.com/t/86akpxm0r"
+        },
+        {
+          "p": "Uri",
+          "nome": "SAC/NF/Envios",
+          "c": "Rotina",
+          "m": 59,
+          "cron": 59,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790594715348,
+          "url": "https://app.clickup.com/t/86akq6xbz"
+        },
+        {
+          "p": "Leandro",
+          "nome": "Orientações iniciais",
+          "c": "Rotina",
+          "m": 75,
+          "cron": 75,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790594100000,
+          "url": "https://app.clickup.com/t/86akq7bfy"
+        },
+        {
+          "p": "Uri",
+          "nome": "Destaivar anúncios sabonete Aristocrata - ESGOTADOS",
+          "c": "Imprevisto",
+          "m": 9,
+          "cron": 9,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790598345833,
+          "url": "https://app.clickup.com/t/86akq7kjc"
+        },
+        {
+          "p": "Uri",
+          "nome": "Envio unidades faltantes - Aristocrata - Shopee - Pedido:",
+          "c": "Imprevisto",
+          "m": 3,
+          "cron": 3,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790601062858,
+          "url": "https://app.clickup.com/t/86akphg5b"
+        },
+        {
+          "p": "Uri",
+          "nome": "Monitoramento das contas",
+          "c": "Monitoramento",
+          "m": 6,
+          "cron": 6,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790601229881,
+          "url": "https://app.clickup.com/t/86akp8bbg"
+        },
+        {
+          "p": "Uri",
+          "nome": "Criar Envio FBA Fishermans",
+          "c": "Gestão",
+          "m": 42,
+          "cron": 42,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790601639285,
+          "url": "https://app.clickup.com/t/86akpxm1c"
+        },
+        {
+          "p": "Marcela",
+          "nome": "reuniao fishermans",
+          "c": "Reunião",
+          "m": 58,
+          "cron": 58,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790599354654,
+          "url": "https://app.clickup.com/t/86akq7nv5"
+        },
+        {
+          "p": "Marcela",
+          "nome": "subir videos drive",
+          "c": "Rotina",
+          "m": 5,
+          "cron": 5,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790602563347,
+          "url": "https://app.clickup.com/t/86akq8y1e"
+        },
+        {
+          "p": "Uri",
+          "nome": "Monitoramento das contas",
+          "c": "Monitoramento",
+          "m": 31,
+          "cron": 31,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790604184096,
+          "url": "https://app.clickup.com/t/86akp8bbg"
+        },
+        {
+          "p": "Marcela",
+          "nome": "mandar contrato felipe atualizado fishermans",
+          "c": "Imprevisto",
+          "m": 5,
+          "cron": 5,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790605128042,
+          "url": "https://app.clickup.com/t/86akq7j16"
+        },
+        {
+          "p": "Marcela",
+          "nome": "reuniao aristocrata",
+          "c": "Reunião",
+          "m": 58,
+          "cron": 58,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790602115697,
+          "url": "https://app.clickup.com/t/86akq7nrr"
+        },
+        {
+          "p": "Uri",
+          "nome": "Criar Envio FBA Fishermans",
+          "c": "Gestão",
+          "m": 53,
+          "cron": 53,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790606074126,
+          "url": "https://app.clickup.com/t/86akpxm1c"
+        },
+        {
+          "p": "Uri",
+          "nome": "Criar Envio FBA Fishermans",
+          "c": "Gestão",
+          "m": 29,
+          "cron": 29,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790609235898,
+          "url": "https://app.clickup.com/t/86akpxm1c"
+        },
+        {
+          "p": "Marcela",
+          "nome": "responder todos",
+          "c": "Rotina",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790610819236,
+          "url": "https://app.clickup.com/t/86akq7gh1"
+        },
+        {
+          "p": "Marcela",
+          "nome": "[Aristo] Mapear UGC/Influencers mulheres",
+          "c": "Compromisso",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790612703421,
+          "url": "https://app.clickup.com/t/86akna7qm"
+        },
+        {
+          "p": "Marcela",
+          "nome": "[Aristo] Mapear influencers/UGCs grandes que gravem videos diferentes com facilidade.",
+          "c": "Compromisso",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790612716659,
+          "url": "https://app.clickup.com/t/86akna7gr"
+        },
+        {
+          "p": "Marcela",
+          "nome": "mandar mensagem eduardo longo",
+          "c": "Rotina",
+          "m": 5,
+          "cron": 5,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790614310501,
+          "url": "https://app.clickup.com/t/86akq7gwr"
         }
       ]
     }

@@ -1,5 +1,5 @@
 ={
- "updated": "27/09/2026, 20:20",
+ "updated": "28/09/2026, 12:01",
  "brands": {
   "Fishermans": {
    "weeks": [
@@ -38,7 +38,7 @@
         0,
         0,
         0,
-        0,
+        117691.83,
         null,
         null,
         null
@@ -59,7 +59,7 @@
         null,
         null,
         null,
-        null,
+        2.32,
         null,
         null,
         null
@@ -80,7 +80,7 @@
         32,
         27,
         42,
-        null,
+        33,
         null,
         null,
         null
@@ -101,7 +101,7 @@
         13,
         15,
         21,
-        null,
+        24,
         null,
         null,
         null
@@ -122,7 +122,7 @@
         4,
         5,
         7,
-        null,
+        2,
         null,
         null,
         null
@@ -143,7 +143,7 @@
         37761.45,
         41916.54,
         35174.31,
-        null,
+        38058.7,
         null,
         null,
         null
@@ -164,7 +164,7 @@
         2.39,
         2.16,
         1.71,
-        null,
+        1.95,
         null,
         null,
         null
@@ -185,7 +185,7 @@
         2.46,
         2.42,
         2.02,
-        null,
+        2.01,
         null,
         null,
         null
@@ -206,7 +206,7 @@
         4.6,
         4.6,
         4.51,
-        null,
+        4.29,
         null,
         null,
         null
@@ -227,7 +227,7 @@
         36929.76,
         43651.85,
         39889.38,
-        null,
+        43987.63,
         null,
         null,
         null
@@ -238,6 +238,27 @@
     {
      "area": "Criativo Jorge (MONO)",
      "kpis": [
+      {
+       "nome": "Criativos produzidos / semana",
+       "meta": "-",
+       "valores": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+       ]
+      },
       {
        "nome": "Criativos novos no ar / semana",
        "meta": "-",
@@ -253,7 +274,7 @@
         7,
         8,
         12,
-        null,
+        5,
         null,
         null,
         null
@@ -274,7 +295,7 @@
         1,
         1,
         0,
-        null,
+        0,
         null,
         null,
         null
@@ -295,7 +316,7 @@
         7260.37,
         4854.83,
         3034.93,
-        null,
+        1642.9,
         null,
         null,
         null
@@ -316,7 +337,7 @@
         1.98,
         3.15,
         2.27,
-        null,
+        1.6,
         null,
         null,
         null
@@ -337,7 +358,7 @@
         2.66,
         3.77,
         2.47,
-        null,
+        1.53,
         null,
         null,
         null
@@ -358,7 +379,7 @@
         2.84,
         2.33,
         2.15,
-        null,
+        2.31,
         null,
         null,
         null
@@ -379,7 +400,7 @@
         6770.44,
         5269.04,
         3633.53,
-        null,
+        3260.12,
         null,
         null,
         null
@@ -390,6 +411,27 @@
     {
      "area": "Criativo Jorge (COPO)",
      "kpis": [
+      {
+       "nome": "Criativos produzidos / semana",
+       "meta": "-",
+       "valores": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+       ]
+      },
       {
        "nome": "Criativos novos no ar / semana",
        "meta": "-",
@@ -405,7 +447,7 @@
         8,
         4,
         9,
-        null,
+        4,
         null,
         null,
         null
@@ -426,7 +468,7 @@
         3,
         0,
         0,
-        null,
+        2,
         null,
         null,
         null
@@ -447,7 +489,7 @@
         5265.19,
         5680.82,
         2959.9,
-        null,
+        4958.88,
         null,
         null,
         null
@@ -468,7 +510,7 @@
         1.97,
         3.2,
         3.37,
-        null,
+        3.43,
         null,
         null,
         null
@@ -489,7 +531,7 @@
         2.81,
         5.92,
         3.55,
-        null,
+        2.87,
         null,
         null,
         null
@@ -510,7 +552,7 @@
         2.2,
         1.95,
         1.79,
-        null,
+        1.44,
         null,
         null,
         null
@@ -531,7 +573,7 @@
         4107.99,
         4660.85,
         3330.57,
-        null,
+        3458.28,
         null,
         null,
         null
@@ -839,8 +881,8 @@
         null,
         null,
         null,
-        4,
-        75,
+        862,
+        924,
         null,
         null,
         null
@@ -902,8 +944,8 @@
         null,
         null,
         null,
-        830,
-        880,
+        1222,
+        1052,
         null,
         null,
         null
@@ -950,7 +992,7 @@
         7.75,
         null,
         13,
-        null,
+        6.39,
         null,
         null,
         null
@@ -971,7 +1013,7 @@
         75,
         75,
         36,
-        null,
+        42,
         null,
         null,
         null
@@ -992,7 +1034,7 @@
         0.0077,
         0.0096,
         0.0046,
-        null,
+        0.0054,
         null,
         null,
         null
@@ -1013,7 +1055,7 @@
         0.2,
         0.3,
         0.45,
-        null,
+        0.7,
         null,
         null,
         null
@@ -1034,7 +1076,7 @@
         null,
         null,
         null,
-        null,
+        25,
         null,
         null,
         null
@@ -1055,7 +1097,7 @@
         null,
         null,
         null,
-        null,
+        20,
         null,
         null,
         null
@@ -1076,7 +1118,7 @@
         null,
         null,
         null,
-        null,
+        10,
         null,
         null,
         null
@@ -1097,7 +1139,7 @@
         null,
         null,
         null,
-        null,
+        12,
         null,
         null,
         null
@@ -1119,7 +1161,8 @@
      41471.92,
      43976.93,
      44934.37,
-     42222.38
+     44171.89,
+     1004.58
     ],
     "frequency": [
      6.133414,
@@ -1133,7 +1176,8 @@
      6.525107,
      6.977909,
      6.33906,
-     5.87925
+     6.015369,
+     1.735488
     ],
     "roas": [
      3.070812,
@@ -1147,7 +1191,8 @@
      2.607246,
      3.280085,
      2.067041,
-     2.261998
+     2.251082,
+     1.465
     ],
     "revenue": [
      122322.53,
@@ -1161,7 +1206,8 @@
      108127.48,
      144248.09,
      92881.17,
-     95506.96
+     99434.54,
+     1471.71
     ],
     "purchases": [
      617,
@@ -1175,7 +1221,8 @@
      605,
      675,
      543,
-     503
+     528,
+     7
     ],
     "ctr": [
      1.653533,
@@ -1189,11 +1236,12 @@
      1.380067,
      1.572149,
      1.39444,
-     1.253571
+     1.251112,
+     1.431963
     ],
     "conta": "1673618863095880",
     "fonte": "Meta Business (ao vivo)",
-    "parcialIdx": 11
+    "parcialIdx": 12
    },
    "shopify": {
     "organic": {
@@ -1277,7 +1325,7 @@
         0,
         0,
         0,
-        0,
+        636477.84,
         null,
         null,
         null,
@@ -1302,7 +1350,7 @@
         null,
         null,
         null,
-        null,
+        3.503,
         null,
         null,
         null,
@@ -1327,7 +1375,7 @@
         47,
         44,
         48,
-        null,
+        50,
         null,
         null,
         null,
@@ -1352,7 +1400,7 @@
         34,
         41,
         44,
-        null,
+        43,
         null,
         null,
         null,
@@ -1377,7 +1425,7 @@
         6,
         7,
         6,
-        null,
+        4,
         null,
         null,
         null,
@@ -1402,7 +1450,7 @@
         411929.24,
         366199.96,
         358248,
-        null,
+        387267,
         null,
         null,
         null,
@@ -1427,7 +1475,7 @@
         5.14,
         4.86,
         4.32,
-        null,
+        6.44,
         null,
         null,
         null,
@@ -1452,7 +1500,7 @@
         2.9,
         3,
         2.4,
-        null,
+        2.5,
         null,
         null,
         null,
@@ -1477,7 +1525,7 @@
         null,
         null,
         null,
-        null,
+        0.367,
         null,
         null,
         null,
@@ -1502,7 +1550,7 @@
         null,
         null,
         null,
-        null,
+        0.11,
         null,
         null,
         null,
@@ -1527,7 +1575,7 @@
         null,
         null,
         null,
-        null,
+        31.17,
         null,
         null,
         null,
@@ -1552,7 +1600,7 @@
         null,
         null,
         null,
-        null,
+        1.61,
         null,
         null,
         null,
@@ -1892,7 +1940,7 @@
         134810,
         86894,
         119601,
-        0,
+        98250,
         null,
         null,
         null,
@@ -1917,7 +1965,7 @@
         5.2,
         null,
         6.4,
-        null,
+        8.45,
         null,
         null,
         null,
@@ -1942,7 +1990,7 @@
         30,
         30,
         38,
-        null,
+        40,
         null,
         null,
         null,
@@ -1967,7 +2015,7 @@
         0.07,
         0.059800000000000006,
         0.032400000000000005,
-        null,
+        0.051399999999999994,
         null,
         null,
         null,
@@ -1992,7 +2040,7 @@
         0.27,
         0.4,
         0.67,
-        null,
+        0.85,
         null,
         null,
         null,
@@ -2017,7 +2065,7 @@
         null,
         null,
         null,
-        null,
+        14,
         null,
         null,
         null,
@@ -2042,7 +2090,7 @@
         null,
         null,
         null,
-        null,
+        4,
         null,
         null,
         null,
@@ -2067,7 +2115,7 @@
         null,
         null,
         null,
-        null,
+        3,
         null,
         null,
         null,
@@ -2092,7 +2140,7 @@
         null,
         null,
         null,
-        null,
+        1,
         null,
         null,
         null,
@@ -2118,7 +2166,8 @@
      97206.77,
      92728.47,
      89771.98,
-     79607.28
+     83951.67,
+     1905.85
     ],
     "frequency": [
      4.20475,
@@ -2132,7 +2181,8 @@
      6.727721,
      4.675384,
      4.688558,
-     3.993391
+     4.021954,
+     1.426927
     ],
     "roas": [
      4.378851,
@@ -2146,7 +2196,8 @@
      6.798465,
      4.981875,
      4.937035,
-     4.531316
+     4.548045,
+     3.239861
     ],
     "revenue": [
      406366.14,
@@ -2160,7 +2211,8 @@
      660856.78,
      461961.62,
      443207.42,
-     360725.77
+     381816.01,
+     6174.69
     ],
     "purchases": [
      2661,
@@ -2174,7 +2226,8 @@
      4410,
      3153,
      2995,
-     2431
+     2572,
+     40
     ],
     "ctr": [
      2.754215,
@@ -2188,11 +2241,12 @@
      2.074479,
      2.073024,
      1.917536,
-     2.046854
+     2.0529,
+     2.080891
     ],
     "conta": "2042553482892986",
     "fonte": "Meta Business (ao vivo)",
-    "parcialIdx": 11
+    "parcialIdx": 12
    },
    "shopify": {
     "organic": {

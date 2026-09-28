@@ -245,6 +245,72 @@
           "src": "cron",
           "ts": 1790614310501,
           "url": "https://app.clickup.com/t/86akq7gwr"
+        },
+        {
+          "p": "Jorge",
+          "nome": "Weekly + Call com o time",
+          "c": "Reunião",
+          "m": 180,
+          "cron": 180,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790596800000,
+          "url": "https://app.clickup.com/t/86akqcv4r"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "arrumar as coisas pra reunião",
+          "c": "Reunião",
+          "m": 100,
+          "cron": 100,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790596200000,
+          "url": "https://app.clickup.com/t/86akqcw8x"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "reunião",
+          "c": "Reunião",
+          "m": 105,
+          "cron": 105,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790602200000,
+          "url": "https://app.clickup.com/t/86akqcweb"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "revisão de candidatura",
+          "c": "Projeto",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790612100000,
+          "url": "https://app.clickup.com/t/86akpt3zy"
+        },
+        {
+          "p": "Marcela",
+          "nome": "mandar videos e legendas para os influenciadores fishermans para youtube",
+          "c": "Gestão",
+          "m": 15,
+          "cron": 15,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790617276039,
+          "url": "https://app.clickup.com/t/86akq7m12"
+        },
+        {
+          "p": "Marcela",
+          "nome": "passar o dashboard e explicação manu",
+          "c": "Gestão",
+          "m": 10,
+          "cron": 10,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790617597143,
+          "url": "https://app.clickup.com/t/86akq7gmy"
         }
       ]
     }

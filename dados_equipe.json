@@ -476,6 +476,215 @@
           "src": "cron",
           "ts": 1790637300000,
           "url": "https://app.clickup.com/t/86akq7bfy"
+        },
+        {
+          "p": "Uri",
+          "nome": "SAC/NF/Envios",
+          "c": "Rotina",
+          "m": 85,
+          "cron": 85,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790682596989,
+          "url": "https://app.clickup.com/t/86akqnfmp"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "revisão de candidatura",
+          "c": "Projeto",
+          "m": 22,
+          "cron": 22,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790682300000,
+          "url": "https://app.clickup.com/t/86akpt3zy"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "roteiro",
+          "c": "Imprevisto",
+          "m": 42,
+          "cron": 42,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790684046525,
+          "url": "https://app.clickup.com/t/86akqeegp"
+        },
+        {
+          "p": "Marcela",
+          "nome": "responder todos",
+          "c": "Rotina",
+          "m": 45,
+          "cron": 45,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790683538849,
+          "url": "https://app.clickup.com/t/86akqp2g7"
+        },
+        {
+          "p": "Jorge",
+          "nome": "Rever ofertas no Site Fishermans",
+          "c": "Compromisso",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790684098052,
+          "url": "https://app.clickup.com/t/86akna6g8"
+        },
+        {
+          "p": "Jorge",
+          "nome": "Revisar criativos e delegar tarefas",
+          "c": "Sem categoria",
+          "m": 35,
+          "cron": 35,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790685618016,
+          "url": "https://app.clickup.com/t/86akqpaw0"
+        },
+        {
+          "p": "Jorge",
+          "nome": "Criar um PRODUTO de teste da 8X (João pediu)",
+          "c": "Imprevisto",
+          "m": 25,
+          "cron": 25,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790686242132,
+          "url": "https://app.clickup.com/t/86akhm2gf"
+        },
+        {
+          "p": "Jorge",
+          "nome": "Publicar 6 videos no YT",
+          "c": "Compromisso",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790684318140,
+          "url": "https://app.clickup.com/t/86akna6xd"
+        },
+        {
+          "p": "Uri",
+          "nome": "Monitoramento das contas",
+          "c": "Monitoramento",
+          "m": 63,
+          "cron": 63,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790688082855,
+          "url": "https://app.clickup.com/t/86akp8bbg"
+        },
+        {
+          "p": "Jorge",
+          "nome": "Separar 8 ROTEIROS pro Fernando gravar no SÁBADO",
+          "c": "Projeto",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790685237163,
+          "url": "https://app.clickup.com/t/86akmxzpz"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "revisão de ads",
+          "c": "Rotina",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790686800000,
+          "url": "https://app.clickup.com/t/86aknwyr3"
+        },
+        {
+          "p": "Uri",
+          "nome": "Criar envio Full Aristocrata",
+          "c": "Projeto",
+          "m": 42,
+          "cron": 42,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790691981695,
+          "url": "https://app.clickup.com/t/86akm77nu"
+        },
+        {
+          "p": "Jorge",
+          "nome": "Conversa com a Marcela",
+          "c": "Reunião",
+          "m": 45,
+          "cron": 45,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790688600000,
+          "url": "https://app.clickup.com/t/86akqqecj"
+        },
+        {
+          "p": "Marcela",
+          "nome": "reuniao jorge 10:30 amanha",
+          "c": "Reunião",
+          "m": 35,
+          "cron": 35,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790690029581,
+          "url": "https://app.clickup.com/t/86akqddw8"
+        },
+        {
+          "p": "Marcela",
+          "nome": "criar cupom manuella",
+          "c": "Gestão",
+          "m": 17,
+          "cron": 17,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790693048622,
+          "url": "https://app.clickup.com/t/86akqqqun"
+        },
+        {
+          "p": "Marcela",
+          "nome": "mandar mensagem para lives",
+          "c": "Rotina",
+          "m": 10,
+          "cron": 10,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790693569269,
+          "url": "https://app.clickup.com/t/86akq7h03"
+        },
+        {
+          "p": "Uri",
+          "nome": "Habilitação do faturador ML Aristo",
+          "c": "Projeto",
+          "m": 1,
+          "cron": 1,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790696613266,
+          "url": "https://app.clickup.com/t/86aknt475"
+        },
+        {
+          "p": "Uri",
+          "nome": "Atualização de estoque Fishemans AM 0.20mm 4x esgotou",
+          "c": "Imprevisto",
+          "m": 14,
+          "cron": 14,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790697529899,
+          "url": "https://app.clickup.com/t/86akqrk2r"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "vídeo blue sense copy",
+          "c": "Estudo",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790690400000,
+          "url": "https://app.clickup.com/t/86akqt4yq"
         }
       ]
     }

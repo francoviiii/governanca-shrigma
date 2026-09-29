@@ -676,6 +676,17 @@
           "url": "https://app.clickup.com/t/86akqrk2r"
         },
         {
+          "p": "Uri",
+          "nome": "Abertura da loja Fishermans SC no ML",
+          "c": "Projeto",
+          "m": 73,
+          "cron": 73,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790698386599,
+          "url": "https://app.clickup.com/t/86akkahrd"
+        },
+        {
           "p": "Sabrina",
           "nome": "vídeo blue sense copy",
           "c": "Estudo",
@@ -685,6 +696,83 @@
           "src": "cron",
           "ts": 1790690400000,
           "url": "https://app.clickup.com/t/86akqt4yq"
+        },
+        {
+          "p": "Uri",
+          "nome": "Abertura da loja Fishermans SC no ML",
+          "c": "Projeto",
+          "m": 0,
+          "cron": 0,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790703412031,
+          "url": "https://app.clickup.com/t/86akkahrd"
+        },
+        {
+          "p": "Jorge",
+          "nome": "Separar conteúdo para falar sobre a BLACK FRIDAY (sexta-feira)",
+          "c": "Projeto",
+          "m": 120,
+          "cron": 120,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790696329707,
+          "url": "https://app.clickup.com/t/86akncpmz"
+        },
+        {
+          "p": "Jorge",
+          "nome": "2 - Enviar para a DIU o prompt do CLAUDE de como ela pode delegar as tarefas com facilidade no clickup.",
+          "c": "Compromisso",
+          "m": 25,
+          "cron": 25,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790702695365,
+          "url": "https://app.clickup.com/t/86aknurgg"
+        },
+        {
+          "p": "Marcela",
+          "nome": "separar resultados de influenciadores fishermans URGENTE",
+          "c": "Rotina",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790700688655,
+          "url": "https://app.clickup.com/t/86akqeg2v"
+        },
+        {
+          "p": "Marcela",
+          "nome": "criar cupons de desconto para o aristocrata",
+          "c": "Rotina",
+          "m": 5,
+          "cron": 5,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790704003890,
+          "url": "https://app.clickup.com/t/86akqeb9z"
+        },
+        {
+          "p": "Marcela",
+          "nome": "marcar reunioes aristocrata",
+          "c": "Rotina",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790702521644,
+          "url": "https://app.clickup.com/t/86akqebdc"
+        },
+        {
+          "p": "Marcela",
+          "nome": "prospectar novas pessoas",
+          "c": "Rotina",
+          "m": 120,
+          "cron": 120,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790697161183,
+          "url": "https://app.clickup.com/t/86akjr2qu"
         }
       ]
     }

@@ -203,6 +203,17 @@
           "url": "https://app.clickup.com/t/86akpxm1c"
         },
         {
+          "p": "Uri",
+          "nome": "Monitoramento das contas",
+          "c": "Monitoramento",
+          "m": 208,
+          "cron": 208,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790611001314,
+          "url": "https://app.clickup.com/t/86akp8bbg"
+        },
+        {
           "p": "Marcela",
           "nome": "responder todos",
           "c": "Rotina",
@@ -291,6 +302,17 @@
           "url": "https://app.clickup.com/t/86akpt3zy"
         },
         {
+          "p": "Sabrina",
+          "nome": "revisão de candidatura",
+          "c": "Projeto",
+          "m": 85,
+          "cron": 85,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790615779085,
+          "url": "https://app.clickup.com/t/86akpt3zy"
+        },
+        {
           "p": "Marcela",
           "nome": "mandar videos e legendas para os influenciadores fishermans para youtube",
           "c": "Gestão",
@@ -311,6 +333,149 @@
           "src": "cron",
           "ts": 1790617597143,
           "url": "https://app.clickup.com/t/86akq7gmy"
+        },
+        {
+          "p": "Marcela",
+          "nome": "subir novos videos",
+          "c": "Rotina",
+          "m": 10,
+          "cron": 10,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790620142842,
+          "url": "https://app.clickup.com/t/86akqeafm"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "roteiro",
+          "c": "Imprevisto",
+          "m": 93,
+          "cron": 93,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790621164472,
+          "url": "https://app.clickup.com/t/86akqeegp"
+        },
+        {
+          "p": "Marcela",
+          "nome": "fazer contrato Tatiana ugc",
+          "c": "Rotina",
+          "m": 5,
+          "cron": 5,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790621452894,
+          "url": "https://app.clickup.com/t/86akqebkr"
+        },
+        {
+          "p": "Marcela",
+          "nome": "fazer envio dos influs",
+          "c": "Rotina",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790620355657,
+          "url": "https://app.clickup.com/t/86akpakq0"
+        },
+        {
+          "p": "Marcela",
+          "nome": "refinar projeto",
+          "c": "Rotina",
+          "m": 15,
+          "cron": 15,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790621274718,
+          "url": "https://app.clickup.com/t/86aknajr0"
+        },
+        {
+          "p": "Marcela",
+          "nome": "curso inbound marketing",
+          "c": "Estudo",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790619251511,
+          "url": "https://app.clickup.com/t/86ak340wc"
+        },
+        {
+          "p": "Jorge",
+          "nome": "Ensinar para a Diu como delegar tarefas automaticamente com o clickup",
+          "c": "Projeto",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790620665710,
+          "url": "https://app.clickup.com/t/86akqfb8e"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "revisão de copy",
+          "c": "Rotina",
+          "m": 15,
+          "cron": 15,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790626500000,
+          "url": "https://app.clickup.com/t/86akny0ap"
+        },
+        {
+          "p": "Leandro",
+          "nome": "Reunião Semanal B2B",
+          "c": "Reunião",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790620200000,
+          "url": "https://app.clickup.com/t/86akq7cyy"
+        },
+        {
+          "p": "Leandro",
+          "nome": "Acompanhamento Vendedor Novo",
+          "c": "Compromisso",
+          "m": 150,
+          "cron": 150,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790598600000,
+          "url": "https://app.clickup.com/t/86akq7cpz"
+        },
+        {
+          "p": "Leandro",
+          "nome": "Atendimento Vendedores",
+          "c": "Gestão",
+          "m": 90,
+          "cron": 90,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790622900000,
+          "url": "https://app.clickup.com/t/86akq7cd3"
+        },
+        {
+          "p": "Leandro",
+          "nome": "Distribuição Leads",
+          "c": "Rotina",
+          "m": 15,
+          "cron": 15,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790597700000,
+          "url": "https://app.clickup.com/t/86akq7c6v"
+        },
+        {
+          "p": "Leandro",
+          "nome": "Orientações iniciais",
+          "c": "Rotina",
+          "m": 45,
+          "cron": 45,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790637300000,
+          "url": "https://app.clickup.com/t/86akq7bfy"
         }
       ]
     }

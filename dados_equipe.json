@@ -16,6 +16,17 @@
           "url": "https://app.clickup.com/t/86akq26g0"
         },
         {
+          "p": "Viviane",
+          "nome": "Marcar horario com o Pimenta",
+          "c": "Projeto",
+          "m": 0,
+          "cron": 0,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790554463195,
+          "url": "https://app.clickup.com/t/86akp0hnj"
+        },
+        {
           "p": "Sabrina",
           "nome": "kpi",
           "c": "Rotina",
@@ -93,6 +104,17 @@
           "url": "https://app.clickup.com/t/86akq7kjc"
         },
         {
+          "p": "Viviane",
+          "nome": "Weekly Fishermans",
+          "c": "Reunião",
+          "m": 62,
+          "cron": 62,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790596838860,
+          "url": "https://app.clickup.com/t/86akq822m"
+        },
+        {
           "p": "Uri",
           "nome": "Envio unidades faltantes - Aristocrata - Shopee - Pedido:",
           "c": "Imprevisto",
@@ -124,6 +146,17 @@
           "src": "cron",
           "ts": 1790601639285,
           "url": "https://app.clickup.com/t/86akpxm1c"
+        },
+        {
+          "p": "Viviane",
+          "nome": "Weekly O Aristocrata",
+          "c": "Reunião",
+          "m": 57,
+          "cron": 57,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790602211505,
+          "url": "https://app.clickup.com/t/86akq8r13"
         },
         {
           "p": "Marcela",
@@ -192,6 +225,17 @@
           "url": "https://app.clickup.com/t/86akpxm1c"
         },
         {
+          "p": "Viviane",
+          "nome": "Criar dashbord de Produção de anuncios Sabrina/Jorge",
+          "c": "Imprevisto",
+          "m": 9,
+          "cron": 9,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790607178686,
+          "url": "https://app.clickup.com/t/86aknj17q"
+        },
+        {
           "p": "Uri",
           "nome": "Criar Envio FBA Fishermans",
           "c": "Gestão",
@@ -212,6 +256,39 @@
           "src": "cron",
           "ts": 1790611001314,
           "url": "https://app.clickup.com/t/86akp8bbg"
+        },
+        {
+          "p": "Julia Rodrigues",
+          "nome": "[ARISTOCRATA] PLANEJAMENTO + COPY | SEMANA 5",
+          "c": "Sem categoria",
+          "m": 201,
+          "cron": 201,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790611512212,
+          "url": "https://app.clickup.com/t/86akp6qa7"
+        },
+        {
+          "p": "Viviane",
+          "nome": "Criar dashbord de Produção de anuncios Sabrina/Jorge",
+          "c": "Imprevisto",
+          "m": 103,
+          "cron": 103,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790612119492,
+          "url": "https://app.clickup.com/t/86aknj17q"
+        },
+        {
+          "p": "Viviane",
+          "nome": "Colocar compromisso das weeklys na lista pessoal dos participantes",
+          "c": "Rotina",
+          "m": 15,
+          "cron": 15,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790606700000,
+          "url": "https://app.clickup.com/t/86akqc9em"
         },
         {
           "p": "Marcela",
@@ -256,6 +333,17 @@
           "src": "cron",
           "ts": 1790614310501,
           "url": "https://app.clickup.com/t/86akq7gwr"
+        },
+        {
+          "p": "Julia Benincasa",
+          "nome": "Envio mensal de números para o financeiro",
+          "c": "Rotina",
+          "m": 8,
+          "cron": 8,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790615462522,
+          "url": "https://app.clickup.com/t/86akb7gma"
         },
         {
           "p": "Jorge",
@@ -335,6 +423,28 @@
           "url": "https://app.clickup.com/t/86akq7gmy"
         },
         {
+          "p": "Viviane",
+          "nome": "Conferir se todos agendaram seus 1:1 com o Mateus",
+          "c": "Monitoramento",
+          "m": 1,
+          "cron": 1,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790618709714,
+          "url": "https://app.clickup.com/t/86akqc99v"
+        },
+        {
+          "p": "Viviane",
+          "nome": "Acompanhar campanha de KITs revenda",
+          "c": "Projeto",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790618400000,
+          "url": "https://app.clickup.com/t/86akqdwxd"
+        },
+        {
           "p": "Marcela",
           "nome": "subir novos videos",
           "c": "Rotina",
@@ -344,6 +454,17 @@
           "src": "cron",
           "ts": 1790620142842,
           "url": "https://app.clickup.com/t/86akqeafm"
+        },
+        {
+          "p": "Viviane",
+          "nome": "Weekly B2B e Marketplace",
+          "c": "Reunião",
+          "m": 35,
+          "cron": 35,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790620255995,
+          "url": "https://app.clickup.com/t/86akqdvq7"
         },
         {
           "p": "Sabrina",
@@ -390,6 +511,17 @@
           "url": "https://app.clickup.com/t/86aknajr0"
         },
         {
+          "p": "Viviane",
+          "nome": "Alinhamento Display Leandro",
+          "c": "Projeto",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790622400671,
+          "url": "https://app.clickup.com/t/86akqeuwt"
+        },
+        {
           "p": "Marcela",
           "nome": "curso inbound marketing",
           "c": "Estudo",
@@ -410,6 +542,17 @@
           "src": "cron",
           "ts": 1790620665710,
           "url": "https://app.clickup.com/t/86akqfb8e"
+        },
+        {
+          "p": "Viviane",
+          "nome": "Criar o cronograma de BlackFishermans",
+          "c": "Projeto",
+          "m": 49,
+          "cron": 49,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790624980885,
+          "url": "https://app.clickup.com/t/86akqbz0q"
         },
         {
           "p": "Sabrina",
@@ -489,6 +632,17 @@
           "url": "https://app.clickup.com/t/86akqnfmp"
         },
         {
+          "p": "Viviane",
+          "nome": "Fazer ajuste nos despachos da Ketlyn",
+          "c": "Imprevisto",
+          "m": 12,
+          "cron": 12,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790683116433,
+          "url": "https://app.clickup.com/t/86akqnhdp"
+        },
+        {
           "p": "Sabrina",
           "nome": "revisão de candidatura",
           "c": "Projeto",
@@ -498,6 +652,17 @@
           "src": "cron",
           "ts": 1790682300000,
           "url": "https://app.clickup.com/t/86akpt3zy"
+        },
+        {
+          "p": "Viviane",
+          "nome": "Organizar as tarefas do dia",
+          "c": "Rotina",
+          "m": 6,
+          "cron": 6,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790683964567,
+          "url": "https://app.clickup.com/t/86akqnhbk"
         },
         {
           "p": "Sabrina",
@@ -511,6 +676,39 @@
           "url": "https://app.clickup.com/t/86akqeegp"
         },
         {
+          "p": "Viviane",
+          "nome": "Organizar as tarefas do dia",
+          "c": "Rotina",
+          "m": 5,
+          "cron": 5,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790684298436,
+          "url": "https://app.clickup.com/t/86akqnhbk"
+        },
+        {
+          "p": "Viviane",
+          "nome": "Criar o cronograma de BlackFishermans",
+          "c": "Projeto",
+          "m": 1,
+          "cron": 1,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790684587103,
+          "url": "https://app.clickup.com/t/86akqbz0q"
+        },
+        {
+          "p": "Viviane",
+          "nome": "Criar o cronograma de BlackAristo",
+          "c": "Projeto",
+          "m": 28,
+          "cron": 28,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790684628215,
+          "url": "https://app.clickup.com/t/86akqbzjt"
+        },
+        {
           "p": "Marcela",
           "nome": "responder todos",
           "c": "Rotina",
@@ -520,6 +718,28 @@
           "src": "cron",
           "ts": 1790683538849,
           "url": "https://app.clickup.com/t/86akqp2g7"
+        },
+        {
+          "p": "Viviane",
+          "nome": "Criar o cronograma de BlackAristo",
+          "c": "Projeto",
+          "m": 3,
+          "cron": 3,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790686387101,
+          "url": "https://app.clickup.com/t/86akqbzjt"
+        },
+        {
+          "p": "Viviane",
+          "nome": "Conversar com Jader e alinhar ajustes no clickUp",
+          "c": "Imprevisto",
+          "m": 58,
+          "cron": 58,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790686814562,
+          "url": "https://app.clickup.com/t/86akqp9ur"
         },
         {
           "p": "Jorge",
@@ -555,6 +775,17 @@
           "url": "https://app.clickup.com/t/86akhm2gf"
         },
         {
+          "p": "Julia Benincasa",
+          "nome": "POST 02 - TERÇA-FEIRA (OUTUBRO - SEMANA 1)",
+          "c": "Sem categoria",
+          "m": 23,
+          "cron": 23,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790687894462,
+          "url": "https://app.clickup.com/t/86akm3v5g"
+        },
+        {
           "p": "Jorge",
           "nome": "Publicar 6 videos no YT",
           "c": "Compromisso",
@@ -588,6 +819,17 @@
           "url": "https://app.clickup.com/t/86akmxzpz"
         },
         {
+          "p": "Julia Benincasa",
+          "nome": "POST 05 - SEXTA-FEIRA (OUTUBRO - SEMANA 1)",
+          "c": "Sem categoria",
+          "m": 18,
+          "cron": 18,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790689340017,
+          "url": "https://app.clickup.com/t/86akm3vh3"
+        },
+        {
           "p": "Sabrina",
           "nome": "revisão de ads",
           "c": "Rotina",
@@ -597,6 +839,39 @@
           "src": "cron",
           "ts": 1790686800000,
           "url": "https://app.clickup.com/t/86aknwyr3"
+        },
+        {
+          "p": "Julia Benincasa",
+          "nome": "POST 01 - SEGUNDA-FEIRA (OUTUBRO - SEMANA 1)",
+          "c": "Sem categoria",
+          "m": 20,
+          "cron": 20,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790690428164,
+          "url": "https://app.clickup.com/t/86akm3v38"
+        },
+        {
+          "p": "Viviane",
+          "nome": "Criar o cronograma de BlackFishermans",
+          "c": "Projeto",
+          "m": 70,
+          "cron": 70,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790690493043,
+          "url": "https://app.clickup.com/t/86akqbz0q"
+        },
+        {
+          "p": "Julia Benincasa",
+          "nome": "POST 03 - QUARTA-FEIRA (OUTUBRO - SEMANA 1)",
+          "c": "Sem categoria",
+          "m": 6,
+          "cron": 6,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790691609095,
+          "url": "https://app.clickup.com/t/86akm3v9b"
         },
         {
           "p": "Uri",
@@ -676,6 +951,28 @@
           "url": "https://app.clickup.com/t/86akqrk2r"
         },
         {
+          "p": "Julia Benincasa",
+          "nome": "POST 04 - QUINTA-FEIRA (OUTUBRO - SEMANA 1)",
+          "c": "Sem categoria",
+          "m": 16,
+          "cron": 16,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790698009391,
+          "url": "https://app.clickup.com/t/86akm3vcj"
+        },
+        {
+          "p": "Viviane",
+          "nome": "Weekly P&D",
+          "c": "Reunião",
+          "m": 48,
+          "cron": 48,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790698057231,
+          "url": "https://app.clickup.com/t/86akqdven"
+        },
+        {
           "p": "Uri",
           "nome": "Abertura da loja Fishermans SC no ML",
           "c": "Projeto",
@@ -696,6 +993,28 @@
           "src": "cron",
           "ts": 1790690400000,
           "url": "https://app.clickup.com/t/86akqt4yq"
+        },
+        {
+          "p": "Julia Benincasa",
+          "nome": "POST 01 - SEGUNDA-FEIRA (OUTUBRO - SEMANA 2)",
+          "c": "Sem categoria",
+          "m": 5,
+          "cron": 5,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790702168667,
+          "url": "https://app.clickup.com/t/86aknzkj7"
+        },
+        {
+          "p": "Julia Benincasa",
+          "nome": "POST 03 - QUARTA-FEIRA (OUTUBRO - SEMANA 2)",
+          "c": "Sem categoria",
+          "m": 9,
+          "cron": 9,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790702449936,
+          "url": "https://app.clickup.com/t/86aknzkkq"
         },
         {
           "p": "Uri",
@@ -786,6 +1105,39 @@
           "url": "https://app.clickup.com/t/86akjr2qu"
         },
         {
+          "p": "Viviane",
+          "nome": "Weekly Operacional",
+          "c": "Reunião",
+          "m": 52,
+          "cron": 52,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790701257334,
+          "url": "https://app.clickup.com/t/86akqqm4h"
+        },
+        {
+          "p": "Viviane",
+          "nome": "Criar o cronograma de BlackAristo",
+          "c": "Projeto",
+          "m": 25,
+          "cron": 25,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790704800000,
+          "url": "https://app.clickup.com/t/86akqbzjt"
+        },
+        {
+          "p": "Viviane",
+          "nome": "Criar o cronograma de BlackAristo",
+          "c": "Projeto",
+          "m": 26,
+          "cron": 26,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790706575519,
+          "url": "https://app.clickup.com/t/86akqbzjt"
+        },
+        {
           "p": "Uri",
           "nome": "Abertura da loja Fishermans SC no ML",
           "c": "Projeto",
@@ -806,6 +1158,17 @@
           "src": "cron",
           "ts": 1790707708551,
           "url": "https://app.clickup.com/t/86akp8bbg"
+        },
+        {
+          "p": "Viviane",
+          "nome": "Fazer ajuste no fluxo de reembolso para Gabrielle e Victoria",
+          "c": "Imprevisto",
+          "m": 9,
+          "cron": 9,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790708170257,
+          "url": "https://app.clickup.com/t/86akqvn0m"
         },
         {
           "p": "Uri",
@@ -841,6 +1204,17 @@
           "url": "https://app.clickup.com/t/86akqvt4f"
         },
         {
+          "p": "Viviane",
+          "nome": "Criar o cronograma de BlackAristo",
+          "c": "Projeto",
+          "m": 81,
+          "cron": 81,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790708714020,
+          "url": "https://app.clickup.com/t/86akqbzjt"
+        },
+        {
           "p": "Jorge",
           "nome": "Call como Giovanne Saraiva + oferta",
           "c": "Projeto",
@@ -850,6 +1224,17 @@
           "src": "cron",
           "ts": 1790706287299,
           "url": "https://app.clickup.com/t/86akqwukv"
+        },
+        {
+          "p": "Julia Benincasa",
+          "nome": "POST 02 - TERÇA-FEIRA (OUTUBRO - SEMANA 2)",
+          "c": "Sem categoria",
+          "m": 955,
+          "cron": 955,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790712914979,
+          "url": "https://app.clickup.com/t/86aknzkju"
         },
         {
           "p": "Leandro",
@@ -993,6 +1378,182 @@
           "src": "cron",
           "ts": 1790709300000,
           "url": "https://app.clickup.com/t/86akg802c"
+        },
+        {
+          "p": "Uri",
+          "nome": "SAC/NF/Envios",
+          "c": "Rotina",
+          "m": 62,
+          "cron": 62,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790767596100,
+          "url": "https://app.clickup.com/t/86akr19pq"
+        },
+        {
+          "p": "Julia Benincasa",
+          "nome": "POST 04 - QUINTA-FEIRA (OUTUBRO - SEMANA 2)",
+          "c": "Sem categoria",
+          "m": 12,
+          "cron": 12,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790770260120,
+          "url": "https://app.clickup.com/t/86aknzkp7"
+        },
+        {
+          "p": "Julia Benincasa",
+          "nome": "POST 05 - SEXTA-FEIRA (OUTUBRO - SEMANA 2)",
+          "c": "Sem categoria",
+          "m": 20,
+          "cron": 20,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790770966387,
+          "url": "https://app.clickup.com/t/86aknzkrg"
+        },
+        {
+          "p": "Uri",
+          "nome": "Monitoramento das contas",
+          "c": "Monitoramento",
+          "m": 42,
+          "cron": 42,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790772418945,
+          "url": "https://app.clickup.com/t/86akp8bbg"
+        },
+        {
+          "p": "Viviane",
+          "nome": "Criar o cronograma de BlackAristo",
+          "c": "Projeto",
+          "m": 1,
+          "cron": 1,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790773029763,
+          "url": "https://app.clickup.com/t/86akqbzjt"
+        },
+        {
+          "p": "Viviane",
+          "nome": "Conversa Bandeira e Jader",
+          "c": "Projeto",
+          "m": 58,
+          "cron": 58,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790769608169,
+          "url": "https://app.clickup.com/t/86akr2e33"
+        },
+        {
+          "p": "Viviane",
+          "nome": "Criar o cronograma de BlackAristo",
+          "c": "Projeto",
+          "m": 5,
+          "cron": 5,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790773113039,
+          "url": "https://app.clickup.com/t/86akqbzjt"
+        },
+        {
+          "p": "Viviane",
+          "nome": "Falar sobre horario da reuniao de Black Aristo Sabrina",
+          "c": "Imprevisto",
+          "m": 21,
+          "cron": 21,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790773812476,
+          "url": "https://app.clickup.com/t/86akr2fav"
+        },
+        {
+          "p": "Jorge",
+          "nome": "DELEGAR PARA O TIME",
+          "c": "Projeto",
+          "m": 8,
+          "cron": 8,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790774921440,
+          "url": "https://app.clickup.com/t/86akqpmmj"
+        },
+        {
+          "p": "Viviane",
+          "nome": "Reorganizar cronograma Black Fishermans",
+          "c": "Imprevisto",
+          "m": 24,
+          "cron": 24,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790773758697,
+          "url": "https://app.clickup.com/t/86akr2yu5"
+        },
+        {
+          "p": "Viviane",
+          "nome": "Reorganizar cronograma Black Fishermans",
+          "c": "Imprevisto",
+          "m": 48,
+          "cron": 48,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790775051573,
+          "url": "https://app.clickup.com/t/86akr34d8"
+        },
+        {
+          "p": "Marcela",
+          "nome": "reuniao com roberto sebba 10:15",
+          "c": "Reunião",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790773152429,
+          "url": "https://app.clickup.com/t/86akqdaqt"
+        },
+        {
+          "p": "Jorge",
+          "nome": "Criar GRUPO NO WPP + Pastas de orgânico",
+          "c": "Imprevisto",
+          "m": 35,
+          "cron": 35,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790775381438,
+          "url": "https://app.clickup.com/t/86akr3gw6"
+        },
+        {
+          "p": "Viviane",
+          "nome": "Reorganizar cronograma Black Fishermans",
+          "c": "Imprevisto",
+          "m": 0,
+          "cron": 0,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790778500849,
+          "url": "https://app.clickup.com/t/86akr34d8"
+        },
+        {
+          "p": "Marcela",
+          "nome": "reuniao adv da pesca quarta- feira 11:00",
+          "c": "Reunião",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790776710171,
+          "url": "https://app.clickup.com/t/86akqd10j"
+        },
+        {
+          "p": "Jorge",
+          "nome": "Escrever o documento novo de página para a Tirzah",
+          "c": "Sem categoria",
+          "m": 45,
+          "cron": 45,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790778012968,
+          "url": "https://app.clickup.com/t/86akr4k4v"
         }
       ]
     }

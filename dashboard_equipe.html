@@ -173,31 +173,62 @@ html += `<h2 class="sec">Resumo da semana</h2><div class="grid2">
 <div class="panel"><h3>Tempo por pessoa</h3>${bars(persRows,totalMin,r=>pcol(r.p),r=>fmt(r.v))}</div>
 </div>`;
 
-// ---------- Evolução semanal (SVG stacked por categoria) ----------
-html += `<h2 class="sec">Evolução semanal</h2><div class="panel"><div class="evo-wrap">${evolutionSVG()}</div>
+// ---------- Evolução das semanas, agrupadas por mês (SVG stacked por categoria) ----------
+// nome do mês a que a semana pertence (rótulo "dd/mm–dd/mm"): fica no mês com mais dias
+const MESES=['','Janeiro','Fevereiro','Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro'];
+function mesDaSemana(label){
+  const p=String(label||'').split(/[–\-—]/);
+  const s=(p[0]||'').split('/'), e=(p[1]||p[0]||'').split('/');
+  const sd=+s[0], sm=+s[1], ed=+e[0], em=+e[1]||sm;
+  if(!sm) return 0;
+  if(sm===em) return sm;
+  const ultimoDiaMesInicio=new Date(new Date().getFullYear(), sm, 0).getDate();
+  const diasNoInicio=ultimoDiaMesInicio-sd+1, diasNoFim=ed||0;
+  return diasNoInicio>=diasNoFim ? sm : em;
+}
+html += `<h2 class="sec">Evolução das semanas · por mês</h2><div class="panel"><div class="evo-wrap">${evolutionSVG()}</div>
 <div class="legend">${ALLCATS.map(c=>`<span><i style="background:${catcol(c)}"></i>${c}</span>`).join("")}</div></div>`;
 
 function evolutionSVG(){
-  const W=Math.max(520, WEEKS.length*140), H=230, padL=44, padB=42, padT=12, padR=12;
+  const n=Math.max(1,WEEKS.length);
+  const W=Math.max(520, n*128), H=252, padL=44, padB=64, padT=14, padR=14;
   const plotH=H-padB-padT, plotW=W-padL-padR;
   const weekMin = WEEKS.map(w=>{const a=catAgg(w.tasks);return ALLCATS.map(c=>(a[c]?a[c].m:0));});
   const totals = weekMin.map(a=>a.reduce((x,y)=>x+y,0));
   const maxT = Math.max(1,...totals);
-  // nice y ticks
   const step = Math.ceil(maxT/60/4)*60 || 60; const yMax=Math.ceil(maxT/step)*step || step;
-  const bw = Math.min(70, plotW/WEEKS.length*0.5);
+  const slot = plotW/n;                       // largura reservada por semana
+  const bw = Math.min(64, slot*0.52);         // largura da barra
+  const cx = wi => padL + (wi+0.5)*slot;      // centro da coluna wi
+  const gap=2;                                 // respiro entre segmentos empilhados
   let g=`<svg viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" font-family="inherit">`;
+  // grade + eixo Y (horas)
   for(let i=0;i<=yMax/step;i++){const yv=i*step;const y=padT+plotH-(yv/yMax)*plotH;
     g+=`<line x1="${padL}" y1="${y}" x2="${W-padR}" y2="${y}" stroke="#2a3346" stroke-width="1"/>`;
     g+=`<text x="${padL-8}" y="${y+4}" text-anchor="end" font-size="10" fill="#8b95a8">${Math.round(yv/60)}h</text>`;}
+  // grupos de mês (semanas consecutivas do mesmo mês)
+  const grupos=[]; WEEKS.forEach((w,wi)=>{ const m=mesDaSemana(w.label);
+    const g0=grupos[grupos.length-1]; if(g0&&g0.m===m) g0.fim=wi; else grupos.push({m, ini:wi, fim:wi}); });
+  // divisórias verticais entre meses + faixa do mês
+  grupos.forEach((gr,gi)=>{
+    if(gi>0){ const xb=padL+gr.ini*slot; g+=`<line x1="${xb}" y1="${padT}" x2="${xb}" y2="${padT+plotH}" stroke="#2a3346" stroke-width="1" stroke-dasharray="3 4"/>`; }
+    const xmid=(cx(gr.ini)+cx(gr.fim))/2, x1=padL+gr.ini*slot+6, x2=padL+(gr.fim+1)*slot-6;
+    const yb=H-padB+34;
+    g+=`<line x1="${x1}" y1="${yb-9}" x2="${x2}" y2="${yb-9}" stroke="#46536b" stroke-width="1.5"/>`;
+    g+=`<text x="${xmid}" y="${yb+4}" text-anchor="middle" font-size="11.5" font-weight="700" fill="#c9d1da">${MESES[gr.m]||''}</text>`;
+  });
+  // barras empilhadas por semana
   WEEKS.forEach((w,wi)=>{
-    const cx=padL+(wi+0.5)*(plotW/WEEKS.length); let acc=0;
+    const x=cx(wi); let acc=0;
     ALLCATS.forEach((c,ci)=>{const v=weekMin[wi][ci]; if(!v) return;
-      const h=(v/yMax)*plotH; const y=padT+plotH-((acc+v)/yMax)*plotH;
-      g+=`<rect x="${cx-bw/2}" y="${y}" width="${bw}" height="${h}" fill="${catcol(c)}"><title>${c}: ${fmt(v)}</title></rect>`; acc+=v;});
+      const full=(v/yMax)*plotH; const y=padT+plotH-((acc+v)/yMax)*plotH;
+      const h=Math.max(1, full-gap);
+      g+=`<rect x="${(x-bw/2).toFixed(1)}" y="${y.toFixed(1)}" width="${bw.toFixed(1)}" height="${h.toFixed(1)}" rx="2" fill="${catcol(c)}"><title>${w.label} · ${c}: ${fmt(v)}</title></rect>`; acc+=v;});
     const ytop=padT+plotH-(totals[wi]/yMax)*plotH;
-    g+=`<text x="${cx}" y="${ytop-6}" text-anchor="middle" font-size="10.5" fill="#c9d1da">${Math.round(totals[wi]/60)}h</text>`;
-    g+=`<text x="${cx}" y="${H-padB+18}" text-anchor="middle" font-size="11" fill="#e6eaf2">${w.label}</text>`;
+    if(totals[wi]>0) g+=`<text x="${x}" y="${(ytop-6).toFixed(1)}" text-anchor="middle" font-size="10.5" font-weight="600" fill="#e6eaf2">${Math.round(totals[wi]/60)}h</text>`;
+    // rótulo da semana = data de início (dd/mm)
+    const ini=String(w.label||'').split(/[–\-—]/)[0]||w.label;
+    g+=`<text x="${x}" y="${H-padB+16}" text-anchor="middle" font-size="10.5" fill="#9fb0c6">${ini}</text>`;
   });
   g+=`</svg>`; return g;
 }

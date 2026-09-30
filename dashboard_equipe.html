@@ -71,11 +71,38 @@ body{ background:
   background:linear-gradient(160deg,#12233c,#0a1626);border:1px solid rgba(216,185,120,.35);color:#d8b978;font-family:Georgia,serif;font-weight:700;font-size:14px}
 .gv-brand b{color:#eaf0f8;font-weight:700} .gv-brand .pg{color:#d8b978;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 @media(max-width:600px){.gv-brand .sys{display:none}}
+/* botão de relatório */
+.gv-report{margin-left:auto;cursor:pointer;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12px;font-weight:600;letter-spacing:.6px;text-transform:uppercase;color:#08111f;background:#6ea8fe;border:none;padding:7px 14px;border-radius:22px;transition:.15s}
+.gv-report:hover{background:#8bbcff}
+@media(max-width:600px){.gv-report{letter-spacing:.3px;padding:7px 10px;font-size:11px}}
+/* relatório imprimível */
+#reportView{position:fixed;inset:0;z-index:300;background:#0a1322;overflow:auto;display:none;padding:26px 18px 60px}
+#reportView.open{display:block}
+.rpt{max-width:820px;margin:0 auto;background:#fff;color:#1c2230;border-radius:12px;padding:34px 40px;font-size:13.5px;line-height:1.55;box-shadow:0 20px 60px rgba(0,0,0,.4)}
+.rpt h1{font-family:Georgia,serif;font-size:23px;margin:0;color:#12233c}
+.rpt .rsub{color:#586173;font-size:13px;margin-top:4px}
+.rpt .rrule{height:3px;background:linear-gradient(90deg,#c49a3f,transparent);margin:12px 0 18px;border-radius:3px}
+.rpt .rkpis{display:flex;gap:22px;flex-wrap:wrap;margin-bottom:6px}
+.rpt .rkpi b{font-size:22px;font-family:Georgia,serif;color:#12233c}
+.rpt .rkpi span{display:block;font-size:11px;color:#586173;text-transform:uppercase;letter-spacing:.5px}
+.rpt h2{font-size:12px;text-transform:uppercase;letter-spacing:.7px;color:#1f3a5f;border-bottom:1.5px solid #e4e7ed;padding-bottom:5px;margin:22px 0 10px}
+.rpt .rline{display:flex;justify-content:space-between;gap:14px;padding:5px 0;border-bottom:1px solid #eef0f4;font-size:13px}
+.rpt .rline:last-child{border-bottom:none}
+.rpt .rl-name{font-weight:650;display:flex;align-items:center;gap:7px}
+.rpt .rl-val{color:#586173;text-align:right;white-space:nowrap}
+.rpt .rdot{width:11px;height:11px;border-radius:3px;display:inline-block;flex:none}
+.rpt .muted{color:#8a92a0;font-size:12.5px}
+.rpt .rfoot{margin-top:22px;border-top:1.5px solid #e4e7ed;padding-top:9px;color:#8a92a0;font-size:11.5px}
+.rbar{max-width:820px;margin:0 auto 14px;display:flex;gap:9px;justify-content:flex-end}
+.rbar button{cursor:pointer;font-family:inherit;font-size:13px;font-weight:650;border-radius:9px;border:1px solid var(--line);background:var(--card);color:var(--txt);padding:8px 14px}
+.rbar button.p{background:#6ea8fe;color:#08111f;border:none}
+@media print{ body>*{display:none!important} #reportView.open{display:block!important;position:static;padding:0;background:#fff} #reportView .rbar{display:none!important} .rpt{box-shadow:none;border-radius:0;max-width:none;padding:0} }
 </style></head>
 <body>
 <div class="gv-top">
   <a class="gv-back" href="index.html">← Central</a>
   <div class="gv-brand"><span class="cr">S</span><span class="sys"><b>Central de Governança</b> · </span><span class="pg">Produtividade</span></div>
+  <button class="gv-report" onclick="gerarRelatorio()">Gerar relatório semanal</button>
 </div>
 <div class="wrap">
 <header>
@@ -87,6 +114,7 @@ body{ background:
 <div class="note" id="methodnote"></div>
 <footer id="foot"></footer>
 </div>
+<div id="reportView"></div>
 <script>
 let WEEKS=[];
 const CATS = ["Rotina","Projeto","Reunião","Imprevisto","Estudo","Compromisso","Gestão","Monitoramento","Sem categoria"];
@@ -264,6 +292,52 @@ const semRastreioTxt = semRastreio.length
 document.getElementById("methodnote").innerHTML = `<b>Como o tempo é medido:</b> usa-se o cronômetro (time tracking) quando a pessoa registrou; na ausência dele, o tempo em que a tarefa ficou em “em progresso”. Tarefas que ficaram vários dias paradas em “em progresso” (outliers) entram na contagem de tarefas, mas não no tempo, para não inflar os totais. ${semRastreioTxt}Cada pessoa passa a ter dado 100% confiável quando cronometra todas as tarefas.`;
 document.getElementById("foot").textContent = "Fonte: ClickUp · via n8n (atualização semanal) · dados_equipe.json";
 }
+
+// ---------- Relatório semanal imprimível (semana atual) ----------
+function gerarRelatorio(){
+  const cur = (WEEKS && WEEKS.length) ? (WEEKS[WEEKS.length-1]||{}) : {};
+  const ts = cur.tasks || [];
+  const totalTasks = ts.length, totalMin = sumTime(ts);
+  const active = PEOPLE.filter(p=>ts.some(t=>belongs(t,p)&&t.m>0)).length;
+  const cA = catAgg(ts);
+  let topCat='—', topMin=-1; Object.keys(cA).forEach(c=>{ if(c!=='Sem categoria' && cA[c].m>topMin){topMin=cA[c].m; topCat=c;} });
+  const pct = m => totalMin ? Math.round(m/totalMin*100) : 0;
+  const catRows = Object.keys(cA).filter(c=>cA[c].n>0).map(c=>({c,m:cA[c].m,n:cA[c].n})).sort((a,b)=>b.m-a.m);
+  const persRows = PEOPLE.map(p=>{ const t=ts.filter(x=>belongs(x,p)); const a=catAgg(t);
+      let tc='—',tm=-1; Object.keys(a).forEach(c=>{ if(a[c].m>tm){tm=a[c].m; tc=c;} });
+      return { label:p.label, n:t.length, m:sumTime(t), tracked:t.some(x=>x.m>0), top:t.length?tc:'—' }; })
+    .filter(r=>r.n>0).sort((a,b)=>b.m-a.m);
+  const semRastreio = persRows.filter(r=>!r.tracked).map(r=>r.label);
+  const now = new Date();
+  const p2 = n => ('0'+n).slice(-2);
+  const dtxt = p2(now.getDate())+'/'+p2(now.getMonth()+1)+'/'+now.getFullYear()+' às '+p2(now.getHours())+'h'+p2(now.getMinutes());
+
+  let r = `<div class="rbar">
+      <button class="p" onclick="window.print()">Imprimir / Salvar PDF</button>
+      <button onclick="fecharRelatorio()">Fechar</button>
+    </div>
+    <div class="rpt">
+      <h1>Relatório Semanal de Produtividade</h1>
+      <div class="rsub">Equipe · ${esc(cur.sub||cur.label||'semana atual')} · gerado em ${dtxt}</div>
+      <div class="rrule"></div>
+      <div class="rkpis">
+        <div class="rkpi"><b>${totalTasks}</b><span>Tarefas concluídas</span></div>
+        <div class="rkpi"><b>${fmt(totalMin)}</b><span>Tempo registrado</span></div>
+        <div class="rkpi"><b>${active}/${PEOPLE.length}</b><span>Pessoas com rastreamento</span></div>
+        <div class="rkpi"><b>${esc(topCat)}</b><span>Categoria que mais pesou</span></div>
+      </div>
+      <h2>Tempo por categoria</h2>
+      ${catRows.length ? catRows.map(x=>`<div class="rline"><span class="rl-name"><i class="rdot" style="background:${catcol(x.c)}"></i>${esc(x.c)}</span><span class="rl-val">${fmt(x.m)} · ${pct(x.m)}% · ${x.n} tarefa${x.n>1?'s':''}</span></div>`).join('') : '<div class="muted">Sem tempo registrado nesta semana.</div>'}
+      <h2>Tempo por pessoa</h2>
+      ${persRows.length ? persRows.map(x=>`<div class="rline"><span class="rl-name">${esc(x.label)}</span><span class="rl-val">${x.tracked ? fmt(x.m)+' · '+x.n+' tarefa'+(x.n>1?'s':'')+' · '+esc(x.top) : x.n+' tarefa'+(x.n>1?'s':'')+' (sem tempo lançado)'}</span></div>`).join('') : '<div class="muted">Nenhuma tarefa concluída no período.</div>'}
+      ${semRastreio.length ? `<h2>Observações</h2><div class="muted">${esc(semRastreio.join(', ').replace(/, ([^,]*)$/,' e $1'))} ${semRastreio.length>1?'ainda não iniciaram':'ainda não iniciou'} o rastreamento de tempo — aparecem com as tarefas concluídas, sem horas lançadas.</div>` : ''}
+      <div class="rfoot">Central de Governança · Grupo Shrigma · Fonte: ClickUp via n8n</div>
+    </div>`;
+  const rv = document.getElementById('reportView');
+  rv.innerHTML = r; rv.classList.add('open');
+  window.scrollTo(0,0);
+}
+function fecharRelatorio(){ document.getElementById('reportView').classList.remove('open'); }
 
 fetch("dados_equipe.json?v="+Date.now(),{cache:"no-store"}).then(r=>r.text()).then(t=>{const d=JSON.parse(t.replace(/^[﻿\s=]+/,''));WEEKS=(d&&d.weeks)?d.weeks:[]; try{ init(); }catch(err){ console.error(err); document.getElementById("app").innerHTML='<div class="note">Os dados chegaram, mas houve um detalhe ao montar a tela. Recarregue a página; se persistir, me avise. <br><small style="color:#8b95a8">'+(err&&err.message?err.message:'')+'</small></div>'; } }).catch(e=>{document.getElementById("app").innerHTML='<div class="note">Ainda não consegui ler o <b>dados_equipe.json</b> no repositório. Assim que o robô (n8n) rodar a 1ª vez, ele cria/atualiza esse arquivo e a tela aparece.</div>';});
 </script>

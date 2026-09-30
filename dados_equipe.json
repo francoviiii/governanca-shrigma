@@ -709,6 +709,17 @@
           "url": "https://app.clickup.com/t/86akkahrd"
         },
         {
+          "p": "Uri",
+          "nome": "Abertura da loja Fishermans SC no ML",
+          "c": "Projeto",
+          "m": 45,
+          "cron": 45,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790703413823,
+          "url": "https://app.clickup.com/t/86akkahrd"
+        },
+        {
           "p": "Jorge",
           "nome": "Separar conteúdo para falar sobre a BLACK FRIDAY (sexta-feira)",
           "c": "Projeto",
@@ -773,6 +784,215 @@
           "src": "cron",
           "ts": 1790697161183,
           "url": "https://app.clickup.com/t/86akjr2qu"
+        },
+        {
+          "p": "Uri",
+          "nome": "Abertura da loja Fishermans SC no ML",
+          "c": "Projeto",
+          "m": 16,
+          "cron": 16,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790706764613,
+          "url": "https://app.clickup.com/t/86akkahrd"
+        },
+        {
+          "p": "Uri",
+          "nome": "Monitoramento das contas",
+          "c": "Monitoramento",
+          "m": 12,
+          "cron": 12,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790707708551,
+          "url": "https://app.clickup.com/t/86akp8bbg"
+        },
+        {
+          "p": "Uri",
+          "nome": "Abertura da loja Fishermans SC no ML",
+          "c": "Projeto",
+          "m": 2,
+          "cron": 2,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790708440471,
+          "url": "https://app.clickup.com/t/86akkahrd"
+        },
+        {
+          "p": "Uri",
+          "nome": "Abertura das lojas Aristocrata SC no ML",
+          "c": "Projeto",
+          "m": 35,
+          "cron": 35,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790708579171,
+          "url": "https://app.clickup.com/t/86akkahvc"
+        },
+        {
+          "p": "Marcela",
+          "nome": "subir e upar novos conteudos pasta drive",
+          "c": "Rotina",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790706851411,
+          "url": "https://app.clickup.com/t/86akqvt4f"
+        },
+        {
+          "p": "Jorge",
+          "nome": "Call como Giovanne Saraiva + oferta",
+          "c": "Projeto",
+          "m": 90,
+          "cron": 90,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790706287299,
+          "url": "https://app.clickup.com/t/86akqwukv"
+        },
+        {
+          "p": "Leandro",
+          "nome": "Orientações Diarias",
+          "c": "Rotina",
+          "m": 45,
+          "cron": 45,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790680500000,
+          "url": "https://app.clickup.com/t/86akqy1ct"
+        },
+        {
+          "p": "Leandro",
+          "nome": "Acompanhamento Novo Vendedor",
+          "c": "Compromisso",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790684100000,
+          "url": "https://app.clickup.com/t/86akqy1r3"
+        },
+        {
+          "p": "Leandro",
+          "nome": "Atendimento Vendedores",
+          "c": "Compromisso",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790690400000,
+          "url": "https://app.clickup.com/t/86akqy22q"
+        },
+        {
+          "p": "Leandro",
+          "nome": "Planilha de Controle",
+          "c": "Projeto",
+          "m": 75,
+          "cron": 75,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790699400000,
+          "url": "https://app.clickup.com/t/86akqy2jn"
+        },
+        {
+          "p": "Leandro",
+          "nome": "Reunião Giovanne Saraiva (Consultoria)",
+          "c": "Reunião",
+          "m": 75,
+          "cron": 75,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790704800000,
+          "url": "https://app.clickup.com/t/86akqy2w7"
+        },
+        {
+          "p": "Leandro",
+          "nome": "Atendimento Vendedores (Final de mês)",
+          "c": "Rotina",
+          "m": 45,
+          "cron": 45,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790710200000,
+          "url": "https://app.clickup.com/t/86akqy3t9"
+        },
+        {
+          "p": "Leandro",
+          "nome": "Planilha de Controle",
+          "c": "Projeto",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790712900000,
+          "url": "https://app.clickup.com/t/86akqy4kt"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "vídeo blue sense copy",
+          "c": "Estudo",
+          "m": 55,
+          "cron": 55,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790698800000,
+          "url": "https://app.clickup.com/t/86akqt4yq"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "roteiro",
+          "c": "Imprevisto",
+          "m": 45,
+          "cron": 45,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790702100000,
+          "url": "https://app.clickup.com/t/86akqeegp"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "falar mateus",
+          "c": "Sem categoria",
+          "m": 47,
+          "cron": 47,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790711400000,
+          "url": "https://app.clickup.com/t/86akqyxup"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "roteiro",
+          "c": "Imprevisto",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790705700000,
+          "url": "https://app.clickup.com/t/86akqeegp"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "separar depoimento para carlos",
+          "c": "Imprevisto",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790720100000,
+          "url": "https://app.clickup.com/t/86akqyxza"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "planilha",
+          "c": "Rotina",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790709300000,
+          "url": "https://app.clickup.com/t/86akg802c"
         }
       ]
     }

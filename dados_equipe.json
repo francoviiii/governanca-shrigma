@@ -1545,6 +1545,17 @@
           "url": "https://app.clickup.com/t/86akqd10j"
         },
         {
+          "p": "Viviane",
+          "nome": "Atualizar o design do Painel de Aderência, incluir a pessoa nova",
+          "c": "Imprevisto",
+          "m": 57,
+          "cron": 57,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790778650056,
+          "url": "https://app.clickup.com/t/86akqatfw"
+        },
+        {
           "p": "Jorge",
           "nome": "Escrever o documento novo de página para a Tirzah",
           "c": "Sem categoria",
@@ -1554,6 +1565,127 @@
           "src": "cron",
           "ts": 1790778012968,
           "url": "https://app.clickup.com/t/86akr4k4v"
+        },
+        {
+          "p": "Viviane",
+          "nome": "Atualização do painel de aderência",
+          "c": "Rotina",
+          "m": 91,
+          "cron": 91,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790781301688,
+          "url": "https://app.clickup.com/t/86akr4vyr"
+        },
+        {
+          "p": "Marcela",
+          "nome": "criar documento para os influenciadores aristocrata",
+          "c": "Rotina",
+          "m": 45,
+          "cron": 45,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790779858831,
+          "url": "https://app.clickup.com/t/86akquh4j"
+        },
+        {
+          "p": "Marcela",
+          "nome": "reuniao fantini 12:30 quarta feira ",
+          "c": "Reunião",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790783784964,
+          "url": "https://app.clickup.com/t/86akqd6nx"
+        },
+        {
+          "p": "Marcela",
+          "nome": "reunião 12:00 minha tralha quarta feira",
+          "c": "Reunião",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790783802211,
+          "url": "https://app.clickup.com/t/86akqdy36"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "revisão de copy",
+          "c": "Rotina",
+          "m": 45,
+          "cron": 45,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790769600000,
+          "url": "https://app.clickup.com/t/86akny0ap"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "reunião",
+          "c": "Reunião",
+          "m": 15,
+          "cron": 15,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790772300000,
+          "url": "https://app.clickup.com/t/86aknt4hc"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "ARRUMAR OS TAKES NO SHAREPOINT",
+          "c": "Projeto",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790773200000,
+          "url": "https://app.clickup.com/t/86ak0fj59"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "preparar teste",
+          "c": "Projeto",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790776800000,
+          "url": "https://app.clickup.com/t/86akr5rnp"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "reunião entrevista",
+          "c": "Reunião",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790784000000,
+          "url": "https://app.clickup.com/t/86akr5rvp"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "teste",
+          "c": "Compromisso",
+          "m": 15,
+          "cron": 15,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790785800000,
+          "url": "https://app.clickup.com/t/86akr5t24"
+        },
+        {
+          "p": "Marcela",
+          "nome": "reuniao quarta feira agenor 15h",
+          "c": "Reunião",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790784797430,
+          "url": "https://app.clickup.com/t/86akqqykh"
         }
       ]
     }

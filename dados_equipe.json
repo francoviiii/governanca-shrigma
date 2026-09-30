@@ -1686,6 +1686,28 @@
           "src": "cron",
           "ts": 1790784797430,
           "url": "https://app.clickup.com/t/86akqqykh"
+        },
+        {
+          "p": "Viviane",
+          "nome": "Reunião com o Ivan",
+          "c": "Reunião",
+          "m": 62,
+          "cron": 62,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790787361585,
+          "url": "https://app.clickup.com/t/86akr2kec"
+        },
+        {
+          "p": "Jorge",
+          "nome": "Enviar roteiros para INFLUENCIADORES sobre a BLACK",
+          "c": "Projeto",
+          "m": 45,
+          "cron": 45,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790788162107,
+          "url": "https://app.clickup.com/t/86akr6zc7"
         }
       ]
     }

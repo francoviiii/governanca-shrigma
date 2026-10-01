@@ -1765,6 +1765,17 @@
           "url": "https://app.clickup.com/t/86akfm67w"
         },
         {
+          "p": "Viviane",
+          "nome": "Criar dashbord de Produção de anuncios Sabrina/Jorge",
+          "c": "Imprevisto",
+          "m": 64,
+          "cron": 64,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790795467807,
+          "url": "https://app.clickup.com/t/86aknj17q"
+        },
+        {
           "p": "Marcela",
           "nome": "subir novos contratos",
           "c": "Rotina",
@@ -1831,6 +1842,17 @@
           "url": "https://app.clickup.com/t/86akr951w"
         },
         {
+          "p": "Sabrina",
+          "nome": "vídeo gerenciador",
+          "c": "Estudo",
+          "m": 38,
+          "cron": 38,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790798868659,
+          "url": "https://app.clickup.com/t/86akr951w"
+        },
+        {
           "p": "Marcela",
           "nome": "responder todos",
           "c": "Rotina",
@@ -1840,6 +1862,369 @@
           "src": "cron",
           "ts": 1790798070942,
           "url": "https://app.clickup.com/t/86akrade7"
+        },
+        {
+          "p": "Uri",
+          "nome": "SAC/NF/Envios",
+          "c": "Rotina",
+          "m": 26,
+          "cron": 26,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790853914790,
+          "url": "https://app.clickup.com/t/17tpr0d7m5c"
+        },
+        {
+          "p": "Uri",
+          "nome": "Fechamento Mensal - Marketplaces",
+          "c": "Gestão",
+          "m": 3,
+          "cron": 3,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790855951646,
+          "url": "https://app.clickup.com/t/17tpr0d7m5v"
+        },
+        {
+          "p": "Uri",
+          "nome": "Fechamento Mensal - Marketplaces",
+          "c": "Gestão",
+          "m": 79,
+          "cron": 79,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790856148494,
+          "url": "https://app.clickup.com/t/17tpr0d7m5v"
+        },
+        {
+          "p": "Leandro",
+          "nome": "Orientações Diarias",
+          "c": "Rotina",
+          "m": 45,
+          "cron": 45,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790766900000,
+          "url": "https://app.clickup.com/t/17tpr0d7mx5"
+        },
+        {
+          "p": "Leandro",
+          "nome": "Atendimento aos Vendedores",
+          "c": "Gestão",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790770500000,
+          "url": "https://app.clickup.com/t/17tpr0d7mxb"
+        },
+        {
+          "p": "Leandro",
+          "nome": "Negociações",
+          "c": "Rotina",
+          "m": 75,
+          "cron": 75,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790775900000,
+          "url": "https://app.clickup.com/t/17tpr0d7mxg"
+        },
+        {
+          "p": "Leandro",
+          "nome": "Negociações com Vendedores",
+          "c": "Rotina",
+          "m": 75,
+          "cron": 75,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790785800000,
+          "url": "https://app.clickup.com/t/17tpr0d7mz7"
+        },
+        {
+          "p": "Leandro",
+          "nome": "Negociações com Vendedores",
+          "c": "Rotina",
+          "m": 0,
+          "cron": 0,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790856954000,
+          "url": "https://app.clickup.com/t/17tpr0d7mz7"
+        },
+        {
+          "p": "Leandro",
+          "nome": "Atendimento Vendedores",
+          "c": "Rotina",
+          "m": 120,
+          "cron": 120,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790791200000,
+          "url": "https://app.clickup.com/t/17tpr0d7mzx"
+        },
+        {
+          "p": "Leandro",
+          "nome": "Negociações com Vendedores",
+          "c": "Rotina",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790798400000,
+          "url": "https://app.clickup.com/t/17tpr0d7n00"
+        },
+        {
+          "p": "Leandro",
+          "nome": "Orientações Diarias",
+          "c": "Rotina",
+          "m": 45,
+          "cron": 45,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790853300000,
+          "url": "https://app.clickup.com/t/17tpr0d7n01"
+        },
+        {
+          "p": "Leandro",
+          "nome": "Atendimento Vendedores",
+          "c": "Rotina",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790856000000,
+          "url": "https://app.clickup.com/t/17tpr0d7n04"
+        },
+        {
+          "p": "Leandro",
+          "nome": "Reunião Vander Geremia - ROBALO MASTER",
+          "c": "Reunião",
+          "m": 45,
+          "cron": 45,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790859600000,
+          "url": "https://app.clickup.com/t/17tpr0d7n1e"
+        },
+        {
+          "p": "Leandro",
+          "nome": "Entrevista Leonardo - A confirmar",
+          "c": "Reunião",
+          "m": 45,
+          "cron": 45,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790863200000,
+          "url": "https://app.clickup.com/t/17tpr0d7n1m"
+        },
+        {
+          "p": "Leandro",
+          "nome": "Entrevista Leonardo - A confirmar",
+          "c": "Reunião",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790863200000,
+          "url": "https://app.clickup.com/t/17tpr0d7n1m"
+        },
+        {
+          "p": "Viviane",
+          "nome": "Ajuste Lista despacho Thaynara",
+          "c": "Imprevisto",
+          "m": 21,
+          "cron": 21,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790859355152,
+          "url": "https://app.clickup.com/t/17tpr0d7n8f"
+        },
+        {
+          "p": "Uri",
+          "nome": "Ativação anúncios FMSB",
+          "c": "Gestão",
+          "m": 41,
+          "cron": 41,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790860882555,
+          "url": "https://app.clickup.com/t/17tpr0d7n5b"
+        },
+        {
+          "p": "Jorge",
+          "nome": "Escrever tudo que vamos ter de alteração na PÁGINA e o que já podemos mudar",
+          "c": "Projeto",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790859661003,
+          "url": "https://app.clickup.com/t/86akqpc1k"
+        },
+        {
+          "p": "Jorge",
+          "nome": "Analisar todas as paginas do site e ver quais gaps podem estar impactando os resultados no site (ver taxas de conversão dos produtos também)",
+          "c": "Compromisso",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790857878266,
+          "url": "https://app.clickup.com/t/86akq8a8p"
+        },
+        {
+          "p": "Jorge",
+          "nome": "Revisar roteiros da Diulia para a gravação",
+          "c": "Rotina",
+          "m": 23,
+          "cron": 23,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790861499065,
+          "url": "https://app.clickup.com/t/17tpr0d7nz6"
+        },
+        {
+          "p": "Viviane",
+          "nome": "Automação envios de e-mail Suporte",
+          "c": "Projeto",
+          "m": 68,
+          "cron": 68,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790861818730,
+          "url": "https://app.clickup.com/t/17tpr0d7n8h"
+        },
+        {
+          "p": "Marcela",
+          "nome": "vovo maromba reuniao 10:00 quinta feira",
+          "c": "Reunião",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790860416200,
+          "url": "https://app.clickup.com/t/86akqf84g"
+        },
+        {
+          "p": "Marcela",
+          "nome": "dente da traíra 10:30",
+          "c": "Reunião",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790860429188,
+          "url": "https://app.clickup.com/t/17tpr0d7n0a"
+        },
+        {
+          "p": "Uri",
+          "nome": "Ativação anúncios FMSB",
+          "c": "Gestão",
+          "m": 1,
+          "cron": 1,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790864273264,
+          "url": "https://app.clickup.com/t/17tpr0d7n5b"
+        },
+        {
+          "p": "Uri",
+          "nome": "Atualizar promoções do Aristocrata ML",
+          "c": "Gestão",
+          "m": 10,
+          "cron": 10,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790864334049,
+          "url": "https://app.clickup.com/t/17tpr0d7qdq"
+        },
+        {
+          "p": "Uri",
+          "nome": "Padronização do carrossel de fotos Fishermans",
+          "c": "Gestão",
+          "m": 22,
+          "cron": 22,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790865054623,
+          "url": "https://app.clickup.com/t/86akky5ge"
+        },
+        {
+          "p": "Uri",
+          "nome": "Iniciar estudo de viabilidade de distrubuição e uso dos Fullfillment de SP",
+          "c": "Projeto",
+          "m": 2,
+          "cron": 2,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790866376225,
+          "url": "https://app.clickup.com/t/17tpr0d7qt1"
+        },
+        {
+          "p": "Uri",
+          "nome": "Promoções para anúncios e skus paradas, sem venda no Full Fishermans.",
+          "c": "Gestão",
+          "m": 25,
+          "cron": 25,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790866585209,
+          "url": "https://app.clickup.com/t/17tpr0d7qv7"
+        },
+        {
+          "p": "Marcela",
+          "nome": "fazer pauta borsari",
+          "c": "Rotina",
+          "m": 40,
+          "cron": 40,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790864505007,
+          "url": "https://app.clickup.com/t/86akr3zar"
+        },
+        {
+          "p": "Marcela",
+          "nome": "quinta feira 11hrs da manha borsari",
+          "c": "Reunião",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790865183204,
+          "url": "https://app.clickup.com/t/86akqf7gf"
+        },
+        {
+          "p": "Uri",
+          "nome": "Ticket Bling-Shopee-Aristo",
+          "c": "Imprevisto",
+          "m": 23,
+          "cron": 23,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790868111499,
+          "url": "https://app.clickup.com/t/17tpr0d7r7z"
+        },
+        {
+          "p": "Uri",
+          "nome": "Ativar anúncios ARSB nas plataformas",
+          "c": "Gestão",
+          "m": 27,
+          "cron": 27,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790871892085,
+          "url": "https://app.clickup.com/t/17tpr0d7qt9"
+        },
+        {
+          "p": "Marcela",
+          "nome": "fazer envios dos sabonetes",
+          "c": "Rotina",
+          "m": 36,
+          "cron": 36,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790871050562,
+          "url": "https://app.clickup.com/t/86akr2duz"
         }
       ]
     }

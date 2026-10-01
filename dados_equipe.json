@@ -1772,7 +1772,7 @@
           "cron": 64,
           "prog": 0,
           "src": "cron",
-          "ts": 1790795467807,
+          "ts": 1790881867807,
           "url": "https://app.clickup.com/t/86aknj17q"
         },
         {
@@ -2216,6 +2216,17 @@
           "url": "https://app.clickup.com/t/17tpr0d7qt9"
         },
         {
+          "p": "Viviane",
+          "nome": "Reunião Kick-Off Black Aristo",
+          "c": "Reunião",
+          "m": 32,
+          "cron": 32,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790872637328,
+          "url": "https://app.clickup.com/t/86akr83f8"
+        },
+        {
           "p": "Marcela",
           "nome": "fazer envios dos sabonetes",
           "c": "Rotina",
@@ -2225,6 +2236,72 @@
           "src": "cron",
           "ts": 1790871050562,
           "url": "https://app.clickup.com/t/86akr2duz"
+        },
+        {
+          "p": "Uri",
+          "nome": "Remover S50 0.30mm de todas as lojas",
+          "c": "Imprevisto",
+          "m": 33,
+          "cron": 33,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790873535089,
+          "url": "https://app.clickup.com/t/17tpr0d7u2k"
+        },
+        {
+          "p": "Marcela",
+          "nome": "reuniao da black",
+          "c": "Reunião",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790873183133,
+          "url": "https://app.clickup.com/t/17tpr0d7tn3"
+        },
+        {
+          "p": "Marcela",
+          "nome": "reuniao warllen quinta- feira 14h",
+          "c": "Reunião",
+          "m": 25,
+          "cron": 25,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790873489497,
+          "url": "https://app.clickup.com/t/86akqd05w"
+        },
+        {
+          "p": "Marcela",
+          "nome": "responder todos",
+          "c": "Rotina",
+          "m": 100,
+          "cron": 100,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790869383576,
+          "url": "https://app.clickup.com/t/17tpr0d7n1x"
+        },
+        {
+          "p": "Viviane",
+          "nome": "Incluir cronograma Black Aristo no ClickUp",
+          "c": "Imprevisto",
+          "m": 45,
+          "cron": 45,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790863211000,
+          "url": "https://app.clickup.com/t/17tpr0d7uh7"
+        },
+        {
+          "p": "Marcela",
+          "nome": "fazer contrato adv da pesca",
+          "c": "Rotina",
+          "m": 5,
+          "cron": 5,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790875718102,
+          "url": "https://app.clickup.com/t/86akr3yz0"
         }
       ]
     }

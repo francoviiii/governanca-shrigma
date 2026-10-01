@@ -1460,8 +1460,8 @@
           "p": "Viviane",
           "nome": "Falar sobre horario da reuniao de Black Aristo Sabrina",
           "c": "Imprevisto",
-          "m": 21,
-          "cron": 21,
+          "m": 10,
+          "cron": 10,
           "prog": 0,
           "src": "cron",
           "ts": 1790773812476,
@@ -1477,17 +1477,6 @@
           "src": "cron",
           "ts": 1790774921440,
           "url": "https://app.clickup.com/t/86akqpmmj"
-        },
-        {
-          "p": "Viviane",
-          "nome": "Reorganizar cronograma Black Fishermans",
-          "c": "Imprevisto",
-          "m": 24,
-          "cron": 24,
-          "prog": 0,
-          "src": "cron",
-          "ts": 1790773758697,
-          "url": "https://app.clickup.com/t/86akr2yu5"
         },
         {
           "p": "Viviane",
@@ -1611,6 +1600,17 @@
           "url": "https://app.clickup.com/t/86akqdy36"
         },
         {
+          "p": "Uri",
+          "nome": "Padronização do carrossel de fotos Fishermans",
+          "c": "Gestão",
+          "m": 288,
+          "cron": 288,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790785646731,
+          "url": "https://app.clickup.com/t/86akky5ge"
+        },
+        {
           "p": "Sabrina",
           "nome": "revisão de copy",
           "c": "Rotina",
@@ -1708,6 +1708,138 @@
           "src": "cron",
           "ts": 1790788162107,
           "url": "https://app.clickup.com/t/86akr6zc7"
+        },
+        {
+          "p": "Viviane",
+          "nome": "Ver conversa com a Gabrielle",
+          "c": "Imprevisto",
+          "m": 8,
+          "cron": 8,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790791459248,
+          "url": "https://app.clickup.com/t/86akr2f6f"
+        },
+        {
+          "p": "Viviane",
+          "nome": "Realizar o envio de entregáveis combinados na conversa com Jader e Bandeia.",
+          "c": "Projeto",
+          "m": 34,
+          "cron": 34,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790792303946,
+          "url": "https://app.clickup.com/t/86akr2f1e"
+        },
+        {
+          "p": "Viviane",
+          "nome": "Reorganizar cronograma Black Fishermans",
+          "c": "Imprevisto",
+          "m": 44,
+          "cron": 44,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790789755370,
+          "url": "https://app.clickup.com/t/86akr34d8"
+        },
+        {
+          "p": "Jorge",
+          "nome": "PDP nova — 8X/Amazônica pronta esta semana",
+          "c": "Projeto",
+          "m": 75,
+          "cron": 75,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790789182020,
+          "url": "https://app.clickup.com/t/86akqpmc1"
+        },
+        {
+          "p": "Viviane",
+          "nome": "Ver referente a display de Revenda",
+          "c": "Rotina",
+          "m": 8,
+          "cron": 8,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790794363792,
+          "url": "https://app.clickup.com/t/86akfm67w"
+        },
+        {
+          "p": "Marcela",
+          "nome": "subir novos contratos",
+          "c": "Rotina",
+          "m": 17,
+          "cron": 17,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790796742733,
+          "url": "https://app.clickup.com/t/86akr8vde"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "reunião entrevista",
+          "c": "Reunião",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790787600000,
+          "url": "https://app.clickup.com/t/86akr5rvp"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "teste",
+          "c": "Compromisso",
+          "m": 20,
+          "cron": 20,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790791200000,
+          "url": "https://app.clickup.com/t/86akr5t24"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "revisão de ads",
+          "c": "Rotina",
+          "m": 45,
+          "cron": 45,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790793000000,
+          "url": "https://app.clickup.com/t/86aknwyr3"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "foreplay",
+          "c": "Rotina",
+          "m": 15,
+          "cron": 15,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790795700000,
+          "url": "https://app.clickup.com/t/86aknzx5x"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "vídeo gerenciador",
+          "c": "Estudo",
+          "m": 37,
+          "cron": 37,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790796600000,
+          "url": "https://app.clickup.com/t/86akr951w"
+        },
+        {
+          "p": "Marcela",
+          "nome": "responder todos",
+          "c": "Rotina",
+          "m": 100,
+          "cron": 100,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790798070942,
+          "url": "https://app.clickup.com/t/86akrade7"
         }
       ]
     }

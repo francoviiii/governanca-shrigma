@@ -2775,6 +2775,28 @@
           "src": "cron",
           "ts": 1790955899800,
           "url": "https://app.clickup.com/t/86akky5ge"
+        },
+        {
+          "p": "Jorge",
+          "nome": "Atualizar site da fishermans",
+          "c": "Projeto",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790956906400,
+          "url": "https://app.clickup.com/t/17tpr0d8fr8"
+        },
+        {
+          "p": "Jorge",
+          "nome": "Salvar criativos validados da FISHERMANS + ARISTOCRATA",
+          "c": "Projeto",
+          "m": 120,
+          "cron": 120,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790953332903,
+          "url": "https://app.clickup.com/t/17tpr0d8frb"
         }
       ]
     }

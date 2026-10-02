@@ -2566,6 +2566,215 @@
           "src": "cron",
           "ts": 1790884800000,
           "url": "https://app.clickup.com/t/86aknwyr3"
+        },
+        {
+          "p": "Uri",
+          "nome": "SAC/NF/Envios",
+          "c": "Rotina",
+          "m": 19,
+          "cron": 19,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790938373931,
+          "url": "https://app.clickup.com/t/17tpr0d889m"
+        },
+        {
+          "p": "Uri",
+          "nome": "FBA Aristocrata",
+          "c": "Projeto",
+          "m": 91,
+          "cron": 91,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790939510261,
+          "url": "https://app.clickup.com/t/86akk0dz5"
+        },
+        {
+          "p": "Julia Benincasa",
+          "nome": "Envio mensal de números para o financeiro",
+          "c": "Rotina",
+          "m": 35,
+          "cron": 35,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790941320637,
+          "url": "https://app.clickup.com/t/86akb7gma"
+        },
+        {
+          "p": "Uri",
+          "nome": "FBA Aristocrata",
+          "c": "Projeto",
+          "m": 0,
+          "cron": 0,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790944966722,
+          "url": "https://app.clickup.com/t/86akk0dz5"
+        },
+        {
+          "p": "Uri",
+          "nome": "Atualizar estoque fishermans - am040mm8x  acabou",
+          "c": "Imprevisto",
+          "m": 40,
+          "cron": 40,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790945065621,
+          "url": "https://app.clickup.com/t/17tpr0d89u4"
+        },
+        {
+          "p": "Viviane",
+          "nome": "Pegar transcrição da call com o Ivan e montar um plano para mim",
+          "c": "Compromisso",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790944200000,
+          "url": "https://app.clickup.com/t/86akr7z81"
+        },
+        {
+          "p": "Viviane",
+          "nome": "Organizar tarefas do dia",
+          "c": "Rotina",
+          "m": 15,
+          "cron": 15,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790943300000,
+          "url": "https://app.clickup.com/t/17tpr0d8a5q"
+        },
+        {
+          "p": "Uri",
+          "nome": "Cadastrar kits mix no Bling",
+          "c": "Gestão",
+          "m": 0,
+          "cron": 0,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790947496131,
+          "url": "https://app.clickup.com/t/17tpr0d7qrm"
+        },
+        {
+          "p": "Uri",
+          "nome": "Cadastrar kits mix no Bling",
+          "c": "Gestão",
+          "m": 26,
+          "cron": 26,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790947506530,
+          "url": "https://app.clickup.com/t/17tpr0d7qrm"
+        },
+        {
+          "p": "Uri",
+          "nome": "Cadastrar kits mix nas plataformas",
+          "c": "Gestão",
+          "m": 16,
+          "cron": 16,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790949064265,
+          "url": "https://app.clickup.com/t/17tpr0d7qrt"
+        },
+        {
+          "p": "Uri",
+          "nome": "Iniciar estudo de viabilidade de distrubuição e uso dos Fullfillment de SP",
+          "c": "Projeto",
+          "m": 26,
+          "cron": 26,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790950024362,
+          "url": "https://app.clickup.com/t/17tpr0d7qt1"
+        },
+        {
+          "p": "Viviane",
+          "nome": "Montar a proposta (escopo, justificativa, impacto de não contratar)",
+          "c": "Projeto",
+          "m": 34,
+          "cron": 34,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790948756961,
+          "url": "https://app.clickup.com/t/17tpr0d89gx"
+        },
+        {
+          "p": "Viviane",
+          "nome": "Acompanhar entregas Black Fishermans",
+          "c": "Rotina",
+          "m": 17,
+          "cron": 17,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790950943208,
+          "url": "https://app.clickup.com/t/17tpr0d8btp"
+        },
+        {
+          "p": "Uri",
+          "nome": "Abrir contas Bligs da novas lojas",
+          "c": "Projeto",
+          "m": 32,
+          "cron": 32,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790953934929,
+          "url": "https://app.clickup.com/t/17tpr0d8dtm"
+        },
+        {
+          "p": "Viviane",
+          "nome": "Acompanhar processos Vendedores",
+          "c": "Monitoramento",
+          "m": 39,
+          "cron": 39,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790952300000,
+          "url": "https://app.clickup.com/t/17tpr0d8buv"
+        },
+        {
+          "p": "Marcela",
+          "nome": "responder todos",
+          "c": "Rotina",
+          "m": 100,
+          "cron": 100,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790948901103,
+          "url": "https://app.clickup.com/t/17tpr0d8e0n"
+        },
+        {
+          "p": "Marcela",
+          "nome": "fazer envios aristo",
+          "c": "Rotina",
+          "m": 45,
+          "cron": 45,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790952225108,
+          "url": "https://app.clickup.com/t/17tpr0d8e0w"
+        },
+        {
+          "p": "Marcela",
+          "nome": "briefar sobre a black",
+          "c": "Projeto",
+          "m": 55,
+          "cron": 55,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790951645361,
+          "url": "https://app.clickup.com/t/17tpr0d8e21"
+        },
+        {
+          "p": "Uri",
+          "nome": "Padronização do carrossel de fotos Fishermans",
+          "c": "Gestão",
+          "m": 0,
+          "cron": 0,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790955899800,
+          "url": "https://app.clickup.com/t/86akky5ge"
         }
       ]
     }

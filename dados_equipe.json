@@ -1282,7 +1282,7 @@
         },
         {
           "p": "Leandro",
-          "nome": "Reunião Giovanne Saraiva (Consultoria)",
+          "nome": "Reunião - Giovanne Saraiva (Consultoria)",
           "c": "Reunião",
           "m": 75,
           "cron": 75,
@@ -2293,6 +2293,17 @@
           "url": "https://app.clickup.com/t/17tpr0d7uh7"
         },
         {
+          "p": "Viviane",
+          "nome": "Incluir cronograma Black Aristo no ClickUp",
+          "c": "Imprevisto",
+          "m": 33,
+          "cron": 33,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790875669932,
+          "url": "https://app.clickup.com/t/17tpr0d7uh7"
+        },
+        {
           "p": "Marcela",
           "nome": "fazer contrato adv da pesca",
           "c": "Rotina",
@@ -2302,6 +2313,259 @@
           "src": "cron",
           "ts": 1790875718102,
           "url": "https://app.clickup.com/t/86akr3yz0"
+        },
+        {
+          "p": "Uri",
+          "nome": "Monitoramento das contas",
+          "c": "Monitoramento",
+          "m": 319,
+          "cron": 319,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790876555962,
+          "url": "https://app.clickup.com/t/86akp8bbg"
+        },
+        {
+          "p": "Marcela",
+          "nome": "prospecção",
+          "c": "Rotina",
+          "m": 40,
+          "cron": 40,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790875646864,
+          "url": "https://app.clickup.com/t/17tpr0d7uqp"
+        },
+        {
+          "p": "Marcela",
+          "nome": "criar links e utm",
+          "c": "Rotina",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790877492658,
+          "url": "https://app.clickup.com/t/86aknak21"
+        },
+        {
+          "p": "Marcela",
+          "nome": "volumar micro influenciadores",
+          "c": "Rotina",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790875703745,
+          "url": "https://app.clickup.com/t/86aknajpx"
+        },
+        {
+          "p": "Marcela",
+          "nome": "reuniao com marcelo 13:30 quinta feira",
+          "c": "Reunião",
+          "m": 25,
+          "cron": 25,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790877821821,
+          "url": "https://app.clickup.com/t/86akqnt95"
+        },
+        {
+          "p": "Marcela",
+          "nome": "alinhar gravação sabado dia 09 pesque pague do reis adv da pesca",
+          "c": "Projeto",
+          "m": 15,
+          "cron": 15,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790878437489,
+          "url": "https://app.clickup.com/t/86akqc7jn"
+        },
+        {
+          "p": "Viviane",
+          "nome": "Gravar loom explicando cronograma",
+          "c": "Projeto",
+          "m": 16,
+          "cron": 16,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790881614698,
+          "url": "https://app.clickup.com/t/17tpr0d8190"
+        },
+        {
+          "p": "Jorge",
+          "nome": "Revisar CRIATIVOS, subir banners, atualizar ofertas do site",
+          "c": "Projeto",
+          "m": 45,
+          "cron": 45,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790879754916,
+          "url": "https://app.clickup.com/t/17tpr0d81fd"
+        },
+        {
+          "p": "Julia Benincasa",
+          "nome": "Envio mensal de números para o financeiro",
+          "c": "Rotina",
+          "m": 21,
+          "cron": 21,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790884776181,
+          "url": "https://app.clickup.com/t/86akb7gma"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "vídeo blue sense copy",
+          "c": "Estudo",
+          "m": 75,
+          "cron": 75,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790856000000,
+          "url": "https://app.clickup.com/t/86akqt4yq"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "revisão de ads",
+          "c": "Rotina",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790854200000,
+          "url": "https://app.clickup.com/t/86aknwyr3"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "reunião entrevista",
+          "c": "Reunião",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790875800000,
+          "url": "https://app.clickup.com/t/86akr5rvp"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "teste",
+          "c": "Compromisso",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790879400000,
+          "url": "https://app.clickup.com/t/86akr5t24"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "reunião",
+          "c": "Reunião",
+          "m": 45,
+          "cron": 45,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790872200000,
+          "url": "https://app.clickup.com/t/86aknt4hc"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "revisão de copy",
+          "c": "Rotina",
+          "m": 105,
+          "cron": 105,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790860500000,
+          "url": "https://app.clickup.com/t/86akny0ap"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "planilha e task imagem",
+          "c": "Rotina",
+          "m": 45,
+          "cron": 45,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790882100000,
+          "url": "https://app.clickup.com/t/86akm9dr5"
+        },
+        {
+          "p": "Leandro",
+          "nome": "Reunião - Ivan (Consultoria)",
+          "c": "Reunião",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790875800000,
+          "url": "https://app.clickup.com/t/17tpr0d826d"
+        },
+        {
+          "p": "Leandro",
+          "nome": "Campanha de Black Friday",
+          "c": "Projeto",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790880300000,
+          "url": "https://app.clickup.com/t/17tpr0d827v"
+        },
+        {
+          "p": "Viviane",
+          "nome": "Criar SOP de preenchimento de planilha de analise de criativo e volume para Sabrina e Jorge",
+          "c": "Projeto",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790877600000,
+          "url": "https://app.clickup.com/t/17tpr0d82nb"
+        },
+        {
+          "p": "Jorge",
+          "nome": "Montar a LP de captura da Black",
+          "c": "Projeto",
+          "m": 90,
+          "cron": 90,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790882871397,
+          "url": "https://app.clickup.com/t/86akqpkqh"
+        },
+        {
+          "p": "Jorge",
+          "nome": "Adicionar CALCULADORA DE FRETE NA PDP",
+          "c": "Projeto",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790888402072,
+          "url": "https://app.clickup.com/t/17tpr0d83vj"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "reunião entrevista",
+          "c": "Reunião",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790870400000,
+          "url": "https://app.clickup.com/t/86akr5rvp"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "revisão de ads",
+          "c": "Rotina",
+          "m": 45,
+          "cron": 45,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790884800000,
+          "url": "https://app.clickup.com/t/86aknwyr3"
         }
       ]
     }

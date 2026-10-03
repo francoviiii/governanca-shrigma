@@ -2777,6 +2777,28 @@
           "url": "https://app.clickup.com/t/86akky5ge"
         },
         {
+          "p": "Uri",
+          "nome": "Padronização do carrossel de fotos Fishermans",
+          "c": "Gestão",
+          "m": 187,
+          "cron": 187,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790955908202,
+          "url": "https://app.clickup.com/t/86akky5ge"
+        },
+        {
+          "p": "Viviane",
+          "nome": "Carreira e salário (sua pauta pessoal)",
+          "c": "Projeto",
+          "m": 44,
+          "cron": 44,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790958522797,
+          "url": "https://app.clickup.com/t/17tpr0d89hx"
+        },
+        {
           "p": "Jorge",
           "nome": "Atualizar site da fishermans",
           "c": "Projeto",
@@ -2797,6 +2819,226 @@
           "src": "cron",
           "ts": 1790953332903,
           "url": "https://app.clickup.com/t/17tpr0d8frb"
+        },
+        {
+          "p": "Julia Rodrigues",
+          "nome": "Orgânico — 10 do 10 (posts + stories de lançamento)",
+          "c": "Sem categoria",
+          "m": 246,
+          "cron": 246,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790964153722,
+          "url": "https://app.clickup.com/t/17tpr0d7ufm"
+        },
+        {
+          "p": "Jorge",
+          "nome": "Criar metas para outubro de todos os canais de distribuição de marketing",
+          "c": "Compromisso",
+          "m": 35,
+          "cron": 35,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790965719661,
+          "url": "https://app.clickup.com/t/86akq8a3z"
+        },
+        {
+          "p": "Jorge",
+          "nome": "Criar o grupo do WhatsApp da Black + automação de convite",
+          "c": "Projeto",
+          "m": 45,
+          "cron": 45,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790965137938,
+          "url": "https://app.clickup.com/t/86akqpkwx"
+        },
+        {
+          "p": "Jorge",
+          "nome": "Enviar roteiros da Black aos influenciadores (modelo Sinflus)",
+          "c": "Projeto",
+          "m": 45,
+          "cron": 45,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790965146783,
+          "url": "https://app.clickup.com/t/86akqpm2j"
+        },
+        {
+          "p": "Jorge",
+          "nome": "Reviver ads validados de influencers (separar e subir na planilha)",
+          "c": "Projeto",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790966082268,
+          "url": "https://app.clickup.com/t/86akqpm7j"
+        },
+        {
+          "p": "Jorge",
+          "nome": "Definir estrutura de contas Meta + teto de anúncios (Black)",
+          "c": "Projeto",
+          "m": 10,
+          "cron": 10,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790967361915,
+          "url": "https://app.clickup.com/t/86akqpmfj"
+        },
+        {
+          "p": "Jorge",
+          "nome": "Confirmar custo da Camisa UV e do chaveiro (com João)",
+          "c": "Projeto",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790966178388,
+          "url": "https://app.clickup.com/t/86akqpmhx"
+        },
+        {
+          "p": "Leandro",
+          "nome": "Orientações Diárias",
+          "c": "Rotina",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790982900000,
+          "url": "https://app.clickup.com/t/17tpr0d8jtg"
+        },
+        {
+          "p": "Leandro",
+          "nome": "Atendimento Vendedores",
+          "c": "Rotina",
+          "m": 105,
+          "cron": 105,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790942400000,
+          "url": "https://app.clickup.com/t/17tpr0d8ju8"
+        },
+        {
+          "p": "Leandro",
+          "nome": "Reunião Guilherme e Jessica - Fish TV",
+          "c": "Reunião",
+          "m": 45,
+          "cron": 45,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790949600000,
+          "url": "https://app.clickup.com/t/17tpr0d8jv6"
+        },
+        {
+          "p": "Leandro",
+          "nome": "1:1 Mateus",
+          "c": "Reunião",
+          "m": 45,
+          "cron": 45,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790953200000,
+          "url": "https://app.clickup.com/t/17tpr0d8jvq"
+        },
+        {
+          "p": "Leandro",
+          "nome": "Atendimento Novo Vendedor Breno",
+          "c": "Compromisso",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790960400000,
+          "url": "https://app.clickup.com/t/17tpr0d8jx3"
+        },
+        {
+          "p": "Leandro",
+          "nome": "Atendimento Vendedores",
+          "c": "Gestão",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790967600000,
+          "url": "https://app.clickup.com/t/17tpr0d8jxw"
+        },
+        {
+          "p": "Viviane",
+          "nome": "Enviar Atas para lideres",
+          "c": "Rotina",
+          "m": 35,
+          "cron": 35,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790972580000,
+          "url": "https://app.clickup.com/t/17tpr0d8mvb"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "revisão de ads",
+          "c": "Rotina",
+          "m": 30,
+          "cron": 30,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790940600000,
+          "url": "https://app.clickup.com/t/86aknwyr3"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "revisão de copy",
+          "c": "Rotina",
+          "m": 75,
+          "cron": 75,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790942400000,
+          "url": "https://app.clickup.com/t/86akny0ap"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "roteiro",
+          "c": "Imprevisto",
+          "m": 45,
+          "cron": 45,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790946900000,
+          "url": "https://app.clickup.com/t/86akqeegp"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "vídeo blue sense copy",
+          "c": "Estudo",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790949600000,
+          "url": "https://app.clickup.com/t/86akqt4yq"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "vídeo gerenciador",
+          "c": "Estudo",
+          "m": 60,
+          "cron": 60,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790956800000,
+          "url": "https://app.clickup.com/t/86akr951w"
+        },
+        {
+          "p": "Sabrina",
+          "nome": "planilha e task imagem",
+          "c": "Rotina",
+          "m": 225,
+          "cron": 225,
+          "prog": 0,
+          "src": "cron",
+          "ts": 1790957700000,
+          "url": "https://app.clickup.com/t/86akm9dr5"
         }
       ]
     }
